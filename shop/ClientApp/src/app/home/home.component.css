@@ -3,30 +3,8 @@
     border-radius: 5px;
 }
 
-.input_with_Icon{
-    display: relative;
-    color: #c4c4c4;
-}
 
-.input_with_Icon i{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
 
-.input_with_Icon input, a{
-    width: 100%;
-    border-radius: 5px;
-}
-
-.search_button{
-    color: white;
-    background-color: #49aeef;
-}
-
-.search_button:hover{
-    background-color: #7cc8f8;
-}
 
 .category_item{
     padding-left: 0;
@@ -54,4 +32,21 @@
     max-width: 18%;
     margin-right: 10px;
     margin-top: 30px;
+}
+
+
+.list_of_Items{
+    display: none;
+    color: #0098d0;
+    background-color: white;
+}
+
+.list_of_Items ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+.list_of_Items span{
+    color: #c4c4c4;
 }

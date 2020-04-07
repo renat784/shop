@@ -35,3 +35,32 @@ a:hover{
 .bold{
   font-weight: 600;
 }
+
+
+.input_with_Icon{
+  display: relative;
+  color: #c4c4c4;
+}
+
+.input_with_Icon i{
+  padding-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input_with_Icon input, .input_with_Icon a{
+  
+  padding: 10px 5px 10px 40px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.search_button{
+  color: white;
+  background-color: #49aeef;
+}
+
+.search_button:hover{
+  background-color: #7cc8f8;
+}

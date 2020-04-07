@@ -1,7 +1,9 @@
 <header>
   <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-    <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">OLX</a>
+    <div class="container ">
+      <a class="navbar-brand" [routerLink]="['/']">
+      <img class="mainLogo" src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2f4f22766be42e5eac379976b5237b92ca.svg">
+    </a>
       <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
            [ngClass]="{ show: isExpanded }">
         <!--<app-login-menu></app-login-menu>-->
@@ -9,15 +11,15 @@
           <li class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link" [routerLink]="['/profile']">
               <i class="fa fa-user" aria-hidden="true"></i>
-              <span class="ml-2">My Profile</span></a>
+              <span class="ml-2">Мой профиль</span></a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light btn btn-dark" [routerLink]="['/profile']">+ Add Ads</a>
+            <a class="nav-link text-light btn btn-dark" [routerLink]="['/profile']">+ Подать объявление</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a href="#">En</a>
+            <a href="#">язык</a>
             <span class="mx-1">|</span>
-            <a href="#">Ru</a>
+            <a href="#">мова</a>
           </li>
 
           <!--<li class="nav-item" [routerLinkActive]="['link-active']"

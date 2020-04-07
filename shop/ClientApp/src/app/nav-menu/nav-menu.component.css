@@ -4,6 +4,13 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+.mainLogo{
+  width: 70px;
+  position: absolute;
+  left: 10%;
+  top:0%;
+}
+
 html {
   font-size: 14px;
 }

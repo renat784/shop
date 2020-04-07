@@ -1,23 +1,21 @@
-<div>
-
+<div class="mt-4">
   <div class="main_content">
     <!-- search form: -->
     <div class="row p-3 search-form">
       <div class="col-5 pl-0">
         <div class="input_with_Icon">
-          <i class="fa fa-search pl-2" aria-hidden="true"></i>
-          <input type="search" autofocus class="py-1 pl-4" placeholder="13 350 115 объявлений рядом">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input type="search" autofocus class="form-control" placeholder="13 350 115 объявлений рядом">
         </div>
-
       </div>
       <div class="col-5 px-0 input_with_Icon">
-        <i class="fa fa-map-marker pl-2" aria-hidden="true"></i>
-        <input type="text" class="py-1 pl-4" placeholder="Вся Украина">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <input type="text" class="form-control" placeholder="Вся Украина">
       </div>
       <div class="col-2 pr-0 input_with_Icon">
-        <a class="btn  search_button" href="#">
+        <a class="btn search_button" href="#">
           <i class="fa fa-search" aria-hidden="true"></i>
-          <span class="pl-4">Поиск</span>
+          <span class="pl-5">Поиск</span>
         </a>
       </div>
     </div>
@@ -51,36 +49,58 @@
         </div>
       </div>
 
-      <!-- lists for 1 row: -->
-      <div class="p-4" style="display: none;background-color: white;">
-        <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-        <a href="#">look all ads</a>
-        <span class="ml-2">category</span>
+      <!-- lists for 1 row category 1: -->
+      <div class="p-4 my-3 list_of_Items">
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
         <hr>
-        <ul class="row m-0 p-0" style="list-style: none;">
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        </ul>
+      </div>
+
+       <!-- lists for 1 row category 2: -->
+       <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
+        <hr>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        </ul>
+      </div>
+
+       <!-- lists for 1 row category 3: -->
+       <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
+        <hr>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        </ul>
+      </div>
+
+       <!-- lists for 1 row category 4: -->
+       <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
+        <hr>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
         </ul>
       </div>
@@ -113,41 +133,61 @@
         </div>
       </div>
 
-      <!-- lists for 2-nd row: -->
-      <div class="p-4" style="display: none;background-color: white;">
-        <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-        <a href="#">look all ads</a>
-        <span class="ml-2">category</span>
-        <hr>
-        <ul class="row m-0 p-0" style="list-style: none;">
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-        </ul>
-      </div>
+     <!-- lists for 2 row category 1: -->
+     <div class="p-4 my-3 list_of_Items" >
+      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <a href="#">Смотреть все объявления</a>
+      <span class="ml-2">в Детский мир</span>
+      <hr>
+      <ul class="row">
+        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+          <a href="#">{{item}}</a>
+        </li>
+      </ul>
+    </div>
 
+    <!-- lists for 2 row category 2: -->
+    <div class="p-4 my-3 list_of_Items" >
+      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <a href="#">Смотреть все объявления</a>
+      <span class="ml-2">в Детский мир</span>
+      <hr>
+      <ul class="row">
+        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+          <a href="#">{{item}}</a>
+        </li>
+      </ul>
+    </div>
 
+    <!-- lists for 2 row category 3: -->
+    <div class="p-4 my-3 list_of_Items" >
+      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <a href="#">Смотреть все объявления</a>
+      <span class="ml-2">в Детский мир</span>
+      <hr>
+      <ul class="row">
+        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+          <a href="#">{{item}}</a>
+        </li>
+      </ul>
+    </div>
+
+<!-- lists for 2 row category 4: -->
+<div class="p-4 my-3 list_of_Items" >
+  <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+  <a href="#">Смотреть все объявления</a>
+  <span class="ml-2">в Детский мир</span>
+  <hr>
+  <ul class="row">
+    <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+      <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+      <a href="#">{{item}}</a>
+    </li>
+  </ul>
+</div>
 
 
       <!-- 3-nd categories row: -->
@@ -178,36 +218,58 @@
         </div>
       </div>
 
-      <!-- lists for 3-nd row: -->
-      <div class="p-4" style="display: none;background-color: white;">
-        <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-        <a href="#">look all ads</a>
-        <span class="ml-2">category</span>
+      <!-- lists for 3 row category 1: -->
+      <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
         <hr>
-        <ul class="row m-0 p-0" style="list-style: none;">
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        </ul>
+      </div>
+
+      <!-- lists for 3 row category 2: -->
+      <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
+        <hr>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        </ul>
+      </div>
+
+      <!-- lists for 3 row category 3: -->
+      <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
+        <hr>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
+        </ul>
+      </div>
+
+      <!-- lists for 3 row category 4: -->
+      <div class="p-4 my-3 list_of_Items" >
+        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <a href="#">Смотреть все объявления</a>
+        <span class="ml-2">в Детский мир</span>
+        <hr>
+        <ul class="row">
+          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+            <a href="#">{{item}}</a>
           </li>
         </ul>
       </div>
@@ -221,60 +283,38 @@
             <span class="pl-2">Обмен</span>
           </a>
         </div>
-
-
       </div>
 
-      <!-- lists for 4-th row: -->
-      <div class="p-4" style="display: none;background-color: white;">
-        <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-        <a href="#">look all ads</a>
-        <span class="ml-2">category</span>
-        <hr>
-        <ul class="row m-0 p-0" style="list-style: none;">
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-          <li class="col-4 mt-3">
-            <i class="fa fa-chevron-right mr-2" style="color: blue;" aria-hidden="true"></i>
-            <a href="#">1112333333333331</a>
-          </li>
-        </ul>
-      </div>
-
+     <!-- lists for 4 row category 1: -->
+     <div class="p-4 my-3 list_of_Items" >
+      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <a href="#">Смотреть все объявления</a>
+      <span class="ml-2">в Детский мир</span>
+      <hr>
+      <ul class="row">
+        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+          <a href="#">{{item}}</a>
+        </li>
+      </ul>
+    </div>
     </div>
   </div>
 
-  <div style="background-color: white;padding: 30px 0;">
+  <!-- vip ads: -->
+  <div style="background-color: white;padding-top: 20px;">
     <div class="main_content">
       <h5>VIP-ОБЪЯВЛЕНИЯ</h5>
       <div class="row">
         <div *ngFor="let item of ads" class="ads card">
-          <a href="#">
+          <a [routerLink]="['/details/'] + item.Id">
             <img
               src="https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr"
               class="card-img-top">
           </a>
           <div class="card-body py-1 px-2">
             <div>
-              <a href="#">{{item.Title}}</a>
+              <a [routerLink]="['/details/'] + item.Id">{{item.Title}}</a>
             </div>
             <div class="card-text" style="display: flex;justify-content: space-between;align-items: center;">
               <span>{{item.Price}} uah</span>
@@ -284,14 +324,14 @@
         </div>
       </div>
       
-      <div class="text-right my-4">
+      <div class="text-right py-5">
         <a href="#">
           <span>Посмотреть все</span>
           <i class="fa fa-chevron-right ml-2" aria-hidden="true"></i>
         </a>
       </div>
       
-      <hr>
+      
     </div>
   </div>
 
