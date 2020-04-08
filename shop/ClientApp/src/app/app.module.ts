@@ -15,6 +15,9 @@ import { AuthorizeInterceptor } from 'src/api-authorization/authorize.intercepto
 import { FooterComponent } from './footer/footer.component';
 import { DetailsComponent } from './details/details.component';
 import { SearchComponent } from './search/search.component';
+import { PostNewAdComponent } from './post-new-ad/post-new-ad.component';
+import { ErrorComponent } from './error/error.component';
+import { CategoryPipe } from './category.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { SearchComponent } from './search/search.component';
     FetchDataComponent,
     FooterComponent,
     DetailsComponent,
-    SearchComponent
+    SearchComponent,
+    PostNewAdComponent,
+    ErrorComponent,
+    CategoryPipe
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -34,10 +40,13 @@ import { SearchComponent } from './search/search.component';
     ApiAuthorizationModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      {path:'details/:id', component: DetailsComponent},
-      {path:'search/:id', component: SearchComponent},
+      { path: 'details/:id', component: DetailsComponent },
+      { path: 'search', pathMatch: 'full', component: SearchComponent },
+      { path: 'search/:id', component: SearchComponent },
+      { path: 'post-new-ad', component: PostNewAdComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },
+      { path: '**', component: ErrorComponent }
     ])
   ],
   providers: [

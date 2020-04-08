@@ -56,9 +56,9 @@
         <span class="ml-2">в Детский мир</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
+          <li *ngFor="let item of subCategories | category: '1'" class="col-4 mt-3 pl-0">
+              <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
+              <a  href="#">{{item.name}}</a>
           </li>
         </ul>
       </div>
@@ -67,13 +67,13 @@
        <div class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
+        <span class="ml-2">в Недвижимость</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <li *ngFor="let item of subCategories | category: '2'" class="col-4 mt-3 pl-0">
             <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
+            <a  href="#">{{item.name}}</a>
+        </li>
         </ul>
       </div>
 
@@ -81,13 +81,13 @@
        <div class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
+        <span class="ml-2">в Транспорт</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <li *ngFor="let item of subCategories | category: '3'" class="col-4 mt-3 pl-0">
             <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
+            <a  href="#">{{item.name}}</a>
+        </li>
         </ul>
       </div>
 
@@ -95,13 +95,13 @@
        <div class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
+        <span class="ml-2">в Запчасти для транспорта</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <li *ngFor="let item of subCategories | category: '4'" class="col-4 mt-3 pl-0">
             <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
+            <a  href="#">{{item.name}}</a>
+        </li>
         </ul>
       </div>
 
@@ -137,13 +137,13 @@
      <div class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
-      <span class="ml-2">в Детский мир</span>
+      <span class="ml-2">в Работа</span>
       <hr>
       <ul class="row">
-        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+        <li *ngFor="let item of subCategories | category: '5'" class="col-4 mt-3 pl-0">
           <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a href="#">{{item}}</a>
-        </li>
+          <a  href="#">{{item.name}}</a>
+      </li>
       </ul>
     </div>
 
@@ -151,13 +151,13 @@
     <div class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
-      <span class="ml-2">в Детский мир</span>
+      <span class="ml-2">в Животные</span>
       <hr>
       <ul class="row">
-        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+        <li *ngFor="let item of subCategories | category: '6'" class="col-4 mt-3 pl-0">
           <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a href="#">{{item}}</a>
-        </li>
+          <a  href="#">{{item.name}}</a>
+      </li>
       </ul>
     </div>
 
@@ -165,13 +165,13 @@
     <div class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
-      <span class="ml-2">в Детский мир</span>
+      <span class="ml-2">в Дом и сад</span>
       <hr>
       <ul class="row">
-        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+        <li *ngFor="let item of subCategories | category: '7'" class="col-4 mt-3 pl-0">
           <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a href="#">{{item}}</a>
-        </li>
+          <a  href="#">{{item.name}}</a>
+      </li>
       </ul>
     </div>
 
@@ -179,13 +179,13 @@
 <div class="p-4 my-3 list_of_Items" >
   <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
   <a href="#">Смотреть все объявления</a>
-  <span class="ml-2">в Детский мир</span>
+  <span class="ml-2">в Электроника</span>
   <hr>
   <ul class="row">
-    <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+    <li *ngFor="let item of subCategories | category: '8'" class="col-4 mt-3 pl-0">
       <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-      <a href="#">{{item}}</a>
-    </li>
+      <a  href="#">{{item.name}}</a>
+  </li>
   </ul>
 </div>
 
@@ -222,13 +222,13 @@
       <div class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
+        <span class="ml-2">в Бизнес и услуги</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <li *ngFor="let item of subCategories | category: '9'" class="col-4 mt-3 pl-0">
             <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
+            <a  href="#">{{item.name}}</a>
+        </li>
         </ul>
       </div>
 
@@ -236,13 +236,13 @@
       <div class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
+        <span class="ml-2">в Мода и стиль</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <li *ngFor="let item of subCategories | category: '10'" class="col-4 mt-3 pl-0">
             <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
+            <a  href="#">{{item.name}}</a>
+        </li>
         </ul>
       </div>
 
@@ -250,29 +250,17 @@
       <div class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
+        <span class="ml-2">в Хобби, отдых и спорт</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
+          <li *ngFor="let item of subCategories | category: '11'" class="col-4 mt-3 pl-0">
             <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
+            <a  href="#">{{item.name}}</a>
+        </li>
         </ul>
       </div>
 
-      <!-- lists for 3 row category 4: -->
-      <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
-        <a href="#">Смотреть все объявления</a>
-        <span class="ml-2">в Детский мир</span>
-        <hr>
-        <ul class="row">
-          <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a href="#">{{item}}</a>
-          </li>
-        </ul>
-      </div>
+      
 
 
       <!-- 4-th categories row: -->
@@ -285,19 +273,7 @@
         </div>
       </div>
 
-     <!-- lists for 4 row category 1: -->
-     <div class="p-4 my-3 list_of_Items" >
-      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
-      <a href="#">Смотреть все объявления</a>
-      <span class="ml-2">в Детский мир</span>
-      <hr>
-      <ul class="row">
-        <li *ngFor="let item of category_1" class="col-4 mt-3 pl-0">
-          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a href="#">{{item}}</a>
-        </li>
-      </ul>
-    </div>
+    
     </div>
   </div>
 
