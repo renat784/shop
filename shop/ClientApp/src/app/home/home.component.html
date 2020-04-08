@@ -51,56 +51,56 @@
 
       <!-- lists for 1 row category 1: -->
       <div class="p-4 my-3 list_of_Items">
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Детский мир</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '1'" class="col-4 mt-3 pl-0">
-              <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-              <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '1'">
+              <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+              <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
           </li>
         </ul>
       </div>
 
        <!-- lists for 1 row category 2: -->
        <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Недвижимость</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '2'" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '2'">
+            <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+            <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
       </div>
 
        <!-- lists for 1 row category 3: -->
        <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Транспорт</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '3'" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '3'">
+            <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+            <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
       </div>
 
        <!-- lists for 1 row category 4: -->
        <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Запчасти для транспорта</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '4'" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '4'">
+            <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+            <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
       </div>
@@ -135,56 +135,56 @@
 
      <!-- lists for 2 row category 1: -->
      <div class="p-4 my-3 list_of_Items" >
-      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Работа</span>
       <hr>
       <ul class="row">
-        <li *ngFor="let item of subCategories | category: '5'" class="col-4 mt-3 pl-0">
-          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a  href="#">{{item.name}}</a>
+        <li *ngFor="let item of subCategories | category: '5'">
+          <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+          <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
       </li>
       </ul>
     </div>
 
     <!-- lists for 2 row category 2: -->
     <div class="p-4 my-3 list_of_Items" >
-      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Животные</span>
       <hr>
       <ul class="row">
-        <li *ngFor="let item of subCategories | category: '6'" class="col-4 mt-3 pl-0">
-          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a  href="#">{{item.name}}</a>
+        <li *ngFor="let item of subCategories | category: '6'">
+          <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+          <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
       </li>
       </ul>
     </div>
 
     <!-- lists for 2 row category 3: -->
     <div class="p-4 my-3 list_of_Items" >
-      <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Дом и сад</span>
       <hr>
       <ul class="row">
-        <li *ngFor="let item of subCategories | category: '7'" class="col-4 mt-3 pl-0">
-          <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-          <a  href="#">{{item.name}}</a>
+        <li *ngFor="let item of subCategories | category: '7'">
+          <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+          <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
       </li>
       </ul>
     </div>
 
 <!-- lists for 2 row category 4: -->
 <div class="p-4 my-3 list_of_Items" >
-  <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+  <i class="fa fa-chevron-right" aria-hidden="true"></i>
   <a href="#">Смотреть все объявления</a>
   <span class="ml-2">в Электроника</span>
   <hr>
   <ul class="row">
-    <li *ngFor="let item of subCategories | category: '8'" class="col-4 mt-3 pl-0">
-      <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-      <a  href="#">{{item.name}}</a>
+    <li *ngFor="let item of subCategories | category: '8'">
+      <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+      <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
   </li>
   </ul>
 </div>
@@ -220,42 +220,42 @@
 
       <!-- lists for 3 row category 1: -->
       <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Бизнес и услуги</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '9'" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '9'">
+            <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+            <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
       </div>
 
       <!-- lists for 3 row category 2: -->
       <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Мода и стиль</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '10'" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '10'">
+            <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+            <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
       </div>
 
       <!-- lists for 3 row category 3: -->
       <div class="p-4 my-3 list_of_Items" >
-        <i class="fa fa-chevron-right mr-2" aria-hidden="true"></i>
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Хобби, отдых и спорт</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '11'" class="col-4 mt-3 pl-0">
-            <i class="fa fa-chevron-right mr-2"  aria-hidden="true"></i>
-            <a  href="#">{{item.name}}</a>
+          <li *ngFor="let item of subCategories | category: '11'">
+            <i class="fa fa-chevron-right"  aria-hidden="true"></i>
+            <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
       </div>
@@ -283,17 +283,17 @@
       <h5>VIP-ОБЪЯВЛЕНИЯ</h5>
       <div class="row">
         <div *ngFor="let item of ads" class="ads card">
-          <a [routerLink]="['/details/'] + item.Id">
+          <a [routerLink]="['/details/'] + item.adId">
             <img
               src="https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr"
               class="card-img-top">
           </a>
           <div class="card-body py-1 px-2">
             <div>
-              <a [routerLink]="['/details/'] + item.Id">{{item.Title}}</a>
+              <a [routerLink]="['/details/'] + item.adId">{{item.title}}</a>
             </div>
             <div class="card-text" style="display: flex;justify-content: space-between;align-items: center;">
-              <span>{{item.Price}} uah</span>
+              <span>{{item.price}} uah</span>
               <i class="fa fa-star-o star" aria-hidden="true"></i>
             </div>
           </div>

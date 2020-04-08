@@ -21,15 +21,15 @@ namespace shop.Models
         {
 
             modelBuilder.Entity<Category>().HasData(
-                new Category() { CategoryId = 1,  Name = "Детский мир" },
-                new Category() { CategoryId = 2,  Name = "Недвижимость" },
-                new Category() { CategoryId = 3,  Name = "Транспорт" },
-                new Category() { CategoryId = 4,  Name = "Запчасти для транспорта" },
-                new Category() { CategoryId = 5,  Name = "Работа" },
-                new Category() { CategoryId = 6,  Name = "Животные" },
-                new Category() { CategoryId = 7,  Name = "Дом и сад" },
-                new Category() { CategoryId = 8,  Name = "Электроника" },
-                new Category() { CategoryId = 9,  Name = "Бизнес и услуги" },
+                new Category() { CategoryId = 1, Name = "Детский мир" },
+                new Category() { CategoryId = 2, Name = "Недвижимость" },
+                new Category() { CategoryId = 3, Name = "Транспорт" },
+                new Category() { CategoryId = 4, Name = "Запчасти для транспорта" },
+                new Category() { CategoryId = 5, Name = "Работа" },
+                new Category() { CategoryId = 6, Name = "Животные" },
+                new Category() { CategoryId = 7, Name = "Дом и сад" },
+                new Category() { CategoryId = 8, Name = "Электроника" },
+                new Category() { CategoryId = 9, Name = "Бизнес и услуги" },
                 new Category() { CategoryId = 10, Name = "Мода и стиль" },
                 new Category() { CategoryId = 11, Name = "Хобби, отдых и спорт" },
                 new Category() { CategoryId = 12, Name = "Отдам даром" },
@@ -37,15 +37,15 @@ namespace shop.Models
             );
 
             modelBuilder.Entity<SubCategory>().HasData(
-                new SubCategory() { SubCategoryId = 1,  CategoryId = 1, Name = "Детская одежда" },
-                new SubCategory() { SubCategoryId = 2,  CategoryId = 1, Name = "Детская обувь" },
-                new SubCategory() { SubCategoryId = 3,  CategoryId = 1, Name = "Детские коляски" },
-                new SubCategory() { SubCategoryId = 4,  CategoryId = 1, Name = "Детские автокресла" },
-                new SubCategory() { SubCategoryId = 5,  CategoryId = 1, Name = "Детская мебель" },
-                new SubCategory() { SubCategoryId = 6,  CategoryId = 1, Name = "Игрушки" },
-                new SubCategory() { SubCategoryId = 7,  CategoryId = 1, Name = "Детский транспорт" },
-                new SubCategory() { SubCategoryId = 8,  CategoryId = 1, Name = "Товары для кормления" },
-                new SubCategory() { SubCategoryId = 9,  CategoryId = 1, Name = "Товары для школьников" },
+                new SubCategory() { SubCategoryId = 1, CategoryId = 1, Name = "Детская одежда" },
+                new SubCategory() { SubCategoryId = 2, CategoryId = 1, Name = "Детская обувь" },
+                new SubCategory() { SubCategoryId = 3, CategoryId = 1, Name = "Детские коляски" },
+                new SubCategory() { SubCategoryId = 4, CategoryId = 1, Name = "Детские автокресла" },
+                new SubCategory() { SubCategoryId = 5, CategoryId = 1, Name = "Детская мебель" },
+                new SubCategory() { SubCategoryId = 6, CategoryId = 1, Name = "Игрушки" },
+                new SubCategory() { SubCategoryId = 7, CategoryId = 1, Name = "Детский транспорт" },
+                new SubCategory() { SubCategoryId = 8, CategoryId = 1, Name = "Товары для кормления" },
+                new SubCategory() { SubCategoryId = 9, CategoryId = 1, Name = "Товары для школьников" },
                 new SubCategory() { SubCategoryId = 10, CategoryId = 1, Name = "Прочие детские товары" },
 
                 new SubCategory() { SubCategoryId = 11, CategoryId = 2, Name = "Квартиры, комнаты" },
@@ -140,9 +140,9 @@ namespace shop.Models
                 new SubCategory() { SubCategoryId = 94, CategoryId = 8, Name = "Игры и игровые приставки" },
                 new SubCategory() { SubCategoryId = 95, CategoryId = 8, Name = "Планшеты / эл. книги и аксессуары" },
                 new SubCategory() { SubCategoryId = 96, CategoryId = 8, Name = "Ноутбуки и аксессуары" },
-                new SubCategory() { SubCategoryId = 97,  CategoryId = 8, Name = "Техника для дома" },
-                new SubCategory() { SubCategoryId = 98,  CategoryId = 8, Name = "Техника для кухни" },
-                new SubCategory() { SubCategoryId = 99,  CategoryId = 8, Name = "Климатическое оборудование" },
+                new SubCategory() { SubCategoryId = 97, CategoryId = 8, Name = "Техника для дома" },
+                new SubCategory() { SubCategoryId = 98, CategoryId = 8, Name = "Техника для кухни" },
+                new SubCategory() { SubCategoryId = 99, CategoryId = 8, Name = "Климатическое оборудование" },
                 new SubCategory() { SubCategoryId = 100, CategoryId = 8, Name = "Индивидуальный уход" },
                 new SubCategory() { SubCategoryId = 101, CategoryId = 8, Name = "Аксессуары и комплектующие" },
                 new SubCategory() { SubCategoryId = 102, CategoryId = 8, Name = "Прочая электроника" },
@@ -187,6 +187,15 @@ namespace shop.Models
                 new SubCategory() { SubCategoryId = 138, CategoryId = 11, Name = "Поиск групп / музыкантов" },
                 new SubCategory() { SubCategoryId = 139, CategoryId = 11, Name = "Другое" }
 
+            );
+
+            modelBuilder.Entity<Ad>().HasData(
+                new Ad() { AdId = 1, Desc = "1 room apartmant for cheap price", Price = 10000, SubCategoryId = 11, Title = "1 room apartmant" },
+                new Ad() { AdId = 2, Desc = "2 room apartmant for cheap price", Price = 20000, SubCategoryId = 11, Title = "2 room apartmant" },
+                new Ad() { AdId = 3, Desc = "3 room apartmant for cheap price", Price = 30000, SubCategoryId = 11, Title = "3 room apartmant" },
+
+                new Ad() { AdId = 4, Desc = "small house  for cheap price", Price = 50000, SubCategoryId = 12, Title = "small house" },
+                new Ad() { AdId = 5, Desc = "Big luxury house  for great price", Price = 100000, SubCategoryId = 12, Title = "big house" }
             );
         }
     }

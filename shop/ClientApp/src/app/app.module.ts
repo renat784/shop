@@ -41,8 +41,7 @@ import { CategoryPipe } from './category.pipe';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'details/:id', component: DetailsComponent },
-      { path: 'search', pathMatch: 'full', component: SearchComponent },
-      { path: 'search/:id', component: SearchComponent },
+      { path: 'search', component: SearchComponent },
       { path: 'post-new-ad', component: PostNewAdComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },
