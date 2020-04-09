@@ -1,3 +1,9 @@
+<script>
+  function ShowList(){
+    console.log("ddw");
+  }
+</script>
+
 <div class="mt-4">
   <div class="main_content">
     <!-- search form: -->
@@ -24,25 +30,25 @@
       <!-- 1 categories row: -->
       <div class="row">
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_1">
             <i class="fa fa-child p-2" aria-hidden="true" style="color: salmon;"></i>
             <span class="pl-2">Детский мир</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_2">
             <i class="fa fa-home p-2" aria-hidden="true" style="color: royalblue;"></i>
             <span class="pl-2">Недвижимость</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_3">
             <i class="fa fa-car p-2" aria-hidden="true" style="color: orange;"></i>
             <span class="pl-2">Транспорт</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_4" >
             <i class="fa fa-cog p-2" aria-hidden="true" style="color: green;"></i>
             <span class="pl-2">Запчасти для транспорта</span>
           </a>
@@ -50,7 +56,7 @@
       </div>
 
       <!-- lists for 1 row category 1: -->
-      <div class="p-4 my-3 list_of_Items">
+      <div id="category_1" class="p-4 my-3 list_of_Items">
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Детский мир</span>
@@ -64,7 +70,7 @@
       </div>
 
        <!-- lists for 1 row category 2: -->
-       <div class="p-4 my-3 list_of_Items" >
+       <div id="category_2" class="p-4 my-3 list_of_Items" style="display: block;">
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Недвижимость</span>
@@ -78,7 +84,7 @@
       </div>
 
        <!-- lists for 1 row category 3: -->
-       <div class="p-4 my-3 list_of_Items" >
+       <div id="category_3" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Транспорт</span>
@@ -92,7 +98,7 @@
       </div>
 
        <!-- lists for 1 row category 4: -->
-       <div class="p-4 my-3 list_of_Items" >
+       <div id="category_4" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Запчасти для транспорта</span>
@@ -108,25 +114,25 @@
       <!-- 2-nd categories row: -->
       <div class="row my-4">
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_5">
             <i class="fa fa-briefcase p-2" aria-hidden="true" style="color: greenyellow;"></i>
             <span class="pl-2">Работа</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_6">
             <i class="fa fa-paw p-2" aria-hidden="true" style="color: #84d0f0;"></i>
             <span class="pl-2">Животные</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_7">
             <i class="fa fa-envira p-2" aria-hidden="true" style="color: #009896;"></i>
             <span class="pl-2">Дом и сад</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_8">
             <i class="fa fa-calculator p-2" aria-hidden="true" style="color: #00cc5e;"></i>
             <span class="pl-2">Электроника</span>
           </a>
@@ -134,7 +140,7 @@
       </div>
 
      <!-- lists for 2 row category 1: -->
-     <div class="p-4 my-3 list_of_Items" >
+     <div id="category_5" class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Работа</span>
@@ -148,7 +154,7 @@
     </div>
 
     <!-- lists for 2 row category 2: -->
-    <div class="p-4 my-3 list_of_Items" >
+    <div id="category_6" class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Животные</span>
@@ -162,7 +168,7 @@
     </div>
 
     <!-- lists for 2 row category 3: -->
-    <div class="p-4 my-3 list_of_Items" >
+    <div id="category_7" class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Дом и сад</span>
@@ -176,7 +182,7 @@
     </div>
 
 <!-- lists for 2 row category 4: -->
-<div class="p-4 my-3 list_of_Items" >
+<div id="category_8" class="p-4 my-3 list_of_Items" >
   <i class="fa fa-chevron-right" aria-hidden="true"></i>
   <a href="#">Смотреть все объявления</a>
   <span class="ml-2">в Электроника</span>
@@ -193,19 +199,19 @@
       <!-- 3-nd categories row: -->
       <div class="row my-4">
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_9">
             <i class="fa fa-wrench p-2" aria-hidden="true" style="color: #1865b2;"></i>
             <span class="pl-2">Бизнес и услуги</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_10">
             <i class="fa fa-scissors p-2" aria-hidden="true" style="color: #86267e;"></i>
             <span class="pl-2">Мода и стиль</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#">
+          <a href="#category_11">
             <i class="fa fa-bicycle p-2" aria-hidden="true" style="color: #bd6416;"></i>
             <span class="pl-2">Хобби, отдых и спорт</span>
           </a>
@@ -219,7 +225,7 @@
       </div>
 
       <!-- lists for 3 row category 1: -->
-      <div class="p-4 my-3 list_of_Items" >
+      <div id="category_9" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Бизнес и услуги</span>
@@ -233,7 +239,7 @@
       </div>
 
       <!-- lists for 3 row category 2: -->
-      <div class="p-4 my-3 list_of_Items" >
+      <div id="category_10" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Мода и стиль</span>
@@ -247,7 +253,7 @@
       </div>
 
       <!-- lists for 3 row category 3: -->
-      <div class="p-4 my-3 list_of_Items" >
+      <div id="category_11" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Хобби, отдых и спорт</span>
@@ -283,14 +289,14 @@
       <h5>VIP-ОБЪЯВЛЕНИЯ</h5>
       <div class="row">
         <div *ngFor="let item of ads" class="ads card">
-          <a [routerLink]="['/details/'] + item.adId">
+          <a href="/details?id={{item.adId}}">
             <img
               src="https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr"
               class="card-img-top">
           </a>
           <div class="card-body py-1 px-2">
             <div>
-              <a [routerLink]="['/details/'] + item.adId">{{item.title}}</a>
+              <a href="/details?id={{item.adId}}">{{item.title}}</a>
             </div>
             <div class="card-text" style="display: flex;justify-content: space-between;align-items: center;">
               <span>{{item.price}} uah</span>

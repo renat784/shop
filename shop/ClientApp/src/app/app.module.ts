@@ -40,7 +40,7 @@ import { CategoryPipe } from './category.pipe';
     ApiAuthorizationModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'details/:id', component: DetailsComponent },
+      { path: 'details', component: DetailsComponent },
       { path: 'search', component: SearchComponent },
       { path: 'post-new-ad', component: PostNewAdComponent },
       { path: 'counter', component: CounterComponent },

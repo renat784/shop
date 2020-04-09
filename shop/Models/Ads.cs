@@ -16,5 +16,6 @@ namespace shop.Models
         [NotMapped]
         public List<string> Images { get; set; }
         public int SubCategoryId { get; set; }
+        public int CategoryId { get; set; }
     }
 }

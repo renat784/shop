@@ -59,7 +59,7 @@
 <div style="background-color: white;">
     <div class="main_content py-5">
 
-        <div class="card my-3">
+        <div *ngFor="let item of ads" class="card my-3">
             <div class="row no-gutters">
                 <div class="col-2">
                     <a href="#">
@@ -72,17 +72,17 @@
                     <div class="p-2">
                         <div class="row">
                             <div class="col-6">
-                                <a href="#" class="card-title">Умывальник</a>
+                                <a href="#" class="card-title">{{item.title}}</a>
                             </div>
                             <div class="col-6 text-right">
-                                <strong>5454 uah</strong>
+                                <strong>{{item.price}} uah</strong>
                             </div>
                         </div>
                         <div>
-                            <small>Строительство / ремонт » Сантехника</small>
+                            <small>subcategory {{item.subCategoryId}}</small>
                         </div>
                         <div>
-                            <small class="text-muted">Одесса, Киевский Сегодня 17:10</small>
+                            <small class="text-muted">{{item.desc}}</small>
                         </div>
                     </div>
 
@@ -90,67 +90,6 @@
             </div>
         </div>
 
-        <div class="card my-3">
-            <div class="row no-gutters">
-                <div class="col-2">
-                    <a href="#">
-                        <img style="width: 100%;"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-eXU7nuTNc2WpFt58LTyr7Cjx5hX_TfR09KFMDZu3dDbknnF6&usqp=CAU"
-                            class="card-img" alt="...">
-                    </a>
-                </div>
-                <div class="col-10">
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="#" class="card-title">Умывальник</a>
-                            </div>
-                            <div class="col-6 text-right">
-                                <strong>5454 uah</strong>
-                            </div>
-                        </div>
-                        <div>
-                            <small>Строительство / ремонт » Сантехника</small>
-                        </div>
-                        <div>
-                            <small class="text-muted">Одесса, Киевский Сегодня 17:10</small>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="card my-3">
-            <div class="row no-gutters">
-                <div class="col-2">
-                    <a href="#">
-                        <img style="width: 100%;"
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-eXU7nuTNc2WpFt58LTyr7Cjx5hX_TfR09KFMDZu3dDbknnF6&usqp=CAU"
-                            class="card-img" alt="...">
-                    </a>
-                </div>
-                <div class="col-10">
-                    <div class="p-2">
-                        <div class="row">
-                            <div class="col-6">
-                                <a href="#" class="card-title">Умывальник</a>
-                            </div>
-                            <div class="col-6 text-right">
-                                <strong>5454 uah</strong>
-                            </div>
-                        </div>
-                        <div>
-                            <small>Строительство / ремонт » Сантехника</small>
-                        </div>
-                        <div>
-                            <small class="text-muted">Одесса, Киевский Сегодня 17:10</small>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
+        
     </div>
 </div>

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using shop.Models;
 
 namespace shop.Controllers
@@ -19,16 +21,35 @@ namespace shop.Controllers
             this.context = context;
         }
 
-        [HttpGet("{id:int}")]
-        public IEnumerable<Ad> Get(int id)
+        [HttpGet]
+        [Route("[action]/{id}")]
+        public IEnumerable<Ad> SearchByCategoryId(int id)
         {
-            return context.Ads.Where(i => i.SubCategoryId == id).ToArray();
+
+
+
+            return context.Ads.Where(i => i.CategoryId == id);
         }
 
         [HttpGet]
-        public IEnumerable<Ad> Get()
+        [Route("[action]/{id}")]
+        public IEnumerable<Ad> SearchBySubCategoryId(int id)
         {
-            return context.Ads.Take(10).ToArray();
+            return context.Ads.Where(i => i.SubCategoryId == id);
+        }
+
+        [HttpGet]
+        [Route("[action]/{id}")]
+        public Ad SearchByAdId (int id)
+        {
+            return context.Ads.FirstOrDefault(i => i.AdId == id);
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public IEnumerable<Ad> GetTop25 ()
+        {
+            return context.Ads.Take(25).ToArray();
         }
     }
 }

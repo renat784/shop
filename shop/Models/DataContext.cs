@@ -190,12 +190,12 @@ namespace shop.Models
             );
 
             modelBuilder.Entity<Ad>().HasData(
-                new Ad() { AdId = 1, Desc = "1 room apartmant for cheap price", Price = 10000, SubCategoryId = 11, Title = "1 room apartmant" },
-                new Ad() { AdId = 2, Desc = "2 room apartmant for cheap price", Price = 20000, SubCategoryId = 11, Title = "2 room apartmant" },
-                new Ad() { AdId = 3, Desc = "3 room apartmant for cheap price", Price = 30000, SubCategoryId = 11, Title = "3 room apartmant" },
+                new Ad() { AdId = 1, Desc = "1 room apartmant for cheap price", Price = 10000, SubCategoryId = 11, CategoryId = 2, Title = "1 room apartmant" },
+                new Ad() { AdId = 2, Desc = "2 room apartmant for cheap price", Price = 20000, SubCategoryId = 11, CategoryId = 2, Title = "2 room apartmant" },
+                new Ad() { AdId = 3, Desc = "3 room apartmant for cheap price", Price = 30000, SubCategoryId = 11, CategoryId = 2, Title = "3 room apartmant" },
 
-                new Ad() { AdId = 4, Desc = "small house  for cheap price", Price = 50000, SubCategoryId = 12, Title = "small house" },
-                new Ad() { AdId = 5, Desc = "Big luxury house  for great price", Price = 100000, SubCategoryId = 12, Title = "big house" }
+                new Ad() { AdId = 4, Desc = "small house  for cheap price", Price = 50000, SubCategoryId = 12, CategoryId = 2, Title = "small house" },
+                new Ad() { AdId = 5, Desc = "Big luxury house  for great price", Price = 100000, SubCategoryId = 12, CategoryId = 2, Title = "big house" }
             );
         }
     }

@@ -17,7 +17,7 @@ export class HomeComponent {
       this.subCategories = result;
     }, error => console.error(error));
 
-    http.get<Ad[]>(baseUrl + 'ads').subscribe(result => {
+    http.get<Ad[]>(baseUrl + 'ads/GetTop25').subscribe(result => {
       this.ads = result;
     }, error => console.error(error));
     

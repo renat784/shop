@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using shop.Models;
 
 namespace shop.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200409110849_model_changed")]
+    partial class model_changed
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -48,7 +50,7 @@ namespace shop.Migrations
                         new
                         {
                             AdId = 1,
-                            CategoryId = 2,
+                            CategoryId = 0,
                             Desc = "1 room apartmant for cheap price",
                             Price = 10000,
                             SubCategoryId = 11,
@@ -57,7 +59,7 @@ namespace shop.Migrations
                         new
                         {
                             AdId = 2,
-                            CategoryId = 2,
+                            CategoryId = 0,
                             Desc = "2 room apartmant for cheap price",
                             Price = 20000,
                             SubCategoryId = 11,
@@ -66,7 +68,7 @@ namespace shop.Migrations
                         new
                         {
                             AdId = 3,
-                            CategoryId = 2,
+                            CategoryId = 0,
                             Desc = "3 room apartmant for cheap price",
                             Price = 30000,
                             SubCategoryId = 11,
@@ -75,7 +77,7 @@ namespace shop.Migrations
                         new
                         {
                             AdId = 4,
-                            CategoryId = 2,
+                            CategoryId = 0,
                             Desc = "small house  for cheap price",
                             Price = 50000,
                             SubCategoryId = 12,
@@ -84,7 +86,7 @@ namespace shop.Migrations
                         new
                         {
                             AdId = 5,
-                            CategoryId = 2,
+                            CategoryId = 0,
                             Desc = "Big luxury house  for great price",
                             Price = 100000,
                             SubCategoryId = 12,
