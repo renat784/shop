@@ -37,6 +37,13 @@ namespace shop.Controllers
         }
 
         [HttpGet]
+        [Route("[action]")]
+        public IEnumerable<Ad> SearchAll()
+        {
+            return context.Ads;
+        }
+
+        [HttpGet]
         [Route("[action]/{id}")]
         public IEnumerable<Ad> SearchBySubCategoryId(int id)
         {

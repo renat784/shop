@@ -25,16 +25,5 @@ export class HomeComponent {
 
 }
 
-interface Ad {
-  adId: number;
-  title: string;
-  price: number;
-  desc: string;
-  subCategoryId: number;
-}
 
-interface SubCategory {
-  subCategoryId: number;
-  name: string;
-  categoryId: number;
-}
+

@@ -30,13 +30,13 @@
       <!-- 1 categories row: -->
       <div class="row">
         <div class="col-3 category_item">
-          <a href="#category_1">
-            <i class="fa fa-child p-2" aria-hidden="true" style="color: salmon;"></i>
+          <a>
+            <i class="fa fa-child p-2" aria-hidden="true" style="color: salmon;"></i> 
             <span class="pl-2">Детский мир</span>
           </a>
         </div>
         <div class="col-3 category_item">
-          <a href="#category_2">
+          <a [routerLink]="['/search', {categoryId: 5}]">
             <i class="fa fa-home p-2" aria-hidden="true" style="color: royalblue;"></i>
             <span class="pl-2">Недвижимость</span>
           </a>

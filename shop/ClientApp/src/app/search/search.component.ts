@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, Inject } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-search',
@@ -9,29 +9,79 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SearchComponent {
   ads: Ad[] = [];
-  
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: ActivatedRoute) {
+  router: Router;
+  activatedRouter: ActivatedRoute;
+  baseUrl: string;
+  http: HttpClient;
+  summaries: string[] = ["Kiev", "Kharkov", "Lviv"];
+  city = "Вся Украина";
+  subCategories: SubCategory[] = [];
+  subCategoryId = 0;
 
-    if (this.router.snapshot.queryParamMap.get('subCategoryId') != null) {
-      let id = this.router.snapshot.queryParamMap.get('subCategoryId');
+  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, activatedRouter: ActivatedRoute, router: Router) {
+    this.router = router;
+    this.baseUrl = baseUrl;
+    this.http = http;
+    this.activatedRouter = activatedRouter;
+    
+    http.get<SubCategory[]>(baseUrl + 'categories').subscribe(result => {
+      this.subCategories = result;
+    }, error => console.error(error));
 
-      http.get<Ad[]>(baseUrl + 'ads/SearchBySubCategoryId/' + id).subscribe(result => {
+
+
+    if (this.activatedRouter.snapshot.queryParamMap.get('subCategoryId') != null) {
+      let id = this.activatedRouter.snapshot.queryParamMap.get('subCategoryId');
+
+      this.http.get<Ad[]>(baseUrl + 'ads/SearchBySubCategoryId/' + id).subscribe(result => {
         this.ads = result;
       }, error => console.error(error));
     }
 
-    else if (this.router.snapshot.queryParamMap.get('CategoryId') != null) {
-      let id = this.router.snapshot.queryParamMap.get('CategoryId');
+    else if (this.activatedRouter.snapshot.queryParamMap.get('categoryId') != null) {
+      let id = this.activatedRouter.snapshot.queryParamMap.get('categoryId');
 
-      http.get<Ad[]>(baseUrl + 'ads/SearchByCategoryId/' + id).subscribe(result => {
+      this.http.get<Ad[]>(baseUrl + 'ads/SearchByCategoryId/' + id).subscribe(result => {
         this.ads = result;
       }, error => console.error(error));
     }
 
-
+    
 
 
   }
+
+  onClickSubmit(formData) {
+
+    if(this.subCategoryId != 0){
+      this.http.get<Ad[]>(this.baseUrl + 'ads/SearchBySubCategoryId/' +  this.subCategoryId).subscribe(result => {
+        if (this.city != "Вся Украина") {
+          this.ads = result.filter(i => i.city == this.city);
+        } else {
+          this.ads = result;
+        }
+      }, error => console.error(error));
+    }
+    else{
+      this.http.get<Ad[]>(this.baseUrl + 'ads/SearchAll/').subscribe(result => {
+        if (this.city != "Вся Украина") {
+          this.ads = result.filter(i => i.city == this.city);
+        } else {
+          this.ads = result;
+        }
+      }, error => console.error(error));
+    }
+    
+  }
+
+  filterForeCasts(val){
+    this.city = val;
+  }
+
+  filterCategories(val){
+    this.subCategoryId = val;
+  }
+
 }
 
 
