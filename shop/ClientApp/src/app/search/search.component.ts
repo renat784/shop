@@ -36,10 +36,4 @@ export class SearchComponent {
 
 
 
-interface Ad {
-  adId: number;
-  title: string;
-  price: number;
-  desc: string;
-  subCategoryId: number;
-}
+

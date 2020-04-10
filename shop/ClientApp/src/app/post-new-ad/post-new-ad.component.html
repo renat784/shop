@@ -1,67 +1,141 @@
-<div class="main_content">
-    <h5>Подать объявление на OLX</h5>
-    <hr>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="title">Заголовок</label>
-        </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="title">
-        </div>
-    </div>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="categoty">Рубрика</label>
-        </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="categoty">
-        </div>
-    </div>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="desc">Описание</label>
-        </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="desc">
-        </div>
-    </div>
+<form #login="ngForm" (ngSubmit)="onClickSubmit(login.value)">
+    <div class="main_content">
+        <h5>Подать объявление на OLX</h5>
+        <hr>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="title">Заголовок</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" required minlength="2" maxlength="30" #title="ngModel" type="text"
+                    name="title" id="title" ngModel>
 
- <h5>Ваши контактные данные</h5>
-    <hr>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="city">Местоположение</label>
+                <div *ngIf="title.invalid && (title.dirty || title.touched)" class="alert alert-danger">
+                    <div *ngIf="title.errors.required">
+                        Title is required.
+                    </div>
+                    <div *ngIf="title.errors.minlength">
+                        Title cannot be more than 30 characters long.
+                    </div>
+                    <div *ngIf="title.errors.minlength">
+                        Title must be at least 2 characters long.
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="city">
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="categoty">Рубрика</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" type="text" id="subCategoryId" name="subCategoryId" ngModel>
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="desc">Описание</label>
+            </div>
+            <div class="col-6">
+                <textarea required minlength="10" maxlength="1000" #desc="ngModel" class="form-control" required
+                    id="desc" name="desc" ngModel></textarea>
+
+                <div *ngIf="desc.invalid && (desc.dirty || desc.touched)" class="alert alert-danger">
+                    <div *ngIf="desc.errors.required">
+                        desc is required.
+                    </div>
+                    <div *ngIf="desc.errors.minlength">
+                        desc cannot be more than 1000 characters long.
+                    </div>
+                    <div *ngIf="desc.errors.minlength">
+                        desc must be at least 10 characters long.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="price">Price</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" required #price="ngModel" type="number" id="price" name="price" ngModel>
+
+                <div *ngIf="price.invalid && (price.dirty || price.touched)" class="alert alert-danger">
+                    <div *ngIf="price.errors.required">
+                        Price is required
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <h5>Ваши контактные данные</h5>
+        <hr>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="city">Местоположение</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" required #city="ngModel" type="text" id="city" name="city" ngModel>
+
+                <div *ngIf="city.invalid && (city.dirty || city.touched)" class="alert alert-danger">
+                    <div *ngIf="city.errors.required">
+                        City is required
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="phone">Номер телефона</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" required #phone="ngModel" type="tel" id="phone" name="phone" ngModel>
+
+                <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="alert alert-danger">
+                    <div *ngIf="phone.errors.required">
+                        Phone is required
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="email">Email-адрес</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" required #email="ngModel" type="email" id="email" name="email" ngModel>
+
+                <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
+                    <div *ngIf="email.errors.required">
+                        email is required
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row form-group">
+            <div class="col-4 text-right">
+                <label for="name">Контактное лицо</label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" required #contactPerson="ngModel" type="text" id="contactPerson"
+                    name="contactPerson" ngModel>
+
+                <div *ngIf="contactPerson.invalid && (contactPerson.dirty || contactPerson.touched)"
+                    class="alert alert-danger">
+                    <div *ngIf="contactPerson.errors.required">
+                        contact Name is required
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <div class="text-right my-3">
+            <input type="submit" class="btn btn-primary" [disabled]="!login.valid" value="Send">
         </div>
     </div>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="phone">Номер телефона</label>
-        </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="phone">
-        </div>
-    </div>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="email">Email-адрес</label>
-        </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="email">
-        </div>
-    </div>
-    <div class="row form-group">
-        <div class="col-4 text-right">
-            <label  for="name">Контактное лицо</label>
-        </div>
-        <div class="col-6">
-            <input class="form-control" type="text" id="name">
-        </div>
-    </div>
-    <hr>
-    <div class="text-right my-3">
-        <input type="button" class="btn btn-primary" value="Send">
-    </div>
-</div>
+</form>

@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using shop.Models;
 
 namespace shop.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20200409130112_generat_data1")]
+    partial class generat_data1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,19 +30,7 @@ namespace shop.Migrations
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<string>("City")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ContactPerson")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Desc")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Price")
@@ -61,11 +51,7 @@ namespace shop.Migrations
                         {
                             AdId = 1,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 1",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 100,
                             SubCategoryId = 1,
                             Title = "title for advertasing N 1"
@@ -74,11 +60,7 @@ namespace shop.Migrations
                         {
                             AdId = 2,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 2",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 150,
                             SubCategoryId = 2,
                             Title = "title for advertasing N 2"
@@ -87,11 +69,7 @@ namespace shop.Migrations
                         {
                             AdId = 3,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 3",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 200,
                             SubCategoryId = 3,
                             Title = "title for advertasing N 3"
@@ -100,11 +78,7 @@ namespace shop.Migrations
                         {
                             AdId = 4,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 4",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 250,
                             SubCategoryId = 4,
                             Title = "title for advertasing N 4"
@@ -113,11 +87,7 @@ namespace shop.Migrations
                         {
                             AdId = 5,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 5",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 300,
                             SubCategoryId = 5,
                             Title = "title for advertasing N 5"
@@ -126,11 +96,7 @@ namespace shop.Migrations
                         {
                             AdId = 6,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 6",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 350,
                             SubCategoryId = 6,
                             Title = "title for advertasing N 6"
@@ -139,11 +105,7 @@ namespace shop.Migrations
                         {
                             AdId = 7,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 7",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 400,
                             SubCategoryId = 7,
                             Title = "title for advertasing N 7"
@@ -152,11 +114,7 @@ namespace shop.Migrations
                         {
                             AdId = 8,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 8",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 450,
                             SubCategoryId = 8,
                             Title = "title for advertasing N 8"
@@ -165,11 +123,7 @@ namespace shop.Migrations
                         {
                             AdId = 9,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 9",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 500,
                             SubCategoryId = 9,
                             Title = "title for advertasing N 9"
@@ -178,11 +132,7 @@ namespace shop.Migrations
                         {
                             AdId = 10,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 10",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 550,
                             SubCategoryId = 10,
                             Title = "title for advertasing N 10"
@@ -191,11 +141,7 @@ namespace shop.Migrations
                         {
                             AdId = 11,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 11",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 600,
                             SubCategoryId = 11,
                             Title = "title for advertasing N 11"
@@ -204,11 +150,7 @@ namespace shop.Migrations
                         {
                             AdId = 12,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 12",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 650,
                             SubCategoryId = 12,
                             Title = "title for advertasing N 12"
@@ -217,11 +159,7 @@ namespace shop.Migrations
                         {
                             AdId = 13,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 13",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 700,
                             SubCategoryId = 13,
                             Title = "title for advertasing N 13"
@@ -230,11 +168,7 @@ namespace shop.Migrations
                         {
                             AdId = 14,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 14",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 750,
                             SubCategoryId = 14,
                             Title = "title for advertasing N 14"
@@ -243,11 +177,7 @@ namespace shop.Migrations
                         {
                             AdId = 15,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 15",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 800,
                             SubCategoryId = 15,
                             Title = "title for advertasing N 15"
@@ -256,11 +186,7 @@ namespace shop.Migrations
                         {
                             AdId = 16,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 16",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 850,
                             SubCategoryId = 16,
                             Title = "title for advertasing N 16"
@@ -269,11 +195,7 @@ namespace shop.Migrations
                         {
                             AdId = 17,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 17",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 900,
                             SubCategoryId = 17,
                             Title = "title for advertasing N 17"
@@ -282,11 +204,7 @@ namespace shop.Migrations
                         {
                             AdId = 18,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 18",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 950,
                             SubCategoryId = 18,
                             Title = "title for advertasing N 18"
@@ -295,11 +213,7 @@ namespace shop.Migrations
                         {
                             AdId = 19,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 19",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1000,
                             SubCategoryId = 19,
                             Title = "title for advertasing N 19"
@@ -308,11 +222,7 @@ namespace shop.Migrations
                         {
                             AdId = 20,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 20",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1050,
                             SubCategoryId = 20,
                             Title = "title for advertasing N 20"
@@ -321,11 +231,7 @@ namespace shop.Migrations
                         {
                             AdId = 21,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 21",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1100,
                             SubCategoryId = 21,
                             Title = "title for advertasing N 21"
@@ -334,11 +240,7 @@ namespace shop.Migrations
                         {
                             AdId = 22,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 22",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1150,
                             SubCategoryId = 22,
                             Title = "title for advertasing N 22"
@@ -347,11 +249,7 @@ namespace shop.Migrations
                         {
                             AdId = 23,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 23",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1200,
                             SubCategoryId = 23,
                             Title = "title for advertasing N 23"
@@ -360,11 +258,7 @@ namespace shop.Migrations
                         {
                             AdId = 24,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 24",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1250,
                             SubCategoryId = 24,
                             Title = "title for advertasing N 24"
@@ -373,11 +267,7 @@ namespace shop.Migrations
                         {
                             AdId = 25,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 25",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1300,
                             SubCategoryId = 25,
                             Title = "title for advertasing N 25"
@@ -386,11 +276,7 @@ namespace shop.Migrations
                         {
                             AdId = 26,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 26",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1350,
                             SubCategoryId = 26,
                             Title = "title for advertasing N 26"
@@ -399,11 +285,7 @@ namespace shop.Migrations
                         {
                             AdId = 27,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 27",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1400,
                             SubCategoryId = 27,
                             Title = "title for advertasing N 27"
@@ -412,11 +294,7 @@ namespace shop.Migrations
                         {
                             AdId = 28,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 28",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1450,
                             SubCategoryId = 28,
                             Title = "title for advertasing N 28"
@@ -425,11 +303,7 @@ namespace shop.Migrations
                         {
                             AdId = 29,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 29",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1500,
                             SubCategoryId = 29,
                             Title = "title for advertasing N 29"
@@ -438,11 +312,7 @@ namespace shop.Migrations
                         {
                             AdId = 30,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 30",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1550,
                             SubCategoryId = 30,
                             Title = "title for advertasing N 30"
@@ -451,11 +321,7 @@ namespace shop.Migrations
                         {
                             AdId = 31,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 31",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1600,
                             SubCategoryId = 31,
                             Title = "title for advertasing N 31"
@@ -464,11 +330,7 @@ namespace shop.Migrations
                         {
                             AdId = 32,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 32",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1650,
                             SubCategoryId = 32,
                             Title = "title for advertasing N 32"
@@ -477,11 +339,7 @@ namespace shop.Migrations
                         {
                             AdId = 33,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 33",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1700,
                             SubCategoryId = 33,
                             Title = "title for advertasing N 33"
@@ -490,11 +348,7 @@ namespace shop.Migrations
                         {
                             AdId = 34,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 34",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1750,
                             SubCategoryId = 34,
                             Title = "title for advertasing N 34"
@@ -503,11 +357,7 @@ namespace shop.Migrations
                         {
                             AdId = 35,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 35",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1800,
                             SubCategoryId = 35,
                             Title = "title for advertasing N 35"
@@ -516,11 +366,7 @@ namespace shop.Migrations
                         {
                             AdId = 36,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 36",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1850,
                             SubCategoryId = 36,
                             Title = "title for advertasing N 36"
@@ -529,11 +375,7 @@ namespace shop.Migrations
                         {
                             AdId = 37,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 37",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1900,
                             SubCategoryId = 37,
                             Title = "title for advertasing N 37"
@@ -542,11 +384,7 @@ namespace shop.Migrations
                         {
                             AdId = 38,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 38",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 1950,
                             SubCategoryId = 38,
                             Title = "title for advertasing N 38"
@@ -555,11 +393,7 @@ namespace shop.Migrations
                         {
                             AdId = 39,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 39",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2000,
                             SubCategoryId = 39,
                             Title = "title for advertasing N 39"
@@ -568,11 +402,7 @@ namespace shop.Migrations
                         {
                             AdId = 40,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 40",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2050,
                             SubCategoryId = 40,
                             Title = "title for advertasing N 40"
@@ -581,11 +411,7 @@ namespace shop.Migrations
                         {
                             AdId = 41,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 41",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2100,
                             SubCategoryId = 41,
                             Title = "title for advertasing N 41"
@@ -594,11 +420,7 @@ namespace shop.Migrations
                         {
                             AdId = 42,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 42",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2150,
                             SubCategoryId = 42,
                             Title = "title for advertasing N 42"
@@ -607,11 +429,7 @@ namespace shop.Migrations
                         {
                             AdId = 43,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 43",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2200,
                             SubCategoryId = 43,
                             Title = "title for advertasing N 43"
@@ -620,11 +438,7 @@ namespace shop.Migrations
                         {
                             AdId = 44,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 44",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2250,
                             SubCategoryId = 44,
                             Title = "title for advertasing N 44"
@@ -633,11 +447,7 @@ namespace shop.Migrations
                         {
                             AdId = 45,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 45",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2300,
                             SubCategoryId = 45,
                             Title = "title for advertasing N 45"
@@ -646,11 +456,7 @@ namespace shop.Migrations
                         {
                             AdId = 46,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 46",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2350,
                             SubCategoryId = 46,
                             Title = "title for advertasing N 46"
@@ -659,11 +465,7 @@ namespace shop.Migrations
                         {
                             AdId = 47,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 47",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2400,
                             SubCategoryId = 47,
                             Title = "title for advertasing N 47"
@@ -672,11 +474,7 @@ namespace shop.Migrations
                         {
                             AdId = 48,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 48",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2450,
                             SubCategoryId = 48,
                             Title = "title for advertasing N 48"
@@ -685,11 +483,7 @@ namespace shop.Migrations
                         {
                             AdId = 49,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 49",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 2500,
                             SubCategoryId = 49,
                             Title = "title for advertasing N 49"
@@ -698,11 +492,7 @@ namespace shop.Migrations
                         {
                             AdId = 50,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 50",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2550,
                             SubCategoryId = 50,
                             Title = "title for advertasing N 50"
@@ -711,11 +501,7 @@ namespace shop.Migrations
                         {
                             AdId = 51,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 51",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2600,
                             SubCategoryId = 51,
                             Title = "title for advertasing N 51"
@@ -724,11 +510,7 @@ namespace shop.Migrations
                         {
                             AdId = 52,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 52",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2650,
                             SubCategoryId = 52,
                             Title = "title for advertasing N 52"
@@ -737,11 +519,7 @@ namespace shop.Migrations
                         {
                             AdId = 53,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 53",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2700,
                             SubCategoryId = 53,
                             Title = "title for advertasing N 53"
@@ -750,11 +528,7 @@ namespace shop.Migrations
                         {
                             AdId = 54,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 54",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2750,
                             SubCategoryId = 54,
                             Title = "title for advertasing N 54"
@@ -763,11 +537,7 @@ namespace shop.Migrations
                         {
                             AdId = 55,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 55",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2800,
                             SubCategoryId = 55,
                             Title = "title for advertasing N 55"
@@ -776,11 +546,7 @@ namespace shop.Migrations
                         {
                             AdId = 56,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 56",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2850,
                             SubCategoryId = 56,
                             Title = "title for advertasing N 56"
@@ -789,11 +555,7 @@ namespace shop.Migrations
                         {
                             AdId = 57,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 57",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2900,
                             SubCategoryId = 57,
                             Title = "title for advertasing N 57"
@@ -802,11 +564,7 @@ namespace shop.Migrations
                         {
                             AdId = 58,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 58",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 2950,
                             SubCategoryId = 58,
                             Title = "title for advertasing N 58"
@@ -815,11 +573,7 @@ namespace shop.Migrations
                         {
                             AdId = 59,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 59",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3000,
                             SubCategoryId = 59,
                             Title = "title for advertasing N 59"
@@ -828,11 +582,7 @@ namespace shop.Migrations
                         {
                             AdId = 60,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 60",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3050,
                             SubCategoryId = 60,
                             Title = "title for advertasing N 60"
@@ -841,11 +591,7 @@ namespace shop.Migrations
                         {
                             AdId = 61,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 61",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3100,
                             SubCategoryId = 61,
                             Title = "title for advertasing N 61"
@@ -854,11 +600,7 @@ namespace shop.Migrations
                         {
                             AdId = 62,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 62",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3150,
                             SubCategoryId = 62,
                             Title = "title for advertasing N 62"
@@ -867,11 +609,7 @@ namespace shop.Migrations
                         {
                             AdId = 63,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 63",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3200,
                             SubCategoryId = 63,
                             Title = "title for advertasing N 63"
@@ -880,11 +618,7 @@ namespace shop.Migrations
                         {
                             AdId = 64,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 64",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3250,
                             SubCategoryId = 64,
                             Title = "title for advertasing N 64"
@@ -893,11 +627,7 @@ namespace shop.Migrations
                         {
                             AdId = 65,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 65",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3300,
                             SubCategoryId = 65,
                             Title = "title for advertasing N 65"
@@ -906,11 +636,7 @@ namespace shop.Migrations
                         {
                             AdId = 66,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 66",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3350,
                             SubCategoryId = 66,
                             Title = "title for advertasing N 66"
@@ -919,11 +645,7 @@ namespace shop.Migrations
                         {
                             AdId = 67,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 67",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3400,
                             SubCategoryId = 67,
                             Title = "title for advertasing N 67"
@@ -932,11 +654,7 @@ namespace shop.Migrations
                         {
                             AdId = 68,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 68",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3450,
                             SubCategoryId = 68,
                             Title = "title for advertasing N 68"
@@ -945,11 +663,7 @@ namespace shop.Migrations
                         {
                             AdId = 69,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 69",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3500,
                             SubCategoryId = 69,
                             Title = "title for advertasing N 69"
@@ -958,11 +672,7 @@ namespace shop.Migrations
                         {
                             AdId = 70,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 70",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3550,
                             SubCategoryId = 70,
                             Title = "title for advertasing N 70"
@@ -971,11 +681,7 @@ namespace shop.Migrations
                         {
                             AdId = 71,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 71",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3600,
                             SubCategoryId = 71,
                             Title = "title for advertasing N 71"
@@ -984,11 +690,7 @@ namespace shop.Migrations
                         {
                             AdId = 72,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 72",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3650,
                             SubCategoryId = 72,
                             Title = "title for advertasing N 72"
@@ -997,11 +699,7 @@ namespace shop.Migrations
                         {
                             AdId = 73,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 73",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3700,
                             SubCategoryId = 73,
                             Title = "title for advertasing N 73"
@@ -1010,11 +708,7 @@ namespace shop.Migrations
                         {
                             AdId = 74,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 74",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3750,
                             SubCategoryId = 74,
                             Title = "title for advertasing N 74"
@@ -1023,11 +717,7 @@ namespace shop.Migrations
                         {
                             AdId = 75,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 75",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3800,
                             SubCategoryId = 75,
                             Title = "title for advertasing N 75"
@@ -1036,11 +726,7 @@ namespace shop.Migrations
                         {
                             AdId = 76,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 76",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3850,
                             SubCategoryId = 76,
                             Title = "title for advertasing N 76"
@@ -1049,11 +735,7 @@ namespace shop.Migrations
                         {
                             AdId = 77,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 77",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3900,
                             SubCategoryId = 77,
                             Title = "title for advertasing N 77"
@@ -1062,11 +744,7 @@ namespace shop.Migrations
                         {
                             AdId = 78,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 78",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 3950,
                             SubCategoryId = 78,
                             Title = "title for advertasing N 78"
@@ -1075,11 +753,7 @@ namespace shop.Migrations
                         {
                             AdId = 79,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 79",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4000,
                             SubCategoryId = 79,
                             Title = "title for advertasing N 79"
@@ -1088,11 +762,7 @@ namespace shop.Migrations
                         {
                             AdId = 80,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 80",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4050,
                             SubCategoryId = 80,
                             Title = "title for advertasing N 80"
@@ -1101,11 +771,7 @@ namespace shop.Migrations
                         {
                             AdId = 81,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 81",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4100,
                             SubCategoryId = 81,
                             Title = "title for advertasing N 81"
@@ -1114,11 +780,7 @@ namespace shop.Migrations
                         {
                             AdId = 82,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 82",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4150,
                             SubCategoryId = 82,
                             Title = "title for advertasing N 82"
@@ -1127,11 +789,7 @@ namespace shop.Migrations
                         {
                             AdId = 83,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 83",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4200,
                             SubCategoryId = 83,
                             Title = "title for advertasing N 83"
@@ -1140,11 +798,7 @@ namespace shop.Migrations
                         {
                             AdId = 84,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 84",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4250,
                             SubCategoryId = 84,
                             Title = "title for advertasing N 84"
@@ -1153,11 +807,7 @@ namespace shop.Migrations
                         {
                             AdId = 85,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 85",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4300,
                             SubCategoryId = 85,
                             Title = "title for advertasing N 85"
@@ -1166,11 +816,7 @@ namespace shop.Migrations
                         {
                             AdId = 86,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 86",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4350,
                             SubCategoryId = 86,
                             Title = "title for advertasing N 86"
@@ -1179,11 +825,7 @@ namespace shop.Migrations
                         {
                             AdId = 87,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 87",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4400,
                             SubCategoryId = 87,
                             Title = "title for advertasing N 87"
@@ -1192,11 +834,7 @@ namespace shop.Migrations
                         {
                             AdId = 88,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 88",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4450,
                             SubCategoryId = 88,
                             Title = "title for advertasing N 88"
@@ -1205,11 +843,7 @@ namespace shop.Migrations
                         {
                             AdId = 89,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 89",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4500,
                             SubCategoryId = 89,
                             Title = "title for advertasing N 89"
@@ -1218,11 +852,7 @@ namespace shop.Migrations
                         {
                             AdId = 90,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 90",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4550,
                             SubCategoryId = 90,
                             Title = "title for advertasing N 90"
@@ -1231,11 +861,7 @@ namespace shop.Migrations
                         {
                             AdId = 91,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 91",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4600,
                             SubCategoryId = 91,
                             Title = "title for advertasing N 91"
@@ -1244,11 +870,7 @@ namespace shop.Migrations
                         {
                             AdId = 92,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 92",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4650,
                             SubCategoryId = 92,
                             Title = "title for advertasing N 92"
@@ -1257,11 +879,7 @@ namespace shop.Migrations
                         {
                             AdId = 93,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 93",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4700,
                             SubCategoryId = 93,
                             Title = "title for advertasing N 93"
@@ -1270,11 +888,7 @@ namespace shop.Migrations
                         {
                             AdId = 94,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 94",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4750,
                             SubCategoryId = 94,
                             Title = "title for advertasing N 94"
@@ -1283,11 +897,7 @@ namespace shop.Migrations
                         {
                             AdId = 95,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 95",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4800,
                             SubCategoryId = 95,
                             Title = "title for advertasing N 95"
@@ -1296,11 +906,7 @@ namespace shop.Migrations
                         {
                             AdId = 96,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 96",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4850,
                             SubCategoryId = 96,
                             Title = "title for advertasing N 96"
@@ -1309,11 +915,7 @@ namespace shop.Migrations
                         {
                             AdId = 97,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 97",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4900,
                             SubCategoryId = 97,
                             Title = "title for advertasing N 97"
@@ -1322,11 +924,7 @@ namespace shop.Migrations
                         {
                             AdId = 98,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 98",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 4950,
                             SubCategoryId = 98,
                             Title = "title for advertasing N 98"
@@ -1335,11 +933,7 @@ namespace shop.Migrations
                         {
                             AdId = 99,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 99",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 5000,
                             SubCategoryId = 99,
                             Title = "title for advertasing N 99"
@@ -1348,11 +942,7 @@ namespace shop.Migrations
                         {
                             AdId = 100,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 100",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5050,
                             SubCategoryId = 100,
                             Title = "title for advertasing N 100"
@@ -1361,11 +951,7 @@ namespace shop.Migrations
                         {
                             AdId = 101,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 101",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5100,
                             SubCategoryId = 101,
                             Title = "title for advertasing N 101"
@@ -1374,11 +960,7 @@ namespace shop.Migrations
                         {
                             AdId = 102,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 102",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5150,
                             SubCategoryId = 102,
                             Title = "title for advertasing N 102"
@@ -1387,11 +969,7 @@ namespace shop.Migrations
                         {
                             AdId = 103,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 103",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5200,
                             SubCategoryId = 103,
                             Title = "title for advertasing N 103"
@@ -1400,11 +978,7 @@ namespace shop.Migrations
                         {
                             AdId = 104,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 104",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5250,
                             SubCategoryId = 104,
                             Title = "title for advertasing N 104"
@@ -1413,11 +987,7 @@ namespace shop.Migrations
                         {
                             AdId = 105,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 105",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5300,
                             SubCategoryId = 105,
                             Title = "title for advertasing N 105"
@@ -1426,11 +996,7 @@ namespace shop.Migrations
                         {
                             AdId = 106,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 106",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5350,
                             SubCategoryId = 106,
                             Title = "title for advertasing N 106"
@@ -1439,11 +1005,7 @@ namespace shop.Migrations
                         {
                             AdId = 107,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 107",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5400,
                             SubCategoryId = 107,
                             Title = "title for advertasing N 107"
@@ -1452,11 +1014,7 @@ namespace shop.Migrations
                         {
                             AdId = 108,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 108",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5450,
                             SubCategoryId = 108,
                             Title = "title for advertasing N 108"
@@ -1465,11 +1023,7 @@ namespace shop.Migrations
                         {
                             AdId = 109,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 109",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5500,
                             SubCategoryId = 109,
                             Title = "title for advertasing N 109"
@@ -1478,11 +1032,7 @@ namespace shop.Migrations
                         {
                             AdId = 110,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 110",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5550,
                             SubCategoryId = 110,
                             Title = "title for advertasing N 110"
@@ -1491,11 +1041,7 @@ namespace shop.Migrations
                         {
                             AdId = 111,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 111",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5600,
                             SubCategoryId = 111,
                             Title = "title for advertasing N 111"
@@ -1504,11 +1050,7 @@ namespace shop.Migrations
                         {
                             AdId = 112,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 112",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5650,
                             SubCategoryId = 112,
                             Title = "title for advertasing N 112"
@@ -1517,11 +1059,7 @@ namespace shop.Migrations
                         {
                             AdId = 113,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 113",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5700,
                             SubCategoryId = 113,
                             Title = "title for advertasing N 113"
@@ -1530,11 +1068,7 @@ namespace shop.Migrations
                         {
                             AdId = 114,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 114",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5750,
                             SubCategoryId = 114,
                             Title = "title for advertasing N 114"
@@ -1543,11 +1077,7 @@ namespace shop.Migrations
                         {
                             AdId = 115,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 115",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5800,
                             SubCategoryId = 115,
                             Title = "title for advertasing N 115"
@@ -1556,11 +1086,7 @@ namespace shop.Migrations
                         {
                             AdId = 116,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 116",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5850,
                             SubCategoryId = 116,
                             Title = "title for advertasing N 116"
@@ -1569,11 +1095,7 @@ namespace shop.Migrations
                         {
                             AdId = 117,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 117",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5900,
                             SubCategoryId = 117,
                             Title = "title for advertasing N 117"
@@ -1582,11 +1104,7 @@ namespace shop.Migrations
                         {
                             AdId = 118,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 118",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 5950,
                             SubCategoryId = 118,
                             Title = "title for advertasing N 118"
@@ -1595,11 +1113,7 @@ namespace shop.Migrations
                         {
                             AdId = 119,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 119",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6000,
                             SubCategoryId = 119,
                             Title = "title for advertasing N 119"
@@ -1608,11 +1122,7 @@ namespace shop.Migrations
                         {
                             AdId = 120,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 120",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6050,
                             SubCategoryId = 120,
                             Title = "title for advertasing N 120"
@@ -1621,11 +1131,7 @@ namespace shop.Migrations
                         {
                             AdId = 121,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 121",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6100,
                             SubCategoryId = 121,
                             Title = "title for advertasing N 121"
@@ -1634,11 +1140,7 @@ namespace shop.Migrations
                         {
                             AdId = 122,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 122",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6150,
                             SubCategoryId = 122,
                             Title = "title for advertasing N 122"
@@ -1647,11 +1149,7 @@ namespace shop.Migrations
                         {
                             AdId = 123,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 123",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6200,
                             SubCategoryId = 123,
                             Title = "title for advertasing N 123"
@@ -1660,11 +1158,7 @@ namespace shop.Migrations
                         {
                             AdId = 124,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 124",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6250,
                             SubCategoryId = 124,
                             Title = "title for advertasing N 124"
@@ -1673,11 +1167,7 @@ namespace shop.Migrations
                         {
                             AdId = 125,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 125",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6300,
                             SubCategoryId = 125,
                             Title = "title for advertasing N 125"
@@ -1686,11 +1176,7 @@ namespace shop.Migrations
                         {
                             AdId = 126,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 126",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6350,
                             SubCategoryId = 126,
                             Title = "title for advertasing N 126"
@@ -1699,11 +1185,7 @@ namespace shop.Migrations
                         {
                             AdId = 127,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 127",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6400,
                             SubCategoryId = 127,
                             Title = "title for advertasing N 127"
@@ -1712,11 +1194,7 @@ namespace shop.Migrations
                         {
                             AdId = 128,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 128",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6450,
                             SubCategoryId = 128,
                             Title = "title for advertasing N 128"
@@ -1725,11 +1203,7 @@ namespace shop.Migrations
                         {
                             AdId = 129,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 129",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6500,
                             SubCategoryId = 129,
                             Title = "title for advertasing N 129"
@@ -1738,11 +1212,7 @@ namespace shop.Migrations
                         {
                             AdId = 130,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 130",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6550,
                             SubCategoryId = 130,
                             Title = "title for advertasing N 130"
@@ -1751,11 +1221,7 @@ namespace shop.Migrations
                         {
                             AdId = 131,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 131",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6600,
                             SubCategoryId = 131,
                             Title = "title for advertasing N 131"
@@ -1764,11 +1230,7 @@ namespace shop.Migrations
                         {
                             AdId = 132,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 132",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6650,
                             SubCategoryId = 132,
                             Title = "title for advertasing N 132"
@@ -1777,11 +1239,7 @@ namespace shop.Migrations
                         {
                             AdId = 133,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 133",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6700,
                             SubCategoryId = 133,
                             Title = "title for advertasing N 133"
@@ -1790,11 +1248,7 @@ namespace shop.Migrations
                         {
                             AdId = 134,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 134",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6750,
                             SubCategoryId = 134,
                             Title = "title for advertasing N 134"
@@ -1803,11 +1257,7 @@ namespace shop.Migrations
                         {
                             AdId = 135,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 135",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6800,
                             SubCategoryId = 135,
                             Title = "title for advertasing N 135"
@@ -1816,11 +1266,7 @@ namespace shop.Migrations
                         {
                             AdId = 136,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 136",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6850,
                             SubCategoryId = 136,
                             Title = "title for advertasing N 136"
@@ -1829,11 +1275,7 @@ namespace shop.Migrations
                         {
                             AdId = 137,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 137",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6900,
                             SubCategoryId = 137,
                             Title = "title for advertasing N 137"
@@ -1842,11 +1284,7 @@ namespace shop.Migrations
                         {
                             AdId = 138,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 138",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 6950,
                             SubCategoryId = 138,
                             Title = "title for advertasing N 138"
@@ -1855,11 +1293,7 @@ namespace shop.Migrations
                         {
                             AdId = 139,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 139",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 7000,
                             SubCategoryId = 139,
                             Title = "title for advertasing N 139"
@@ -1868,11 +1302,7 @@ namespace shop.Migrations
                         {
                             AdId = 140,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 140",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7050,
                             SubCategoryId = 1,
                             Title = "title for advertasing N 140"
@@ -1881,11 +1311,7 @@ namespace shop.Migrations
                         {
                             AdId = 141,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 141",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7100,
                             SubCategoryId = 2,
                             Title = "title for advertasing N 141"
@@ -1894,11 +1320,7 @@ namespace shop.Migrations
                         {
                             AdId = 142,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 142",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7150,
                             SubCategoryId = 3,
                             Title = "title for advertasing N 142"
@@ -1907,11 +1329,7 @@ namespace shop.Migrations
                         {
                             AdId = 143,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 143",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7200,
                             SubCategoryId = 4,
                             Title = "title for advertasing N 143"
@@ -1920,11 +1338,7 @@ namespace shop.Migrations
                         {
                             AdId = 144,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 144",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7250,
                             SubCategoryId = 5,
                             Title = "title for advertasing N 144"
@@ -1933,11 +1347,7 @@ namespace shop.Migrations
                         {
                             AdId = 145,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 145",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7300,
                             SubCategoryId = 6,
                             Title = "title for advertasing N 145"
@@ -1946,11 +1356,7 @@ namespace shop.Migrations
                         {
                             AdId = 146,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 146",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7350,
                             SubCategoryId = 7,
                             Title = "title for advertasing N 146"
@@ -1959,11 +1365,7 @@ namespace shop.Migrations
                         {
                             AdId = 147,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 147",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7400,
                             SubCategoryId = 8,
                             Title = "title for advertasing N 147"
@@ -1972,11 +1374,7 @@ namespace shop.Migrations
                         {
                             AdId = 148,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 148",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7450,
                             SubCategoryId = 9,
                             Title = "title for advertasing N 148"
@@ -1985,11 +1383,7 @@ namespace shop.Migrations
                         {
                             AdId = 149,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 149",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7500,
                             SubCategoryId = 10,
                             Title = "title for advertasing N 149"
@@ -1998,11 +1392,7 @@ namespace shop.Migrations
                         {
                             AdId = 150,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 150",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7550,
                             SubCategoryId = 11,
                             Title = "title for advertasing N 150"
@@ -2011,11 +1401,7 @@ namespace shop.Migrations
                         {
                             AdId = 151,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 151",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7600,
                             SubCategoryId = 12,
                             Title = "title for advertasing N 151"
@@ -2024,11 +1410,7 @@ namespace shop.Migrations
                         {
                             AdId = 152,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 152",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7650,
                             SubCategoryId = 13,
                             Title = "title for advertasing N 152"
@@ -2037,11 +1419,7 @@ namespace shop.Migrations
                         {
                             AdId = 153,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 153",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7700,
                             SubCategoryId = 14,
                             Title = "title for advertasing N 153"
@@ -2050,11 +1428,7 @@ namespace shop.Migrations
                         {
                             AdId = 154,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 154",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7750,
                             SubCategoryId = 15,
                             Title = "title for advertasing N 154"
@@ -2063,11 +1437,7 @@ namespace shop.Migrations
                         {
                             AdId = 155,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 155",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7800,
                             SubCategoryId = 16,
                             Title = "title for advertasing N 155"
@@ -2076,11 +1446,7 @@ namespace shop.Migrations
                         {
                             AdId = 156,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 156",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7850,
                             SubCategoryId = 17,
                             Title = "title for advertasing N 156"
@@ -2089,11 +1455,7 @@ namespace shop.Migrations
                         {
                             AdId = 157,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 157",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7900,
                             SubCategoryId = 18,
                             Title = "title for advertasing N 157"
@@ -2102,11 +1464,7 @@ namespace shop.Migrations
                         {
                             AdId = 158,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 158",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 7950,
                             SubCategoryId = 19,
                             Title = "title for advertasing N 158"
@@ -2115,11 +1473,7 @@ namespace shop.Migrations
                         {
                             AdId = 159,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 159",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8000,
                             SubCategoryId = 20,
                             Title = "title for advertasing N 159"
@@ -2128,11 +1482,7 @@ namespace shop.Migrations
                         {
                             AdId = 160,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 160",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8050,
                             SubCategoryId = 21,
                             Title = "title for advertasing N 160"
@@ -2141,11 +1491,7 @@ namespace shop.Migrations
                         {
                             AdId = 161,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 161",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8100,
                             SubCategoryId = 22,
                             Title = "title for advertasing N 161"
@@ -2154,11 +1500,7 @@ namespace shop.Migrations
                         {
                             AdId = 162,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 162",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8150,
                             SubCategoryId = 23,
                             Title = "title for advertasing N 162"
@@ -2167,11 +1509,7 @@ namespace shop.Migrations
                         {
                             AdId = 163,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 163",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8200,
                             SubCategoryId = 24,
                             Title = "title for advertasing N 163"
@@ -2180,11 +1518,7 @@ namespace shop.Migrations
                         {
                             AdId = 164,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 164",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8250,
                             SubCategoryId = 25,
                             Title = "title for advertasing N 164"
@@ -2193,11 +1527,7 @@ namespace shop.Migrations
                         {
                             AdId = 165,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 165",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8300,
                             SubCategoryId = 26,
                             Title = "title for advertasing N 165"
@@ -2206,11 +1536,7 @@ namespace shop.Migrations
                         {
                             AdId = 166,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 166",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8350,
                             SubCategoryId = 27,
                             Title = "title for advertasing N 166"
@@ -2219,11 +1545,7 @@ namespace shop.Migrations
                         {
                             AdId = 167,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 167",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8400,
                             SubCategoryId = 28,
                             Title = "title for advertasing N 167"
@@ -2232,11 +1554,7 @@ namespace shop.Migrations
                         {
                             AdId = 168,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 168",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8450,
                             SubCategoryId = 29,
                             Title = "title for advertasing N 168"
@@ -2245,11 +1563,7 @@ namespace shop.Migrations
                         {
                             AdId = 169,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 169",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8500,
                             SubCategoryId = 30,
                             Title = "title for advertasing N 169"
@@ -2258,11 +1572,7 @@ namespace shop.Migrations
                         {
                             AdId = 170,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 170",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8550,
                             SubCategoryId = 31,
                             Title = "title for advertasing N 170"
@@ -2271,11 +1581,7 @@ namespace shop.Migrations
                         {
                             AdId = 171,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 171",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8600,
                             SubCategoryId = 32,
                             Title = "title for advertasing N 171"
@@ -2284,11 +1590,7 @@ namespace shop.Migrations
                         {
                             AdId = 172,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 172",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8650,
                             SubCategoryId = 33,
                             Title = "title for advertasing N 172"
@@ -2297,11 +1599,7 @@ namespace shop.Migrations
                         {
                             AdId = 173,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 173",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8700,
                             SubCategoryId = 34,
                             Title = "title for advertasing N 173"
@@ -2310,11 +1608,7 @@ namespace shop.Migrations
                         {
                             AdId = 174,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 174",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8750,
                             SubCategoryId = 35,
                             Title = "title for advertasing N 174"
@@ -2323,11 +1617,7 @@ namespace shop.Migrations
                         {
                             AdId = 175,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 175",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8800,
                             SubCategoryId = 36,
                             Title = "title for advertasing N 175"
@@ -2336,11 +1626,7 @@ namespace shop.Migrations
                         {
                             AdId = 176,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 176",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8850,
                             SubCategoryId = 37,
                             Title = "title for advertasing N 176"
@@ -2349,11 +1635,7 @@ namespace shop.Migrations
                         {
                             AdId = 177,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 177",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8900,
                             SubCategoryId = 38,
                             Title = "title for advertasing N 177"
@@ -2362,11 +1644,7 @@ namespace shop.Migrations
                         {
                             AdId = 178,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 178",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 8950,
                             SubCategoryId = 39,
                             Title = "title for advertasing N 178"
@@ -2375,11 +1653,7 @@ namespace shop.Migrations
                         {
                             AdId = 179,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 179",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9000,
                             SubCategoryId = 40,
                             Title = "title for advertasing N 179"
@@ -2388,11 +1662,7 @@ namespace shop.Migrations
                         {
                             AdId = 180,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 180",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9050,
                             SubCategoryId = 41,
                             Title = "title for advertasing N 180"
@@ -2401,11 +1671,7 @@ namespace shop.Migrations
                         {
                             AdId = 181,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 181",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9100,
                             SubCategoryId = 42,
                             Title = "title for advertasing N 181"
@@ -2414,11 +1680,7 @@ namespace shop.Migrations
                         {
                             AdId = 182,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 182",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9150,
                             SubCategoryId = 43,
                             Title = "title for advertasing N 182"
@@ -2427,11 +1689,7 @@ namespace shop.Migrations
                         {
                             AdId = 183,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 183",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9200,
                             SubCategoryId = 44,
                             Title = "title for advertasing N 183"
@@ -2440,11 +1698,7 @@ namespace shop.Migrations
                         {
                             AdId = 184,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 184",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9250,
                             SubCategoryId = 45,
                             Title = "title for advertasing N 184"
@@ -2453,11 +1707,7 @@ namespace shop.Migrations
                         {
                             AdId = 185,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 185",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9300,
                             SubCategoryId = 46,
                             Title = "title for advertasing N 185"
@@ -2466,11 +1716,7 @@ namespace shop.Migrations
                         {
                             AdId = 186,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 186",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9350,
                             SubCategoryId = 47,
                             Title = "title for advertasing N 186"
@@ -2479,11 +1725,7 @@ namespace shop.Migrations
                         {
                             AdId = 187,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 187",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9400,
                             SubCategoryId = 48,
                             Title = "title for advertasing N 187"
@@ -2492,11 +1734,7 @@ namespace shop.Migrations
                         {
                             AdId = 188,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 188",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 9450,
                             SubCategoryId = 49,
                             Title = "title for advertasing N 188"
@@ -2505,11 +1743,7 @@ namespace shop.Migrations
                         {
                             AdId = 189,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 189",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9500,
                             SubCategoryId = 50,
                             Title = "title for advertasing N 189"
@@ -2518,11 +1752,7 @@ namespace shop.Migrations
                         {
                             AdId = 190,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 190",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9550,
                             SubCategoryId = 51,
                             Title = "title for advertasing N 190"
@@ -2531,11 +1761,7 @@ namespace shop.Migrations
                         {
                             AdId = 191,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 191",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9600,
                             SubCategoryId = 52,
                             Title = "title for advertasing N 191"
@@ -2544,11 +1770,7 @@ namespace shop.Migrations
                         {
                             AdId = 192,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 192",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9650,
                             SubCategoryId = 53,
                             Title = "title for advertasing N 192"
@@ -2557,11 +1779,7 @@ namespace shop.Migrations
                         {
                             AdId = 193,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 193",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9700,
                             SubCategoryId = 54,
                             Title = "title for advertasing N 193"
@@ -2570,11 +1788,7 @@ namespace shop.Migrations
                         {
                             AdId = 194,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 194",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9750,
                             SubCategoryId = 55,
                             Title = "title for advertasing N 194"
@@ -2583,11 +1797,7 @@ namespace shop.Migrations
                         {
                             AdId = 195,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 195",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9800,
                             SubCategoryId = 56,
                             Title = "title for advertasing N 195"
@@ -2596,11 +1806,7 @@ namespace shop.Migrations
                         {
                             AdId = 196,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 196",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9850,
                             SubCategoryId = 57,
                             Title = "title for advertasing N 196"
@@ -2609,11 +1815,7 @@ namespace shop.Migrations
                         {
                             AdId = 197,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 197",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9900,
                             SubCategoryId = 58,
                             Title = "title for advertasing N 197"
@@ -2622,11 +1824,7 @@ namespace shop.Migrations
                         {
                             AdId = 198,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 198",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 9950,
                             SubCategoryId = 59,
                             Title = "title for advertasing N 198"
@@ -2635,11 +1833,7 @@ namespace shop.Migrations
                         {
                             AdId = 199,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 199",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10000,
                             SubCategoryId = 60,
                             Title = "title for advertasing N 199"
@@ -2648,11 +1842,7 @@ namespace shop.Migrations
                         {
                             AdId = 200,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 200",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10050,
                             SubCategoryId = 61,
                             Title = "title for advertasing N 200"
@@ -2661,11 +1851,7 @@ namespace shop.Migrations
                         {
                             AdId = 201,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 201",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10100,
                             SubCategoryId = 62,
                             Title = "title for advertasing N 201"
@@ -2674,11 +1860,7 @@ namespace shop.Migrations
                         {
                             AdId = 202,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 202",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10150,
                             SubCategoryId = 63,
                             Title = "title for advertasing N 202"
@@ -2687,11 +1869,7 @@ namespace shop.Migrations
                         {
                             AdId = 203,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 203",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10200,
                             SubCategoryId = 64,
                             Title = "title for advertasing N 203"
@@ -2700,11 +1878,7 @@ namespace shop.Migrations
                         {
                             AdId = 204,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 204",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10250,
                             SubCategoryId = 65,
                             Title = "title for advertasing N 204"
@@ -2713,11 +1887,7 @@ namespace shop.Migrations
                         {
                             AdId = 205,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 205",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10300,
                             SubCategoryId = 66,
                             Title = "title for advertasing N 205"
@@ -2726,11 +1896,7 @@ namespace shop.Migrations
                         {
                             AdId = 206,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 206",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10350,
                             SubCategoryId = 67,
                             Title = "title for advertasing N 206"
@@ -2739,11 +1905,7 @@ namespace shop.Migrations
                         {
                             AdId = 207,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 207",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10400,
                             SubCategoryId = 68,
                             Title = "title for advertasing N 207"
@@ -2752,11 +1914,7 @@ namespace shop.Migrations
                         {
                             AdId = 208,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 208",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10450,
                             SubCategoryId = 69,
                             Title = "title for advertasing N 208"
@@ -2765,11 +1923,7 @@ namespace shop.Migrations
                         {
                             AdId = 209,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 209",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10500,
                             SubCategoryId = 70,
                             Title = "title for advertasing N 209"
@@ -2778,11 +1932,7 @@ namespace shop.Migrations
                         {
                             AdId = 210,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 210",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10550,
                             SubCategoryId = 71,
                             Title = "title for advertasing N 210"
@@ -2791,11 +1941,7 @@ namespace shop.Migrations
                         {
                             AdId = 211,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 211",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10600,
                             SubCategoryId = 72,
                             Title = "title for advertasing N 211"
@@ -2804,11 +1950,7 @@ namespace shop.Migrations
                         {
                             AdId = 212,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 212",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10650,
                             SubCategoryId = 73,
                             Title = "title for advertasing N 212"
@@ -2817,11 +1959,7 @@ namespace shop.Migrations
                         {
                             AdId = 213,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 213",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10700,
                             SubCategoryId = 74,
                             Title = "title for advertasing N 213"
@@ -2830,11 +1968,7 @@ namespace shop.Migrations
                         {
                             AdId = 214,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 214",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10750,
                             SubCategoryId = 75,
                             Title = "title for advertasing N 214"
@@ -2843,11 +1977,7 @@ namespace shop.Migrations
                         {
                             AdId = 215,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 215",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10800,
                             SubCategoryId = 76,
                             Title = "title for advertasing N 215"
@@ -2856,11 +1986,7 @@ namespace shop.Migrations
                         {
                             AdId = 216,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 216",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10850,
                             SubCategoryId = 77,
                             Title = "title for advertasing N 216"
@@ -2869,11 +1995,7 @@ namespace shop.Migrations
                         {
                             AdId = 217,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 217",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10900,
                             SubCategoryId = 78,
                             Title = "title for advertasing N 217"
@@ -2882,11 +2004,7 @@ namespace shop.Migrations
                         {
                             AdId = 218,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 218",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 10950,
                             SubCategoryId = 79,
                             Title = "title for advertasing N 218"
@@ -2895,11 +2013,7 @@ namespace shop.Migrations
                         {
                             AdId = 219,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 219",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11000,
                             SubCategoryId = 80,
                             Title = "title for advertasing N 219"
@@ -2908,11 +2022,7 @@ namespace shop.Migrations
                         {
                             AdId = 220,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 220",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11050,
                             SubCategoryId = 81,
                             Title = "title for advertasing N 220"
@@ -2921,11 +2031,7 @@ namespace shop.Migrations
                         {
                             AdId = 221,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 221",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11100,
                             SubCategoryId = 82,
                             Title = "title for advertasing N 221"
@@ -2934,11 +2040,7 @@ namespace shop.Migrations
                         {
                             AdId = 222,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 222",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11150,
                             SubCategoryId = 83,
                             Title = "title for advertasing N 222"
@@ -2947,11 +2049,7 @@ namespace shop.Migrations
                         {
                             AdId = 223,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 223",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11200,
                             SubCategoryId = 84,
                             Title = "title for advertasing N 223"
@@ -2960,11 +2058,7 @@ namespace shop.Migrations
                         {
                             AdId = 224,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 224",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11250,
                             SubCategoryId = 85,
                             Title = "title for advertasing N 224"
@@ -2973,11 +2067,7 @@ namespace shop.Migrations
                         {
                             AdId = 225,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 225",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11300,
                             SubCategoryId = 86,
                             Title = "title for advertasing N 225"
@@ -2986,11 +2076,7 @@ namespace shop.Migrations
                         {
                             AdId = 226,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 226",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11350,
                             SubCategoryId = 87,
                             Title = "title for advertasing N 226"
@@ -2999,11 +2085,7 @@ namespace shop.Migrations
                         {
                             AdId = 227,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 227",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11400,
                             SubCategoryId = 88,
                             Title = "title for advertasing N 227"
@@ -3012,11 +2094,7 @@ namespace shop.Migrations
                         {
                             AdId = 228,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 228",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11450,
                             SubCategoryId = 89,
                             Title = "title for advertasing N 228"
@@ -3025,11 +2103,7 @@ namespace shop.Migrations
                         {
                             AdId = 229,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 229",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11500,
                             SubCategoryId = 90,
                             Title = "title for advertasing N 229"
@@ -3038,11 +2112,7 @@ namespace shop.Migrations
                         {
                             AdId = 230,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 230",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11550,
                             SubCategoryId = 91,
                             Title = "title for advertasing N 230"
@@ -3051,11 +2121,7 @@ namespace shop.Migrations
                         {
                             AdId = 231,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 231",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11600,
                             SubCategoryId = 92,
                             Title = "title for advertasing N 231"
@@ -3064,11 +2130,7 @@ namespace shop.Migrations
                         {
                             AdId = 232,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 232",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11650,
                             SubCategoryId = 93,
                             Title = "title for advertasing N 232"
@@ -3077,11 +2139,7 @@ namespace shop.Migrations
                         {
                             AdId = 233,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 233",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11700,
                             SubCategoryId = 94,
                             Title = "title for advertasing N 233"
@@ -3090,11 +2148,7 @@ namespace shop.Migrations
                         {
                             AdId = 234,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 234",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11750,
                             SubCategoryId = 95,
                             Title = "title for advertasing N 234"
@@ -3103,11 +2157,7 @@ namespace shop.Migrations
                         {
                             AdId = 235,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 235",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11800,
                             SubCategoryId = 96,
                             Title = "title for advertasing N 235"
@@ -3116,11 +2166,7 @@ namespace shop.Migrations
                         {
                             AdId = 236,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 236",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11850,
                             SubCategoryId = 97,
                             Title = "title for advertasing N 236"
@@ -3129,11 +2175,7 @@ namespace shop.Migrations
                         {
                             AdId = 237,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 237",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11900,
                             SubCategoryId = 98,
                             Title = "title for advertasing N 237"
@@ -3142,11 +2184,7 @@ namespace shop.Migrations
                         {
                             AdId = 238,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 238",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 11950,
                             SubCategoryId = 99,
                             Title = "title for advertasing N 238"
@@ -3155,11 +2193,7 @@ namespace shop.Migrations
                         {
                             AdId = 239,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 239",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12000,
                             SubCategoryId = 100,
                             Title = "title for advertasing N 239"
@@ -3168,11 +2202,7 @@ namespace shop.Migrations
                         {
                             AdId = 240,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 240",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12050,
                             SubCategoryId = 101,
                             Title = "title for advertasing N 240"
@@ -3181,11 +2211,7 @@ namespace shop.Migrations
                         {
                             AdId = 241,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 241",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12100,
                             SubCategoryId = 102,
                             Title = "title for advertasing N 241"
@@ -3194,11 +2220,7 @@ namespace shop.Migrations
                         {
                             AdId = 242,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 242",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12150,
                             SubCategoryId = 103,
                             Title = "title for advertasing N 242"
@@ -3207,11 +2229,7 @@ namespace shop.Migrations
                         {
                             AdId = 243,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 243",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12200,
                             SubCategoryId = 104,
                             Title = "title for advertasing N 243"
@@ -3220,11 +2238,7 @@ namespace shop.Migrations
                         {
                             AdId = 244,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 244",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12250,
                             SubCategoryId = 105,
                             Title = "title for advertasing N 244"
@@ -3233,11 +2247,7 @@ namespace shop.Migrations
                         {
                             AdId = 245,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 245",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12300,
                             SubCategoryId = 106,
                             Title = "title for advertasing N 245"
@@ -3246,11 +2256,7 @@ namespace shop.Migrations
                         {
                             AdId = 246,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 246",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12350,
                             SubCategoryId = 107,
                             Title = "title for advertasing N 246"
@@ -3259,11 +2265,7 @@ namespace shop.Migrations
                         {
                             AdId = 247,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 247",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12400,
                             SubCategoryId = 108,
                             Title = "title for advertasing N 247"
@@ -3272,11 +2274,7 @@ namespace shop.Migrations
                         {
                             AdId = 248,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 248",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12450,
                             SubCategoryId = 109,
                             Title = "title for advertasing N 248"
@@ -3285,11 +2283,7 @@ namespace shop.Migrations
                         {
                             AdId = 249,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 249",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12500,
                             SubCategoryId = 110,
                             Title = "title for advertasing N 249"
@@ -3298,11 +2292,7 @@ namespace shop.Migrations
                         {
                             AdId = 250,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 250",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12550,
                             SubCategoryId = 111,
                             Title = "title for advertasing N 250"
@@ -3311,11 +2301,7 @@ namespace shop.Migrations
                         {
                             AdId = 251,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 251",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12600,
                             SubCategoryId = 112,
                             Title = "title for advertasing N 251"
@@ -3324,11 +2310,7 @@ namespace shop.Migrations
                         {
                             AdId = 252,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 252",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12650,
                             SubCategoryId = 113,
                             Title = "title for advertasing N 252"
@@ -3337,11 +2319,7 @@ namespace shop.Migrations
                         {
                             AdId = 253,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 253",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12700,
                             SubCategoryId = 114,
                             Title = "title for advertasing N 253"
@@ -3350,11 +2328,7 @@ namespace shop.Migrations
                         {
                             AdId = 254,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 254",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12750,
                             SubCategoryId = 115,
                             Title = "title for advertasing N 254"
@@ -3363,11 +2337,7 @@ namespace shop.Migrations
                         {
                             AdId = 255,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 255",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12800,
                             SubCategoryId = 116,
                             Title = "title for advertasing N 255"
@@ -3376,11 +2346,7 @@ namespace shop.Migrations
                         {
                             AdId = 256,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 256",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12850,
                             SubCategoryId = 117,
                             Title = "title for advertasing N 256"
@@ -3389,11 +2355,7 @@ namespace shop.Migrations
                         {
                             AdId = 257,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 257",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12900,
                             SubCategoryId = 118,
                             Title = "title for advertasing N 257"
@@ -3402,11 +2364,7 @@ namespace shop.Migrations
                         {
                             AdId = 258,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 258",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 12950,
                             SubCategoryId = 119,
                             Title = "title for advertasing N 258"
@@ -3415,11 +2373,7 @@ namespace shop.Migrations
                         {
                             AdId = 259,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 259",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13000,
                             SubCategoryId = 120,
                             Title = "title for advertasing N 259"
@@ -3428,11 +2382,7 @@ namespace shop.Migrations
                         {
                             AdId = 260,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 260",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13050,
                             SubCategoryId = 121,
                             Title = "title for advertasing N 260"
@@ -3441,11 +2391,7 @@ namespace shop.Migrations
                         {
                             AdId = 261,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 261",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13100,
                             SubCategoryId = 122,
                             Title = "title for advertasing N 261"
@@ -3454,11 +2400,7 @@ namespace shop.Migrations
                         {
                             AdId = 262,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 262",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13150,
                             SubCategoryId = 123,
                             Title = "title for advertasing N 262"
@@ -3467,11 +2409,7 @@ namespace shop.Migrations
                         {
                             AdId = 263,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 263",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13200,
                             SubCategoryId = 124,
                             Title = "title for advertasing N 263"
@@ -3480,11 +2418,7 @@ namespace shop.Migrations
                         {
                             AdId = 264,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 264",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13250,
                             SubCategoryId = 125,
                             Title = "title for advertasing N 264"
@@ -3493,11 +2427,7 @@ namespace shop.Migrations
                         {
                             AdId = 265,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 265",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13300,
                             SubCategoryId = 126,
                             Title = "title for advertasing N 265"
@@ -3506,11 +2436,7 @@ namespace shop.Migrations
                         {
                             AdId = 266,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 266",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13350,
                             SubCategoryId = 127,
                             Title = "title for advertasing N 266"
@@ -3519,11 +2445,7 @@ namespace shop.Migrations
                         {
                             AdId = 267,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 267",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13400,
                             SubCategoryId = 128,
                             Title = "title for advertasing N 267"
@@ -3532,11 +2454,7 @@ namespace shop.Migrations
                         {
                             AdId = 268,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 268",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13450,
                             SubCategoryId = 129,
                             Title = "title for advertasing N 268"
@@ -3545,11 +2463,7 @@ namespace shop.Migrations
                         {
                             AdId = 269,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 269",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13500,
                             SubCategoryId = 130,
                             Title = "title for advertasing N 269"
@@ -3558,11 +2472,7 @@ namespace shop.Migrations
                         {
                             AdId = 270,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 270",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13550,
                             SubCategoryId = 131,
                             Title = "title for advertasing N 270"
@@ -3571,11 +2481,7 @@ namespace shop.Migrations
                         {
                             AdId = 271,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 271",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13600,
                             SubCategoryId = 132,
                             Title = "title for advertasing N 271"
@@ -3584,11 +2490,7 @@ namespace shop.Migrations
                         {
                             AdId = 272,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 272",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13650,
                             SubCategoryId = 133,
                             Title = "title for advertasing N 272"
@@ -3597,11 +2499,7 @@ namespace shop.Migrations
                         {
                             AdId = 273,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 273",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13700,
                             SubCategoryId = 134,
                             Title = "title for advertasing N 273"
@@ -3610,11 +2508,7 @@ namespace shop.Migrations
                         {
                             AdId = 274,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 274",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13750,
                             SubCategoryId = 135,
                             Title = "title for advertasing N 274"
@@ -3623,11 +2517,7 @@ namespace shop.Migrations
                         {
                             AdId = 275,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 275",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13800,
                             SubCategoryId = 136,
                             Title = "title for advertasing N 275"
@@ -3636,11 +2526,7 @@ namespace shop.Migrations
                         {
                             AdId = 276,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 276",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13850,
                             SubCategoryId = 137,
                             Title = "title for advertasing N 276"
@@ -3649,11 +2535,7 @@ namespace shop.Migrations
                         {
                             AdId = 277,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 277",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13900,
                             SubCategoryId = 138,
                             Title = "title for advertasing N 277"
@@ -3662,11 +2544,7 @@ namespace shop.Migrations
                         {
                             AdId = 278,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 278",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 13950,
                             SubCategoryId = 139,
                             Title = "title for advertasing N 278"
@@ -3675,11 +2553,7 @@ namespace shop.Migrations
                         {
                             AdId = 279,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 279",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14000,
                             SubCategoryId = 1,
                             Title = "title for advertasing N 279"
@@ -3688,11 +2562,7 @@ namespace shop.Migrations
                         {
                             AdId = 280,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 280",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14050,
                             SubCategoryId = 2,
                             Title = "title for advertasing N 280"
@@ -3701,11 +2571,7 @@ namespace shop.Migrations
                         {
                             AdId = 281,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 281",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14100,
                             SubCategoryId = 3,
                             Title = "title for advertasing N 281"
@@ -3714,11 +2580,7 @@ namespace shop.Migrations
                         {
                             AdId = 282,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 282",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14150,
                             SubCategoryId = 4,
                             Title = "title for advertasing N 282"
@@ -3727,11 +2589,7 @@ namespace shop.Migrations
                         {
                             AdId = 283,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 283",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14200,
                             SubCategoryId = 5,
                             Title = "title for advertasing N 283"
@@ -3740,11 +2598,7 @@ namespace shop.Migrations
                         {
                             AdId = 284,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 284",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14250,
                             SubCategoryId = 6,
                             Title = "title for advertasing N 284"
@@ -3753,11 +2607,7 @@ namespace shop.Migrations
                         {
                             AdId = 285,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 285",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14300,
                             SubCategoryId = 7,
                             Title = "title for advertasing N 285"
@@ -3766,11 +2616,7 @@ namespace shop.Migrations
                         {
                             AdId = 286,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 286",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14350,
                             SubCategoryId = 8,
                             Title = "title for advertasing N 286"
@@ -3779,11 +2625,7 @@ namespace shop.Migrations
                         {
                             AdId = 287,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 287",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14400,
                             SubCategoryId = 9,
                             Title = "title for advertasing N 287"
@@ -3792,11 +2634,7 @@ namespace shop.Migrations
                         {
                             AdId = 288,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 288",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14450,
                             SubCategoryId = 10,
                             Title = "title for advertasing N 288"
@@ -3805,11 +2643,7 @@ namespace shop.Migrations
                         {
                             AdId = 289,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 289",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14500,
                             SubCategoryId = 11,
                             Title = "title for advertasing N 289"
@@ -3818,11 +2652,7 @@ namespace shop.Migrations
                         {
                             AdId = 290,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 290",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14550,
                             SubCategoryId = 12,
                             Title = "title for advertasing N 290"
@@ -3831,11 +2661,7 @@ namespace shop.Migrations
                         {
                             AdId = 291,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 291",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14600,
                             SubCategoryId = 13,
                             Title = "title for advertasing N 291"
@@ -3844,11 +2670,7 @@ namespace shop.Migrations
                         {
                             AdId = 292,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 292",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14650,
                             SubCategoryId = 14,
                             Title = "title for advertasing N 292"
@@ -3857,11 +2679,7 @@ namespace shop.Migrations
                         {
                             AdId = 293,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 293",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14700,
                             SubCategoryId = 15,
                             Title = "title for advertasing N 293"
@@ -3870,11 +2688,7 @@ namespace shop.Migrations
                         {
                             AdId = 294,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 294",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14750,
                             SubCategoryId = 16,
                             Title = "title for advertasing N 294"
@@ -3883,11 +2697,7 @@ namespace shop.Migrations
                         {
                             AdId = 295,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 295",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14800,
                             SubCategoryId = 17,
                             Title = "title for advertasing N 295"
@@ -3896,11 +2706,7 @@ namespace shop.Migrations
                         {
                             AdId = 296,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 296",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14850,
                             SubCategoryId = 18,
                             Title = "title for advertasing N 296"
@@ -3909,11 +2715,7 @@ namespace shop.Migrations
                         {
                             AdId = 297,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 297",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14900,
                             SubCategoryId = 19,
                             Title = "title for advertasing N 297"
@@ -3922,11 +2724,7 @@ namespace shop.Migrations
                         {
                             AdId = 298,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 298",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 14950,
                             SubCategoryId = 20,
                             Title = "title for advertasing N 298"
@@ -3935,11 +2733,7 @@ namespace shop.Migrations
                         {
                             AdId = 299,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 299",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15000,
                             SubCategoryId = 21,
                             Title = "title for advertasing N 299"
@@ -3948,11 +2742,7 @@ namespace shop.Migrations
                         {
                             AdId = 300,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 300",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15050,
                             SubCategoryId = 22,
                             Title = "title for advertasing N 300"
@@ -3961,11 +2751,7 @@ namespace shop.Migrations
                         {
                             AdId = 301,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 301",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15100,
                             SubCategoryId = 23,
                             Title = "title for advertasing N 301"
@@ -3974,11 +2760,7 @@ namespace shop.Migrations
                         {
                             AdId = 302,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 302",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15150,
                             SubCategoryId = 24,
                             Title = "title for advertasing N 302"
@@ -3987,11 +2769,7 @@ namespace shop.Migrations
                         {
                             AdId = 303,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 303",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15200,
                             SubCategoryId = 25,
                             Title = "title for advertasing N 303"
@@ -4000,11 +2778,7 @@ namespace shop.Migrations
                         {
                             AdId = 304,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 304",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15250,
                             SubCategoryId = 26,
                             Title = "title for advertasing N 304"
@@ -4013,11 +2787,7 @@ namespace shop.Migrations
                         {
                             AdId = 305,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 305",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15300,
                             SubCategoryId = 27,
                             Title = "title for advertasing N 305"
@@ -4026,11 +2796,7 @@ namespace shop.Migrations
                         {
                             AdId = 306,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 306",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15350,
                             SubCategoryId = 28,
                             Title = "title for advertasing N 306"
@@ -4039,11 +2805,7 @@ namespace shop.Migrations
                         {
                             AdId = 307,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 307",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15400,
                             SubCategoryId = 29,
                             Title = "title for advertasing N 307"
@@ -4052,11 +2814,7 @@ namespace shop.Migrations
                         {
                             AdId = 308,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 308",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15450,
                             SubCategoryId = 30,
                             Title = "title for advertasing N 308"
@@ -4065,11 +2823,7 @@ namespace shop.Migrations
                         {
                             AdId = 309,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 309",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15500,
                             SubCategoryId = 31,
                             Title = "title for advertasing N 309"
@@ -4078,11 +2832,7 @@ namespace shop.Migrations
                         {
                             AdId = 310,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 310",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15550,
                             SubCategoryId = 32,
                             Title = "title for advertasing N 310"
@@ -4091,11 +2841,7 @@ namespace shop.Migrations
                         {
                             AdId = 311,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 311",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15600,
                             SubCategoryId = 33,
                             Title = "title for advertasing N 311"
@@ -4104,11 +2850,7 @@ namespace shop.Migrations
                         {
                             AdId = 312,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 312",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15650,
                             SubCategoryId = 34,
                             Title = "title for advertasing N 312"
@@ -4117,11 +2859,7 @@ namespace shop.Migrations
                         {
                             AdId = 313,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 313",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15700,
                             SubCategoryId = 35,
                             Title = "title for advertasing N 313"
@@ -4130,11 +2868,7 @@ namespace shop.Migrations
                         {
                             AdId = 314,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 314",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15750,
                             SubCategoryId = 36,
                             Title = "title for advertasing N 314"
@@ -4143,11 +2877,7 @@ namespace shop.Migrations
                         {
                             AdId = 315,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 315",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15800,
                             SubCategoryId = 37,
                             Title = "title for advertasing N 315"
@@ -4156,11 +2886,7 @@ namespace shop.Migrations
                         {
                             AdId = 316,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 316",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15850,
                             SubCategoryId = 38,
                             Title = "title for advertasing N 316"
@@ -4169,11 +2895,7 @@ namespace shop.Migrations
                         {
                             AdId = 317,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 317",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15900,
                             SubCategoryId = 39,
                             Title = "title for advertasing N 317"
@@ -4182,11 +2904,7 @@ namespace shop.Migrations
                         {
                             AdId = 318,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 318",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 15950,
                             SubCategoryId = 40,
                             Title = "title for advertasing N 318"
@@ -4195,11 +2913,7 @@ namespace shop.Migrations
                         {
                             AdId = 319,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 319",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16000,
                             SubCategoryId = 41,
                             Title = "title for advertasing N 319"
@@ -4208,11 +2922,7 @@ namespace shop.Migrations
                         {
                             AdId = 320,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 320",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16050,
                             SubCategoryId = 42,
                             Title = "title for advertasing N 320"
@@ -4221,11 +2931,7 @@ namespace shop.Migrations
                         {
                             AdId = 321,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 321",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16100,
                             SubCategoryId = 43,
                             Title = "title for advertasing N 321"
@@ -4234,11 +2940,7 @@ namespace shop.Migrations
                         {
                             AdId = 322,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 322",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16150,
                             SubCategoryId = 44,
                             Title = "title for advertasing N 322"
@@ -4247,11 +2949,7 @@ namespace shop.Migrations
                         {
                             AdId = 323,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 323",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16200,
                             SubCategoryId = 45,
                             Title = "title for advertasing N 323"
@@ -4260,11 +2958,7 @@ namespace shop.Migrations
                         {
                             AdId = 324,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 324",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16250,
                             SubCategoryId = 46,
                             Title = "title for advertasing N 324"
@@ -4273,11 +2967,7 @@ namespace shop.Migrations
                         {
                             AdId = 325,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 325",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16300,
                             SubCategoryId = 47,
                             Title = "title for advertasing N 325"
@@ -4286,11 +2976,7 @@ namespace shop.Migrations
                         {
                             AdId = 326,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 326",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16350,
                             SubCategoryId = 48,
                             Title = "title for advertasing N 326"
@@ -4299,11 +2985,7 @@ namespace shop.Migrations
                         {
                             AdId = 327,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 327",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 16400,
                             SubCategoryId = 49,
                             Title = "title for advertasing N 327"
@@ -4312,11 +2994,7 @@ namespace shop.Migrations
                         {
                             AdId = 328,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 328",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16450,
                             SubCategoryId = 50,
                             Title = "title for advertasing N 328"
@@ -4325,11 +3003,7 @@ namespace shop.Migrations
                         {
                             AdId = 329,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 329",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16500,
                             SubCategoryId = 51,
                             Title = "title for advertasing N 329"
@@ -4338,11 +3012,7 @@ namespace shop.Migrations
                         {
                             AdId = 330,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 330",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16550,
                             SubCategoryId = 52,
                             Title = "title for advertasing N 330"
@@ -4351,11 +3021,7 @@ namespace shop.Migrations
                         {
                             AdId = 331,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 331",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16600,
                             SubCategoryId = 53,
                             Title = "title for advertasing N 331"
@@ -4364,11 +3030,7 @@ namespace shop.Migrations
                         {
                             AdId = 332,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 332",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16650,
                             SubCategoryId = 54,
                             Title = "title for advertasing N 332"
@@ -4377,11 +3039,7 @@ namespace shop.Migrations
                         {
                             AdId = 333,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 333",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16700,
                             SubCategoryId = 55,
                             Title = "title for advertasing N 333"
@@ -4390,11 +3048,7 @@ namespace shop.Migrations
                         {
                             AdId = 334,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 334",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16750,
                             SubCategoryId = 56,
                             Title = "title for advertasing N 334"
@@ -4403,11 +3057,7 @@ namespace shop.Migrations
                         {
                             AdId = 335,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 335",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16800,
                             SubCategoryId = 57,
                             Title = "title for advertasing N 335"
@@ -4416,11 +3066,7 @@ namespace shop.Migrations
                         {
                             AdId = 336,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 336",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16850,
                             SubCategoryId = 58,
                             Title = "title for advertasing N 336"
@@ -4429,11 +3075,7 @@ namespace shop.Migrations
                         {
                             AdId = 337,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 337",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16900,
                             SubCategoryId = 59,
                             Title = "title for advertasing N 337"
@@ -4442,11 +3084,7 @@ namespace shop.Migrations
                         {
                             AdId = 338,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 338",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 16950,
                             SubCategoryId = 60,
                             Title = "title for advertasing N 338"
@@ -4455,11 +3093,7 @@ namespace shop.Migrations
                         {
                             AdId = 339,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 339",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17000,
                             SubCategoryId = 61,
                             Title = "title for advertasing N 339"
@@ -4468,11 +3102,7 @@ namespace shop.Migrations
                         {
                             AdId = 340,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 340",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17050,
                             SubCategoryId = 62,
                             Title = "title for advertasing N 340"
@@ -4481,11 +3111,7 @@ namespace shop.Migrations
                         {
                             AdId = 341,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 341",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17100,
                             SubCategoryId = 63,
                             Title = "title for advertasing N 341"
@@ -4494,11 +3120,7 @@ namespace shop.Migrations
                         {
                             AdId = 342,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 342",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17150,
                             SubCategoryId = 64,
                             Title = "title for advertasing N 342"
@@ -4507,11 +3129,7 @@ namespace shop.Migrations
                         {
                             AdId = 343,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 343",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17200,
                             SubCategoryId = 65,
                             Title = "title for advertasing N 343"
@@ -4520,11 +3138,7 @@ namespace shop.Migrations
                         {
                             AdId = 344,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 344",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17250,
                             SubCategoryId = 66,
                             Title = "title for advertasing N 344"
@@ -4533,11 +3147,7 @@ namespace shop.Migrations
                         {
                             AdId = 345,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 345",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17300,
                             SubCategoryId = 67,
                             Title = "title for advertasing N 345"
@@ -4546,11 +3156,7 @@ namespace shop.Migrations
                         {
                             AdId = 346,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 346",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17350,
                             SubCategoryId = 68,
                             Title = "title for advertasing N 346"
@@ -4559,11 +3165,7 @@ namespace shop.Migrations
                         {
                             AdId = 347,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 347",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17400,
                             SubCategoryId = 69,
                             Title = "title for advertasing N 347"
@@ -4572,11 +3174,7 @@ namespace shop.Migrations
                         {
                             AdId = 348,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 348",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17450,
                             SubCategoryId = 70,
                             Title = "title for advertasing N 348"
@@ -4585,11 +3183,7 @@ namespace shop.Migrations
                         {
                             AdId = 349,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 349",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17500,
                             SubCategoryId = 71,
                             Title = "title for advertasing N 349"
@@ -4598,11 +3192,7 @@ namespace shop.Migrations
                         {
                             AdId = 350,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 350",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17550,
                             SubCategoryId = 72,
                             Title = "title for advertasing N 350"
@@ -4611,11 +3201,7 @@ namespace shop.Migrations
                         {
                             AdId = 351,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 351",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17600,
                             SubCategoryId = 73,
                             Title = "title for advertasing N 351"
@@ -4624,11 +3210,7 @@ namespace shop.Migrations
                         {
                             AdId = 352,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 352",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17650,
                             SubCategoryId = 74,
                             Title = "title for advertasing N 352"
@@ -4637,11 +3219,7 @@ namespace shop.Migrations
                         {
                             AdId = 353,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 353",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17700,
                             SubCategoryId = 75,
                             Title = "title for advertasing N 353"
@@ -4650,11 +3228,7 @@ namespace shop.Migrations
                         {
                             AdId = 354,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 354",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17750,
                             SubCategoryId = 76,
                             Title = "title for advertasing N 354"
@@ -4663,11 +3237,7 @@ namespace shop.Migrations
                         {
                             AdId = 355,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 355",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17800,
                             SubCategoryId = 77,
                             Title = "title for advertasing N 355"
@@ -4676,11 +3246,7 @@ namespace shop.Migrations
                         {
                             AdId = 356,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 356",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17850,
                             SubCategoryId = 78,
                             Title = "title for advertasing N 356"
@@ -4689,11 +3255,7 @@ namespace shop.Migrations
                         {
                             AdId = 357,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 357",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17900,
                             SubCategoryId = 79,
                             Title = "title for advertasing N 357"
@@ -4702,11 +3264,7 @@ namespace shop.Migrations
                         {
                             AdId = 358,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 358",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 17950,
                             SubCategoryId = 80,
                             Title = "title for advertasing N 358"
@@ -4715,11 +3273,7 @@ namespace shop.Migrations
                         {
                             AdId = 359,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 359",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18000,
                             SubCategoryId = 81,
                             Title = "title for advertasing N 359"
@@ -4728,11 +3282,7 @@ namespace shop.Migrations
                         {
                             AdId = 360,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 360",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18050,
                             SubCategoryId = 82,
                             Title = "title for advertasing N 360"
@@ -4741,11 +3291,7 @@ namespace shop.Migrations
                         {
                             AdId = 361,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 361",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18100,
                             SubCategoryId = 83,
                             Title = "title for advertasing N 361"
@@ -4754,11 +3300,7 @@ namespace shop.Migrations
                         {
                             AdId = 362,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 362",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18150,
                             SubCategoryId = 84,
                             Title = "title for advertasing N 362"
@@ -4767,11 +3309,7 @@ namespace shop.Migrations
                         {
                             AdId = 363,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 363",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18200,
                             SubCategoryId = 85,
                             Title = "title for advertasing N 363"
@@ -4780,11 +3318,7 @@ namespace shop.Migrations
                         {
                             AdId = 364,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 364",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18250,
                             SubCategoryId = 86,
                             Title = "title for advertasing N 364"
@@ -4793,11 +3327,7 @@ namespace shop.Migrations
                         {
                             AdId = 365,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 365",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18300,
                             SubCategoryId = 87,
                             Title = "title for advertasing N 365"
@@ -4806,11 +3336,7 @@ namespace shop.Migrations
                         {
                             AdId = 366,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 366",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18350,
                             SubCategoryId = 88,
                             Title = "title for advertasing N 366"
@@ -4819,11 +3345,7 @@ namespace shop.Migrations
                         {
                             AdId = 367,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 367",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18400,
                             SubCategoryId = 89,
                             Title = "title for advertasing N 367"
@@ -4832,11 +3354,7 @@ namespace shop.Migrations
                         {
                             AdId = 368,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 368",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18450,
                             SubCategoryId = 90,
                             Title = "title for advertasing N 368"
@@ -4845,11 +3363,7 @@ namespace shop.Migrations
                         {
                             AdId = 369,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 369",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18500,
                             SubCategoryId = 91,
                             Title = "title for advertasing N 369"
@@ -4858,11 +3372,7 @@ namespace shop.Migrations
                         {
                             AdId = 370,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 370",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18550,
                             SubCategoryId = 92,
                             Title = "title for advertasing N 370"
@@ -4871,11 +3381,7 @@ namespace shop.Migrations
                         {
                             AdId = 371,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 371",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18600,
                             SubCategoryId = 93,
                             Title = "title for advertasing N 371"
@@ -4884,11 +3390,7 @@ namespace shop.Migrations
                         {
                             AdId = 372,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 372",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18650,
                             SubCategoryId = 94,
                             Title = "title for advertasing N 372"
@@ -4897,11 +3399,7 @@ namespace shop.Migrations
                         {
                             AdId = 373,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 373",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18700,
                             SubCategoryId = 95,
                             Title = "title for advertasing N 373"
@@ -4910,11 +3408,7 @@ namespace shop.Migrations
                         {
                             AdId = 374,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 374",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18750,
                             SubCategoryId = 96,
                             Title = "title for advertasing N 374"
@@ -4923,11 +3417,7 @@ namespace shop.Migrations
                         {
                             AdId = 375,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 375",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18800,
                             SubCategoryId = 97,
                             Title = "title for advertasing N 375"
@@ -4936,11 +3426,7 @@ namespace shop.Migrations
                         {
                             AdId = 376,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 376",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18850,
                             SubCategoryId = 98,
                             Title = "title for advertasing N 376"
@@ -4949,11 +3435,7 @@ namespace shop.Migrations
                         {
                             AdId = 377,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 377",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 18900,
                             SubCategoryId = 99,
                             Title = "title for advertasing N 377"
@@ -4962,11 +3444,7 @@ namespace shop.Migrations
                         {
                             AdId = 378,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 378",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 18950,
                             SubCategoryId = 100,
                             Title = "title for advertasing N 378"
@@ -4975,11 +3453,7 @@ namespace shop.Migrations
                         {
                             AdId = 379,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 379",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19000,
                             SubCategoryId = 101,
                             Title = "title for advertasing N 379"
@@ -4988,11 +3462,7 @@ namespace shop.Migrations
                         {
                             AdId = 380,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 380",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19050,
                             SubCategoryId = 102,
                             Title = "title for advertasing N 380"
@@ -5001,11 +3471,7 @@ namespace shop.Migrations
                         {
                             AdId = 381,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 381",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19100,
                             SubCategoryId = 103,
                             Title = "title for advertasing N 381"
@@ -5014,11 +3480,7 @@ namespace shop.Migrations
                         {
                             AdId = 382,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 382",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19150,
                             SubCategoryId = 104,
                             Title = "title for advertasing N 382"
@@ -5027,11 +3489,7 @@ namespace shop.Migrations
                         {
                             AdId = 383,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 383",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19200,
                             SubCategoryId = 105,
                             Title = "title for advertasing N 383"
@@ -5040,11 +3498,7 @@ namespace shop.Migrations
                         {
                             AdId = 384,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 384",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19250,
                             SubCategoryId = 106,
                             Title = "title for advertasing N 384"
@@ -5053,11 +3507,7 @@ namespace shop.Migrations
                         {
                             AdId = 385,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 385",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19300,
                             SubCategoryId = 107,
                             Title = "title for advertasing N 385"
@@ -5066,11 +3516,7 @@ namespace shop.Migrations
                         {
                             AdId = 386,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 386",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19350,
                             SubCategoryId = 108,
                             Title = "title for advertasing N 386"
@@ -5079,11 +3525,7 @@ namespace shop.Migrations
                         {
                             AdId = 387,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 387",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19400,
                             SubCategoryId = 109,
                             Title = "title for advertasing N 387"
@@ -5092,11 +3534,7 @@ namespace shop.Migrations
                         {
                             AdId = 388,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 388",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19450,
                             SubCategoryId = 110,
                             Title = "title for advertasing N 388"
@@ -5105,11 +3543,7 @@ namespace shop.Migrations
                         {
                             AdId = 389,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 389",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19500,
                             SubCategoryId = 111,
                             Title = "title for advertasing N 389"
@@ -5118,11 +3552,7 @@ namespace shop.Migrations
                         {
                             AdId = 390,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 390",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19550,
                             SubCategoryId = 112,
                             Title = "title for advertasing N 390"
@@ -5131,11 +3561,7 @@ namespace shop.Migrations
                         {
                             AdId = 391,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 391",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19600,
                             SubCategoryId = 113,
                             Title = "title for advertasing N 391"
@@ -5144,11 +3570,7 @@ namespace shop.Migrations
                         {
                             AdId = 392,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 392",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19650,
                             SubCategoryId = 114,
                             Title = "title for advertasing N 392"
@@ -5157,11 +3579,7 @@ namespace shop.Migrations
                         {
                             AdId = 393,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 393",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19700,
                             SubCategoryId = 115,
                             Title = "title for advertasing N 393"
@@ -5170,11 +3588,7 @@ namespace shop.Migrations
                         {
                             AdId = 394,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 394",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19750,
                             SubCategoryId = 116,
                             Title = "title for advertasing N 394"
@@ -5183,11 +3597,7 @@ namespace shop.Migrations
                         {
                             AdId = 395,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 395",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19800,
                             SubCategoryId = 117,
                             Title = "title for advertasing N 395"
@@ -5196,11 +3606,7 @@ namespace shop.Migrations
                         {
                             AdId = 396,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 396",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19850,
                             SubCategoryId = 118,
                             Title = "title for advertasing N 396"
@@ -5209,11 +3615,7 @@ namespace shop.Migrations
                         {
                             AdId = 397,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 397",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19900,
                             SubCategoryId = 119,
                             Title = "title for advertasing N 397"
@@ -5222,11 +3624,7 @@ namespace shop.Migrations
                         {
                             AdId = 398,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 398",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 19950,
                             SubCategoryId = 120,
                             Title = "title for advertasing N 398"
@@ -5235,11 +3633,7 @@ namespace shop.Migrations
                         {
                             AdId = 399,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 399",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20000,
                             SubCategoryId = 121,
                             Title = "title for advertasing N 399"
@@ -5248,11 +3642,7 @@ namespace shop.Migrations
                         {
                             AdId = 400,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 400",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20050,
                             SubCategoryId = 122,
                             Title = "title for advertasing N 400"
@@ -5261,11 +3651,7 @@ namespace shop.Migrations
                         {
                             AdId = 401,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 401",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20100,
                             SubCategoryId = 123,
                             Title = "title for advertasing N 401"
@@ -5274,11 +3660,7 @@ namespace shop.Migrations
                         {
                             AdId = 402,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 402",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20150,
                             SubCategoryId = 124,
                             Title = "title for advertasing N 402"
@@ -5287,11 +3669,7 @@ namespace shop.Migrations
                         {
                             AdId = 403,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 403",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20200,
                             SubCategoryId = 125,
                             Title = "title for advertasing N 403"
@@ -5300,11 +3678,7 @@ namespace shop.Migrations
                         {
                             AdId = 404,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 404",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20250,
                             SubCategoryId = 126,
                             Title = "title for advertasing N 404"
@@ -5313,11 +3687,7 @@ namespace shop.Migrations
                         {
                             AdId = 405,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 405",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20300,
                             SubCategoryId = 127,
                             Title = "title for advertasing N 405"
@@ -5326,11 +3696,7 @@ namespace shop.Migrations
                         {
                             AdId = 406,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 406",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20350,
                             SubCategoryId = 128,
                             Title = "title for advertasing N 406"
@@ -5339,11 +3705,7 @@ namespace shop.Migrations
                         {
                             AdId = 407,
                             CategoryId = 11,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 407",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20400,
                             SubCategoryId = 129,
                             Title = "title for advertasing N 407"
@@ -5352,11 +3714,7 @@ namespace shop.Migrations
                         {
                             AdId = 408,
                             CategoryId = 1,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 408",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20450,
                             SubCategoryId = 130,
                             Title = "title for advertasing N 408"
@@ -5365,11 +3723,7 @@ namespace shop.Migrations
                         {
                             AdId = 409,
                             CategoryId = 2,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 409",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20500,
                             SubCategoryId = 131,
                             Title = "title for advertasing N 409"
@@ -5378,11 +3732,7 @@ namespace shop.Migrations
                         {
                             AdId = 410,
                             CategoryId = 3,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 410",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20550,
                             SubCategoryId = 132,
                             Title = "title for advertasing N 410"
@@ -5391,11 +3741,7 @@ namespace shop.Migrations
                         {
                             AdId = 411,
                             CategoryId = 4,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 411",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20600,
                             SubCategoryId = 133,
                             Title = "title for advertasing N 411"
@@ -5404,11 +3750,7 @@ namespace shop.Migrations
                         {
                             AdId = 412,
                             CategoryId = 5,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 412",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20650,
                             SubCategoryId = 134,
                             Title = "title for advertasing N 412"
@@ -5417,11 +3759,7 @@ namespace shop.Migrations
                         {
                             AdId = 413,
                             CategoryId = 6,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 413",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20700,
                             SubCategoryId = 135,
                             Title = "title for advertasing N 413"
@@ -5430,11 +3768,7 @@ namespace shop.Migrations
                         {
                             AdId = 414,
                             CategoryId = 7,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 414",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20750,
                             SubCategoryId = 136,
                             Title = "title for advertasing N 414"
@@ -5443,11 +3777,7 @@ namespace shop.Migrations
                         {
                             AdId = 415,
                             CategoryId = 8,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 415",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20800,
                             SubCategoryId = 137,
                             Title = "title for advertasing N 415"
@@ -5456,11 +3786,7 @@ namespace shop.Migrations
                         {
                             AdId = 416,
                             CategoryId = 9,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 416",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20850,
                             SubCategoryId = 138,
                             Title = "title for advertasing N 416"
@@ -5469,11 +3795,7 @@ namespace shop.Migrations
                         {
                             AdId = 417,
                             CategoryId = 10,
-                            City = "Lviv",
-                            ContactPerson = "Bon Jovi",
                             Desc = "description for advertising number 417",
-                            Email = "bonJovi@gmail.com",
-                            Phone = "097-678-58-44",
                             Price = 20900,
                             SubCategoryId = 139,
                             Title = "title for advertasing N 417"
@@ -5482,11 +3804,7 @@ namespace shop.Migrations
                         {
                             AdId = 418,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 418",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 20950,
                             SubCategoryId = 1,
                             Title = "title for advertasing N 418"
@@ -5495,11 +3813,7 @@ namespace shop.Migrations
                         {
                             AdId = 419,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 419",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21000,
                             SubCategoryId = 2,
                             Title = "title for advertasing N 419"
@@ -5508,11 +3822,7 @@ namespace shop.Migrations
                         {
                             AdId = 420,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 420",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21050,
                             SubCategoryId = 3,
                             Title = "title for advertasing N 420"
@@ -5521,11 +3831,7 @@ namespace shop.Migrations
                         {
                             AdId = 421,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 421",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21100,
                             SubCategoryId = 4,
                             Title = "title for advertasing N 421"
@@ -5534,11 +3840,7 @@ namespace shop.Migrations
                         {
                             AdId = 422,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 422",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21150,
                             SubCategoryId = 5,
                             Title = "title for advertasing N 422"
@@ -5547,11 +3849,7 @@ namespace shop.Migrations
                         {
                             AdId = 423,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 423",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21200,
                             SubCategoryId = 6,
                             Title = "title for advertasing N 423"
@@ -5560,11 +3858,7 @@ namespace shop.Migrations
                         {
                             AdId = 424,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 424",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21250,
                             SubCategoryId = 7,
                             Title = "title for advertasing N 424"
@@ -5573,11 +3867,7 @@ namespace shop.Migrations
                         {
                             AdId = 425,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 425",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21300,
                             SubCategoryId = 8,
                             Title = "title for advertasing N 425"
@@ -5586,11 +3876,7 @@ namespace shop.Migrations
                         {
                             AdId = 426,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 426",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21350,
                             SubCategoryId = 9,
                             Title = "title for advertasing N 426"
@@ -5599,11 +3885,7 @@ namespace shop.Migrations
                         {
                             AdId = 427,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 427",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21400,
                             SubCategoryId = 10,
                             Title = "title for advertasing N 427"
@@ -5612,11 +3894,7 @@ namespace shop.Migrations
                         {
                             AdId = 428,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 428",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21450,
                             SubCategoryId = 11,
                             Title = "title for advertasing N 428"
@@ -5625,11 +3903,7 @@ namespace shop.Migrations
                         {
                             AdId = 429,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 429",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21500,
                             SubCategoryId = 12,
                             Title = "title for advertasing N 429"
@@ -5638,11 +3912,7 @@ namespace shop.Migrations
                         {
                             AdId = 430,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 430",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21550,
                             SubCategoryId = 13,
                             Title = "title for advertasing N 430"
@@ -5651,11 +3921,7 @@ namespace shop.Migrations
                         {
                             AdId = 431,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 431",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21600,
                             SubCategoryId = 14,
                             Title = "title for advertasing N 431"
@@ -5664,11 +3930,7 @@ namespace shop.Migrations
                         {
                             AdId = 432,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 432",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21650,
                             SubCategoryId = 15,
                             Title = "title for advertasing N 432"
@@ -5677,11 +3939,7 @@ namespace shop.Migrations
                         {
                             AdId = 433,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 433",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21700,
                             SubCategoryId = 16,
                             Title = "title for advertasing N 433"
@@ -5690,11 +3948,7 @@ namespace shop.Migrations
                         {
                             AdId = 434,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 434",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21750,
                             SubCategoryId = 17,
                             Title = "title for advertasing N 434"
@@ -5703,11 +3957,7 @@ namespace shop.Migrations
                         {
                             AdId = 435,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 435",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21800,
                             SubCategoryId = 18,
                             Title = "title for advertasing N 435"
@@ -5716,11 +3966,7 @@ namespace shop.Migrations
                         {
                             AdId = 436,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 436",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21850,
                             SubCategoryId = 19,
                             Title = "title for advertasing N 436"
@@ -5729,11 +3975,7 @@ namespace shop.Migrations
                         {
                             AdId = 437,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 437",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21900,
                             SubCategoryId = 20,
                             Title = "title for advertasing N 437"
@@ -5742,11 +3984,7 @@ namespace shop.Migrations
                         {
                             AdId = 438,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 438",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 21950,
                             SubCategoryId = 21,
                             Title = "title for advertasing N 438"
@@ -5755,11 +3993,7 @@ namespace shop.Migrations
                         {
                             AdId = 439,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 439",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22000,
                             SubCategoryId = 22,
                             Title = "title for advertasing N 439"
@@ -5768,11 +4002,7 @@ namespace shop.Migrations
                         {
                             AdId = 440,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 440",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22050,
                             SubCategoryId = 23,
                             Title = "title for advertasing N 440"
@@ -5781,11 +4011,7 @@ namespace shop.Migrations
                         {
                             AdId = 441,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 441",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22100,
                             SubCategoryId = 24,
                             Title = "title for advertasing N 441"
@@ -5794,11 +4020,7 @@ namespace shop.Migrations
                         {
                             AdId = 442,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 442",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22150,
                             SubCategoryId = 25,
                             Title = "title for advertasing N 442"
@@ -5807,11 +4029,7 @@ namespace shop.Migrations
                         {
                             AdId = 443,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 443",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22200,
                             SubCategoryId = 26,
                             Title = "title for advertasing N 443"
@@ -5820,11 +4038,7 @@ namespace shop.Migrations
                         {
                             AdId = 444,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 444",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22250,
                             SubCategoryId = 27,
                             Title = "title for advertasing N 444"
@@ -5833,11 +4047,7 @@ namespace shop.Migrations
                         {
                             AdId = 445,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 445",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22300,
                             SubCategoryId = 28,
                             Title = "title for advertasing N 445"
@@ -5846,11 +4056,7 @@ namespace shop.Migrations
                         {
                             AdId = 446,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 446",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22350,
                             SubCategoryId = 29,
                             Title = "title for advertasing N 446"
@@ -5859,11 +4065,7 @@ namespace shop.Migrations
                         {
                             AdId = 447,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 447",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22400,
                             SubCategoryId = 30,
                             Title = "title for advertasing N 447"
@@ -5872,11 +4074,7 @@ namespace shop.Migrations
                         {
                             AdId = 448,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 448",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22450,
                             SubCategoryId = 31,
                             Title = "title for advertasing N 448"
@@ -5885,11 +4083,7 @@ namespace shop.Migrations
                         {
                             AdId = 449,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 449",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22500,
                             SubCategoryId = 32,
                             Title = "title for advertasing N 449"
@@ -5898,11 +4092,7 @@ namespace shop.Migrations
                         {
                             AdId = 450,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 450",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22550,
                             SubCategoryId = 33,
                             Title = "title for advertasing N 450"
@@ -5911,11 +4101,7 @@ namespace shop.Migrations
                         {
                             AdId = 451,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 451",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22600,
                             SubCategoryId = 34,
                             Title = "title for advertasing N 451"
@@ -5924,11 +4110,7 @@ namespace shop.Migrations
                         {
                             AdId = 452,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 452",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22650,
                             SubCategoryId = 35,
                             Title = "title for advertasing N 452"
@@ -5937,11 +4119,7 @@ namespace shop.Migrations
                         {
                             AdId = 453,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 453",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22700,
                             SubCategoryId = 36,
                             Title = "title for advertasing N 453"
@@ -5950,11 +4128,7 @@ namespace shop.Migrations
                         {
                             AdId = 454,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 454",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22750,
                             SubCategoryId = 37,
                             Title = "title for advertasing N 454"
@@ -5963,11 +4137,7 @@ namespace shop.Migrations
                         {
                             AdId = 455,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 455",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22800,
                             SubCategoryId = 38,
                             Title = "title for advertasing N 455"
@@ -5976,11 +4146,7 @@ namespace shop.Migrations
                         {
                             AdId = 456,
                             CategoryId = 5,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 456",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22850,
                             SubCategoryId = 39,
                             Title = "title for advertasing N 456"
@@ -5989,11 +4155,7 @@ namespace shop.Migrations
                         {
                             AdId = 457,
                             CategoryId = 6,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 457",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22900,
                             SubCategoryId = 40,
                             Title = "title for advertasing N 457"
@@ -6002,11 +4164,7 @@ namespace shop.Migrations
                         {
                             AdId = 458,
                             CategoryId = 7,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 458",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 22950,
                             SubCategoryId = 41,
                             Title = "title for advertasing N 458"
@@ -6015,11 +4173,7 @@ namespace shop.Migrations
                         {
                             AdId = 459,
                             CategoryId = 8,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 459",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23000,
                             SubCategoryId = 42,
                             Title = "title for advertasing N 459"
@@ -6028,11 +4182,7 @@ namespace shop.Migrations
                         {
                             AdId = 460,
                             CategoryId = 9,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 460",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23050,
                             SubCategoryId = 43,
                             Title = "title for advertasing N 460"
@@ -6041,11 +4191,7 @@ namespace shop.Migrations
                         {
                             AdId = 461,
                             CategoryId = 10,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 461",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23100,
                             SubCategoryId = 44,
                             Title = "title for advertasing N 461"
@@ -6054,11 +4200,7 @@ namespace shop.Migrations
                         {
                             AdId = 462,
                             CategoryId = 11,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 462",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23150,
                             SubCategoryId = 45,
                             Title = "title for advertasing N 462"
@@ -6067,11 +4209,7 @@ namespace shop.Migrations
                         {
                             AdId = 463,
                             CategoryId = 1,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 463",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23200,
                             SubCategoryId = 46,
                             Title = "title for advertasing N 463"
@@ -6080,11 +4218,7 @@ namespace shop.Migrations
                         {
                             AdId = 464,
                             CategoryId = 2,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 464",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23250,
                             SubCategoryId = 47,
                             Title = "title for advertasing N 464"
@@ -6093,11 +4227,7 @@ namespace shop.Migrations
                         {
                             AdId = 465,
                             CategoryId = 3,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 465",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23300,
                             SubCategoryId = 48,
                             Title = "title for advertasing N 465"
@@ -6106,11 +4236,7 @@ namespace shop.Migrations
                         {
                             AdId = 466,
                             CategoryId = 4,
-                            City = "Kiev",
-                            ContactPerson = "Roberto Mayers",
                             Desc = "description for advertising number 466",
-                            Email = "roberto@gmail.com",
-                            Phone = "096-456-56-58",
                             Price = 23350,
                             SubCategoryId = 49,
                             Title = "title for advertasing N 466"
@@ -6119,11 +4245,7 @@ namespace shop.Migrations
                         {
                             AdId = 467,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 467",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23400,
                             SubCategoryId = 50,
                             Title = "title for advertasing N 467"
@@ -6132,11 +4254,7 @@ namespace shop.Migrations
                         {
                             AdId = 468,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 468",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23450,
                             SubCategoryId = 51,
                             Title = "title for advertasing N 468"
@@ -6145,11 +4263,7 @@ namespace shop.Migrations
                         {
                             AdId = 469,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 469",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23500,
                             SubCategoryId = 52,
                             Title = "title for advertasing N 469"
@@ -6158,11 +4272,7 @@ namespace shop.Migrations
                         {
                             AdId = 470,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 470",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23550,
                             SubCategoryId = 53,
                             Title = "title for advertasing N 470"
@@ -6171,11 +4281,7 @@ namespace shop.Migrations
                         {
                             AdId = 471,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 471",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23600,
                             SubCategoryId = 54,
                             Title = "title for advertasing N 471"
@@ -6184,11 +4290,7 @@ namespace shop.Migrations
                         {
                             AdId = 472,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 472",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23650,
                             SubCategoryId = 55,
                             Title = "title for advertasing N 472"
@@ -6197,11 +4299,7 @@ namespace shop.Migrations
                         {
                             AdId = 473,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 473",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23700,
                             SubCategoryId = 56,
                             Title = "title for advertasing N 473"
@@ -6210,11 +4308,7 @@ namespace shop.Migrations
                         {
                             AdId = 474,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 474",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23750,
                             SubCategoryId = 57,
                             Title = "title for advertasing N 474"
@@ -6223,11 +4317,7 @@ namespace shop.Migrations
                         {
                             AdId = 475,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 475",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23800,
                             SubCategoryId = 58,
                             Title = "title for advertasing N 475"
@@ -6236,11 +4326,7 @@ namespace shop.Migrations
                         {
                             AdId = 476,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 476",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23850,
                             SubCategoryId = 59,
                             Title = "title for advertasing N 476"
@@ -6249,11 +4335,7 @@ namespace shop.Migrations
                         {
                             AdId = 477,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 477",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23900,
                             SubCategoryId = 60,
                             Title = "title for advertasing N 477"
@@ -6262,11 +4344,7 @@ namespace shop.Migrations
                         {
                             AdId = 478,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 478",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 23950,
                             SubCategoryId = 61,
                             Title = "title for advertasing N 478"
@@ -6275,11 +4353,7 @@ namespace shop.Migrations
                         {
                             AdId = 479,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 479",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24000,
                             SubCategoryId = 62,
                             Title = "title for advertasing N 479"
@@ -6288,11 +4362,7 @@ namespace shop.Migrations
                         {
                             AdId = 480,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 480",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24050,
                             SubCategoryId = 63,
                             Title = "title for advertasing N 480"
@@ -6301,11 +4371,7 @@ namespace shop.Migrations
                         {
                             AdId = 481,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 481",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24100,
                             SubCategoryId = 64,
                             Title = "title for advertasing N 481"
@@ -6314,11 +4380,7 @@ namespace shop.Migrations
                         {
                             AdId = 482,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 482",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24150,
                             SubCategoryId = 65,
                             Title = "title for advertasing N 482"
@@ -6327,11 +4389,7 @@ namespace shop.Migrations
                         {
                             AdId = 483,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 483",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24200,
                             SubCategoryId = 66,
                             Title = "title for advertasing N 483"
@@ -6340,11 +4398,7 @@ namespace shop.Migrations
                         {
                             AdId = 484,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 484",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24250,
                             SubCategoryId = 67,
                             Title = "title for advertasing N 484"
@@ -6353,11 +4407,7 @@ namespace shop.Migrations
                         {
                             AdId = 485,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 485",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24300,
                             SubCategoryId = 68,
                             Title = "title for advertasing N 485"
@@ -6366,11 +4416,7 @@ namespace shop.Migrations
                         {
                             AdId = 486,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 486",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24350,
                             SubCategoryId = 69,
                             Title = "title for advertasing N 486"
@@ -6379,11 +4425,7 @@ namespace shop.Migrations
                         {
                             AdId = 487,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 487",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24400,
                             SubCategoryId = 70,
                             Title = "title for advertasing N 487"
@@ -6392,11 +4434,7 @@ namespace shop.Migrations
                         {
                             AdId = 488,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 488",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24450,
                             SubCategoryId = 71,
                             Title = "title for advertasing N 488"
@@ -6405,11 +4443,7 @@ namespace shop.Migrations
                         {
                             AdId = 489,
                             CategoryId = 5,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 489",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24500,
                             SubCategoryId = 72,
                             Title = "title for advertasing N 489"
@@ -6418,11 +4452,7 @@ namespace shop.Migrations
                         {
                             AdId = 490,
                             CategoryId = 6,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 490",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24550,
                             SubCategoryId = 73,
                             Title = "title for advertasing N 490"
@@ -6431,11 +4461,7 @@ namespace shop.Migrations
                         {
                             AdId = 491,
                             CategoryId = 7,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 491",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24600,
                             SubCategoryId = 74,
                             Title = "title for advertasing N 491"
@@ -6444,11 +4470,7 @@ namespace shop.Migrations
                         {
                             AdId = 492,
                             CategoryId = 8,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 492",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24650,
                             SubCategoryId = 75,
                             Title = "title for advertasing N 492"
@@ -6457,11 +4479,7 @@ namespace shop.Migrations
                         {
                             AdId = 493,
                             CategoryId = 9,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 493",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24700,
                             SubCategoryId = 76,
                             Title = "title for advertasing N 493"
@@ -6470,11 +4488,7 @@ namespace shop.Migrations
                         {
                             AdId = 494,
                             CategoryId = 10,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 494",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24750,
                             SubCategoryId = 77,
                             Title = "title for advertasing N 494"
@@ -6483,11 +4497,7 @@ namespace shop.Migrations
                         {
                             AdId = 495,
                             CategoryId = 11,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 495",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24800,
                             SubCategoryId = 78,
                             Title = "title for advertasing N 495"
@@ -6496,11 +4506,7 @@ namespace shop.Migrations
                         {
                             AdId = 496,
                             CategoryId = 1,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 496",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24850,
                             SubCategoryId = 79,
                             Title = "title for advertasing N 496"
@@ -6509,11 +4515,7 @@ namespace shop.Migrations
                         {
                             AdId = 497,
                             CategoryId = 2,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 497",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24900,
                             SubCategoryId = 80,
                             Title = "title for advertasing N 497"
@@ -6522,11 +4524,7 @@ namespace shop.Migrations
                         {
                             AdId = 498,
                             CategoryId = 3,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 498",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 24950,
                             SubCategoryId = 81,
                             Title = "title for advertasing N 498"
@@ -6535,11 +4533,7 @@ namespace shop.Migrations
                         {
                             AdId = 499,
                             CategoryId = 4,
-                            City = "Kharkov",
-                            ContactPerson = "Mike Johns",
                             Desc = "description for advertising number 499",
-                            Email = "mike@gmail.com",
-                            Phone = "095-622-13-31",
                             Price = 25000,
                             SubCategoryId = 82,
                             Title = "title for advertasing N 499"

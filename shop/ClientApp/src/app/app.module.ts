@@ -18,6 +18,7 @@ import { SearchComponent } from './search/search.component';
 import { PostNewAdComponent } from './post-new-ad/post-new-ad.component';
 import { ErrorComponent } from './error/error.component';
 import { CategoryPipe } from './category.pipe';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CategoryPipe } from './category.pipe';
     SearchComponent,
     PostNewAdComponent,
     ErrorComponent,
-    CategoryPipe
+    CategoryPipe,
+    SuccessComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -42,6 +44,7 @@ import { CategoryPipe } from './category.pipe';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'details', component: DetailsComponent },
       { path: 'search', component: SearchComponent },
+      { path: 'success', component: SuccessComponent },
       { path: 'post-new-ad', component: PostNewAdComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },

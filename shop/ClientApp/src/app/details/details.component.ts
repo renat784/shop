@@ -20,10 +20,4 @@ constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private route
 }
 
 
-interface Ad {
-  adId: number;
-  title: string;
-  price: number;
-  desc: string;
-  subCategoryId: number;
-}
+

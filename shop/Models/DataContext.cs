@@ -189,14 +189,72 @@ namespace shop.Models
 
             );
 
-            modelBuilder.Entity<Ad>().HasData(
-                new Ad() { AdId = 1, Desc = "1 room apartmant for cheap price", Price = 10000, SubCategoryId = 11, CategoryId = 2, Title = "1 room apartmant" },
-                new Ad() { AdId = 2, Desc = "2 room apartmant for cheap price", Price = 20000, SubCategoryId = 11, CategoryId = 2, Title = "2 room apartmant" },
-                new Ad() { AdId = 3, Desc = "3 room apartmant for cheap price", Price = 30000, SubCategoryId = 11, CategoryId = 2, Title = "3 room apartmant" },
 
-                new Ad() { AdId = 4, Desc = "small house  for cheap price", Price = 50000, SubCategoryId = 12, CategoryId = 2, Title = "small house" },
-                new Ad() { AdId = 5, Desc = "Big luxury house  for great price", Price = 100000, SubCategoryId = 12, CategoryId = 2, Title = "big house" }
-            );
+            modelBuilder.Entity<Ad>().HasData(GenerateData());
+        }
+
+        private Ad[] GenerateData()
+        {
+            List<Ad> ads = new List<Ad>();
+
+            int cat = 1;
+            int subcat = 1;
+            int price = 100;
+            string city = "";
+            string phone = "";
+            string email = "";
+            string contact = "";
+
+            for (int i = 1; i < 500; i++)
+            {
+
+                if (cat == 12) cat = 1;
+                if (subcat == 140) subcat = 1;
+
+                if (subcat < 50)  { 
+                    city = "Kiev";
+                    phone = "096-456-56-58";
+                    email = "roberto@gmail.com";
+                    contact = "Roberto Mayers";
+                }
+
+                if (subcat >= 50 && subcat < 100)
+                {
+                    city = "Kharkov";
+                    phone = "095-622-13-31";
+                    email = "mike@gmail.com";
+                    contact = "Mike Johns";
+                }
+
+                if (subcat >= 100)
+                {
+                    city = "Lviv";
+                    phone = "097-678-58-44";
+                    email = "bonJovi@gmail.com";
+                    contact = "Bon Jovi";
+                }
+
+                ads.Add(new Ad
+                {
+
+                    AdId = i, 
+                    CategoryId = cat, 
+                    SubCategoryId = subcat, 
+                    Price = price, 
+                    Title = "title for advertasing N " + i,
+                    Desc = "description for advertising number " + i,
+                    City = city,
+                    Phone = phone,
+                    Email = email,
+                    ContactPerson = contact
+                });
+
+                cat++;
+                subcat++;
+                price += 50;
+            }
+
+            return ads.ToArray();
         }
     }
 

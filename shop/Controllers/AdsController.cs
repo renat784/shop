@@ -21,13 +21,18 @@ namespace shop.Controllers
             this.context = context;
         }
 
+        [HttpPost]
+        public int Post(Ad advert)
+        {
+            context.Ads.Add(advert);
+            context.SaveChanges();
+            return advert.AdId;
+        }
+
         [HttpGet]
         [Route("[action]/{id}")]
         public IEnumerable<Ad> SearchByCategoryId(int id)
         {
-
-
-
             return context.Ads.Where(i => i.CategoryId == id);
         }
 
