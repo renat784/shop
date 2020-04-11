@@ -12,10 +12,10 @@
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <!-- <input type="text" class="form-control"  placeholder="Вся Украина" name="city" id="city" ngModel> -->
 
-                    <select (change)="filterForeCasts($event.target.value)">
-                        <option value="Вся Украина">Вся Украина</option>
-                        <option *ngFor="let summary of summaries" value={{summary}}>
-                          {{summary}}
+                    <select id="city" (change)="filterCity($event.target.value)">
+                        <option value="0">All cities</option>
+                        <option *ngFor="let city of cities" value={{city.cityId}}>
+                          {{city.name}}
                         </option>
                       </select>
 

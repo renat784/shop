@@ -24,6 +24,18 @@ namespace shop.Controllers
         [HttpPost]
         public int Post(Ad advert)
         {
+            Ad ad = new Ad()
+            {
+                Title = advert.Title,
+                Price = advert.Price,
+                Desc = advert.Desc,
+                SubCategoryId = advert.SubCategoryId,
+                CityId = advert.CityId,
+                Phone = advert.Phone,
+                Email = advert.Email,
+                ContactPerson = advert.ContactPerson
+            };
+
             context.Ads.Add(advert);
             context.SaveChanges();
             return advert.AdId;
@@ -47,14 +59,18 @@ namespace shop.Controllers
         [Route("[action]/{id}")]
         public IEnumerable<Ad> SearchBySubCategoryId(int id)
         {
-            return context.Ads.Where(i => i.SubCategoryId == id);
+            return context.Ads.Where(i => i.SubCategoryId == id).ToArray();
+
         }
 
         [HttpGet]
         [Route("[action]/{id}")]
         public Ad SearchByAdId (int id)
         {
-            return context.Ads.FirstOrDefault(i => i.AdId == id);
+            return context.Ads.Where(i => i.AdId == id)
+                .Include("City")
+                .Include("Category")
+                .Include("SubCategory").ToList().First();
         }
 
         [HttpGet]

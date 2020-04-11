@@ -16,9 +16,22 @@ namespace shop.Models
         public DbSet<Ad> Ads { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<SubCategory> SubCategories { get; set; }
+        public DbSet<City> Cities{ get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<City>().HasData(
+                new City() { CityId = 1,  Name = "Киев" },
+                new City() { CityId = 2,  Name = "Васильков" },
+                new City() { CityId = 3,  Name = "Белая Церковь" },
+                new City() { CityId = 4,  Name = "Макаров" },
+                new City() { CityId = 5,  Name = "Славутич" },
+                new City() { CityId = 6,  Name = "Переяслав-Хмельницкий" },
+                new City() { CityId = 7,  Name = "Богуслав" },
+                new City() { CityId = 8,  Name = "Чернобыль" },
+                new City() { CityId = 9,  Name = "Яготин" },
+                new City() { CityId = 10, Name = "Сквира" }
+            );
 
             modelBuilder.Entity<Category>().HasData(
                 new Category() { CategoryId = 1, Name = "Детский мир" },
@@ -200,50 +213,102 @@ namespace shop.Models
             int cat = 1;
             int subcat = 1;
             int price = 100;
-            string city = "";
+            int cityId  = 1;
             string phone = "";
             string email = "";
             string contact = "";
 
-            for (int i = 1; i < 500; i++)
+            for (int i = 1; i <= 1000; i++)
             {
 
                 if (cat == 12) cat = 1;
                 if (subcat == 140) subcat = 1;
 
-                if (subcat < 50)  { 
-                    city = "Kiev";
-                    phone = "096-456-56-58";
-                    email = "roberto@gmail.com";
-                    contact = "Roberto Mayers";
+                if (i >= 1 &&  i < 100)
+                {
+                    cityId = 1; 
+                    phone = "096-456-56-50";
+                    email = "nicolas12@gmail.com";
+                    contact = "Николай Гоголь";
                 }
 
-                if (subcat >= 50 && subcat < 100)
+                if (i >= 100 && i < 200)
                 {
-                    city = "Kharkov";
+                    cityId = 2;
                     phone = "095-622-13-31";
-                    email = "mike@gmail.com";
-                    contact = "Mike Johns";
+                    email = "mike78@gmail.com";
+                    contact = "Ольга Куриленко";
                 }
 
-                if (subcat >= 100)
+                if (i >= 200 && i < 300)
                 {
-                    city = "Lviv";
-                    phone = "097-678-58-44";
+                    cityId = 3;
+                    phone = "097-678-00-18";
                     email = "bonJovi@gmail.com";
-                    contact = "Bon Jovi";
+                    contact = "Кира Муратова";
                 }
+                if (i >= 300 && i < 400)
+                {
+                    cityId = 4;
+                    phone = "097-704-81-17";
+                    email = "plyer111@gmail.com";
+                    contact = "Евгений Евтушенко";
+                }
+                if (i >= 400 && i < 500)
+                {
+                    cityId = 5;
+                    phone = "067-971-44-11";
+                    email = "sakura444@gmail.com";
+                    contact = "Александр Довженко";
+                }
+                if (i >= 500 && i < 600)
+                {
+                    cityId = 6;
+                    phone = "063-178-36-02";
+                    email = "saske@gmail.com";
+                    contact = "Григорий Козинцев";
+                }
+                if (i >= 600 && i < 700)
+                {
+                    cityId = 7;
+                    phone = "050-671-11-22";
+                    email = "bill-gatess@gmail.com";
+                    contact = "Казимир Малевич";
+                }
+                if (i >= 700 && i < 800)
+                {
+                    cityId = 8;
+                    phone = "096-671-88-52";
+                    email = "noob-master99@gmail.com";
+                    contact = "Сергей Бондарчук";
+                }
+                if (i >= 800 && i < 900)
+                {
+                    cityId = 9;
+                    phone = "098-489-28-14";
+                    email = "my-email88@gmail.com";
+                    contact = "Леонид Трауберг"; 
+                }
+                if (i >= 900 && i <= 1000)
+                {
+                    cityId = 10;
+                    phone = "093-228-58-43";
+                    email = "gg-jon-snow@gmail.com";
+                    contact = "Клариса Лиспектор";
+                }
+
+
 
                 ads.Add(new Ad
                 {
 
-                    AdId = i, 
-                    CategoryId = cat, 
+                    AdId = i,
+                    CategoryId = cat,
                     SubCategoryId = subcat, 
                     Price = price, 
                     Title = "title for advertasing N " + i,
                     Desc = "description for advertising number " + i,
-                    City = city,
+                    CityId = cityId,
                     Phone = phone,
                     Email = email,
                     ContactPerson = contact

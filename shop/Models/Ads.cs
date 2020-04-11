@@ -13,15 +13,21 @@ namespace shop.Models
         public int Price { get; set; }
         public string Desc { get; set; }
 
-        [NotMapped]
-        public List<string> Images { get; set; }
+       
         public int SubCategoryId { get; set; }
         public int CategoryId { get; set; }
 
-        public string City { get; set; }
+        public int CityId { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
         public string ContactPerson { get; set; }
+        
+        public City City { get; set; }
+        
+        public SubCategory SubCategory { get; set; }
+        
+        public Category Category { get; set; }
+
     }
 
     public class Example

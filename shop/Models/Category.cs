@@ -11,7 +11,7 @@ namespace shop.Models
         public int CategoryId { get; set; }
         public string Name { get; set; }
 
-        [NotMapped]
-        public virtual List<SubCategory> SubCategories { get; set; }
+        //[NotMapped]
+        //public virtual List<SubCategory> SubCategories { get; set; }
     }
 }

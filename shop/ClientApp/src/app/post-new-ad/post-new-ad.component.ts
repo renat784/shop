@@ -10,24 +10,36 @@ import { Validators } from '@angular/forms';
   styleUrls: ['./post-new-ad.component.css']
 })
 export class PostNewAdComponent implements OnInit {
-  public data = {};
+  data = {};
   client: HttpClient;
   baseUrl: string;
+  cities: City[] = [];
+  cityId = 1;
+  subCategories: SubCategory[] = [];
+  subCategoryId = 1;
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: Router) {
     this.client = http;
     this.baseUrl = baseUrl;
+
+    http.get<SubCategory[]>(baseUrl + 'categories').subscribe(result => {
+      this.subCategories = result;
+    }, error => console.error(error));
+
+    http.get<City[]>(baseUrl + 'city').subscribe(result => {
+      this.cities = result;
+    }, error => console.error(error));
   }
 
    onClickSubmit(formData) {
     this.data =
     {
       Title: formData.title,
-      Price: formData.price,
+      Price: formData.price ,
       Desc: formData.desc,
-      SubCategoryId: 2,
       CategoryId: 1,
-      City: formData.city,
+      SubCategoryId: this.subCategoryId,
+      CityId: this.cityId,
       Phone: formData.phone,
       Email: formData.email,
       ContactPerson: formData.contactPerson
@@ -41,4 +53,12 @@ export class PostNewAdComponent implements OnInit {
   }
 
   ngOnInit() { }
+
+  filterCity(val){
+    this.cityId = val;
+  }
+
+  filterCategories(val){
+    this.subCategoryId = val;
+  }
 }

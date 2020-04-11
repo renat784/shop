@@ -28,9 +28,11 @@
             <div class="col-4 text-right">
                 <label for="categoty">Рубрика</label>
             </div>
-            <div class="col-6">
-                <input class="form-control" type="text" id="subCategoryId" name="subCategoryId" ngModel>
-            </div>
+            <select id="category" (change)="filterCategories($event.target.value)">
+                <option *ngFor="let sub of subCategories" value={{sub.subCategoryId}}>
+                  {{sub.name}}
+                </option>
+              </select>
         </div>
         <div class="row form-group">
             <div class="col-4 text-right">
@@ -76,14 +78,12 @@
                 <label for="city">Местоположение</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required #city="ngModel" type="text" id="city" name="city" ngModel>
-
-                <div *ngIf="city.invalid && (city.dirty || city.touched)" class="alert alert-danger">
-                    <div *ngIf="city.errors.required">
-                        City is required
-                    </div>
-                </div>
-
+                <select id="city" (change)="filterCity($event.target.value)">
+                    <option *ngFor="let city of cities" value={{city.cityId}}>
+                      {{city.name}}
+                    </option>
+                  </select>
+                  
             </div>
         </div>
         <div class="row form-group">
@@ -91,7 +91,7 @@
                 <label for="phone">Номер телефона</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required #phone="ngModel" type="tel" id="phone" name="phone" ngModel>
+                <input class="form-control" required #phone="ngModel" type="text" id="phone" name="phone" ngModel>
 
                 <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="alert alert-danger">
                     <div *ngIf="phone.errors.required">
@@ -106,7 +106,7 @@
                 <label for="email">Email-адрес</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required #email="ngModel" type="email" id="email" name="email" ngModel>
+                <input class="form-control" required #email="ngModel" type="text" id="email" name="email" ngModel>
 
                 <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
                     <div *ngIf="email.errors.required">

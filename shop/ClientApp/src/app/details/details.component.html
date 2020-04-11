@@ -2,26 +2,31 @@
     <div class="main_content">
         <div class="row">
             <div class="col-9" style="background-color: white;">
+                <div>
+                    <span>{{ad.category.name}}</span>
+                    <span class="px-2">-</span>
+                    <span>{{ad.subCategory.name}}</span>
+                </div>
                 <div class="text-center">
                     <img  src="https://apollo-ireland.akamaized.net/v1/files/p6kjfl9l3ooz1-UA/image;s=644x461">
                 </div>
                 
-                <p>{{advert.title}}</p>
-                <p>Номер объявления: {{advert.adId}}, city: {{advert.city}}</p>
-                <p>{{advert.desc}}</p>
+                <p>{{ad.title}}</p>
+                <p>Номер объявления: {{ad.adId}}, city: {{ad.city.name}}</p>
+                <p>{{ad.desc}}</p>
             </div>
             <div class="col-3">
                 <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{advert.price}} uah
+                    {{ad.price}} uah
                 </div>
                 <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{advert.contactPerson}}
+                    {{ad.contactPerson}}
                 </div>
                 <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{advert.email}}
+                    {{ad.email}}
                 </div>
                 <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{advert.phone}}
+                    {{ad.phone}}
                 </div>
             </div>
         </div>

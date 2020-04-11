@@ -13,10 +13,13 @@ export class SearchComponent {
   activatedRouter: ActivatedRoute;
   baseUrl: string;
   http: HttpClient;
-  summaries: string[] = ["Kiev", "Kharkov", "Lviv"];
-  city = "Вся Украина";
+
+  cities: City[] = [];
+  cityId = 0;
+
   subCategories: SubCategory[] = [];
   subCategoryId = 0;
+  
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, activatedRouter: ActivatedRoute, router: Router) {
     this.router = router;
@@ -28,6 +31,9 @@ export class SearchComponent {
       this.subCategories = result;
     }, error => console.error(error));
 
+    http.get<City[]>(baseUrl + 'city').subscribe(result => {
+      this.cities = result;
+    }, error => console.error(error));
 
 
     if (this.activatedRouter.snapshot.queryParamMap.get('subCategoryId') != null) {
@@ -52,11 +58,10 @@ export class SearchComponent {
   }
 
   onClickSubmit(formData) {
-
     if(this.subCategoryId != 0){
       this.http.get<Ad[]>(this.baseUrl + 'ads/SearchBySubCategoryId/' +  this.subCategoryId).subscribe(result => {
-        if (this.city != "Вся Украина") {
-          this.ads = result.filter(i => i.city == this.city);
+        if (this.cityId != 0) {
+          this.ads = result.filter(i => i.cityId == this.cityId );
         } else {
           this.ads = result;
         }
@@ -64,18 +69,17 @@ export class SearchComponent {
     }
     else{
       this.http.get<Ad[]>(this.baseUrl + 'ads/SearchAll/').subscribe(result => {
-        if (this.city != "Вся Украина") {
-          this.ads = result.filter(i => i.city == this.city);
+        if (this.cityId != 0) {
+          this.ads = result.filter(i => i.cityId == this.cityId );
         } else {
           this.ads = result;
         }
       }, error => console.error(error));
     }
-    
   }
 
-  filterForeCasts(val){
-    this.city = val;
+ filterCity(val){
+    this.cityId = val;
   }
 
   filterCategories(val){
