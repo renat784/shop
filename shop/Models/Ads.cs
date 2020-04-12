@@ -12,11 +12,8 @@ namespace shop.Models
         public string Title { get; set; }
         public int Price { get; set; }
         public string Desc { get; set; }
-
-       
         public int SubCategoryId { get; set; }
         public int CategoryId { get; set; }
-
         public int CityId { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }

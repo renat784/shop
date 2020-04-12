@@ -12,22 +12,26 @@
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                     <!-- <input type="text" class="form-control"  placeholder="Вся Украина" name="city" id="city" ngModel> -->
 
-                    <select id="city" (change)="filterCity($event.target.value)">
+                    <select id="city" (change)="filterCity($event.target.value)" > 
                         <option value="0">All cities</option>
-                        <option *ngFor="let city of cities" value={{city.cityId}}>
+                        <option *ngFor="let city of cities" value={{city.cityId}}> 
                           {{city.name}}
                         </option>
-                      </select>
+                      </select> 
 
                 </div>
             </div>
             <div class="col-4 pl-0">
-                <select (change)="filterCategories($event.target.value)">
-                    <option value="0">Все рубрики</option>
-                    <option *ngFor="let sub of subCategories" value={{sub.subCategoryId}}>
-                      {{sub.name}}
+                <select id="category" (change)="filterCategories($event.target.value)" >
+                    <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
+                        {{cat.name}}
                     </option>
-                  </select>
+                </select>
+                <select id="subCategory" (change)="filterSubCategories($event.target.value)" >
+                    <option *ngFor="let sub of _subCategories"  value={{sub.subCategoryId}}>
+                        {{sub.name}}
+                    </option>
+                </select>
             </div>
             </div>
         <div class="row mt-3">

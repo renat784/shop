@@ -24,18 +24,6 @@ namespace shop.Controllers
         [HttpPost]
         public int Post(Ad advert)
         {
-            Ad ad = new Ad()
-            {
-                Title = advert.Title,
-                Price = advert.Price,
-                Desc = advert.Desc,
-                SubCategoryId = advert.SubCategoryId,
-                CityId = advert.CityId,
-                Phone = advert.Phone,
-                Email = advert.Email,
-                ContactPerson = advert.ContactPerson
-            };
-
             context.Ads.Add(advert);
             context.SaveChanges();
             return advert.AdId;

@@ -18,7 +18,10 @@ export class SearchComponent {
   cityId = 0;
 
   subCategories: SubCategory[] = [];
-  subCategoryId = 0;
+  _subCategories: SubCategory[] = [];
+  subCategoryId = 1;
+  Categories: Category[] = [];
+  categoryId = 1;
   
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, activatedRouter: ActivatedRoute, router: Router) {
@@ -27,8 +30,13 @@ export class SearchComponent {
     this.http = http;
     this.activatedRouter = activatedRouter;
     
-    http.get<SubCategory[]>(baseUrl + 'categories').subscribe(result => {
+    http.get<SubCategory[]>(baseUrl + 'Categories/GetSubCategories').subscribe(result => {
       this.subCategories = result;
+      this._subCategories = result.filter(i => i.categoryId == this.categoryId);
+    }, error => console.error(error));
+
+    http.get<Category[]>(baseUrl + 'Categories/GetCategories').subscribe(result => {
+      this.Categories = result;
     }, error => console.error(error));
 
     http.get<City[]>(baseUrl + 'city').subscribe(result => {
@@ -82,10 +90,17 @@ export class SearchComponent {
     this.cityId = val;
   }
 
+ 
+
   filterCategories(val){
-    this.subCategoryId = val;
+    this.categoryId = val;
+    
+    this._subCategories = this.subCategories.filter(i => i.categoryId == val);
   }
 
+  filterSubCategories(val){
+    this.subCategoryId = val;
+  }
 }
 
 

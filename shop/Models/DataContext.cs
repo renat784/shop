@@ -220,6 +220,40 @@ namespace shop.Models
 
             for (int i = 1; i <= 1000; i++)
             {
+                switch (subcat)
+                {
+                    case 11:
+                        cat = 2;
+                        break;
+                    case 19:
+                        cat = 3;
+                        break;
+                    case 33:
+                        cat = 4;
+                        break;
+                    case 39:
+                        cat = 5;
+                        break;
+                    case 65:
+                        cat = 6;
+                        break;
+                    case 77:
+                        cat = 7;
+                        break;
+                    case 89:
+                        cat = 8;
+                        break;
+                    case 104:
+                        cat = 9;
+                        break;
+                    case 124:
+                        cat = 10;
+                        break;
+                    case 131:
+                        cat = 11;
+                        break;
+                    
+                }
 
                 if (cat == 12) cat = 1;
                 if (subcat == 140) subcat = 1;
@@ -314,9 +348,10 @@ namespace shop.Models
                     ContactPerson = contact
                 });
 
-                cat++;
+               
                 subcat++;
-                price += 50;
+                price += 100;
+                
             }
 
             return ads.ToArray();

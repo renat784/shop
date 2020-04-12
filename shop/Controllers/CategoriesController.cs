@@ -22,7 +22,15 @@ namespace shop.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<SubCategory> Get()
+        [Route("[action]")]
+        public IEnumerable<Category> GetCategories()
+        {
+            return context.Categories.ToArray();
+        }
+
+        [HttpGet]
+        [Route("[action]")]
+        public IEnumerable<SubCategory> GetSubCategories()
         {
             return context.SubCategories.ToArray();
         }
