@@ -19,17 +19,22 @@ export class SearchComponent {
 
   subCategories: SubCategory[] = [];
   _subCategories: SubCategory[] = [];
-  subCategoryId = 1;
+  subCategoryId = 0;
   Categories: Category[] = [];
   categoryId = 1;
-  
+  orderAsc = 1;
+  priceMin = -1;
+  priceMax = -1;
+  filterUrl: string;
+
+
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, activatedRouter: ActivatedRoute, router: Router) {
     this.router = router;
     this.baseUrl = baseUrl;
     this.http = http;
     this.activatedRouter = activatedRouter;
-    
+
     http.get<SubCategory[]>(baseUrl + 'Categories/GetSubCategories').subscribe(result => {
       this.subCategories = result;
       this._subCategories = result.filter(i => i.categoryId == this.categoryId);
@@ -60,45 +65,59 @@ export class SearchComponent {
       }, error => console.error(error));
     }
 
-    
 
 
+
+  }
+
+  SearchByAscOrder() {
+    this.http.get<Ad[]>(this.filterUrl + '1').subscribe(result => {
+      this.ads = result;
+     
+    }), error => console.error(error);
+  }
+
+  SearchByDescOrder() {
+    this.http.get<Ad[]>(this.filterUrl + '0').subscribe(result => {
+      this.ads = result;
+   
+    }), error => console.error(error);
   }
 
   onClickSubmit(formData) {
-    if(this.subCategoryId != 0){
-      this.http.get<Ad[]>(this.baseUrl + 'ads/SearchBySubCategoryId/' +  this.subCategoryId).subscribe(result => {
-        if (this.cityId != 0) {
-          this.ads = result.filter(i => i.cityId == this.cityId );
-        } else {
-          this.ads = result;
-        }
-      }, error => console.error(error));
-    }
-    else{
-      this.http.get<Ad[]>(this.baseUrl + 'ads/SearchAll/').subscribe(result => {
-        if (this.cityId != 0) {
-          this.ads = result.filter(i => i.cityId == this.cityId );
-        } else {
-          this.ads = result;
-        }
-      }, error => console.error(error));
-    }
+
+    if(formData.priceMin == null || formData.priceMin == undefined || formData.priceMin == '') this.priceMin = -1;
+    else this.priceMin = formData.priceMin;
+
+    if(formData.priceMax == null || formData.priceMax == undefined || formData.priceMax == '') this.priceMax = -1;
+    else this.priceMax = formData.priceMax;
+
+   
+
+    this.filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
+      this.categoryId + '/' +
+      this.subCategoryId + '/' +
+      this.cityId + '/' +
+      this.priceMin + '/' +
+      this.priceMax + '/';
+
+      console.log("min price=" + this.priceMin + "  \n" + "max price=" + this.priceMax );
+    this.SearchByAscOrder();
   }
 
- filterCity(val){
+  filterCity(val) {
     this.cityId = val;
   }
 
- 
 
-  filterCategories(val){
+
+  filterCategories(val) {
     this.categoryId = val;
-    
+
     this._subCategories = this.subCategories.filter(i => i.categoryId == val);
   }
 
-  filterSubCategories(val){
+  filterSubCategories(val) {
     this.subCategoryId = val;
   }
 }

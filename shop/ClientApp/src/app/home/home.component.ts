@@ -13,7 +13,7 @@ export class HomeComponent {
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
 
-    http.get<SubCategory[]>(baseUrl + 'categories').subscribe(result => {
+    http.get<SubCategory[]>(baseUrl + 'categories/GetSubCategories').subscribe(result => {
       this.subCategories = result;
     }, error => console.error(error));
 
