@@ -24,18 +24,24 @@ namespace shop.Controllers
         [HttpPost]
         public int Post(Ad advert)
         {
+            
+
             context.Ads.Add(advert);
             context.SaveChanges();
             return advert.AdId;
         }
 
         [HttpGet]
-        [Route("[action]/{categoryId}/{subcategoryId}/{cityId}/{min_price}/{max_price}/{asc}")]
-        public IEnumerable<Ad> SearchByFilter(int categoryId, int subcategoryId, int cityId, int min_price,
+        [Route("[action]/{search}/{categoryId}/{subcategoryId}/{cityId}/{min_price}/{max_price}/{asc}")]
+        public IEnumerable<Ad> SearchByFilter(string search,int categoryId, int subcategoryId, int cityId, int min_price,
             int max_price, int asc)
         {
             var query = from ad in context.Ads select ad;
 
+            if (search != "all")
+            {
+                query = query.Where(i => i.Title.Contains(search));
+            }
             if (categoryId != 0)
             {
                 query = query.Where(i => i.CategoryId == categoryId);
@@ -71,7 +77,10 @@ namespace shop.Controllers
             }
 
 
-
+            if (query.Count() == 0)
+            {
+                return new List<Ad>(); 
+            }
 
             return query;
 

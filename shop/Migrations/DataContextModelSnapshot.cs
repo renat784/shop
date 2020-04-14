@@ -1873,157 +1873,157 @@ namespace shop.Migrations
                         new
                         {
                             AdId = 140,
-                            CategoryId = 11,
+                            CategoryId = 12,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 140",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14000,
-                            SubCategoryId = 1,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 140"
                         },
                         new
                         {
                             AdId = 141,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 141",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14100,
-                            SubCategoryId = 2,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 141"
                         },
                         new
                         {
                             AdId = 142,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 142",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14200,
-                            SubCategoryId = 3,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 142"
                         },
                         new
                         {
                             AdId = 143,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 143",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14300,
-                            SubCategoryId = 4,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 143"
                         },
                         new
                         {
                             AdId = 144,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 144",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14400,
-                            SubCategoryId = 5,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 144"
                         },
                         new
                         {
                             AdId = 145,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 145",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14500,
-                            SubCategoryId = 6,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 145"
                         },
                         new
                         {
                             AdId = 146,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 146",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14600,
-                            SubCategoryId = 7,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 146"
                         },
                         new
                         {
                             AdId = 147,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 147",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14700,
-                            SubCategoryId = 8,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 147"
                         },
                         new
                         {
                             AdId = 148,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 148",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14800,
-                            SubCategoryId = 9,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 148"
                         },
                         new
                         {
                             AdId = 149,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 149",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 14900,
-                            SubCategoryId = 10,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 149"
                         },
                         new
                         {
                             AdId = 150,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 150",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15000,
-                            SubCategoryId = 11,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 150"
                         },
                         new
                         {
                             AdId = 151,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 151",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15100,
-                            SubCategoryId = 12,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 151"
                         },
                         new
@@ -2036,7 +2036,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15200,
-                            SubCategoryId = 13,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 152"
                         },
                         new
@@ -2049,7 +2049,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15300,
-                            SubCategoryId = 14,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 153"
                         },
                         new
@@ -2062,7 +2062,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15400,
-                            SubCategoryId = 15,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 154"
                         },
                         new
@@ -2075,7 +2075,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15500,
-                            SubCategoryId = 16,
+                            SubCategoryId = 14,
                             Title = "title for advertasing N 155"
                         },
                         new
@@ -2088,7 +2088,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15600,
-                            SubCategoryId = 17,
+                            SubCategoryId = 15,
                             Title = "title for advertasing N 156"
                         },
                         new
@@ -2101,33 +2101,33 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15700,
-                            SubCategoryId = 18,
+                            SubCategoryId = 16,
                             Title = "title for advertasing N 157"
                         },
                         new
                         {
                             AdId = 158,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 158",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15800,
-                            SubCategoryId = 19,
+                            SubCategoryId = 17,
                             Title = "title for advertasing N 158"
                         },
                         new
                         {
                             AdId = 159,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 159",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 15900,
-                            SubCategoryId = 20,
+                            SubCategoryId = 18,
                             Title = "title for advertasing N 159"
                         },
                         new
@@ -2140,7 +2140,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16000,
-                            SubCategoryId = 21,
+                            SubCategoryId = 19,
                             Title = "title for advertasing N 160"
                         },
                         new
@@ -2153,7 +2153,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16100,
-                            SubCategoryId = 22,
+                            SubCategoryId = 20,
                             Title = "title for advertasing N 161"
                         },
                         new
@@ -2166,7 +2166,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16200,
-                            SubCategoryId = 23,
+                            SubCategoryId = 21,
                             Title = "title for advertasing N 162"
                         },
                         new
@@ -2179,7 +2179,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16300,
-                            SubCategoryId = 24,
+                            SubCategoryId = 22,
                             Title = "title for advertasing N 163"
                         },
                         new
@@ -2192,7 +2192,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16400,
-                            SubCategoryId = 25,
+                            SubCategoryId = 23,
                             Title = "title for advertasing N 164"
                         },
                         new
@@ -2205,7 +2205,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16500,
-                            SubCategoryId = 26,
+                            SubCategoryId = 24,
                             Title = "title for advertasing N 165"
                         },
                         new
@@ -2218,7 +2218,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16600,
-                            SubCategoryId = 27,
+                            SubCategoryId = 25,
                             Title = "title for advertasing N 166"
                         },
                         new
@@ -2231,7 +2231,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16700,
-                            SubCategoryId = 28,
+                            SubCategoryId = 26,
                             Title = "title for advertasing N 167"
                         },
                         new
@@ -2244,7 +2244,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16800,
-                            SubCategoryId = 29,
+                            SubCategoryId = 27,
                             Title = "title for advertasing N 168"
                         },
                         new
@@ -2257,7 +2257,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 16900,
-                            SubCategoryId = 30,
+                            SubCategoryId = 28,
                             Title = "title for advertasing N 169"
                         },
                         new
@@ -2270,7 +2270,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17000,
-                            SubCategoryId = 31,
+                            SubCategoryId = 29,
                             Title = "title for advertasing N 170"
                         },
                         new
@@ -2283,33 +2283,33 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17100,
-                            SubCategoryId = 32,
+                            SubCategoryId = 30,
                             Title = "title for advertasing N 171"
                         },
                         new
                         {
                             AdId = 172,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 172",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17200,
-                            SubCategoryId = 33,
+                            SubCategoryId = 31,
                             Title = "title for advertasing N 172"
                         },
                         new
                         {
                             AdId = 173,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 173",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17300,
-                            SubCategoryId = 34,
+                            SubCategoryId = 32,
                             Title = "title for advertasing N 173"
                         },
                         new
@@ -2322,7 +2322,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17400,
-                            SubCategoryId = 35,
+                            SubCategoryId = 33,
                             Title = "title for advertasing N 174"
                         },
                         new
@@ -2335,7 +2335,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17500,
-                            SubCategoryId = 36,
+                            SubCategoryId = 34,
                             Title = "title for advertasing N 175"
                         },
                         new
@@ -2348,7 +2348,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17600,
-                            SubCategoryId = 37,
+                            SubCategoryId = 35,
                             Title = "title for advertasing N 176"
                         },
                         new
@@ -2361,33 +2361,33 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17700,
-                            SubCategoryId = 38,
+                            SubCategoryId = 36,
                             Title = "title for advertasing N 177"
                         },
                         new
                         {
                             AdId = 178,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 178",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17800,
-                            SubCategoryId = 39,
+                            SubCategoryId = 37,
                             Title = "title for advertasing N 178"
                         },
                         new
                         {
                             AdId = 179,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 2,
                             ContactPerson = "Ольга Куриленко",
                             Desc = "description for advertising number 179",
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 17900,
-                            SubCategoryId = 40,
+                            SubCategoryId = 38,
                             Title = "title for advertasing N 179"
                         },
                         new
@@ -2400,7 +2400,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18000,
-                            SubCategoryId = 41,
+                            SubCategoryId = 39,
                             Title = "title for advertasing N 180"
                         },
                         new
@@ -2413,7 +2413,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18100,
-                            SubCategoryId = 42,
+                            SubCategoryId = 40,
                             Title = "title for advertasing N 181"
                         },
                         new
@@ -2426,7 +2426,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18200,
-                            SubCategoryId = 43,
+                            SubCategoryId = 41,
                             Title = "title for advertasing N 182"
                         },
                         new
@@ -2439,7 +2439,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18300,
-                            SubCategoryId = 44,
+                            SubCategoryId = 42,
                             Title = "title for advertasing N 183"
                         },
                         new
@@ -2452,7 +2452,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18400,
-                            SubCategoryId = 45,
+                            SubCategoryId = 43,
                             Title = "title for advertasing N 184"
                         },
                         new
@@ -2465,7 +2465,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18500,
-                            SubCategoryId = 46,
+                            SubCategoryId = 44,
                             Title = "title for advertasing N 185"
                         },
                         new
@@ -2478,7 +2478,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18600,
-                            SubCategoryId = 47,
+                            SubCategoryId = 45,
                             Title = "title for advertasing N 186"
                         },
                         new
@@ -2491,7 +2491,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18700,
-                            SubCategoryId = 48,
+                            SubCategoryId = 46,
                             Title = "title for advertasing N 187"
                         },
                         new
@@ -2504,7 +2504,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18800,
-                            SubCategoryId = 49,
+                            SubCategoryId = 47,
                             Title = "title for advertasing N 188"
                         },
                         new
@@ -2517,7 +2517,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 18900,
-                            SubCategoryId = 50,
+                            SubCategoryId = 48,
                             Title = "title for advertasing N 189"
                         },
                         new
@@ -2530,7 +2530,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19000,
-                            SubCategoryId = 51,
+                            SubCategoryId = 49,
                             Title = "title for advertasing N 190"
                         },
                         new
@@ -2543,7 +2543,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19100,
-                            SubCategoryId = 52,
+                            SubCategoryId = 50,
                             Title = "title for advertasing N 191"
                         },
                         new
@@ -2556,7 +2556,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19200,
-                            SubCategoryId = 53,
+                            SubCategoryId = 51,
                             Title = "title for advertasing N 192"
                         },
                         new
@@ -2569,7 +2569,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19300,
-                            SubCategoryId = 54,
+                            SubCategoryId = 52,
                             Title = "title for advertasing N 193"
                         },
                         new
@@ -2582,7 +2582,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19400,
-                            SubCategoryId = 55,
+                            SubCategoryId = 53,
                             Title = "title for advertasing N 194"
                         },
                         new
@@ -2595,7 +2595,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19500,
-                            SubCategoryId = 56,
+                            SubCategoryId = 54,
                             Title = "title for advertasing N 195"
                         },
                         new
@@ -2608,7 +2608,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19600,
-                            SubCategoryId = 57,
+                            SubCategoryId = 55,
                             Title = "title for advertasing N 196"
                         },
                         new
@@ -2621,7 +2621,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19700,
-                            SubCategoryId = 58,
+                            SubCategoryId = 56,
                             Title = "title for advertasing N 197"
                         },
                         new
@@ -2634,7 +2634,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19800,
-                            SubCategoryId = 59,
+                            SubCategoryId = 57,
                             Title = "title for advertasing N 198"
                         },
                         new
@@ -2647,7 +2647,7 @@ namespace shop.Migrations
                             Email = "mike78@gmail.com",
                             Phone = "095-622-13-31",
                             Price = 19900,
-                            SubCategoryId = 60,
+                            SubCategoryId = 58,
                             Title = "title for advertasing N 199"
                         },
                         new
@@ -2660,7 +2660,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20000,
-                            SubCategoryId = 61,
+                            SubCategoryId = 59,
                             Title = "title for advertasing N 200"
                         },
                         new
@@ -2673,7 +2673,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20100,
-                            SubCategoryId = 62,
+                            SubCategoryId = 60,
                             Title = "title for advertasing N 201"
                         },
                         new
@@ -2686,7 +2686,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20200,
-                            SubCategoryId = 63,
+                            SubCategoryId = 61,
                             Title = "title for advertasing N 202"
                         },
                         new
@@ -2699,33 +2699,33 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20300,
-                            SubCategoryId = 64,
+                            SubCategoryId = 62,
                             Title = "title for advertasing N 203"
                         },
                         new
                         {
                             AdId = 204,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 204",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20400,
-                            SubCategoryId = 65,
+                            SubCategoryId = 63,
                             Title = "title for advertasing N 204"
                         },
                         new
                         {
                             AdId = 205,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 205",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20500,
-                            SubCategoryId = 66,
+                            SubCategoryId = 64,
                             Title = "title for advertasing N 205"
                         },
                         new
@@ -2738,7 +2738,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20600,
-                            SubCategoryId = 67,
+                            SubCategoryId = 65,
                             Title = "title for advertasing N 206"
                         },
                         new
@@ -2751,7 +2751,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20700,
-                            SubCategoryId = 68,
+                            SubCategoryId = 66,
                             Title = "title for advertasing N 207"
                         },
                         new
@@ -2764,7 +2764,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20800,
-                            SubCategoryId = 69,
+                            SubCategoryId = 67,
                             Title = "title for advertasing N 208"
                         },
                         new
@@ -2777,7 +2777,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 20900,
-                            SubCategoryId = 70,
+                            SubCategoryId = 68,
                             Title = "title for advertasing N 209"
                         },
                         new
@@ -2790,7 +2790,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21000,
-                            SubCategoryId = 71,
+                            SubCategoryId = 69,
                             Title = "title for advertasing N 210"
                         },
                         new
@@ -2803,7 +2803,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21100,
-                            SubCategoryId = 72,
+                            SubCategoryId = 70,
                             Title = "title for advertasing N 211"
                         },
                         new
@@ -2816,7 +2816,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21200,
-                            SubCategoryId = 73,
+                            SubCategoryId = 71,
                             Title = "title for advertasing N 212"
                         },
                         new
@@ -2829,7 +2829,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21300,
-                            SubCategoryId = 74,
+                            SubCategoryId = 72,
                             Title = "title for advertasing N 213"
                         },
                         new
@@ -2842,7 +2842,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21400,
-                            SubCategoryId = 75,
+                            SubCategoryId = 73,
                             Title = "title for advertasing N 214"
                         },
                         new
@@ -2855,33 +2855,33 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21500,
-                            SubCategoryId = 76,
+                            SubCategoryId = 74,
                             Title = "title for advertasing N 215"
                         },
                         new
                         {
                             AdId = 216,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 216",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21600,
-                            SubCategoryId = 77,
+                            SubCategoryId = 75,
                             Title = "title for advertasing N 216"
                         },
                         new
                         {
                             AdId = 217,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 217",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21700,
-                            SubCategoryId = 78,
+                            SubCategoryId = 76,
                             Title = "title for advertasing N 217"
                         },
                         new
@@ -2894,7 +2894,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21800,
-                            SubCategoryId = 79,
+                            SubCategoryId = 77,
                             Title = "title for advertasing N 218"
                         },
                         new
@@ -2907,7 +2907,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 21900,
-                            SubCategoryId = 80,
+                            SubCategoryId = 78,
                             Title = "title for advertasing N 219"
                         },
                         new
@@ -2920,7 +2920,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22000,
-                            SubCategoryId = 81,
+                            SubCategoryId = 79,
                             Title = "title for advertasing N 220"
                         },
                         new
@@ -2933,7 +2933,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22100,
-                            SubCategoryId = 82,
+                            SubCategoryId = 80,
                             Title = "title for advertasing N 221"
                         },
                         new
@@ -2946,7 +2946,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22200,
-                            SubCategoryId = 83,
+                            SubCategoryId = 81,
                             Title = "title for advertasing N 222"
                         },
                         new
@@ -2959,7 +2959,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22300,
-                            SubCategoryId = 84,
+                            SubCategoryId = 82,
                             Title = "title for advertasing N 223"
                         },
                         new
@@ -2972,7 +2972,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22400,
-                            SubCategoryId = 85,
+                            SubCategoryId = 83,
                             Title = "title for advertasing N 224"
                         },
                         new
@@ -2985,7 +2985,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22500,
-                            SubCategoryId = 86,
+                            SubCategoryId = 84,
                             Title = "title for advertasing N 225"
                         },
                         new
@@ -2998,7 +2998,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22600,
-                            SubCategoryId = 87,
+                            SubCategoryId = 85,
                             Title = "title for advertasing N 226"
                         },
                         new
@@ -3011,33 +3011,33 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22700,
-                            SubCategoryId = 88,
+                            SubCategoryId = 86,
                             Title = "title for advertasing N 227"
                         },
                         new
                         {
                             AdId = 228,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 228",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22800,
-                            SubCategoryId = 89,
+                            SubCategoryId = 87,
                             Title = "title for advertasing N 228"
                         },
                         new
                         {
                             AdId = 229,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 229",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 22900,
-                            SubCategoryId = 90,
+                            SubCategoryId = 88,
                             Title = "title for advertasing N 229"
                         },
                         new
@@ -3050,7 +3050,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23000,
-                            SubCategoryId = 91,
+                            SubCategoryId = 89,
                             Title = "title for advertasing N 230"
                         },
                         new
@@ -3063,7 +3063,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23100,
-                            SubCategoryId = 92,
+                            SubCategoryId = 90,
                             Title = "title for advertasing N 231"
                         },
                         new
@@ -3076,7 +3076,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23200,
-                            SubCategoryId = 93,
+                            SubCategoryId = 91,
                             Title = "title for advertasing N 232"
                         },
                         new
@@ -3089,7 +3089,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23300,
-                            SubCategoryId = 94,
+                            SubCategoryId = 92,
                             Title = "title for advertasing N 233"
                         },
                         new
@@ -3102,7 +3102,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23400,
-                            SubCategoryId = 95,
+                            SubCategoryId = 93,
                             Title = "title for advertasing N 234"
                         },
                         new
@@ -3115,7 +3115,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23500,
-                            SubCategoryId = 96,
+                            SubCategoryId = 94,
                             Title = "title for advertasing N 235"
                         },
                         new
@@ -3128,7 +3128,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23600,
-                            SubCategoryId = 97,
+                            SubCategoryId = 95,
                             Title = "title for advertasing N 236"
                         },
                         new
@@ -3141,7 +3141,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23700,
-                            SubCategoryId = 98,
+                            SubCategoryId = 96,
                             Title = "title for advertasing N 237"
                         },
                         new
@@ -3154,7 +3154,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23800,
-                            SubCategoryId = 99,
+                            SubCategoryId = 97,
                             Title = "title for advertasing N 238"
                         },
                         new
@@ -3167,7 +3167,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 23900,
-                            SubCategoryId = 100,
+                            SubCategoryId = 98,
                             Title = "title for advertasing N 239"
                         },
                         new
@@ -3180,7 +3180,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24000,
-                            SubCategoryId = 101,
+                            SubCategoryId = 99,
                             Title = "title for advertasing N 240"
                         },
                         new
@@ -3193,7 +3193,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24100,
-                            SubCategoryId = 102,
+                            SubCategoryId = 100,
                             Title = "title for advertasing N 241"
                         },
                         new
@@ -3206,33 +3206,33 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24200,
-                            SubCategoryId = 103,
+                            SubCategoryId = 101,
                             Title = "title for advertasing N 242"
                         },
                         new
                         {
                             AdId = 243,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 243",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24300,
-                            SubCategoryId = 104,
+                            SubCategoryId = 102,
                             Title = "title for advertasing N 243"
                         },
                         new
                         {
                             AdId = 244,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 244",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24400,
-                            SubCategoryId = 105,
+                            SubCategoryId = 103,
                             Title = "title for advertasing N 244"
                         },
                         new
@@ -3245,7 +3245,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24500,
-                            SubCategoryId = 106,
+                            SubCategoryId = 104,
                             Title = "title for advertasing N 245"
                         },
                         new
@@ -3258,7 +3258,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24600,
-                            SubCategoryId = 107,
+                            SubCategoryId = 105,
                             Title = "title for advertasing N 246"
                         },
                         new
@@ -3271,7 +3271,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24700,
-                            SubCategoryId = 108,
+                            SubCategoryId = 106,
                             Title = "title for advertasing N 247"
                         },
                         new
@@ -3284,7 +3284,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24800,
-                            SubCategoryId = 109,
+                            SubCategoryId = 107,
                             Title = "title for advertasing N 248"
                         },
                         new
@@ -3297,7 +3297,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 24900,
-                            SubCategoryId = 110,
+                            SubCategoryId = 108,
                             Title = "title for advertasing N 249"
                         },
                         new
@@ -3310,7 +3310,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25000,
-                            SubCategoryId = 111,
+                            SubCategoryId = 109,
                             Title = "title for advertasing N 250"
                         },
                         new
@@ -3323,7 +3323,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25100,
-                            SubCategoryId = 112,
+                            SubCategoryId = 110,
                             Title = "title for advertasing N 251"
                         },
                         new
@@ -3336,7 +3336,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25200,
-                            SubCategoryId = 113,
+                            SubCategoryId = 111,
                             Title = "title for advertasing N 252"
                         },
                         new
@@ -3349,7 +3349,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25300,
-                            SubCategoryId = 114,
+                            SubCategoryId = 112,
                             Title = "title for advertasing N 253"
                         },
                         new
@@ -3362,7 +3362,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25400,
-                            SubCategoryId = 115,
+                            SubCategoryId = 113,
                             Title = "title for advertasing N 254"
                         },
                         new
@@ -3375,7 +3375,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25500,
-                            SubCategoryId = 116,
+                            SubCategoryId = 114,
                             Title = "title for advertasing N 255"
                         },
                         new
@@ -3388,7 +3388,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25600,
-                            SubCategoryId = 117,
+                            SubCategoryId = 115,
                             Title = "title for advertasing N 256"
                         },
                         new
@@ -3401,7 +3401,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25700,
-                            SubCategoryId = 118,
+                            SubCategoryId = 116,
                             Title = "title for advertasing N 257"
                         },
                         new
@@ -3414,7 +3414,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25800,
-                            SubCategoryId = 119,
+                            SubCategoryId = 117,
                             Title = "title for advertasing N 258"
                         },
                         new
@@ -3427,7 +3427,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 25900,
-                            SubCategoryId = 120,
+                            SubCategoryId = 118,
                             Title = "title for advertasing N 259"
                         },
                         new
@@ -3440,7 +3440,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26000,
-                            SubCategoryId = 121,
+                            SubCategoryId = 119,
                             Title = "title for advertasing N 260"
                         },
                         new
@@ -3453,7 +3453,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26100,
-                            SubCategoryId = 122,
+                            SubCategoryId = 120,
                             Title = "title for advertasing N 261"
                         },
                         new
@@ -3466,33 +3466,33 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26200,
-                            SubCategoryId = 123,
+                            SubCategoryId = 121,
                             Title = "title for advertasing N 262"
                         },
                         new
                         {
                             AdId = 263,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 263",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26300,
-                            SubCategoryId = 124,
+                            SubCategoryId = 122,
                             Title = "title for advertasing N 263"
                         },
                         new
                         {
                             AdId = 264,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 264",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26400,
-                            SubCategoryId = 125,
+                            SubCategoryId = 123,
                             Title = "title for advertasing N 264"
                         },
                         new
@@ -3505,7 +3505,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26500,
-                            SubCategoryId = 126,
+                            SubCategoryId = 124,
                             Title = "title for advertasing N 265"
                         },
                         new
@@ -3518,7 +3518,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26600,
-                            SubCategoryId = 127,
+                            SubCategoryId = 125,
                             Title = "title for advertasing N 266"
                         },
                         new
@@ -3531,7 +3531,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26700,
-                            SubCategoryId = 128,
+                            SubCategoryId = 126,
                             Title = "title for advertasing N 267"
                         },
                         new
@@ -3544,7 +3544,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26800,
-                            SubCategoryId = 129,
+                            SubCategoryId = 127,
                             Title = "title for advertasing N 268"
                         },
                         new
@@ -3557,33 +3557,33 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 26900,
-                            SubCategoryId = 130,
+                            SubCategoryId = 128,
                             Title = "title for advertasing N 269"
                         },
                         new
                         {
                             AdId = 270,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 270",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27000,
-                            SubCategoryId = 131,
+                            SubCategoryId = 129,
                             Title = "title for advertasing N 270"
                         },
                         new
                         {
                             AdId = 271,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 271",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27100,
-                            SubCategoryId = 132,
+                            SubCategoryId = 130,
                             Title = "title for advertasing N 271"
                         },
                         new
@@ -3596,7 +3596,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27200,
-                            SubCategoryId = 133,
+                            SubCategoryId = 131,
                             Title = "title for advertasing N 272"
                         },
                         new
@@ -3609,7 +3609,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27300,
-                            SubCategoryId = 134,
+                            SubCategoryId = 132,
                             Title = "title for advertasing N 273"
                         },
                         new
@@ -3622,7 +3622,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27400,
-                            SubCategoryId = 135,
+                            SubCategoryId = 133,
                             Title = "title for advertasing N 274"
                         },
                         new
@@ -3635,7 +3635,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27500,
-                            SubCategoryId = 136,
+                            SubCategoryId = 134,
                             Title = "title for advertasing N 275"
                         },
                         new
@@ -3648,7 +3648,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27600,
-                            SubCategoryId = 137,
+                            SubCategoryId = 135,
                             Title = "title for advertasing N 276"
                         },
                         new
@@ -3661,7 +3661,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27700,
-                            SubCategoryId = 138,
+                            SubCategoryId = 136,
                             Title = "title for advertasing N 277"
                         },
                         new
@@ -3674,7 +3674,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27800,
-                            SubCategoryId = 139,
+                            SubCategoryId = 137,
                             Title = "title for advertasing N 278"
                         },
                         new
@@ -3687,7 +3687,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 27900,
-                            SubCategoryId = 1,
+                            SubCategoryId = 138,
                             Title = "title for advertasing N 279"
                         },
                         new
@@ -3700,163 +3700,163 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28000,
-                            SubCategoryId = 2,
+                            SubCategoryId = 139,
                             Title = "title for advertasing N 280"
                         },
                         new
                         {
                             AdId = 281,
-                            CategoryId = 11,
+                            CategoryId = 12,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 281",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28100,
-                            SubCategoryId = 3,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 281"
                         },
                         new
                         {
                             AdId = 282,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 282",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28200,
-                            SubCategoryId = 4,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 282"
                         },
                         new
                         {
                             AdId = 283,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 283",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28300,
-                            SubCategoryId = 5,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 283"
                         },
                         new
                         {
                             AdId = 284,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 284",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28400,
-                            SubCategoryId = 6,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 284"
                         },
                         new
                         {
                             AdId = 285,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 285",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28500,
-                            SubCategoryId = 7,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 285"
                         },
                         new
                         {
                             AdId = 286,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 286",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28600,
-                            SubCategoryId = 8,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 286"
                         },
                         new
                         {
                             AdId = 287,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 287",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28700,
-                            SubCategoryId = 9,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 287"
                         },
                         new
                         {
                             AdId = 288,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 288",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28800,
-                            SubCategoryId = 10,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 288"
                         },
                         new
                         {
                             AdId = 289,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 289",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 28900,
-                            SubCategoryId = 11,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 289"
                         },
                         new
                         {
                             AdId = 290,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 290",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29000,
-                            SubCategoryId = 12,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 290"
                         },
                         new
                         {
                             AdId = 291,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 291",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29100,
-                            SubCategoryId = 13,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 291"
                         },
                         new
                         {
                             AdId = 292,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 292",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29200,
-                            SubCategoryId = 14,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 292"
                         },
                         new
@@ -3869,7 +3869,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29300,
-                            SubCategoryId = 15,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 293"
                         },
                         new
@@ -3882,7 +3882,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29400,
-                            SubCategoryId = 16,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 294"
                         },
                         new
@@ -3895,7 +3895,7 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29500,
-                            SubCategoryId = 17,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 295"
                         },
                         new
@@ -3908,59 +3908,59 @@ namespace shop.Migrations
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29600,
-                            SubCategoryId = 18,
+                            SubCategoryId = 14,
                             Title = "title for advertasing N 296"
                         },
                         new
                         {
                             AdId = 297,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 297",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29700,
-                            SubCategoryId = 19,
+                            SubCategoryId = 15,
                             Title = "title for advertasing N 297"
                         },
                         new
                         {
                             AdId = 298,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 298",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29800,
-                            SubCategoryId = 20,
+                            SubCategoryId = 16,
                             Title = "title for advertasing N 298"
                         },
                         new
                         {
                             AdId = 299,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 3,
                             ContactPerson = "Кира Муратова",
                             Desc = "description for advertising number 299",
                             Email = "bonJovi@gmail.com",
                             Phone = "097-678-00-18",
                             Price = 29900,
-                            SubCategoryId = 21,
+                            SubCategoryId = 17,
                             Title = "title for advertasing N 299"
                         },
                         new
                         {
                             AdId = 300,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 300",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30000,
-                            SubCategoryId = 22,
+                            SubCategoryId = 18,
                             Title = "title for advertasing N 300"
                         },
                         new
@@ -3973,7 +3973,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30100,
-                            SubCategoryId = 23,
+                            SubCategoryId = 19,
                             Title = "title for advertasing N 301"
                         },
                         new
@@ -3986,7 +3986,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30200,
-                            SubCategoryId = 24,
+                            SubCategoryId = 20,
                             Title = "title for advertasing N 302"
                         },
                         new
@@ -3999,7 +3999,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30300,
-                            SubCategoryId = 25,
+                            SubCategoryId = 21,
                             Title = "title for advertasing N 303"
                         },
                         new
@@ -4012,7 +4012,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30400,
-                            SubCategoryId = 26,
+                            SubCategoryId = 22,
                             Title = "title for advertasing N 304"
                         },
                         new
@@ -4025,7 +4025,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30500,
-                            SubCategoryId = 27,
+                            SubCategoryId = 23,
                             Title = "title for advertasing N 305"
                         },
                         new
@@ -4038,7 +4038,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30600,
-                            SubCategoryId = 28,
+                            SubCategoryId = 24,
                             Title = "title for advertasing N 306"
                         },
                         new
@@ -4051,7 +4051,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30700,
-                            SubCategoryId = 29,
+                            SubCategoryId = 25,
                             Title = "title for advertasing N 307"
                         },
                         new
@@ -4064,7 +4064,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30800,
-                            SubCategoryId = 30,
+                            SubCategoryId = 26,
                             Title = "title for advertasing N 308"
                         },
                         new
@@ -4077,7 +4077,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 30900,
-                            SubCategoryId = 31,
+                            SubCategoryId = 27,
                             Title = "title for advertasing N 309"
                         },
                         new
@@ -4090,59 +4090,59 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31000,
-                            SubCategoryId = 32,
+                            SubCategoryId = 28,
                             Title = "title for advertasing N 310"
                         },
                         new
                         {
                             AdId = 311,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 311",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31100,
-                            SubCategoryId = 33,
+                            SubCategoryId = 29,
                             Title = "title for advertasing N 311"
                         },
                         new
                         {
                             AdId = 312,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 312",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31200,
-                            SubCategoryId = 34,
+                            SubCategoryId = 30,
                             Title = "title for advertasing N 312"
                         },
                         new
                         {
                             AdId = 313,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 313",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31300,
-                            SubCategoryId = 35,
+                            SubCategoryId = 31,
                             Title = "title for advertasing N 313"
                         },
                         new
                         {
                             AdId = 314,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 314",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31400,
-                            SubCategoryId = 36,
+                            SubCategoryId = 32,
                             Title = "title for advertasing N 314"
                         },
                         new
@@ -4155,7 +4155,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31500,
-                            SubCategoryId = 37,
+                            SubCategoryId = 33,
                             Title = "title for advertasing N 315"
                         },
                         new
@@ -4168,59 +4168,59 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31600,
-                            SubCategoryId = 38,
+                            SubCategoryId = 34,
                             Title = "title for advertasing N 316"
                         },
                         new
                         {
                             AdId = 317,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 317",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31700,
-                            SubCategoryId = 39,
+                            SubCategoryId = 35,
                             Title = "title for advertasing N 317"
                         },
                         new
                         {
                             AdId = 318,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 318",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31800,
-                            SubCategoryId = 40,
+                            SubCategoryId = 36,
                             Title = "title for advertasing N 318"
                         },
                         new
                         {
                             AdId = 319,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 319",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 31900,
-                            SubCategoryId = 41,
+                            SubCategoryId = 37,
                             Title = "title for advertasing N 319"
                         },
                         new
                         {
                             AdId = 320,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 320",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32000,
-                            SubCategoryId = 42,
+                            SubCategoryId = 38,
                             Title = "title for advertasing N 320"
                         },
                         new
@@ -4233,7 +4233,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32100,
-                            SubCategoryId = 43,
+                            SubCategoryId = 39,
                             Title = "title for advertasing N 321"
                         },
                         new
@@ -4246,7 +4246,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32200,
-                            SubCategoryId = 44,
+                            SubCategoryId = 40,
                             Title = "title for advertasing N 322"
                         },
                         new
@@ -4259,7 +4259,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32300,
-                            SubCategoryId = 45,
+                            SubCategoryId = 41,
                             Title = "title for advertasing N 323"
                         },
                         new
@@ -4272,7 +4272,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32400,
-                            SubCategoryId = 46,
+                            SubCategoryId = 42,
                             Title = "title for advertasing N 324"
                         },
                         new
@@ -4285,7 +4285,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32500,
-                            SubCategoryId = 47,
+                            SubCategoryId = 43,
                             Title = "title for advertasing N 325"
                         },
                         new
@@ -4298,7 +4298,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32600,
-                            SubCategoryId = 48,
+                            SubCategoryId = 44,
                             Title = "title for advertasing N 326"
                         },
                         new
@@ -4311,7 +4311,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32700,
-                            SubCategoryId = 49,
+                            SubCategoryId = 45,
                             Title = "title for advertasing N 327"
                         },
                         new
@@ -4324,7 +4324,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32800,
-                            SubCategoryId = 50,
+                            SubCategoryId = 46,
                             Title = "title for advertasing N 328"
                         },
                         new
@@ -4337,7 +4337,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 32900,
-                            SubCategoryId = 51,
+                            SubCategoryId = 47,
                             Title = "title for advertasing N 329"
                         },
                         new
@@ -4350,7 +4350,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33000,
-                            SubCategoryId = 52,
+                            SubCategoryId = 48,
                             Title = "title for advertasing N 330"
                         },
                         new
@@ -4363,7 +4363,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33100,
-                            SubCategoryId = 53,
+                            SubCategoryId = 49,
                             Title = "title for advertasing N 331"
                         },
                         new
@@ -4376,7 +4376,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33200,
-                            SubCategoryId = 54,
+                            SubCategoryId = 50,
                             Title = "title for advertasing N 332"
                         },
                         new
@@ -4389,7 +4389,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33300,
-                            SubCategoryId = 55,
+                            SubCategoryId = 51,
                             Title = "title for advertasing N 333"
                         },
                         new
@@ -4402,7 +4402,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33400,
-                            SubCategoryId = 56,
+                            SubCategoryId = 52,
                             Title = "title for advertasing N 334"
                         },
                         new
@@ -4415,7 +4415,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33500,
-                            SubCategoryId = 57,
+                            SubCategoryId = 53,
                             Title = "title for advertasing N 335"
                         },
                         new
@@ -4428,7 +4428,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33600,
-                            SubCategoryId = 58,
+                            SubCategoryId = 54,
                             Title = "title for advertasing N 336"
                         },
                         new
@@ -4441,7 +4441,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33700,
-                            SubCategoryId = 59,
+                            SubCategoryId = 55,
                             Title = "title for advertasing N 337"
                         },
                         new
@@ -4454,7 +4454,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33800,
-                            SubCategoryId = 60,
+                            SubCategoryId = 56,
                             Title = "title for advertasing N 338"
                         },
                         new
@@ -4467,7 +4467,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 33900,
-                            SubCategoryId = 61,
+                            SubCategoryId = 57,
                             Title = "title for advertasing N 339"
                         },
                         new
@@ -4480,7 +4480,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34000,
-                            SubCategoryId = 62,
+                            SubCategoryId = 58,
                             Title = "title for advertasing N 340"
                         },
                         new
@@ -4493,7 +4493,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34100,
-                            SubCategoryId = 63,
+                            SubCategoryId = 59,
                             Title = "title for advertasing N 341"
                         },
                         new
@@ -4506,59 +4506,59 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34200,
-                            SubCategoryId = 64,
+                            SubCategoryId = 60,
                             Title = "title for advertasing N 342"
                         },
                         new
                         {
                             AdId = 343,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 343",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34300,
-                            SubCategoryId = 65,
+                            SubCategoryId = 61,
                             Title = "title for advertasing N 343"
                         },
                         new
                         {
                             AdId = 344,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 344",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34400,
-                            SubCategoryId = 66,
+                            SubCategoryId = 62,
                             Title = "title for advertasing N 344"
                         },
                         new
                         {
                             AdId = 345,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 345",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34500,
-                            SubCategoryId = 67,
+                            SubCategoryId = 63,
                             Title = "title for advertasing N 345"
                         },
                         new
                         {
                             AdId = 346,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 346",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34600,
-                            SubCategoryId = 68,
+                            SubCategoryId = 64,
                             Title = "title for advertasing N 346"
                         },
                         new
@@ -4571,7 +4571,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34700,
-                            SubCategoryId = 69,
+                            SubCategoryId = 65,
                             Title = "title for advertasing N 347"
                         },
                         new
@@ -4584,7 +4584,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34800,
-                            SubCategoryId = 70,
+                            SubCategoryId = 66,
                             Title = "title for advertasing N 348"
                         },
                         new
@@ -4597,7 +4597,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 34900,
-                            SubCategoryId = 71,
+                            SubCategoryId = 67,
                             Title = "title for advertasing N 349"
                         },
                         new
@@ -4610,7 +4610,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35000,
-                            SubCategoryId = 72,
+                            SubCategoryId = 68,
                             Title = "title for advertasing N 350"
                         },
                         new
@@ -4623,7 +4623,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35100,
-                            SubCategoryId = 73,
+                            SubCategoryId = 69,
                             Title = "title for advertasing N 351"
                         },
                         new
@@ -4636,7 +4636,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35200,
-                            SubCategoryId = 74,
+                            SubCategoryId = 70,
                             Title = "title for advertasing N 352"
                         },
                         new
@@ -4649,7 +4649,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35300,
-                            SubCategoryId = 75,
+                            SubCategoryId = 71,
                             Title = "title for advertasing N 353"
                         },
                         new
@@ -4662,59 +4662,59 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35400,
-                            SubCategoryId = 76,
+                            SubCategoryId = 72,
                             Title = "title for advertasing N 354"
                         },
                         new
                         {
                             AdId = 355,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 355",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35500,
-                            SubCategoryId = 77,
+                            SubCategoryId = 73,
                             Title = "title for advertasing N 355"
                         },
                         new
                         {
                             AdId = 356,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 356",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35600,
-                            SubCategoryId = 78,
+                            SubCategoryId = 74,
                             Title = "title for advertasing N 356"
                         },
                         new
                         {
                             AdId = 357,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 357",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35700,
-                            SubCategoryId = 79,
+                            SubCategoryId = 75,
                             Title = "title for advertasing N 357"
                         },
                         new
                         {
                             AdId = 358,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 358",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35800,
-                            SubCategoryId = 80,
+                            SubCategoryId = 76,
                             Title = "title for advertasing N 358"
                         },
                         new
@@ -4727,7 +4727,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 35900,
-                            SubCategoryId = 81,
+                            SubCategoryId = 77,
                             Title = "title for advertasing N 359"
                         },
                         new
@@ -4740,7 +4740,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36000,
-                            SubCategoryId = 82,
+                            SubCategoryId = 78,
                             Title = "title for advertasing N 360"
                         },
                         new
@@ -4753,7 +4753,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36100,
-                            SubCategoryId = 83,
+                            SubCategoryId = 79,
                             Title = "title for advertasing N 361"
                         },
                         new
@@ -4766,7 +4766,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36200,
-                            SubCategoryId = 84,
+                            SubCategoryId = 80,
                             Title = "title for advertasing N 362"
                         },
                         new
@@ -4779,7 +4779,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36300,
-                            SubCategoryId = 85,
+                            SubCategoryId = 81,
                             Title = "title for advertasing N 363"
                         },
                         new
@@ -4792,7 +4792,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36400,
-                            SubCategoryId = 86,
+                            SubCategoryId = 82,
                             Title = "title for advertasing N 364"
                         },
                         new
@@ -4805,7 +4805,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36500,
-                            SubCategoryId = 87,
+                            SubCategoryId = 83,
                             Title = "title for advertasing N 365"
                         },
                         new
@@ -4818,59 +4818,59 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36600,
-                            SubCategoryId = 88,
+                            SubCategoryId = 84,
                             Title = "title for advertasing N 366"
                         },
                         new
                         {
                             AdId = 367,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 367",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36700,
-                            SubCategoryId = 89,
+                            SubCategoryId = 85,
                             Title = "title for advertasing N 367"
                         },
                         new
                         {
                             AdId = 368,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 368",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36800,
-                            SubCategoryId = 90,
+                            SubCategoryId = 86,
                             Title = "title for advertasing N 368"
                         },
                         new
                         {
                             AdId = 369,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 369",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 36900,
-                            SubCategoryId = 91,
+                            SubCategoryId = 87,
                             Title = "title for advertasing N 369"
                         },
                         new
                         {
                             AdId = 370,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 370",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37000,
-                            SubCategoryId = 92,
+                            SubCategoryId = 88,
                             Title = "title for advertasing N 370"
                         },
                         new
@@ -4883,7 +4883,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37100,
-                            SubCategoryId = 93,
+                            SubCategoryId = 89,
                             Title = "title for advertasing N 371"
                         },
                         new
@@ -4896,7 +4896,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37200,
-                            SubCategoryId = 94,
+                            SubCategoryId = 90,
                             Title = "title for advertasing N 372"
                         },
                         new
@@ -4909,7 +4909,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37300,
-                            SubCategoryId = 95,
+                            SubCategoryId = 91,
                             Title = "title for advertasing N 373"
                         },
                         new
@@ -4922,7 +4922,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37400,
-                            SubCategoryId = 96,
+                            SubCategoryId = 92,
                             Title = "title for advertasing N 374"
                         },
                         new
@@ -4935,7 +4935,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37500,
-                            SubCategoryId = 97,
+                            SubCategoryId = 93,
                             Title = "title for advertasing N 375"
                         },
                         new
@@ -4948,7 +4948,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37600,
-                            SubCategoryId = 98,
+                            SubCategoryId = 94,
                             Title = "title for advertasing N 376"
                         },
                         new
@@ -4961,7 +4961,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37700,
-                            SubCategoryId = 99,
+                            SubCategoryId = 95,
                             Title = "title for advertasing N 377"
                         },
                         new
@@ -4974,7 +4974,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37800,
-                            SubCategoryId = 100,
+                            SubCategoryId = 96,
                             Title = "title for advertasing N 378"
                         },
                         new
@@ -4987,7 +4987,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 37900,
-                            SubCategoryId = 101,
+                            SubCategoryId = 97,
                             Title = "title for advertasing N 379"
                         },
                         new
@@ -5000,7 +5000,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38000,
-                            SubCategoryId = 102,
+                            SubCategoryId = 98,
                             Title = "title for advertasing N 380"
                         },
                         new
@@ -5013,59 +5013,59 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38100,
-                            SubCategoryId = 103,
+                            SubCategoryId = 99,
                             Title = "title for advertasing N 381"
                         },
                         new
                         {
                             AdId = 382,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 382",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38200,
-                            SubCategoryId = 104,
+                            SubCategoryId = 100,
                             Title = "title for advertasing N 382"
                         },
                         new
                         {
                             AdId = 383,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 383",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38300,
-                            SubCategoryId = 105,
+                            SubCategoryId = 101,
                             Title = "title for advertasing N 383"
                         },
                         new
                         {
                             AdId = 384,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 384",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38400,
-                            SubCategoryId = 106,
+                            SubCategoryId = 102,
                             Title = "title for advertasing N 384"
                         },
                         new
                         {
                             AdId = 385,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 4,
                             ContactPerson = "Евгений Евтушенко",
                             Desc = "description for advertising number 385",
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38500,
-                            SubCategoryId = 107,
+                            SubCategoryId = 103,
                             Title = "title for advertasing N 385"
                         },
                         new
@@ -5078,7 +5078,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38600,
-                            SubCategoryId = 108,
+                            SubCategoryId = 104,
                             Title = "title for advertasing N 386"
                         },
                         new
@@ -5091,7 +5091,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38700,
-                            SubCategoryId = 109,
+                            SubCategoryId = 105,
                             Title = "title for advertasing N 387"
                         },
                         new
@@ -5104,7 +5104,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38800,
-                            SubCategoryId = 110,
+                            SubCategoryId = 106,
                             Title = "title for advertasing N 388"
                         },
                         new
@@ -5117,7 +5117,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 38900,
-                            SubCategoryId = 111,
+                            SubCategoryId = 107,
                             Title = "title for advertasing N 389"
                         },
                         new
@@ -5130,7 +5130,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39000,
-                            SubCategoryId = 112,
+                            SubCategoryId = 108,
                             Title = "title for advertasing N 390"
                         },
                         new
@@ -5143,7 +5143,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39100,
-                            SubCategoryId = 113,
+                            SubCategoryId = 109,
                             Title = "title for advertasing N 391"
                         },
                         new
@@ -5156,7 +5156,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39200,
-                            SubCategoryId = 114,
+                            SubCategoryId = 110,
                             Title = "title for advertasing N 392"
                         },
                         new
@@ -5169,7 +5169,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39300,
-                            SubCategoryId = 115,
+                            SubCategoryId = 111,
                             Title = "title for advertasing N 393"
                         },
                         new
@@ -5182,7 +5182,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39400,
-                            SubCategoryId = 116,
+                            SubCategoryId = 112,
                             Title = "title for advertasing N 394"
                         },
                         new
@@ -5195,7 +5195,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39500,
-                            SubCategoryId = 117,
+                            SubCategoryId = 113,
                             Title = "title for advertasing N 395"
                         },
                         new
@@ -5208,7 +5208,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39600,
-                            SubCategoryId = 118,
+                            SubCategoryId = 114,
                             Title = "title for advertasing N 396"
                         },
                         new
@@ -5221,7 +5221,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39700,
-                            SubCategoryId = 119,
+                            SubCategoryId = 115,
                             Title = "title for advertasing N 397"
                         },
                         new
@@ -5234,7 +5234,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39800,
-                            SubCategoryId = 120,
+                            SubCategoryId = 116,
                             Title = "title for advertasing N 398"
                         },
                         new
@@ -5247,7 +5247,7 @@ namespace shop.Migrations
                             Email = "plyer111@gmail.com",
                             Phone = "097-704-81-17",
                             Price = 39900,
-                            SubCategoryId = 121,
+                            SubCategoryId = 117,
                             Title = "title for advertasing N 399"
                         },
                         new
@@ -5260,7 +5260,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40000,
-                            SubCategoryId = 122,
+                            SubCategoryId = 118,
                             Title = "title for advertasing N 400"
                         },
                         new
@@ -5273,59 +5273,59 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40100,
-                            SubCategoryId = 123,
+                            SubCategoryId = 119,
                             Title = "title for advertasing N 401"
                         },
                         new
                         {
                             AdId = 402,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 402",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40200,
-                            SubCategoryId = 124,
+                            SubCategoryId = 120,
                             Title = "title for advertasing N 402"
                         },
                         new
                         {
                             AdId = 403,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 403",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40300,
-                            SubCategoryId = 125,
+                            SubCategoryId = 121,
                             Title = "title for advertasing N 403"
                         },
                         new
                         {
                             AdId = 404,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 404",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40400,
-                            SubCategoryId = 126,
+                            SubCategoryId = 122,
                             Title = "title for advertasing N 404"
                         },
                         new
                         {
                             AdId = 405,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 405",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40500,
-                            SubCategoryId = 127,
+                            SubCategoryId = 123,
                             Title = "title for advertasing N 405"
                         },
                         new
@@ -5338,7 +5338,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40600,
-                            SubCategoryId = 128,
+                            SubCategoryId = 124,
                             Title = "title for advertasing N 406"
                         },
                         new
@@ -5351,7 +5351,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40700,
-                            SubCategoryId = 129,
+                            SubCategoryId = 125,
                             Title = "title for advertasing N 407"
                         },
                         new
@@ -5364,59 +5364,59 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40800,
-                            SubCategoryId = 130,
+                            SubCategoryId = 126,
                             Title = "title for advertasing N 408"
                         },
                         new
                         {
                             AdId = 409,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 409",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 40900,
-                            SubCategoryId = 131,
+                            SubCategoryId = 127,
                             Title = "title for advertasing N 409"
                         },
                         new
                         {
                             AdId = 410,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 410",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41000,
-                            SubCategoryId = 132,
+                            SubCategoryId = 128,
                             Title = "title for advertasing N 410"
                         },
                         new
                         {
                             AdId = 411,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 411",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41100,
-                            SubCategoryId = 133,
+                            SubCategoryId = 129,
                             Title = "title for advertasing N 411"
                         },
                         new
                         {
                             AdId = 412,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 412",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41200,
-                            SubCategoryId = 134,
+                            SubCategoryId = 130,
                             Title = "title for advertasing N 412"
                         },
                         new
@@ -5429,7 +5429,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41300,
-                            SubCategoryId = 135,
+                            SubCategoryId = 131,
                             Title = "title for advertasing N 413"
                         },
                         new
@@ -5442,7 +5442,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41400,
-                            SubCategoryId = 136,
+                            SubCategoryId = 132,
                             Title = "title for advertasing N 414"
                         },
                         new
@@ -5455,7 +5455,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41500,
-                            SubCategoryId = 137,
+                            SubCategoryId = 133,
                             Title = "title for advertasing N 415"
                         },
                         new
@@ -5468,7 +5468,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41600,
-                            SubCategoryId = 138,
+                            SubCategoryId = 134,
                             Title = "title for advertasing N 416"
                         },
                         new
@@ -5481,7 +5481,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41700,
-                            SubCategoryId = 139,
+                            SubCategoryId = 135,
                             Title = "title for advertasing N 417"
                         },
                         new
@@ -5494,7 +5494,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41800,
-                            SubCategoryId = 1,
+                            SubCategoryId = 136,
                             Title = "title for advertasing N 418"
                         },
                         new
@@ -5507,7 +5507,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 41900,
-                            SubCategoryId = 2,
+                            SubCategoryId = 137,
                             Title = "title for advertasing N 419"
                         },
                         new
@@ -5520,7 +5520,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42000,
-                            SubCategoryId = 3,
+                            SubCategoryId = 138,
                             Title = "title for advertasing N 420"
                         },
                         new
@@ -5533,163 +5533,163 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42100,
-                            SubCategoryId = 4,
+                            SubCategoryId = 139,
                             Title = "title for advertasing N 421"
                         },
                         new
                         {
                             AdId = 422,
-                            CategoryId = 11,
+                            CategoryId = 12,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 422",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42200,
-                            SubCategoryId = 5,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 422"
                         },
                         new
                         {
                             AdId = 423,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 423",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42300,
-                            SubCategoryId = 6,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 423"
                         },
                         new
                         {
                             AdId = 424,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 424",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42400,
-                            SubCategoryId = 7,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 424"
                         },
                         new
                         {
                             AdId = 425,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 425",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42500,
-                            SubCategoryId = 8,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 425"
                         },
                         new
                         {
                             AdId = 426,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 426",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42600,
-                            SubCategoryId = 9,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 426"
                         },
                         new
                         {
                             AdId = 427,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 427",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42700,
-                            SubCategoryId = 10,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 427"
                         },
                         new
                         {
                             AdId = 428,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 428",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42800,
-                            SubCategoryId = 11,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 428"
                         },
                         new
                         {
                             AdId = 429,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 429",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 42900,
-                            SubCategoryId = 12,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 429"
                         },
                         new
                         {
                             AdId = 430,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 430",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43000,
-                            SubCategoryId = 13,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 430"
                         },
                         new
                         {
                             AdId = 431,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 431",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43100,
-                            SubCategoryId = 14,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 431"
                         },
                         new
                         {
                             AdId = 432,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 432",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43200,
-                            SubCategoryId = 15,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 432"
                         },
                         new
                         {
                             AdId = 433,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 433",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43300,
-                            SubCategoryId = 16,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 433"
                         },
                         new
@@ -5702,7 +5702,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43400,
-                            SubCategoryId = 17,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 434"
                         },
                         new
@@ -5715,85 +5715,85 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43500,
-                            SubCategoryId = 18,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 435"
                         },
                         new
                         {
                             AdId = 436,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 436",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43600,
-                            SubCategoryId = 19,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 436"
                         },
                         new
                         {
                             AdId = 437,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 437",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43700,
-                            SubCategoryId = 20,
+                            SubCategoryId = 14,
                             Title = "title for advertasing N 437"
                         },
                         new
                         {
                             AdId = 438,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 438",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43800,
-                            SubCategoryId = 21,
+                            SubCategoryId = 15,
                             Title = "title for advertasing N 438"
                         },
                         new
                         {
                             AdId = 439,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 439",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 43900,
-                            SubCategoryId = 22,
+                            SubCategoryId = 16,
                             Title = "title for advertasing N 439"
                         },
                         new
                         {
                             AdId = 440,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 440",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44000,
-                            SubCategoryId = 23,
+                            SubCategoryId = 17,
                             Title = "title for advertasing N 440"
                         },
                         new
                         {
                             AdId = 441,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 441",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44100,
-                            SubCategoryId = 24,
+                            SubCategoryId = 18,
                             Title = "title for advertasing N 441"
                         },
                         new
@@ -5806,7 +5806,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44200,
-                            SubCategoryId = 25,
+                            SubCategoryId = 19,
                             Title = "title for advertasing N 442"
                         },
                         new
@@ -5819,7 +5819,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44300,
-                            SubCategoryId = 26,
+                            SubCategoryId = 20,
                             Title = "title for advertasing N 443"
                         },
                         new
@@ -5832,7 +5832,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44400,
-                            SubCategoryId = 27,
+                            SubCategoryId = 21,
                             Title = "title for advertasing N 444"
                         },
                         new
@@ -5845,7 +5845,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44500,
-                            SubCategoryId = 28,
+                            SubCategoryId = 22,
                             Title = "title for advertasing N 445"
                         },
                         new
@@ -5858,7 +5858,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44600,
-                            SubCategoryId = 29,
+                            SubCategoryId = 23,
                             Title = "title for advertasing N 446"
                         },
                         new
@@ -5871,7 +5871,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44700,
-                            SubCategoryId = 30,
+                            SubCategoryId = 24,
                             Title = "title for advertasing N 447"
                         },
                         new
@@ -5884,7 +5884,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44800,
-                            SubCategoryId = 31,
+                            SubCategoryId = 25,
                             Title = "title for advertasing N 448"
                         },
                         new
@@ -5897,163 +5897,163 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 44900,
-                            SubCategoryId = 32,
+                            SubCategoryId = 26,
                             Title = "title for advertasing N 449"
                         },
                         new
                         {
                             AdId = 450,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 450",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45000,
-                            SubCategoryId = 33,
+                            SubCategoryId = 27,
                             Title = "title for advertasing N 450"
                         },
                         new
                         {
                             AdId = 451,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 451",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45100,
-                            SubCategoryId = 34,
+                            SubCategoryId = 28,
                             Title = "title for advertasing N 451"
                         },
                         new
                         {
                             AdId = 452,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 452",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45200,
-                            SubCategoryId = 35,
+                            SubCategoryId = 29,
                             Title = "title for advertasing N 452"
                         },
                         new
                         {
                             AdId = 453,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 453",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45300,
-                            SubCategoryId = 36,
+                            SubCategoryId = 30,
                             Title = "title for advertasing N 453"
                         },
                         new
                         {
                             AdId = 454,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 454",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45400,
-                            SubCategoryId = 37,
+                            SubCategoryId = 31,
                             Title = "title for advertasing N 454"
                         },
                         new
                         {
                             AdId = 455,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 455",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45500,
-                            SubCategoryId = 38,
+                            SubCategoryId = 32,
                             Title = "title for advertasing N 455"
                         },
                         new
                         {
                             AdId = 456,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 456",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45600,
-                            SubCategoryId = 39,
+                            SubCategoryId = 33,
                             Title = "title for advertasing N 456"
                         },
                         new
                         {
                             AdId = 457,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 457",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45700,
-                            SubCategoryId = 40,
+                            SubCategoryId = 34,
                             Title = "title for advertasing N 457"
                         },
                         new
                         {
                             AdId = 458,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 458",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45800,
-                            SubCategoryId = 41,
+                            SubCategoryId = 35,
                             Title = "title for advertasing N 458"
                         },
                         new
                         {
                             AdId = 459,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 459",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 45900,
-                            SubCategoryId = 42,
+                            SubCategoryId = 36,
                             Title = "title for advertasing N 459"
                         },
                         new
                         {
                             AdId = 460,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 460",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46000,
-                            SubCategoryId = 43,
+                            SubCategoryId = 37,
                             Title = "title for advertasing N 460"
                         },
                         new
                         {
                             AdId = 461,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 461",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46100,
-                            SubCategoryId = 44,
+                            SubCategoryId = 38,
                             Title = "title for advertasing N 461"
                         },
                         new
@@ -6066,7 +6066,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46200,
-                            SubCategoryId = 45,
+                            SubCategoryId = 39,
                             Title = "title for advertasing N 462"
                         },
                         new
@@ -6079,7 +6079,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46300,
-                            SubCategoryId = 46,
+                            SubCategoryId = 40,
                             Title = "title for advertasing N 463"
                         },
                         new
@@ -6092,7 +6092,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46400,
-                            SubCategoryId = 47,
+                            SubCategoryId = 41,
                             Title = "title for advertasing N 464"
                         },
                         new
@@ -6105,7 +6105,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46500,
-                            SubCategoryId = 48,
+                            SubCategoryId = 42,
                             Title = "title for advertasing N 465"
                         },
                         new
@@ -6118,7 +6118,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46600,
-                            SubCategoryId = 49,
+                            SubCategoryId = 43,
                             Title = "title for advertasing N 466"
                         },
                         new
@@ -6131,7 +6131,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46700,
-                            SubCategoryId = 50,
+                            SubCategoryId = 44,
                             Title = "title for advertasing N 467"
                         },
                         new
@@ -6144,7 +6144,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46800,
-                            SubCategoryId = 51,
+                            SubCategoryId = 45,
                             Title = "title for advertasing N 468"
                         },
                         new
@@ -6157,7 +6157,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 46900,
-                            SubCategoryId = 52,
+                            SubCategoryId = 46,
                             Title = "title for advertasing N 469"
                         },
                         new
@@ -6170,7 +6170,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47000,
-                            SubCategoryId = 53,
+                            SubCategoryId = 47,
                             Title = "title for advertasing N 470"
                         },
                         new
@@ -6183,7 +6183,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47100,
-                            SubCategoryId = 54,
+                            SubCategoryId = 48,
                             Title = "title for advertasing N 471"
                         },
                         new
@@ -6196,7 +6196,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47200,
-                            SubCategoryId = 55,
+                            SubCategoryId = 49,
                             Title = "title for advertasing N 472"
                         },
                         new
@@ -6209,7 +6209,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47300,
-                            SubCategoryId = 56,
+                            SubCategoryId = 50,
                             Title = "title for advertasing N 473"
                         },
                         new
@@ -6222,7 +6222,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47400,
-                            SubCategoryId = 57,
+                            SubCategoryId = 51,
                             Title = "title for advertasing N 474"
                         },
                         new
@@ -6235,7 +6235,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47500,
-                            SubCategoryId = 58,
+                            SubCategoryId = 52,
                             Title = "title for advertasing N 475"
                         },
                         new
@@ -6248,7 +6248,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47600,
-                            SubCategoryId = 59,
+                            SubCategoryId = 53,
                             Title = "title for advertasing N 476"
                         },
                         new
@@ -6261,7 +6261,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47700,
-                            SubCategoryId = 60,
+                            SubCategoryId = 54,
                             Title = "title for advertasing N 477"
                         },
                         new
@@ -6274,7 +6274,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47800,
-                            SubCategoryId = 61,
+                            SubCategoryId = 55,
                             Title = "title for advertasing N 478"
                         },
                         new
@@ -6287,7 +6287,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 47900,
-                            SubCategoryId = 62,
+                            SubCategoryId = 56,
                             Title = "title for advertasing N 479"
                         },
                         new
@@ -6300,7 +6300,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48000,
-                            SubCategoryId = 63,
+                            SubCategoryId = 57,
                             Title = "title for advertasing N 480"
                         },
                         new
@@ -6313,85 +6313,85 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48100,
-                            SubCategoryId = 64,
+                            SubCategoryId = 58,
                             Title = "title for advertasing N 481"
                         },
                         new
                         {
                             AdId = 482,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 482",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48200,
-                            SubCategoryId = 65,
+                            SubCategoryId = 59,
                             Title = "title for advertasing N 482"
                         },
                         new
                         {
                             AdId = 483,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 483",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48300,
-                            SubCategoryId = 66,
+                            SubCategoryId = 60,
                             Title = "title for advertasing N 483"
                         },
                         new
                         {
                             AdId = 484,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 484",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48400,
-                            SubCategoryId = 67,
+                            SubCategoryId = 61,
                             Title = "title for advertasing N 484"
                         },
                         new
                         {
                             AdId = 485,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 485",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48500,
-                            SubCategoryId = 68,
+                            SubCategoryId = 62,
                             Title = "title for advertasing N 485"
                         },
                         new
                         {
                             AdId = 486,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 486",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48600,
-                            SubCategoryId = 69,
+                            SubCategoryId = 63,
                             Title = "title for advertasing N 486"
                         },
                         new
                         {
                             AdId = 487,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 487",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48700,
-                            SubCategoryId = 70,
+                            SubCategoryId = 64,
                             Title = "title for advertasing N 487"
                         },
                         new
@@ -6404,7 +6404,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48800,
-                            SubCategoryId = 71,
+                            SubCategoryId = 65,
                             Title = "title for advertasing N 488"
                         },
                         new
@@ -6417,7 +6417,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 48900,
-                            SubCategoryId = 72,
+                            SubCategoryId = 66,
                             Title = "title for advertasing N 489"
                         },
                         new
@@ -6430,7 +6430,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49000,
-                            SubCategoryId = 73,
+                            SubCategoryId = 67,
                             Title = "title for advertasing N 490"
                         },
                         new
@@ -6443,7 +6443,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49100,
-                            SubCategoryId = 74,
+                            SubCategoryId = 68,
                             Title = "title for advertasing N 491"
                         },
                         new
@@ -6456,7 +6456,7 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49200,
-                            SubCategoryId = 75,
+                            SubCategoryId = 69,
                             Title = "title for advertasing N 492"
                         },
                         new
@@ -6469,85 +6469,85 @@ namespace shop.Migrations
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49300,
-                            SubCategoryId = 76,
+                            SubCategoryId = 70,
                             Title = "title for advertasing N 493"
                         },
                         new
                         {
                             AdId = 494,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 494",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49400,
-                            SubCategoryId = 77,
+                            SubCategoryId = 71,
                             Title = "title for advertasing N 494"
                         },
                         new
                         {
                             AdId = 495,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 495",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49500,
-                            SubCategoryId = 78,
+                            SubCategoryId = 72,
                             Title = "title for advertasing N 495"
                         },
                         new
                         {
                             AdId = 496,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 496",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49600,
-                            SubCategoryId = 79,
+                            SubCategoryId = 73,
                             Title = "title for advertasing N 496"
                         },
                         new
                         {
                             AdId = 497,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 497",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49700,
-                            SubCategoryId = 80,
+                            SubCategoryId = 74,
                             Title = "title for advertasing N 497"
                         },
                         new
                         {
                             AdId = 498,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 498",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49800,
-                            SubCategoryId = 81,
+                            SubCategoryId = 75,
                             Title = "title for advertasing N 498"
                         },
                         new
                         {
                             AdId = 499,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 5,
                             ContactPerson = "Александр Довженко",
                             Desc = "description for advertising number 499",
                             Email = "sakura444@gmail.com",
                             Phone = "067-971-44-11",
                             Price = 49900,
-                            SubCategoryId = 82,
+                            SubCategoryId = 76,
                             Title = "title for advertasing N 499"
                         },
                         new
@@ -6560,7 +6560,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50000,
-                            SubCategoryId = 83,
+                            SubCategoryId = 77,
                             Title = "title for advertasing N 500"
                         },
                         new
@@ -6573,7 +6573,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50100,
-                            SubCategoryId = 84,
+                            SubCategoryId = 78,
                             Title = "title for advertasing N 501"
                         },
                         new
@@ -6586,7 +6586,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50200,
-                            SubCategoryId = 85,
+                            SubCategoryId = 79,
                             Title = "title for advertasing N 502"
                         },
                         new
@@ -6599,7 +6599,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50300,
-                            SubCategoryId = 86,
+                            SubCategoryId = 80,
                             Title = "title for advertasing N 503"
                         },
                         new
@@ -6612,7 +6612,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50400,
-                            SubCategoryId = 87,
+                            SubCategoryId = 81,
                             Title = "title for advertasing N 504"
                         },
                         new
@@ -6625,85 +6625,85 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50500,
-                            SubCategoryId = 88,
+                            SubCategoryId = 82,
                             Title = "title for advertasing N 505"
                         },
                         new
                         {
                             AdId = 506,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 506",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50600,
-                            SubCategoryId = 89,
+                            SubCategoryId = 83,
                             Title = "title for advertasing N 506"
                         },
                         new
                         {
                             AdId = 507,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 507",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50700,
-                            SubCategoryId = 90,
+                            SubCategoryId = 84,
                             Title = "title for advertasing N 507"
                         },
                         new
                         {
                             AdId = 508,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 508",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50800,
-                            SubCategoryId = 91,
+                            SubCategoryId = 85,
                             Title = "title for advertasing N 508"
                         },
                         new
                         {
                             AdId = 509,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 509",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 50900,
-                            SubCategoryId = 92,
+                            SubCategoryId = 86,
                             Title = "title for advertasing N 509"
                         },
                         new
                         {
                             AdId = 510,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 510",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51000,
-                            SubCategoryId = 93,
+                            SubCategoryId = 87,
                             Title = "title for advertasing N 510"
                         },
                         new
                         {
                             AdId = 511,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 511",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51100,
-                            SubCategoryId = 94,
+                            SubCategoryId = 88,
                             Title = "title for advertasing N 511"
                         },
                         new
@@ -6716,7 +6716,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51200,
-                            SubCategoryId = 95,
+                            SubCategoryId = 89,
                             Title = "title for advertasing N 512"
                         },
                         new
@@ -6729,7 +6729,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51300,
-                            SubCategoryId = 96,
+                            SubCategoryId = 90,
                             Title = "title for advertasing N 513"
                         },
                         new
@@ -6742,7 +6742,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51400,
-                            SubCategoryId = 97,
+                            SubCategoryId = 91,
                             Title = "title for advertasing N 514"
                         },
                         new
@@ -6755,7 +6755,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51500,
-                            SubCategoryId = 98,
+                            SubCategoryId = 92,
                             Title = "title for advertasing N 515"
                         },
                         new
@@ -6768,7 +6768,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51600,
-                            SubCategoryId = 99,
+                            SubCategoryId = 93,
                             Title = "title for advertasing N 516"
                         },
                         new
@@ -6781,7 +6781,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51700,
-                            SubCategoryId = 100,
+                            SubCategoryId = 94,
                             Title = "title for advertasing N 517"
                         },
                         new
@@ -6794,7 +6794,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51800,
-                            SubCategoryId = 101,
+                            SubCategoryId = 95,
                             Title = "title for advertasing N 518"
                         },
                         new
@@ -6807,7 +6807,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 51900,
-                            SubCategoryId = 102,
+                            SubCategoryId = 96,
                             Title = "title for advertasing N 519"
                         },
                         new
@@ -6820,85 +6820,85 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52000,
-                            SubCategoryId = 103,
+                            SubCategoryId = 97,
                             Title = "title for advertasing N 520"
                         },
                         new
                         {
                             AdId = 521,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 521",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52100,
-                            SubCategoryId = 104,
+                            SubCategoryId = 98,
                             Title = "title for advertasing N 521"
                         },
                         new
                         {
                             AdId = 522,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 522",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52200,
-                            SubCategoryId = 105,
+                            SubCategoryId = 99,
                             Title = "title for advertasing N 522"
                         },
                         new
                         {
                             AdId = 523,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 523",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52300,
-                            SubCategoryId = 106,
+                            SubCategoryId = 100,
                             Title = "title for advertasing N 523"
                         },
                         new
                         {
                             AdId = 524,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 524",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52400,
-                            SubCategoryId = 107,
+                            SubCategoryId = 101,
                             Title = "title for advertasing N 524"
                         },
                         new
                         {
                             AdId = 525,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 525",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52500,
-                            SubCategoryId = 108,
+                            SubCategoryId = 102,
                             Title = "title for advertasing N 525"
                         },
                         new
                         {
                             AdId = 526,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 526",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52600,
-                            SubCategoryId = 109,
+                            SubCategoryId = 103,
                             Title = "title for advertasing N 526"
                         },
                         new
@@ -6911,7 +6911,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52700,
-                            SubCategoryId = 110,
+                            SubCategoryId = 104,
                             Title = "title for advertasing N 527"
                         },
                         new
@@ -6924,7 +6924,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52800,
-                            SubCategoryId = 111,
+                            SubCategoryId = 105,
                             Title = "title for advertasing N 528"
                         },
                         new
@@ -6937,7 +6937,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 52900,
-                            SubCategoryId = 112,
+                            SubCategoryId = 106,
                             Title = "title for advertasing N 529"
                         },
                         new
@@ -6950,7 +6950,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53000,
-                            SubCategoryId = 113,
+                            SubCategoryId = 107,
                             Title = "title for advertasing N 530"
                         },
                         new
@@ -6963,7 +6963,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53100,
-                            SubCategoryId = 114,
+                            SubCategoryId = 108,
                             Title = "title for advertasing N 531"
                         },
                         new
@@ -6976,7 +6976,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53200,
-                            SubCategoryId = 115,
+                            SubCategoryId = 109,
                             Title = "title for advertasing N 532"
                         },
                         new
@@ -6989,7 +6989,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53300,
-                            SubCategoryId = 116,
+                            SubCategoryId = 110,
                             Title = "title for advertasing N 533"
                         },
                         new
@@ -7002,7 +7002,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53400,
-                            SubCategoryId = 117,
+                            SubCategoryId = 111,
                             Title = "title for advertasing N 534"
                         },
                         new
@@ -7015,7 +7015,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53500,
-                            SubCategoryId = 118,
+                            SubCategoryId = 112,
                             Title = "title for advertasing N 535"
                         },
                         new
@@ -7028,7 +7028,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53600,
-                            SubCategoryId = 119,
+                            SubCategoryId = 113,
                             Title = "title for advertasing N 536"
                         },
                         new
@@ -7041,7 +7041,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53700,
-                            SubCategoryId = 120,
+                            SubCategoryId = 114,
                             Title = "title for advertasing N 537"
                         },
                         new
@@ -7054,7 +7054,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53800,
-                            SubCategoryId = 121,
+                            SubCategoryId = 115,
                             Title = "title for advertasing N 538"
                         },
                         new
@@ -7067,7 +7067,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 53900,
-                            SubCategoryId = 122,
+                            SubCategoryId = 116,
                             Title = "title for advertasing N 539"
                         },
                         new
@@ -7080,85 +7080,85 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54000,
-                            SubCategoryId = 123,
+                            SubCategoryId = 117,
                             Title = "title for advertasing N 540"
                         },
                         new
                         {
                             AdId = 541,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 541",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54100,
-                            SubCategoryId = 124,
+                            SubCategoryId = 118,
                             Title = "title for advertasing N 541"
                         },
                         new
                         {
                             AdId = 542,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 542",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54200,
-                            SubCategoryId = 125,
+                            SubCategoryId = 119,
                             Title = "title for advertasing N 542"
                         },
                         new
                         {
                             AdId = 543,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 543",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54300,
-                            SubCategoryId = 126,
+                            SubCategoryId = 120,
                             Title = "title for advertasing N 543"
                         },
                         new
                         {
                             AdId = 544,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 544",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54400,
-                            SubCategoryId = 127,
+                            SubCategoryId = 121,
                             Title = "title for advertasing N 544"
                         },
                         new
                         {
                             AdId = 545,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 545",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54500,
-                            SubCategoryId = 128,
+                            SubCategoryId = 122,
                             Title = "title for advertasing N 545"
                         },
                         new
                         {
                             AdId = 546,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 546",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54600,
-                            SubCategoryId = 129,
+                            SubCategoryId = 123,
                             Title = "title for advertasing N 546"
                         },
                         new
@@ -7171,85 +7171,85 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54700,
-                            SubCategoryId = 130,
+                            SubCategoryId = 124,
                             Title = "title for advertasing N 547"
                         },
                         new
                         {
                             AdId = 548,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 548",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54800,
-                            SubCategoryId = 131,
+                            SubCategoryId = 125,
                             Title = "title for advertasing N 548"
                         },
                         new
                         {
                             AdId = 549,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 549",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 54900,
-                            SubCategoryId = 132,
+                            SubCategoryId = 126,
                             Title = "title for advertasing N 549"
                         },
                         new
                         {
                             AdId = 550,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 550",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55000,
-                            SubCategoryId = 133,
+                            SubCategoryId = 127,
                             Title = "title for advertasing N 550"
                         },
                         new
                         {
                             AdId = 551,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 551",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55100,
-                            SubCategoryId = 134,
+                            SubCategoryId = 128,
                             Title = "title for advertasing N 551"
                         },
                         new
                         {
                             AdId = 552,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 552",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55200,
-                            SubCategoryId = 135,
+                            SubCategoryId = 129,
                             Title = "title for advertasing N 552"
                         },
                         new
                         {
                             AdId = 553,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 553",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55300,
-                            SubCategoryId = 136,
+                            SubCategoryId = 130,
                             Title = "title for advertasing N 553"
                         },
                         new
@@ -7262,7 +7262,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55400,
-                            SubCategoryId = 137,
+                            SubCategoryId = 131,
                             Title = "title for advertasing N 554"
                         },
                         new
@@ -7275,7 +7275,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55500,
-                            SubCategoryId = 138,
+                            SubCategoryId = 132,
                             Title = "title for advertasing N 555"
                         },
                         new
@@ -7288,7 +7288,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55600,
-                            SubCategoryId = 139,
+                            SubCategoryId = 133,
                             Title = "title for advertasing N 556"
                         },
                         new
@@ -7301,7 +7301,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55700,
-                            SubCategoryId = 1,
+                            SubCategoryId = 134,
                             Title = "title for advertasing N 557"
                         },
                         new
@@ -7314,7 +7314,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55800,
-                            SubCategoryId = 2,
+                            SubCategoryId = 135,
                             Title = "title for advertasing N 558"
                         },
                         new
@@ -7327,7 +7327,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 55900,
-                            SubCategoryId = 3,
+                            SubCategoryId = 136,
                             Title = "title for advertasing N 559"
                         },
                         new
@@ -7340,7 +7340,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56000,
-                            SubCategoryId = 4,
+                            SubCategoryId = 137,
                             Title = "title for advertasing N 560"
                         },
                         new
@@ -7353,7 +7353,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56100,
-                            SubCategoryId = 5,
+                            SubCategoryId = 138,
                             Title = "title for advertasing N 561"
                         },
                         new
@@ -7366,267 +7366,267 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56200,
-                            SubCategoryId = 6,
+                            SubCategoryId = 139,
                             Title = "title for advertasing N 562"
                         },
                         new
                         {
                             AdId = 563,
-                            CategoryId = 11,
+                            CategoryId = 12,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 563",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56300,
-                            SubCategoryId = 7,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 563"
                         },
                         new
                         {
                             AdId = 564,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 564",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56400,
-                            SubCategoryId = 8,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 564"
                         },
                         new
                         {
                             AdId = 565,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 565",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56500,
-                            SubCategoryId = 9,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 565"
                         },
                         new
                         {
                             AdId = 566,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 566",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56600,
-                            SubCategoryId = 10,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 566"
                         },
                         new
                         {
                             AdId = 567,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 567",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56700,
-                            SubCategoryId = 11,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 567"
                         },
                         new
                         {
                             AdId = 568,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 568",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56800,
-                            SubCategoryId = 12,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 568"
                         },
                         new
                         {
                             AdId = 569,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 569",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 56900,
-                            SubCategoryId = 13,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 569"
                         },
                         new
                         {
                             AdId = 570,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 570",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57000,
-                            SubCategoryId = 14,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 570"
                         },
                         new
                         {
                             AdId = 571,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 571",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57100,
-                            SubCategoryId = 15,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 571"
                         },
                         new
                         {
                             AdId = 572,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 572",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57200,
-                            SubCategoryId = 16,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 572"
                         },
                         new
                         {
                             AdId = 573,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 573",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57300,
-                            SubCategoryId = 17,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 573"
                         },
                         new
                         {
                             AdId = 574,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 574",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57400,
-                            SubCategoryId = 18,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 574"
                         },
                         new
                         {
                             AdId = 575,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 575",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57500,
-                            SubCategoryId = 19,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 575"
                         },
                         new
                         {
                             AdId = 576,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 576",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57600,
-                            SubCategoryId = 20,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 576"
                         },
                         new
                         {
                             AdId = 577,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 577",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57700,
-                            SubCategoryId = 21,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 577"
                         },
                         new
                         {
                             AdId = 578,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 578",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57800,
-                            SubCategoryId = 22,
+                            SubCategoryId = 14,
                             Title = "title for advertasing N 578"
                         },
                         new
                         {
                             AdId = 579,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 579",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 57900,
-                            SubCategoryId = 23,
+                            SubCategoryId = 15,
                             Title = "title for advertasing N 579"
                         },
                         new
                         {
                             AdId = 580,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 580",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58000,
-                            SubCategoryId = 24,
+                            SubCategoryId = 16,
                             Title = "title for advertasing N 580"
                         },
                         new
                         {
                             AdId = 581,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 581",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58100,
-                            SubCategoryId = 25,
+                            SubCategoryId = 17,
                             Title = "title for advertasing N 581"
                         },
                         new
                         {
                             AdId = 582,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 582",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58200,
-                            SubCategoryId = 26,
+                            SubCategoryId = 18,
                             Title = "title for advertasing N 582"
                         },
                         new
@@ -7639,7 +7639,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58300,
-                            SubCategoryId = 27,
+                            SubCategoryId = 19,
                             Title = "title for advertasing N 583"
                         },
                         new
@@ -7652,7 +7652,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58400,
-                            SubCategoryId = 28,
+                            SubCategoryId = 20,
                             Title = "title for advertasing N 584"
                         },
                         new
@@ -7665,7 +7665,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58500,
-                            SubCategoryId = 29,
+                            SubCategoryId = 21,
                             Title = "title for advertasing N 585"
                         },
                         new
@@ -7678,7 +7678,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58600,
-                            SubCategoryId = 30,
+                            SubCategoryId = 22,
                             Title = "title for advertasing N 586"
                         },
                         new
@@ -7691,7 +7691,7 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58700,
-                            SubCategoryId = 31,
+                            SubCategoryId = 23,
                             Title = "title for advertasing N 587"
                         },
                         new
@@ -7704,189 +7704,189 @@ namespace shop.Migrations
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58800,
-                            SubCategoryId = 32,
+                            SubCategoryId = 24,
                             Title = "title for advertasing N 588"
                         },
                         new
                         {
                             AdId = 589,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 589",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 58900,
-                            SubCategoryId = 33,
+                            SubCategoryId = 25,
                             Title = "title for advertasing N 589"
                         },
                         new
                         {
                             AdId = 590,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 590",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59000,
-                            SubCategoryId = 34,
+                            SubCategoryId = 26,
                             Title = "title for advertasing N 590"
                         },
                         new
                         {
                             AdId = 591,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 591",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59100,
-                            SubCategoryId = 35,
+                            SubCategoryId = 27,
                             Title = "title for advertasing N 591"
                         },
                         new
                         {
                             AdId = 592,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 592",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59200,
-                            SubCategoryId = 36,
+                            SubCategoryId = 28,
                             Title = "title for advertasing N 592"
                         },
                         new
                         {
                             AdId = 593,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 593",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59300,
-                            SubCategoryId = 37,
+                            SubCategoryId = 29,
                             Title = "title for advertasing N 593"
                         },
                         new
                         {
                             AdId = 594,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 594",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59400,
-                            SubCategoryId = 38,
+                            SubCategoryId = 30,
                             Title = "title for advertasing N 594"
                         },
                         new
                         {
                             AdId = 595,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 595",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59500,
-                            SubCategoryId = 39,
+                            SubCategoryId = 31,
                             Title = "title for advertasing N 595"
                         },
                         new
                         {
                             AdId = 596,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 596",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59600,
-                            SubCategoryId = 40,
+                            SubCategoryId = 32,
                             Title = "title for advertasing N 596"
                         },
                         new
                         {
                             AdId = 597,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 597",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59700,
-                            SubCategoryId = 41,
+                            SubCategoryId = 33,
                             Title = "title for advertasing N 597"
                         },
                         new
                         {
                             AdId = 598,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 598",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59800,
-                            SubCategoryId = 42,
+                            SubCategoryId = 34,
                             Title = "title for advertasing N 598"
                         },
                         new
                         {
                             AdId = 599,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 6,
                             ContactPerson = "Григорий Козинцев",
                             Desc = "description for advertising number 599",
                             Email = "saske@gmail.com",
                             Phone = "063-178-36-02",
                             Price = 59900,
-                            SubCategoryId = 43,
+                            SubCategoryId = 35,
                             Title = "title for advertasing N 599"
                         },
                         new
                         {
                             AdId = 600,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 600",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60000,
-                            SubCategoryId = 44,
+                            SubCategoryId = 36,
                             Title = "title for advertasing N 600"
                         },
                         new
                         {
                             AdId = 601,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 601",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60100,
-                            SubCategoryId = 45,
+                            SubCategoryId = 37,
                             Title = "title for advertasing N 601"
                         },
                         new
                         {
                             AdId = 602,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 602",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60200,
-                            SubCategoryId = 46,
+                            SubCategoryId = 38,
                             Title = "title for advertasing N 602"
                         },
                         new
@@ -7899,7 +7899,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60300,
-                            SubCategoryId = 47,
+                            SubCategoryId = 39,
                             Title = "title for advertasing N 603"
                         },
                         new
@@ -7912,7 +7912,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60400,
-                            SubCategoryId = 48,
+                            SubCategoryId = 40,
                             Title = "title for advertasing N 604"
                         },
                         new
@@ -7925,7 +7925,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60500,
-                            SubCategoryId = 49,
+                            SubCategoryId = 41,
                             Title = "title for advertasing N 605"
                         },
                         new
@@ -7938,7 +7938,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60600,
-                            SubCategoryId = 50,
+                            SubCategoryId = 42,
                             Title = "title for advertasing N 606"
                         },
                         new
@@ -7951,7 +7951,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60700,
-                            SubCategoryId = 51,
+                            SubCategoryId = 43,
                             Title = "title for advertasing N 607"
                         },
                         new
@@ -7964,7 +7964,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60800,
-                            SubCategoryId = 52,
+                            SubCategoryId = 44,
                             Title = "title for advertasing N 608"
                         },
                         new
@@ -7977,7 +7977,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 60900,
-                            SubCategoryId = 53,
+                            SubCategoryId = 45,
                             Title = "title for advertasing N 609"
                         },
                         new
@@ -7990,7 +7990,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61000,
-                            SubCategoryId = 54,
+                            SubCategoryId = 46,
                             Title = "title for advertasing N 610"
                         },
                         new
@@ -8003,7 +8003,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61100,
-                            SubCategoryId = 55,
+                            SubCategoryId = 47,
                             Title = "title for advertasing N 611"
                         },
                         new
@@ -8016,7 +8016,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61200,
-                            SubCategoryId = 56,
+                            SubCategoryId = 48,
                             Title = "title for advertasing N 612"
                         },
                         new
@@ -8029,7 +8029,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61300,
-                            SubCategoryId = 57,
+                            SubCategoryId = 49,
                             Title = "title for advertasing N 613"
                         },
                         new
@@ -8042,7 +8042,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61400,
-                            SubCategoryId = 58,
+                            SubCategoryId = 50,
                             Title = "title for advertasing N 614"
                         },
                         new
@@ -8055,7 +8055,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61500,
-                            SubCategoryId = 59,
+                            SubCategoryId = 51,
                             Title = "title for advertasing N 615"
                         },
                         new
@@ -8068,7 +8068,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61600,
-                            SubCategoryId = 60,
+                            SubCategoryId = 52,
                             Title = "title for advertasing N 616"
                         },
                         new
@@ -8081,7 +8081,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61700,
-                            SubCategoryId = 61,
+                            SubCategoryId = 53,
                             Title = "title for advertasing N 617"
                         },
                         new
@@ -8094,7 +8094,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61800,
-                            SubCategoryId = 62,
+                            SubCategoryId = 54,
                             Title = "title for advertasing N 618"
                         },
                         new
@@ -8107,7 +8107,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 61900,
-                            SubCategoryId = 63,
+                            SubCategoryId = 55,
                             Title = "title for advertasing N 619"
                         },
                         new
@@ -8120,111 +8120,111 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62000,
-                            SubCategoryId = 64,
+                            SubCategoryId = 56,
                             Title = "title for advertasing N 620"
                         },
                         new
                         {
                             AdId = 621,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 621",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62100,
-                            SubCategoryId = 65,
+                            SubCategoryId = 57,
                             Title = "title for advertasing N 621"
                         },
                         new
                         {
                             AdId = 622,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 622",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62200,
-                            SubCategoryId = 66,
+                            SubCategoryId = 58,
                             Title = "title for advertasing N 622"
                         },
                         new
                         {
                             AdId = 623,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 623",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62300,
-                            SubCategoryId = 67,
+                            SubCategoryId = 59,
                             Title = "title for advertasing N 623"
                         },
                         new
                         {
                             AdId = 624,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 624",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62400,
-                            SubCategoryId = 68,
+                            SubCategoryId = 60,
                             Title = "title for advertasing N 624"
                         },
                         new
                         {
                             AdId = 625,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 625",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62500,
-                            SubCategoryId = 69,
+                            SubCategoryId = 61,
                             Title = "title for advertasing N 625"
                         },
                         new
                         {
                             AdId = 626,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 626",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62600,
-                            SubCategoryId = 70,
+                            SubCategoryId = 62,
                             Title = "title for advertasing N 626"
                         },
                         new
                         {
                             AdId = 627,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 627",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62700,
-                            SubCategoryId = 71,
+                            SubCategoryId = 63,
                             Title = "title for advertasing N 627"
                         },
                         new
                         {
                             AdId = 628,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 628",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62800,
-                            SubCategoryId = 72,
+                            SubCategoryId = 64,
                             Title = "title for advertasing N 628"
                         },
                         new
@@ -8237,7 +8237,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 62900,
-                            SubCategoryId = 73,
+                            SubCategoryId = 65,
                             Title = "title for advertasing N 629"
                         },
                         new
@@ -8250,7 +8250,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63000,
-                            SubCategoryId = 74,
+                            SubCategoryId = 66,
                             Title = "title for advertasing N 630"
                         },
                         new
@@ -8263,7 +8263,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63100,
-                            SubCategoryId = 75,
+                            SubCategoryId = 67,
                             Title = "title for advertasing N 631"
                         },
                         new
@@ -8276,111 +8276,111 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63200,
-                            SubCategoryId = 76,
+                            SubCategoryId = 68,
                             Title = "title for advertasing N 632"
                         },
                         new
                         {
                             AdId = 633,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 633",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63300,
-                            SubCategoryId = 77,
+                            SubCategoryId = 69,
                             Title = "title for advertasing N 633"
                         },
                         new
                         {
                             AdId = 634,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 634",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63400,
-                            SubCategoryId = 78,
+                            SubCategoryId = 70,
                             Title = "title for advertasing N 634"
                         },
                         new
                         {
                             AdId = 635,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 635",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63500,
-                            SubCategoryId = 79,
+                            SubCategoryId = 71,
                             Title = "title for advertasing N 635"
                         },
                         new
                         {
                             AdId = 636,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 636",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63600,
-                            SubCategoryId = 80,
+                            SubCategoryId = 72,
                             Title = "title for advertasing N 636"
                         },
                         new
                         {
                             AdId = 637,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 637",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63700,
-                            SubCategoryId = 81,
+                            SubCategoryId = 73,
                             Title = "title for advertasing N 637"
                         },
                         new
                         {
                             AdId = 638,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 638",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63800,
-                            SubCategoryId = 82,
+                            SubCategoryId = 74,
                             Title = "title for advertasing N 638"
                         },
                         new
                         {
                             AdId = 639,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 639",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 63900,
-                            SubCategoryId = 83,
+                            SubCategoryId = 75,
                             Title = "title for advertasing N 639"
                         },
                         new
                         {
                             AdId = 640,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 640",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64000,
-                            SubCategoryId = 84,
+                            SubCategoryId = 76,
                             Title = "title for advertasing N 640"
                         },
                         new
@@ -8393,7 +8393,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64100,
-                            SubCategoryId = 85,
+                            SubCategoryId = 77,
                             Title = "title for advertasing N 641"
                         },
                         new
@@ -8406,7 +8406,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64200,
-                            SubCategoryId = 86,
+                            SubCategoryId = 78,
                             Title = "title for advertasing N 642"
                         },
                         new
@@ -8419,7 +8419,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64300,
-                            SubCategoryId = 87,
+                            SubCategoryId = 79,
                             Title = "title for advertasing N 643"
                         },
                         new
@@ -8432,111 +8432,111 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64400,
-                            SubCategoryId = 88,
+                            SubCategoryId = 80,
                             Title = "title for advertasing N 644"
                         },
                         new
                         {
                             AdId = 645,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 645",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64500,
-                            SubCategoryId = 89,
+                            SubCategoryId = 81,
                             Title = "title for advertasing N 645"
                         },
                         new
                         {
                             AdId = 646,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 646",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64600,
-                            SubCategoryId = 90,
+                            SubCategoryId = 82,
                             Title = "title for advertasing N 646"
                         },
                         new
                         {
                             AdId = 647,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 647",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64700,
-                            SubCategoryId = 91,
+                            SubCategoryId = 83,
                             Title = "title for advertasing N 647"
                         },
                         new
                         {
                             AdId = 648,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 648",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64800,
-                            SubCategoryId = 92,
+                            SubCategoryId = 84,
                             Title = "title for advertasing N 648"
                         },
                         new
                         {
                             AdId = 649,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 649",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 64900,
-                            SubCategoryId = 93,
+                            SubCategoryId = 85,
                             Title = "title for advertasing N 649"
                         },
                         new
                         {
                             AdId = 650,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 650",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65000,
-                            SubCategoryId = 94,
+                            SubCategoryId = 86,
                             Title = "title for advertasing N 650"
                         },
                         new
                         {
                             AdId = 651,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 651",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65100,
-                            SubCategoryId = 95,
+                            SubCategoryId = 87,
                             Title = "title for advertasing N 651"
                         },
                         new
                         {
                             AdId = 652,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 652",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65200,
-                            SubCategoryId = 96,
+                            SubCategoryId = 88,
                             Title = "title for advertasing N 652"
                         },
                         new
@@ -8549,7 +8549,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65300,
-                            SubCategoryId = 97,
+                            SubCategoryId = 89,
                             Title = "title for advertasing N 653"
                         },
                         new
@@ -8562,7 +8562,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65400,
-                            SubCategoryId = 98,
+                            SubCategoryId = 90,
                             Title = "title for advertasing N 654"
                         },
                         new
@@ -8575,7 +8575,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65500,
-                            SubCategoryId = 99,
+                            SubCategoryId = 91,
                             Title = "title for advertasing N 655"
                         },
                         new
@@ -8588,7 +8588,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65600,
-                            SubCategoryId = 100,
+                            SubCategoryId = 92,
                             Title = "title for advertasing N 656"
                         },
                         new
@@ -8601,7 +8601,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65700,
-                            SubCategoryId = 101,
+                            SubCategoryId = 93,
                             Title = "title for advertasing N 657"
                         },
                         new
@@ -8614,7 +8614,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65800,
-                            SubCategoryId = 102,
+                            SubCategoryId = 94,
                             Title = "title for advertasing N 658"
                         },
                         new
@@ -8627,111 +8627,111 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 65900,
-                            SubCategoryId = 103,
+                            SubCategoryId = 95,
                             Title = "title for advertasing N 659"
                         },
                         new
                         {
                             AdId = 660,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 660",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66000,
-                            SubCategoryId = 104,
+                            SubCategoryId = 96,
                             Title = "title for advertasing N 660"
                         },
                         new
                         {
                             AdId = 661,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 661",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66100,
-                            SubCategoryId = 105,
+                            SubCategoryId = 97,
                             Title = "title for advertasing N 661"
                         },
                         new
                         {
                             AdId = 662,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 662",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66200,
-                            SubCategoryId = 106,
+                            SubCategoryId = 98,
                             Title = "title for advertasing N 662"
                         },
                         new
                         {
                             AdId = 663,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 663",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66300,
-                            SubCategoryId = 107,
+                            SubCategoryId = 99,
                             Title = "title for advertasing N 663"
                         },
                         new
                         {
                             AdId = 664,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 664",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66400,
-                            SubCategoryId = 108,
+                            SubCategoryId = 100,
                             Title = "title for advertasing N 664"
                         },
                         new
                         {
                             AdId = 665,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 665",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66500,
-                            SubCategoryId = 109,
+                            SubCategoryId = 101,
                             Title = "title for advertasing N 665"
                         },
                         new
                         {
                             AdId = 666,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 666",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66600,
-                            SubCategoryId = 110,
+                            SubCategoryId = 102,
                             Title = "title for advertasing N 666"
                         },
                         new
                         {
                             AdId = 667,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 667",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66700,
-                            SubCategoryId = 111,
+                            SubCategoryId = 103,
                             Title = "title for advertasing N 667"
                         },
                         new
@@ -8744,7 +8744,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66800,
-                            SubCategoryId = 112,
+                            SubCategoryId = 104,
                             Title = "title for advertasing N 668"
                         },
                         new
@@ -8757,7 +8757,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 66900,
-                            SubCategoryId = 113,
+                            SubCategoryId = 105,
                             Title = "title for advertasing N 669"
                         },
                         new
@@ -8770,7 +8770,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67000,
-                            SubCategoryId = 114,
+                            SubCategoryId = 106,
                             Title = "title for advertasing N 670"
                         },
                         new
@@ -8783,7 +8783,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67100,
-                            SubCategoryId = 115,
+                            SubCategoryId = 107,
                             Title = "title for advertasing N 671"
                         },
                         new
@@ -8796,7 +8796,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67200,
-                            SubCategoryId = 116,
+                            SubCategoryId = 108,
                             Title = "title for advertasing N 672"
                         },
                         new
@@ -8809,7 +8809,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67300,
-                            SubCategoryId = 117,
+                            SubCategoryId = 109,
                             Title = "title for advertasing N 673"
                         },
                         new
@@ -8822,7 +8822,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67400,
-                            SubCategoryId = 118,
+                            SubCategoryId = 110,
                             Title = "title for advertasing N 674"
                         },
                         new
@@ -8835,7 +8835,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67500,
-                            SubCategoryId = 119,
+                            SubCategoryId = 111,
                             Title = "title for advertasing N 675"
                         },
                         new
@@ -8848,7 +8848,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67600,
-                            SubCategoryId = 120,
+                            SubCategoryId = 112,
                             Title = "title for advertasing N 676"
                         },
                         new
@@ -8861,7 +8861,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67700,
-                            SubCategoryId = 121,
+                            SubCategoryId = 113,
                             Title = "title for advertasing N 677"
                         },
                         new
@@ -8874,7 +8874,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67800,
-                            SubCategoryId = 122,
+                            SubCategoryId = 114,
                             Title = "title for advertasing N 678"
                         },
                         new
@@ -8887,202 +8887,202 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 67900,
-                            SubCategoryId = 123,
+                            SubCategoryId = 115,
                             Title = "title for advertasing N 679"
                         },
                         new
                         {
                             AdId = 680,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 680",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68000,
-                            SubCategoryId = 124,
+                            SubCategoryId = 116,
                             Title = "title for advertasing N 680"
                         },
                         new
                         {
                             AdId = 681,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 681",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68100,
-                            SubCategoryId = 125,
+                            SubCategoryId = 117,
                             Title = "title for advertasing N 681"
                         },
                         new
                         {
                             AdId = 682,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 682",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68200,
-                            SubCategoryId = 126,
+                            SubCategoryId = 118,
                             Title = "title for advertasing N 682"
                         },
                         new
                         {
                             AdId = 683,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 683",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68300,
-                            SubCategoryId = 127,
+                            SubCategoryId = 119,
                             Title = "title for advertasing N 683"
                         },
                         new
                         {
                             AdId = 684,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 684",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68400,
-                            SubCategoryId = 128,
+                            SubCategoryId = 120,
                             Title = "title for advertasing N 684"
                         },
                         new
                         {
                             AdId = 685,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 685",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68500,
-                            SubCategoryId = 129,
+                            SubCategoryId = 121,
                             Title = "title for advertasing N 685"
                         },
                         new
                         {
                             AdId = 686,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 686",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68600,
-                            SubCategoryId = 130,
+                            SubCategoryId = 122,
                             Title = "title for advertasing N 686"
                         },
                         new
                         {
                             AdId = 687,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 687",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68700,
-                            SubCategoryId = 131,
+                            SubCategoryId = 123,
                             Title = "title for advertasing N 687"
                         },
                         new
                         {
                             AdId = 688,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 688",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68800,
-                            SubCategoryId = 132,
+                            SubCategoryId = 124,
                             Title = "title for advertasing N 688"
                         },
                         new
                         {
                             AdId = 689,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 689",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 68900,
-                            SubCategoryId = 133,
+                            SubCategoryId = 125,
                             Title = "title for advertasing N 689"
                         },
                         new
                         {
                             AdId = 690,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 690",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69000,
-                            SubCategoryId = 134,
+                            SubCategoryId = 126,
                             Title = "title for advertasing N 690"
                         },
                         new
                         {
                             AdId = 691,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 691",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69100,
-                            SubCategoryId = 135,
+                            SubCategoryId = 127,
                             Title = "title for advertasing N 691"
                         },
                         new
                         {
                             AdId = 692,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 692",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69200,
-                            SubCategoryId = 136,
+                            SubCategoryId = 128,
                             Title = "title for advertasing N 692"
                         },
                         new
                         {
                             AdId = 693,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 693",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69300,
-                            SubCategoryId = 137,
+                            SubCategoryId = 129,
                             Title = "title for advertasing N 693"
                         },
                         new
                         {
                             AdId = 694,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 7,
                             ContactPerson = "Казимир Малевич",
                             Desc = "description for advertising number 694",
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69400,
-                            SubCategoryId = 138,
+                            SubCategoryId = 130,
                             Title = "title for advertasing N 694"
                         },
                         new
@@ -9095,7 +9095,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69500,
-                            SubCategoryId = 139,
+                            SubCategoryId = 131,
                             Title = "title for advertasing N 695"
                         },
                         new
@@ -9108,7 +9108,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69600,
-                            SubCategoryId = 1,
+                            SubCategoryId = 132,
                             Title = "title for advertasing N 696"
                         },
                         new
@@ -9121,7 +9121,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69700,
-                            SubCategoryId = 2,
+                            SubCategoryId = 133,
                             Title = "title for advertasing N 697"
                         },
                         new
@@ -9134,7 +9134,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69800,
-                            SubCategoryId = 3,
+                            SubCategoryId = 134,
                             Title = "title for advertasing N 698"
                         },
                         new
@@ -9147,7 +9147,7 @@ namespace shop.Migrations
                             Email = "bill-gatess@gmail.com",
                             Phone = "050-671-11-22",
                             Price = 69900,
-                            SubCategoryId = 4,
+                            SubCategoryId = 135,
                             Title = "title for advertasing N 699"
                         },
                         new
@@ -9160,7 +9160,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70000,
-                            SubCategoryId = 5,
+                            SubCategoryId = 136,
                             Title = "title for advertasing N 700"
                         },
                         new
@@ -9173,7 +9173,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70100,
-                            SubCategoryId = 6,
+                            SubCategoryId = 137,
                             Title = "title for advertasing N 701"
                         },
                         new
@@ -9186,7 +9186,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70200,
-                            SubCategoryId = 7,
+                            SubCategoryId = 138,
                             Title = "title for advertasing N 702"
                         },
                         new
@@ -9199,267 +9199,267 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70300,
-                            SubCategoryId = 8,
+                            SubCategoryId = 139,
                             Title = "title for advertasing N 703"
                         },
                         new
                         {
                             AdId = 704,
-                            CategoryId = 11,
+                            CategoryId = 12,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 704",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70400,
-                            SubCategoryId = 9,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 704"
                         },
                         new
                         {
                             AdId = 705,
-                            CategoryId = 11,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 705",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70500,
-                            SubCategoryId = 10,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 705"
                         },
                         new
                         {
                             AdId = 706,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 706",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70600,
-                            SubCategoryId = 11,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 706"
                         },
                         new
                         {
                             AdId = 707,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 707",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70700,
-                            SubCategoryId = 12,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 707"
                         },
                         new
                         {
                             AdId = 708,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 708",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70800,
-                            SubCategoryId = 13,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 708"
                         },
                         new
                         {
                             AdId = 709,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 709",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 70900,
-                            SubCategoryId = 14,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 709"
                         },
                         new
                         {
                             AdId = 710,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 710",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71000,
-                            SubCategoryId = 15,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 710"
                         },
                         new
                         {
                             AdId = 711,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 711",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71100,
-                            SubCategoryId = 16,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 711"
                         },
                         new
                         {
                             AdId = 712,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 712",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71200,
-                            SubCategoryId = 17,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 712"
                         },
                         new
                         {
                             AdId = 713,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 713",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71300,
-                            SubCategoryId = 18,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 713"
                         },
                         new
                         {
                             AdId = 714,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 714",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71400,
-                            SubCategoryId = 19,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 714"
                         },
                         new
                         {
                             AdId = 715,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 715",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71500,
-                            SubCategoryId = 20,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 715"
                         },
                         new
                         {
                             AdId = 716,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 716",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71600,
-                            SubCategoryId = 21,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 716"
                         },
                         new
                         {
                             AdId = 717,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 717",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71700,
-                            SubCategoryId = 22,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 717"
                         },
                         new
                         {
                             AdId = 718,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 718",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71800,
-                            SubCategoryId = 23,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 718"
                         },
                         new
                         {
                             AdId = 719,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 719",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 71900,
-                            SubCategoryId = 24,
+                            SubCategoryId = 14,
                             Title = "title for advertasing N 719"
                         },
                         new
                         {
                             AdId = 720,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 720",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72000,
-                            SubCategoryId = 25,
+                            SubCategoryId = 15,
                             Title = "title for advertasing N 720"
                         },
                         new
                         {
                             AdId = 721,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 721",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72100,
-                            SubCategoryId = 26,
+                            SubCategoryId = 16,
                             Title = "title for advertasing N 721"
                         },
                         new
                         {
                             AdId = 722,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 722",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72200,
-                            SubCategoryId = 27,
+                            SubCategoryId = 17,
                             Title = "title for advertasing N 722"
                         },
                         new
                         {
                             AdId = 723,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 723",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72300,
-                            SubCategoryId = 28,
+                            SubCategoryId = 18,
                             Title = "title for advertasing N 723"
                         },
                         new
@@ -9472,7 +9472,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72400,
-                            SubCategoryId = 29,
+                            SubCategoryId = 19,
                             Title = "title for advertasing N 724"
                         },
                         new
@@ -9485,7 +9485,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72500,
-                            SubCategoryId = 30,
+                            SubCategoryId = 20,
                             Title = "title for advertasing N 725"
                         },
                         new
@@ -9498,7 +9498,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72600,
-                            SubCategoryId = 31,
+                            SubCategoryId = 21,
                             Title = "title for advertasing N 726"
                         },
                         new
@@ -9511,215 +9511,215 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72700,
-                            SubCategoryId = 32,
+                            SubCategoryId = 22,
                             Title = "title for advertasing N 727"
                         },
                         new
                         {
                             AdId = 728,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 728",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72800,
-                            SubCategoryId = 33,
+                            SubCategoryId = 23,
                             Title = "title for advertasing N 728"
                         },
                         new
                         {
                             AdId = 729,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 729",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 72900,
-                            SubCategoryId = 34,
+                            SubCategoryId = 24,
                             Title = "title for advertasing N 729"
                         },
                         new
                         {
                             AdId = 730,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 730",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73000,
-                            SubCategoryId = 35,
+                            SubCategoryId = 25,
                             Title = "title for advertasing N 730"
                         },
                         new
                         {
                             AdId = 731,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 731",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73100,
-                            SubCategoryId = 36,
+                            SubCategoryId = 26,
                             Title = "title for advertasing N 731"
                         },
                         new
                         {
                             AdId = 732,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 732",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73200,
-                            SubCategoryId = 37,
+                            SubCategoryId = 27,
                             Title = "title for advertasing N 732"
                         },
                         new
                         {
                             AdId = 733,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 733",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73300,
-                            SubCategoryId = 38,
+                            SubCategoryId = 28,
                             Title = "title for advertasing N 733"
                         },
                         new
                         {
                             AdId = 734,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 734",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73400,
-                            SubCategoryId = 39,
+                            SubCategoryId = 29,
                             Title = "title for advertasing N 734"
                         },
                         new
                         {
                             AdId = 735,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 735",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73500,
-                            SubCategoryId = 40,
+                            SubCategoryId = 30,
                             Title = "title for advertasing N 735"
                         },
                         new
                         {
                             AdId = 736,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 736",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73600,
-                            SubCategoryId = 41,
+                            SubCategoryId = 31,
                             Title = "title for advertasing N 736"
                         },
                         new
                         {
                             AdId = 737,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 737",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73700,
-                            SubCategoryId = 42,
+                            SubCategoryId = 32,
                             Title = "title for advertasing N 737"
                         },
                         new
                         {
                             AdId = 738,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 738",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73800,
-                            SubCategoryId = 43,
+                            SubCategoryId = 33,
                             Title = "title for advertasing N 738"
                         },
                         new
                         {
                             AdId = 739,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 739",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 73900,
-                            SubCategoryId = 44,
+                            SubCategoryId = 34,
                             Title = "title for advertasing N 739"
                         },
                         new
                         {
                             AdId = 740,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 740",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74000,
-                            SubCategoryId = 45,
+                            SubCategoryId = 35,
                             Title = "title for advertasing N 740"
                         },
                         new
                         {
                             AdId = 741,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 741",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74100,
-                            SubCategoryId = 46,
+                            SubCategoryId = 36,
                             Title = "title for advertasing N 741"
                         },
                         new
                         {
                             AdId = 742,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 742",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74200,
-                            SubCategoryId = 47,
+                            SubCategoryId = 37,
                             Title = "title for advertasing N 742"
                         },
                         new
                         {
                             AdId = 743,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 743",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74300,
-                            SubCategoryId = 48,
+                            SubCategoryId = 38,
                             Title = "title for advertasing N 743"
                         },
                         new
@@ -9732,7 +9732,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74400,
-                            SubCategoryId = 49,
+                            SubCategoryId = 39,
                             Title = "title for advertasing N 744"
                         },
                         new
@@ -9745,7 +9745,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74500,
-                            SubCategoryId = 50,
+                            SubCategoryId = 40,
                             Title = "title for advertasing N 745"
                         },
                         new
@@ -9758,7 +9758,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74600,
-                            SubCategoryId = 51,
+                            SubCategoryId = 41,
                             Title = "title for advertasing N 746"
                         },
                         new
@@ -9771,7 +9771,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74700,
-                            SubCategoryId = 52,
+                            SubCategoryId = 42,
                             Title = "title for advertasing N 747"
                         },
                         new
@@ -9784,7 +9784,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74800,
-                            SubCategoryId = 53,
+                            SubCategoryId = 43,
                             Title = "title for advertasing N 748"
                         },
                         new
@@ -9797,7 +9797,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 74900,
-                            SubCategoryId = 54,
+                            SubCategoryId = 44,
                             Title = "title for advertasing N 749"
                         },
                         new
@@ -9810,7 +9810,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75000,
-                            SubCategoryId = 55,
+                            SubCategoryId = 45,
                             Title = "title for advertasing N 750"
                         },
                         new
@@ -9823,7 +9823,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75100,
-                            SubCategoryId = 56,
+                            SubCategoryId = 46,
                             Title = "title for advertasing N 751"
                         },
                         new
@@ -9836,7 +9836,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75200,
-                            SubCategoryId = 57,
+                            SubCategoryId = 47,
                             Title = "title for advertasing N 752"
                         },
                         new
@@ -9849,7 +9849,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75300,
-                            SubCategoryId = 58,
+                            SubCategoryId = 48,
                             Title = "title for advertasing N 753"
                         },
                         new
@@ -9862,7 +9862,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75400,
-                            SubCategoryId = 59,
+                            SubCategoryId = 49,
                             Title = "title for advertasing N 754"
                         },
                         new
@@ -9875,7 +9875,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75500,
-                            SubCategoryId = 60,
+                            SubCategoryId = 50,
                             Title = "title for advertasing N 755"
                         },
                         new
@@ -9888,7 +9888,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75600,
-                            SubCategoryId = 61,
+                            SubCategoryId = 51,
                             Title = "title for advertasing N 756"
                         },
                         new
@@ -9901,7 +9901,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75700,
-                            SubCategoryId = 62,
+                            SubCategoryId = 52,
                             Title = "title for advertasing N 757"
                         },
                         new
@@ -9914,7 +9914,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75800,
-                            SubCategoryId = 63,
+                            SubCategoryId = 53,
                             Title = "title for advertasing N 758"
                         },
                         new
@@ -9927,137 +9927,137 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 75900,
-                            SubCategoryId = 64,
+                            SubCategoryId = 54,
                             Title = "title for advertasing N 759"
                         },
                         new
                         {
                             AdId = 760,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 760",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76000,
-                            SubCategoryId = 65,
+                            SubCategoryId = 55,
                             Title = "title for advertasing N 760"
                         },
                         new
                         {
                             AdId = 761,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 761",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76100,
-                            SubCategoryId = 66,
+                            SubCategoryId = 56,
                             Title = "title for advertasing N 761"
                         },
                         new
                         {
                             AdId = 762,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 762",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76200,
-                            SubCategoryId = 67,
+                            SubCategoryId = 57,
                             Title = "title for advertasing N 762"
                         },
                         new
                         {
                             AdId = 763,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 763",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76300,
-                            SubCategoryId = 68,
+                            SubCategoryId = 58,
                             Title = "title for advertasing N 763"
                         },
                         new
                         {
                             AdId = 764,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 764",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76400,
-                            SubCategoryId = 69,
+                            SubCategoryId = 59,
                             Title = "title for advertasing N 764"
                         },
                         new
                         {
                             AdId = 765,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 765",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76500,
-                            SubCategoryId = 70,
+                            SubCategoryId = 60,
                             Title = "title for advertasing N 765"
                         },
                         new
                         {
                             AdId = 766,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 766",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76600,
-                            SubCategoryId = 71,
+                            SubCategoryId = 61,
                             Title = "title for advertasing N 766"
                         },
                         new
                         {
                             AdId = 767,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 767",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76700,
-                            SubCategoryId = 72,
+                            SubCategoryId = 62,
                             Title = "title for advertasing N 767"
                         },
                         new
                         {
                             AdId = 768,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 768",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76800,
-                            SubCategoryId = 73,
+                            SubCategoryId = 63,
                             Title = "title for advertasing N 768"
                         },
                         new
                         {
                             AdId = 769,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 769",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 76900,
-                            SubCategoryId = 74,
+                            SubCategoryId = 64,
                             Title = "title for advertasing N 769"
                         },
                         new
@@ -10070,7 +10070,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77000,
-                            SubCategoryId = 75,
+                            SubCategoryId = 65,
                             Title = "title for advertasing N 770"
                         },
                         new
@@ -10083,137 +10083,137 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77100,
-                            SubCategoryId = 76,
+                            SubCategoryId = 66,
                             Title = "title for advertasing N 771"
                         },
                         new
                         {
                             AdId = 772,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 772",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77200,
-                            SubCategoryId = 77,
+                            SubCategoryId = 67,
                             Title = "title for advertasing N 772"
                         },
                         new
                         {
                             AdId = 773,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 773",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77300,
-                            SubCategoryId = 78,
+                            SubCategoryId = 68,
                             Title = "title for advertasing N 773"
                         },
                         new
                         {
                             AdId = 774,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 774",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77400,
-                            SubCategoryId = 79,
+                            SubCategoryId = 69,
                             Title = "title for advertasing N 774"
                         },
                         new
                         {
                             AdId = 775,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 775",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77500,
-                            SubCategoryId = 80,
+                            SubCategoryId = 70,
                             Title = "title for advertasing N 775"
                         },
                         new
                         {
                             AdId = 776,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 776",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77600,
-                            SubCategoryId = 81,
+                            SubCategoryId = 71,
                             Title = "title for advertasing N 776"
                         },
                         new
                         {
                             AdId = 777,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 777",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77700,
-                            SubCategoryId = 82,
+                            SubCategoryId = 72,
                             Title = "title for advertasing N 777"
                         },
                         new
                         {
                             AdId = 778,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 778",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77800,
-                            SubCategoryId = 83,
+                            SubCategoryId = 73,
                             Title = "title for advertasing N 778"
                         },
                         new
                         {
                             AdId = 779,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 779",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 77900,
-                            SubCategoryId = 84,
+                            SubCategoryId = 74,
                             Title = "title for advertasing N 779"
                         },
                         new
                         {
                             AdId = 780,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 780",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78000,
-                            SubCategoryId = 85,
+                            SubCategoryId = 75,
                             Title = "title for advertasing N 780"
                         },
                         new
                         {
                             AdId = 781,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 781",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78100,
-                            SubCategoryId = 86,
+                            SubCategoryId = 76,
                             Title = "title for advertasing N 781"
                         },
                         new
@@ -10226,7 +10226,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78200,
-                            SubCategoryId = 87,
+                            SubCategoryId = 77,
                             Title = "title for advertasing N 782"
                         },
                         new
@@ -10239,137 +10239,137 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78300,
-                            SubCategoryId = 88,
+                            SubCategoryId = 78,
                             Title = "title for advertasing N 783"
                         },
                         new
                         {
                             AdId = 784,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 784",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78400,
-                            SubCategoryId = 89,
+                            SubCategoryId = 79,
                             Title = "title for advertasing N 784"
                         },
                         new
                         {
                             AdId = 785,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 785",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78500,
-                            SubCategoryId = 90,
+                            SubCategoryId = 80,
                             Title = "title for advertasing N 785"
                         },
                         new
                         {
                             AdId = 786,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 786",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78600,
-                            SubCategoryId = 91,
+                            SubCategoryId = 81,
                             Title = "title for advertasing N 786"
                         },
                         new
                         {
                             AdId = 787,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 787",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78700,
-                            SubCategoryId = 92,
+                            SubCategoryId = 82,
                             Title = "title for advertasing N 787"
                         },
                         new
                         {
                             AdId = 788,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 788",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78800,
-                            SubCategoryId = 93,
+                            SubCategoryId = 83,
                             Title = "title for advertasing N 788"
                         },
                         new
                         {
                             AdId = 789,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 789",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 78900,
-                            SubCategoryId = 94,
+                            SubCategoryId = 84,
                             Title = "title for advertasing N 789"
                         },
                         new
                         {
                             AdId = 790,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 790",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79000,
-                            SubCategoryId = 95,
+                            SubCategoryId = 85,
                             Title = "title for advertasing N 790"
                         },
                         new
                         {
                             AdId = 791,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 791",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79100,
-                            SubCategoryId = 96,
+                            SubCategoryId = 86,
                             Title = "title for advertasing N 791"
                         },
                         new
                         {
                             AdId = 792,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 792",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79200,
-                            SubCategoryId = 97,
+                            SubCategoryId = 87,
                             Title = "title for advertasing N 792"
                         },
                         new
                         {
                             AdId = 793,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 793",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79300,
-                            SubCategoryId = 98,
+                            SubCategoryId = 88,
                             Title = "title for advertasing N 793"
                         },
                         new
@@ -10382,7 +10382,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79400,
-                            SubCategoryId = 99,
+                            SubCategoryId = 89,
                             Title = "title for advertasing N 794"
                         },
                         new
@@ -10395,7 +10395,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79500,
-                            SubCategoryId = 100,
+                            SubCategoryId = 90,
                             Title = "title for advertasing N 795"
                         },
                         new
@@ -10408,7 +10408,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79600,
-                            SubCategoryId = 101,
+                            SubCategoryId = 91,
                             Title = "title for advertasing N 796"
                         },
                         new
@@ -10421,7 +10421,7 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79700,
-                            SubCategoryId = 102,
+                            SubCategoryId = 92,
                             Title = "title for advertasing N 797"
                         },
                         new
@@ -10434,137 +10434,137 @@ namespace shop.Migrations
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79800,
-                            SubCategoryId = 103,
+                            SubCategoryId = 93,
                             Title = "title for advertasing N 798"
                         },
                         new
                         {
                             AdId = 799,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 8,
                             ContactPerson = "Сергей Бондарчук",
                             Desc = "description for advertising number 799",
                             Email = "noob-master99@gmail.com",
                             Phone = "096-671-88-52",
                             Price = 79900,
-                            SubCategoryId = 104,
+                            SubCategoryId = 94,
                             Title = "title for advertasing N 799"
                         },
                         new
                         {
                             AdId = 800,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 800",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80000,
-                            SubCategoryId = 105,
+                            SubCategoryId = 95,
                             Title = "title for advertasing N 800"
                         },
                         new
                         {
                             AdId = 801,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 801",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80100,
-                            SubCategoryId = 106,
+                            SubCategoryId = 96,
                             Title = "title for advertasing N 801"
                         },
                         new
                         {
                             AdId = 802,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 802",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80200,
-                            SubCategoryId = 107,
+                            SubCategoryId = 97,
                             Title = "title for advertasing N 802"
                         },
                         new
                         {
                             AdId = 803,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 803",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80300,
-                            SubCategoryId = 108,
+                            SubCategoryId = 98,
                             Title = "title for advertasing N 803"
                         },
                         new
                         {
                             AdId = 804,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 804",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80400,
-                            SubCategoryId = 109,
+                            SubCategoryId = 99,
                             Title = "title for advertasing N 804"
                         },
                         new
                         {
                             AdId = 805,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 805",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80500,
-                            SubCategoryId = 110,
+                            SubCategoryId = 100,
                             Title = "title for advertasing N 805"
                         },
                         new
                         {
                             AdId = 806,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 806",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80600,
-                            SubCategoryId = 111,
+                            SubCategoryId = 101,
                             Title = "title for advertasing N 806"
                         },
                         new
                         {
                             AdId = 807,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 807",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80700,
-                            SubCategoryId = 112,
+                            SubCategoryId = 102,
                             Title = "title for advertasing N 807"
                         },
                         new
                         {
                             AdId = 808,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 808",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80800,
-                            SubCategoryId = 113,
+                            SubCategoryId = 103,
                             Title = "title for advertasing N 808"
                         },
                         new
@@ -10577,7 +10577,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 80900,
-                            SubCategoryId = 114,
+                            SubCategoryId = 104,
                             Title = "title for advertasing N 809"
                         },
                         new
@@ -10590,7 +10590,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81000,
-                            SubCategoryId = 115,
+                            SubCategoryId = 105,
                             Title = "title for advertasing N 810"
                         },
                         new
@@ -10603,7 +10603,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81100,
-                            SubCategoryId = 116,
+                            SubCategoryId = 106,
                             Title = "title for advertasing N 811"
                         },
                         new
@@ -10616,7 +10616,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81200,
-                            SubCategoryId = 117,
+                            SubCategoryId = 107,
                             Title = "title for advertasing N 812"
                         },
                         new
@@ -10629,7 +10629,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81300,
-                            SubCategoryId = 118,
+                            SubCategoryId = 108,
                             Title = "title for advertasing N 813"
                         },
                         new
@@ -10642,7 +10642,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81400,
-                            SubCategoryId = 119,
+                            SubCategoryId = 109,
                             Title = "title for advertasing N 814"
                         },
                         new
@@ -10655,7 +10655,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81500,
-                            SubCategoryId = 120,
+                            SubCategoryId = 110,
                             Title = "title for advertasing N 815"
                         },
                         new
@@ -10668,7 +10668,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81600,
-                            SubCategoryId = 121,
+                            SubCategoryId = 111,
                             Title = "title for advertasing N 816"
                         },
                         new
@@ -10681,7 +10681,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81700,
-                            SubCategoryId = 122,
+                            SubCategoryId = 112,
                             Title = "title for advertasing N 817"
                         },
                         new
@@ -10694,228 +10694,228 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81800,
-                            SubCategoryId = 123,
+                            SubCategoryId = 113,
                             Title = "title for advertasing N 818"
                         },
                         new
                         {
                             AdId = 819,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 819",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 81900,
-                            SubCategoryId = 124,
+                            SubCategoryId = 114,
                             Title = "title for advertasing N 819"
                         },
                         new
                         {
                             AdId = 820,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 820",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82000,
-                            SubCategoryId = 125,
+                            SubCategoryId = 115,
                             Title = "title for advertasing N 820"
                         },
                         new
                         {
                             AdId = 821,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 821",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82100,
-                            SubCategoryId = 126,
+                            SubCategoryId = 116,
                             Title = "title for advertasing N 821"
                         },
                         new
                         {
                             AdId = 822,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 822",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82200,
-                            SubCategoryId = 127,
+                            SubCategoryId = 117,
                             Title = "title for advertasing N 822"
                         },
                         new
                         {
                             AdId = 823,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 823",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82300,
-                            SubCategoryId = 128,
+                            SubCategoryId = 118,
                             Title = "title for advertasing N 823"
                         },
                         new
                         {
                             AdId = 824,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 824",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82400,
-                            SubCategoryId = 129,
+                            SubCategoryId = 119,
                             Title = "title for advertasing N 824"
                         },
                         new
                         {
                             AdId = 825,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 825",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82500,
-                            SubCategoryId = 130,
+                            SubCategoryId = 120,
                             Title = "title for advertasing N 825"
                         },
                         new
                         {
                             AdId = 826,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 826",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82600,
-                            SubCategoryId = 131,
+                            SubCategoryId = 121,
                             Title = "title for advertasing N 826"
                         },
                         new
                         {
                             AdId = 827,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 827",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82700,
-                            SubCategoryId = 132,
+                            SubCategoryId = 122,
                             Title = "title for advertasing N 827"
                         },
                         new
                         {
                             AdId = 828,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 828",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82800,
-                            SubCategoryId = 133,
+                            SubCategoryId = 123,
                             Title = "title for advertasing N 828"
                         },
                         new
                         {
                             AdId = 829,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 829",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 82900,
-                            SubCategoryId = 134,
+                            SubCategoryId = 124,
                             Title = "title for advertasing N 829"
                         },
                         new
                         {
                             AdId = 830,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 830",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83000,
-                            SubCategoryId = 135,
+                            SubCategoryId = 125,
                             Title = "title for advertasing N 830"
                         },
                         new
                         {
                             AdId = 831,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 831",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83100,
-                            SubCategoryId = 136,
+                            SubCategoryId = 126,
                             Title = "title for advertasing N 831"
                         },
                         new
                         {
                             AdId = 832,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 832",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83200,
-                            SubCategoryId = 137,
+                            SubCategoryId = 127,
                             Title = "title for advertasing N 832"
                         },
                         new
                         {
                             AdId = 833,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 833",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83300,
-                            SubCategoryId = 138,
+                            SubCategoryId = 128,
                             Title = "title for advertasing N 833"
                         },
                         new
                         {
                             AdId = 834,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 834",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83400,
-                            SubCategoryId = 139,
+                            SubCategoryId = 129,
                             Title = "title for advertasing N 834"
                         },
                         new
                         {
                             AdId = 835,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 835",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83500,
-                            SubCategoryId = 1,
+                            SubCategoryId = 130,
                             Title = "title for advertasing N 835"
                         },
                         new
@@ -10928,7 +10928,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83600,
-                            SubCategoryId = 2,
+                            SubCategoryId = 131,
                             Title = "title for advertasing N 836"
                         },
                         new
@@ -10941,7 +10941,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83700,
-                            SubCategoryId = 3,
+                            SubCategoryId = 132,
                             Title = "title for advertasing N 837"
                         },
                         new
@@ -10954,7 +10954,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83800,
-                            SubCategoryId = 4,
+                            SubCategoryId = 133,
                             Title = "title for advertasing N 838"
                         },
                         new
@@ -10967,7 +10967,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 83900,
-                            SubCategoryId = 5,
+                            SubCategoryId = 134,
                             Title = "title for advertasing N 839"
                         },
                         new
@@ -10980,7 +10980,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84000,
-                            SubCategoryId = 6,
+                            SubCategoryId = 135,
                             Title = "title for advertasing N 840"
                         },
                         new
@@ -10993,7 +10993,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84100,
-                            SubCategoryId = 7,
+                            SubCategoryId = 136,
                             Title = "title for advertasing N 841"
                         },
                         new
@@ -11006,7 +11006,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84200,
-                            SubCategoryId = 8,
+                            SubCategoryId = 137,
                             Title = "title for advertasing N 842"
                         },
                         new
@@ -11019,7 +11019,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84300,
-                            SubCategoryId = 9,
+                            SubCategoryId = 138,
                             Title = "title for advertasing N 843"
                         },
                         new
@@ -11032,267 +11032,267 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84400,
-                            SubCategoryId = 10,
+                            SubCategoryId = 139,
                             Title = "title for advertasing N 844"
                         },
                         new
                         {
                             AdId = 845,
-                            CategoryId = 2,
+                            CategoryId = 12,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 845",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84500,
-                            SubCategoryId = 11,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 845"
                         },
                         new
                         {
                             AdId = 846,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 846",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84600,
-                            SubCategoryId = 12,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 846"
                         },
                         new
                         {
                             AdId = 847,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 847",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84700,
-                            SubCategoryId = 13,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 847"
                         },
                         new
                         {
                             AdId = 848,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 848",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84800,
-                            SubCategoryId = 14,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 848"
                         },
                         new
                         {
                             AdId = 849,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 849",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 84900,
-                            SubCategoryId = 15,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 849"
                         },
                         new
                         {
                             AdId = 850,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 850",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85000,
-                            SubCategoryId = 16,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 850"
                         },
                         new
                         {
                             AdId = 851,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 851",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85100,
-                            SubCategoryId = 17,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 851"
                         },
                         new
                         {
                             AdId = 852,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 852",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85200,
-                            SubCategoryId = 18,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 852"
                         },
                         new
                         {
                             AdId = 853,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 853",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85300,
-                            SubCategoryId = 19,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 853"
                         },
                         new
                         {
                             AdId = 854,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 854",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85400,
-                            SubCategoryId = 20,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 854"
                         },
                         new
                         {
                             AdId = 855,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 855",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85500,
-                            SubCategoryId = 21,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 855"
                         },
                         new
                         {
                             AdId = 856,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 856",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85600,
-                            SubCategoryId = 22,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 856"
                         },
                         new
                         {
                             AdId = 857,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 857",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85700,
-                            SubCategoryId = 23,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 857"
                         },
                         new
                         {
                             AdId = 858,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 858",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85800,
-                            SubCategoryId = 24,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 858"
                         },
                         new
                         {
                             AdId = 859,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 859",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 85900,
-                            SubCategoryId = 25,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 859"
                         },
                         new
                         {
                             AdId = 860,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 860",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86000,
-                            SubCategoryId = 26,
+                            SubCategoryId = 14,
                             Title = "title for advertasing N 860"
                         },
                         new
                         {
                             AdId = 861,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 861",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86100,
-                            SubCategoryId = 27,
+                            SubCategoryId = 15,
                             Title = "title for advertasing N 861"
                         },
                         new
                         {
                             AdId = 862,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 862",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86200,
-                            SubCategoryId = 28,
+                            SubCategoryId = 16,
                             Title = "title for advertasing N 862"
                         },
                         new
                         {
                             AdId = 863,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 863",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86300,
-                            SubCategoryId = 29,
+                            SubCategoryId = 17,
                             Title = "title for advertasing N 863"
                         },
                         new
                         {
                             AdId = 864,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 864",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86400,
-                            SubCategoryId = 30,
+                            SubCategoryId = 18,
                             Title = "title for advertasing N 864"
                         },
                         new
@@ -11305,7 +11305,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86500,
-                            SubCategoryId = 31,
+                            SubCategoryId = 19,
                             Title = "title for advertasing N 865"
                         },
                         new
@@ -11318,241 +11318,241 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86600,
-                            SubCategoryId = 32,
+                            SubCategoryId = 20,
                             Title = "title for advertasing N 866"
                         },
                         new
                         {
                             AdId = 867,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 867",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86700,
-                            SubCategoryId = 33,
+                            SubCategoryId = 21,
                             Title = "title for advertasing N 867"
                         },
                         new
                         {
                             AdId = 868,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 868",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86800,
-                            SubCategoryId = 34,
+                            SubCategoryId = 22,
                             Title = "title for advertasing N 868"
                         },
                         new
                         {
                             AdId = 869,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 869",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 86900,
-                            SubCategoryId = 35,
+                            SubCategoryId = 23,
                             Title = "title for advertasing N 869"
                         },
                         new
                         {
                             AdId = 870,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 870",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87000,
-                            SubCategoryId = 36,
+                            SubCategoryId = 24,
                             Title = "title for advertasing N 870"
                         },
                         new
                         {
                             AdId = 871,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 871",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87100,
-                            SubCategoryId = 37,
+                            SubCategoryId = 25,
                             Title = "title for advertasing N 871"
                         },
                         new
                         {
                             AdId = 872,
-                            CategoryId = 4,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 872",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87200,
-                            SubCategoryId = 38,
+                            SubCategoryId = 26,
                             Title = "title for advertasing N 872"
                         },
                         new
                         {
                             AdId = 873,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 873",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87300,
-                            SubCategoryId = 39,
+                            SubCategoryId = 27,
                             Title = "title for advertasing N 873"
                         },
                         new
                         {
                             AdId = 874,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 874",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87400,
-                            SubCategoryId = 40,
+                            SubCategoryId = 28,
                             Title = "title for advertasing N 874"
                         },
                         new
                         {
                             AdId = 875,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 875",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87500,
-                            SubCategoryId = 41,
+                            SubCategoryId = 29,
                             Title = "title for advertasing N 875"
                         },
                         new
                         {
                             AdId = 876,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 876",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87600,
-                            SubCategoryId = 42,
+                            SubCategoryId = 30,
                             Title = "title for advertasing N 876"
                         },
                         new
                         {
                             AdId = 877,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 877",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87700,
-                            SubCategoryId = 43,
+                            SubCategoryId = 31,
                             Title = "title for advertasing N 877"
                         },
                         new
                         {
                             AdId = 878,
-                            CategoryId = 5,
+                            CategoryId = 3,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 878",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87800,
-                            SubCategoryId = 44,
+                            SubCategoryId = 32,
                             Title = "title for advertasing N 878"
                         },
                         new
                         {
                             AdId = 879,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 879",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 87900,
-                            SubCategoryId = 45,
+                            SubCategoryId = 33,
                             Title = "title for advertasing N 879"
                         },
                         new
                         {
                             AdId = 880,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 880",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88000,
-                            SubCategoryId = 46,
+                            SubCategoryId = 34,
                             Title = "title for advertasing N 880"
                         },
                         new
                         {
                             AdId = 881,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 881",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88100,
-                            SubCategoryId = 47,
+                            SubCategoryId = 35,
                             Title = "title for advertasing N 881"
                         },
                         new
                         {
                             AdId = 882,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 882",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88200,
-                            SubCategoryId = 48,
+                            SubCategoryId = 36,
                             Title = "title for advertasing N 882"
                         },
                         new
                         {
                             AdId = 883,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 883",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88300,
-                            SubCategoryId = 49,
+                            SubCategoryId = 37,
                             Title = "title for advertasing N 883"
                         },
                         new
                         {
                             AdId = 884,
-                            CategoryId = 5,
+                            CategoryId = 4,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 884",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88400,
-                            SubCategoryId = 50,
+                            SubCategoryId = 38,
                             Title = "title for advertasing N 884"
                         },
                         new
@@ -11565,7 +11565,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88500,
-                            SubCategoryId = 51,
+                            SubCategoryId = 39,
                             Title = "title for advertasing N 885"
                         },
                         new
@@ -11578,7 +11578,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88600,
-                            SubCategoryId = 52,
+                            SubCategoryId = 40,
                             Title = "title for advertasing N 886"
                         },
                         new
@@ -11591,7 +11591,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88700,
-                            SubCategoryId = 53,
+                            SubCategoryId = 41,
                             Title = "title for advertasing N 887"
                         },
                         new
@@ -11604,7 +11604,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88800,
-                            SubCategoryId = 54,
+                            SubCategoryId = 42,
                             Title = "title for advertasing N 888"
                         },
                         new
@@ -11617,7 +11617,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 88900,
-                            SubCategoryId = 55,
+                            SubCategoryId = 43,
                             Title = "title for advertasing N 889"
                         },
                         new
@@ -11630,7 +11630,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89000,
-                            SubCategoryId = 56,
+                            SubCategoryId = 44,
                             Title = "title for advertasing N 890"
                         },
                         new
@@ -11643,7 +11643,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89100,
-                            SubCategoryId = 57,
+                            SubCategoryId = 45,
                             Title = "title for advertasing N 891"
                         },
                         new
@@ -11656,7 +11656,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89200,
-                            SubCategoryId = 58,
+                            SubCategoryId = 46,
                             Title = "title for advertasing N 892"
                         },
                         new
@@ -11669,7 +11669,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89300,
-                            SubCategoryId = 59,
+                            SubCategoryId = 47,
                             Title = "title for advertasing N 893"
                         },
                         new
@@ -11682,7 +11682,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89400,
-                            SubCategoryId = 60,
+                            SubCategoryId = 48,
                             Title = "title for advertasing N 894"
                         },
                         new
@@ -11695,7 +11695,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89500,
-                            SubCategoryId = 61,
+                            SubCategoryId = 49,
                             Title = "title for advertasing N 895"
                         },
                         new
@@ -11708,7 +11708,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89600,
-                            SubCategoryId = 62,
+                            SubCategoryId = 50,
                             Title = "title for advertasing N 896"
                         },
                         new
@@ -11721,7 +11721,7 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89700,
-                            SubCategoryId = 63,
+                            SubCategoryId = 51,
                             Title = "title for advertasing N 897"
                         },
                         new
@@ -11734,475 +11734,475 @@ namespace shop.Migrations
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89800,
-                            SubCategoryId = 64,
+                            SubCategoryId = 52,
                             Title = "title for advertasing N 898"
                         },
                         new
                         {
                             AdId = 899,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 9,
                             ContactPerson = "Леонид Трауберг",
                             Desc = "description for advertising number 899",
                             Email = "my-email88@gmail.com",
                             Phone = "098-489-28-14",
                             Price = 89900,
-                            SubCategoryId = 65,
+                            SubCategoryId = 53,
                             Title = "title for advertasing N 899"
                         },
                         new
                         {
                             AdId = 900,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 900",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90000,
-                            SubCategoryId = 66,
+                            SubCategoryId = 54,
                             Title = "title for advertasing N 900"
                         },
                         new
                         {
                             AdId = 901,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 901",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90100,
-                            SubCategoryId = 67,
+                            SubCategoryId = 55,
                             Title = "title for advertasing N 901"
                         },
                         new
                         {
                             AdId = 902,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 902",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90200,
-                            SubCategoryId = 68,
+                            SubCategoryId = 56,
                             Title = "title for advertasing N 902"
                         },
                         new
                         {
                             AdId = 903,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 903",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90300,
-                            SubCategoryId = 69,
+                            SubCategoryId = 57,
                             Title = "title for advertasing N 903"
                         },
                         new
                         {
                             AdId = 904,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 904",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90400,
-                            SubCategoryId = 70,
+                            SubCategoryId = 58,
                             Title = "title for advertasing N 904"
                         },
                         new
                         {
                             AdId = 905,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 905",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90500,
-                            SubCategoryId = 71,
+                            SubCategoryId = 59,
                             Title = "title for advertasing N 905"
                         },
                         new
                         {
                             AdId = 906,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 906",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90600,
-                            SubCategoryId = 72,
+                            SubCategoryId = 60,
                             Title = "title for advertasing N 906"
                         },
                         new
                         {
                             AdId = 907,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 907",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90700,
-                            SubCategoryId = 73,
+                            SubCategoryId = 61,
                             Title = "title for advertasing N 907"
                         },
                         new
                         {
                             AdId = 908,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 908",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90800,
-                            SubCategoryId = 74,
+                            SubCategoryId = 62,
                             Title = "title for advertasing N 908"
                         },
                         new
                         {
                             AdId = 909,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 909",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 90900,
-                            SubCategoryId = 75,
+                            SubCategoryId = 63,
                             Title = "title for advertasing N 909"
                         },
                         new
                         {
                             AdId = 910,
-                            CategoryId = 6,
+                            CategoryId = 5,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 910",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91000,
-                            SubCategoryId = 76,
+                            SubCategoryId = 64,
                             Title = "title for advertasing N 910"
                         },
                         new
                         {
                             AdId = 911,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 911",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91100,
-                            SubCategoryId = 77,
+                            SubCategoryId = 65,
                             Title = "title for advertasing N 911"
                         },
                         new
                         {
                             AdId = 912,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 912",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91200,
-                            SubCategoryId = 78,
+                            SubCategoryId = 66,
                             Title = "title for advertasing N 912"
                         },
                         new
                         {
                             AdId = 913,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 913",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91300,
-                            SubCategoryId = 79,
+                            SubCategoryId = 67,
                             Title = "title for advertasing N 913"
                         },
                         new
                         {
                             AdId = 914,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 914",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91400,
-                            SubCategoryId = 80,
+                            SubCategoryId = 68,
                             Title = "title for advertasing N 914"
                         },
                         new
                         {
                             AdId = 915,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 915",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91500,
-                            SubCategoryId = 81,
+                            SubCategoryId = 69,
                             Title = "title for advertasing N 915"
                         },
                         new
                         {
                             AdId = 916,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 916",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91600,
-                            SubCategoryId = 82,
+                            SubCategoryId = 70,
                             Title = "title for advertasing N 916"
                         },
                         new
                         {
                             AdId = 917,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 917",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91700,
-                            SubCategoryId = 83,
+                            SubCategoryId = 71,
                             Title = "title for advertasing N 917"
                         },
                         new
                         {
                             AdId = 918,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 918",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91800,
-                            SubCategoryId = 84,
+                            SubCategoryId = 72,
                             Title = "title for advertasing N 918"
                         },
                         new
                         {
                             AdId = 919,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 919",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 91900,
-                            SubCategoryId = 85,
+                            SubCategoryId = 73,
                             Title = "title for advertasing N 919"
                         },
                         new
                         {
                             AdId = 920,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 920",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92000,
-                            SubCategoryId = 86,
+                            SubCategoryId = 74,
                             Title = "title for advertasing N 920"
                         },
                         new
                         {
                             AdId = 921,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 921",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92100,
-                            SubCategoryId = 87,
+                            SubCategoryId = 75,
                             Title = "title for advertasing N 921"
                         },
                         new
                         {
                             AdId = 922,
-                            CategoryId = 7,
+                            CategoryId = 6,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 922",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92200,
-                            SubCategoryId = 88,
+                            SubCategoryId = 76,
                             Title = "title for advertasing N 922"
                         },
                         new
                         {
                             AdId = 923,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 923",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92300,
-                            SubCategoryId = 89,
+                            SubCategoryId = 77,
                             Title = "title for advertasing N 923"
                         },
                         new
                         {
                             AdId = 924,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 924",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92400,
-                            SubCategoryId = 90,
+                            SubCategoryId = 78,
                             Title = "title for advertasing N 924"
                         },
                         new
                         {
                             AdId = 925,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 925",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92500,
-                            SubCategoryId = 91,
+                            SubCategoryId = 79,
                             Title = "title for advertasing N 925"
                         },
                         new
                         {
                             AdId = 926,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 926",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92600,
-                            SubCategoryId = 92,
+                            SubCategoryId = 80,
                             Title = "title for advertasing N 926"
                         },
                         new
                         {
                             AdId = 927,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 927",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92700,
-                            SubCategoryId = 93,
+                            SubCategoryId = 81,
                             Title = "title for advertasing N 927"
                         },
                         new
                         {
                             AdId = 928,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 928",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92800,
-                            SubCategoryId = 94,
+                            SubCategoryId = 82,
                             Title = "title for advertasing N 928"
                         },
                         new
                         {
                             AdId = 929,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 929",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 92900,
-                            SubCategoryId = 95,
+                            SubCategoryId = 83,
                             Title = "title for advertasing N 929"
                         },
                         new
                         {
                             AdId = 930,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 930",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93000,
-                            SubCategoryId = 96,
+                            SubCategoryId = 84,
                             Title = "title for advertasing N 930"
                         },
                         new
                         {
                             AdId = 931,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 931",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93100,
-                            SubCategoryId = 97,
+                            SubCategoryId = 85,
                             Title = "title for advertasing N 931"
                         },
                         new
                         {
                             AdId = 932,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 932",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93200,
-                            SubCategoryId = 98,
+                            SubCategoryId = 86,
                             Title = "title for advertasing N 932"
                         },
                         new
                         {
                             AdId = 933,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 933",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93300,
-                            SubCategoryId = 99,
+                            SubCategoryId = 87,
                             Title = "title for advertasing N 933"
                         },
                         new
                         {
                             AdId = 934,
-                            CategoryId = 8,
+                            CategoryId = 7,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 934",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93400,
-                            SubCategoryId = 100,
+                            SubCategoryId = 88,
                             Title = "title for advertasing N 934"
                         },
                         new
@@ -12215,7 +12215,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93500,
-                            SubCategoryId = 101,
+                            SubCategoryId = 89,
                             Title = "title for advertasing N 935"
                         },
                         new
@@ -12228,7 +12228,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93600,
-                            SubCategoryId = 102,
+                            SubCategoryId = 90,
                             Title = "title for advertasing N 936"
                         },
                         new
@@ -12241,163 +12241,163 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93700,
-                            SubCategoryId = 103,
+                            SubCategoryId = 91,
                             Title = "title for advertasing N 937"
                         },
                         new
                         {
                             AdId = 938,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 938",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93800,
-                            SubCategoryId = 104,
+                            SubCategoryId = 92,
                             Title = "title for advertasing N 938"
                         },
                         new
                         {
                             AdId = 939,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 939",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 93900,
-                            SubCategoryId = 105,
+                            SubCategoryId = 93,
                             Title = "title for advertasing N 939"
                         },
                         new
                         {
                             AdId = 940,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 940",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94000,
-                            SubCategoryId = 106,
+                            SubCategoryId = 94,
                             Title = "title for advertasing N 940"
                         },
                         new
                         {
                             AdId = 941,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 941",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94100,
-                            SubCategoryId = 107,
+                            SubCategoryId = 95,
                             Title = "title for advertasing N 941"
                         },
                         new
                         {
                             AdId = 942,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 942",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94200,
-                            SubCategoryId = 108,
+                            SubCategoryId = 96,
                             Title = "title for advertasing N 942"
                         },
                         new
                         {
                             AdId = 943,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 943",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94300,
-                            SubCategoryId = 109,
+                            SubCategoryId = 97,
                             Title = "title for advertasing N 943"
                         },
                         new
                         {
                             AdId = 944,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 944",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94400,
-                            SubCategoryId = 110,
+                            SubCategoryId = 98,
                             Title = "title for advertasing N 944"
                         },
                         new
                         {
                             AdId = 945,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 945",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94500,
-                            SubCategoryId = 111,
+                            SubCategoryId = 99,
                             Title = "title for advertasing N 945"
                         },
                         new
                         {
                             AdId = 946,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 946",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94600,
-                            SubCategoryId = 112,
+                            SubCategoryId = 100,
                             Title = "title for advertasing N 946"
                         },
                         new
                         {
                             AdId = 947,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 947",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94700,
-                            SubCategoryId = 113,
+                            SubCategoryId = 101,
                             Title = "title for advertasing N 947"
                         },
                         new
                         {
                             AdId = 948,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 948",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94800,
-                            SubCategoryId = 114,
+                            SubCategoryId = 102,
                             Title = "title for advertasing N 948"
                         },
                         new
                         {
                             AdId = 949,
-                            CategoryId = 9,
+                            CategoryId = 8,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 949",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 94900,
-                            SubCategoryId = 115,
+                            SubCategoryId = 103,
                             Title = "title for advertasing N 949"
                         },
                         new
@@ -12410,7 +12410,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95000,
-                            SubCategoryId = 116,
+                            SubCategoryId = 104,
                             Title = "title for advertasing N 950"
                         },
                         new
@@ -12423,7 +12423,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95100,
-                            SubCategoryId = 117,
+                            SubCategoryId = 105,
                             Title = "title for advertasing N 951"
                         },
                         new
@@ -12436,7 +12436,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95200,
-                            SubCategoryId = 118,
+                            SubCategoryId = 106,
                             Title = "title for advertasing N 952"
                         },
                         new
@@ -12449,7 +12449,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95300,
-                            SubCategoryId = 119,
+                            SubCategoryId = 107,
                             Title = "title for advertasing N 953"
                         },
                         new
@@ -12462,7 +12462,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95400,
-                            SubCategoryId = 120,
+                            SubCategoryId = 108,
                             Title = "title for advertasing N 954"
                         },
                         new
@@ -12475,7 +12475,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95500,
-                            SubCategoryId = 121,
+                            SubCategoryId = 109,
                             Title = "title for advertasing N 955"
                         },
                         new
@@ -12488,7 +12488,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95600,
-                            SubCategoryId = 122,
+                            SubCategoryId = 110,
                             Title = "title for advertasing N 956"
                         },
                         new
@@ -12501,254 +12501,254 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95700,
-                            SubCategoryId = 123,
+                            SubCategoryId = 111,
                             Title = "title for advertasing N 957"
                         },
                         new
                         {
                             AdId = 958,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 958",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95800,
-                            SubCategoryId = 124,
+                            SubCategoryId = 112,
                             Title = "title for advertasing N 958"
                         },
                         new
                         {
                             AdId = 959,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 959",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 95900,
-                            SubCategoryId = 125,
+                            SubCategoryId = 113,
                             Title = "title for advertasing N 959"
                         },
                         new
                         {
                             AdId = 960,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 960",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96000,
-                            SubCategoryId = 126,
+                            SubCategoryId = 114,
                             Title = "title for advertasing N 960"
                         },
                         new
                         {
                             AdId = 961,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 961",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96100,
-                            SubCategoryId = 127,
+                            SubCategoryId = 115,
                             Title = "title for advertasing N 961"
                         },
                         new
                         {
                             AdId = 962,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 962",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96200,
-                            SubCategoryId = 128,
+                            SubCategoryId = 116,
                             Title = "title for advertasing N 962"
                         },
                         new
                         {
                             AdId = 963,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 963",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96300,
-                            SubCategoryId = 129,
+                            SubCategoryId = 117,
                             Title = "title for advertasing N 963"
                         },
                         new
                         {
                             AdId = 964,
-                            CategoryId = 10,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 964",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96400,
-                            SubCategoryId = 130,
+                            SubCategoryId = 118,
                             Title = "title for advertasing N 964"
                         },
                         new
                         {
                             AdId = 965,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 965",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96500,
-                            SubCategoryId = 131,
+                            SubCategoryId = 119,
                             Title = "title for advertasing N 965"
                         },
                         new
                         {
                             AdId = 966,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 966",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96600,
-                            SubCategoryId = 132,
+                            SubCategoryId = 120,
                             Title = "title for advertasing N 966"
                         },
                         new
                         {
                             AdId = 967,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 967",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96700,
-                            SubCategoryId = 133,
+                            SubCategoryId = 121,
                             Title = "title for advertasing N 967"
                         },
                         new
                         {
                             AdId = 968,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 968",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96800,
-                            SubCategoryId = 134,
+                            SubCategoryId = 122,
                             Title = "title for advertasing N 968"
                         },
                         new
                         {
                             AdId = 969,
-                            CategoryId = 11,
+                            CategoryId = 9,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 969",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 96900,
-                            SubCategoryId = 135,
+                            SubCategoryId = 123,
                             Title = "title for advertasing N 969"
                         },
                         new
                         {
                             AdId = 970,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 970",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97000,
-                            SubCategoryId = 136,
+                            SubCategoryId = 124,
                             Title = "title for advertasing N 970"
                         },
                         new
                         {
                             AdId = 971,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 971",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97100,
-                            SubCategoryId = 137,
+                            SubCategoryId = 125,
                             Title = "title for advertasing N 971"
                         },
                         new
                         {
                             AdId = 972,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 972",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97200,
-                            SubCategoryId = 138,
+                            SubCategoryId = 126,
                             Title = "title for advertasing N 972"
                         },
                         new
                         {
                             AdId = 973,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 973",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97300,
-                            SubCategoryId = 139,
+                            SubCategoryId = 127,
                             Title = "title for advertasing N 973"
                         },
                         new
                         {
                             AdId = 974,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 974",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97400,
-                            SubCategoryId = 1,
+                            SubCategoryId = 128,
                             Title = "title for advertasing N 974"
                         },
                         new
                         {
                             AdId = 975,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 975",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97500,
-                            SubCategoryId = 2,
+                            SubCategoryId = 129,
                             Title = "title for advertasing N 975"
                         },
                         new
                         {
                             AdId = 976,
-                            CategoryId = 11,
+                            CategoryId = 10,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 976",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97600,
-                            SubCategoryId = 3,
+                            SubCategoryId = 130,
                             Title = "title for advertasing N 976"
                         },
                         new
@@ -12761,7 +12761,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97700,
-                            SubCategoryId = 4,
+                            SubCategoryId = 131,
                             Title = "title for advertasing N 977"
                         },
                         new
@@ -12774,7 +12774,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97800,
-                            SubCategoryId = 5,
+                            SubCategoryId = 132,
                             Title = "title for advertasing N 978"
                         },
                         new
@@ -12787,7 +12787,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 97900,
-                            SubCategoryId = 6,
+                            SubCategoryId = 133,
                             Title = "title for advertasing N 979"
                         },
                         new
@@ -12800,7 +12800,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98000,
-                            SubCategoryId = 7,
+                            SubCategoryId = 134,
                             Title = "title for advertasing N 980"
                         },
                         new
@@ -12813,7 +12813,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98100,
-                            SubCategoryId = 8,
+                            SubCategoryId = 135,
                             Title = "title for advertasing N 981"
                         },
                         new
@@ -12826,7 +12826,7 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98200,
-                            SubCategoryId = 9,
+                            SubCategoryId = 136,
                             Title = "title for advertasing N 982"
                         },
                         new
@@ -12839,228 +12839,228 @@ namespace shop.Migrations
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98300,
-                            SubCategoryId = 10,
+                            SubCategoryId = 137,
                             Title = "title for advertasing N 983"
                         },
                         new
                         {
                             AdId = 984,
-                            CategoryId = 2,
+                            CategoryId = 11,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 984",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98400,
-                            SubCategoryId = 11,
+                            SubCategoryId = 138,
                             Title = "title for advertasing N 984"
                         },
                         new
                         {
                             AdId = 985,
-                            CategoryId = 2,
+                            CategoryId = 11,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 985",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98500,
-                            SubCategoryId = 12,
+                            SubCategoryId = 139,
                             Title = "title for advertasing N 985"
                         },
                         new
                         {
                             AdId = 986,
-                            CategoryId = 2,
+                            CategoryId = 12,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 986",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98600,
-                            SubCategoryId = 13,
+                            SubCategoryId = 140,
                             Title = "title for advertasing N 986"
                         },
                         new
                         {
                             AdId = 987,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 987",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98700,
-                            SubCategoryId = 14,
+                            SubCategoryId = 141,
                             Title = "title for advertasing N 987"
                         },
                         new
                         {
                             AdId = 988,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 988",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98800,
-                            SubCategoryId = 15,
+                            SubCategoryId = 1,
                             Title = "title for advertasing N 988"
                         },
                         new
                         {
                             AdId = 989,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 989",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 98900,
-                            SubCategoryId = 16,
+                            SubCategoryId = 2,
                             Title = "title for advertasing N 989"
                         },
                         new
                         {
                             AdId = 990,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 990",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99000,
-                            SubCategoryId = 17,
+                            SubCategoryId = 3,
                             Title = "title for advertasing N 990"
                         },
                         new
                         {
                             AdId = 991,
-                            CategoryId = 2,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 991",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99100,
-                            SubCategoryId = 18,
+                            SubCategoryId = 4,
                             Title = "title for advertasing N 991"
                         },
                         new
                         {
                             AdId = 992,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 992",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99200,
-                            SubCategoryId = 19,
+                            SubCategoryId = 5,
                             Title = "title for advertasing N 992"
                         },
                         new
                         {
                             AdId = 993,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 993",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99300,
-                            SubCategoryId = 20,
+                            SubCategoryId = 6,
                             Title = "title for advertasing N 993"
                         },
                         new
                         {
                             AdId = 994,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 994",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99400,
-                            SubCategoryId = 21,
+                            SubCategoryId = 7,
                             Title = "title for advertasing N 994"
                         },
                         new
                         {
                             AdId = 995,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 995",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99500,
-                            SubCategoryId = 22,
+                            SubCategoryId = 8,
                             Title = "title for advertasing N 995"
                         },
                         new
                         {
                             AdId = 996,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 996",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99600,
-                            SubCategoryId = 23,
+                            SubCategoryId = 9,
                             Title = "title for advertasing N 996"
                         },
                         new
                         {
                             AdId = 997,
-                            CategoryId = 3,
+                            CategoryId = 13,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 997",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99700,
-                            SubCategoryId = 24,
+                            SubCategoryId = 10,
                             Title = "title for advertasing N 997"
                         },
                         new
                         {
                             AdId = 998,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 998",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99800,
-                            SubCategoryId = 25,
+                            SubCategoryId = 11,
                             Title = "title for advertasing N 998"
                         },
                         new
                         {
                             AdId = 999,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 999",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 99900,
-                            SubCategoryId = 26,
+                            SubCategoryId = 12,
                             Title = "title for advertasing N 999"
                         },
                         new
                         {
                             AdId = 1000,
-                            CategoryId = 3,
+                            CategoryId = 2,
                             CityId = 10,
                             ContactPerson = "Клариса Лиспектор",
                             Desc = "description for advertising number 1000",
                             Email = "gg-jon-snow@gmail.com",
                             Phone = "093-228-58-43",
                             Price = 100000,
-                            SubCategoryId = 27,
+                            SubCategoryId = 13,
                             Title = "title for advertasing N 1000"
                         });
                 });
@@ -14065,6 +14065,18 @@ namespace shop.Migrations
                             SubCategoryId = 139,
                             CategoryId = 11,
                             Name = "Другое"
+                        },
+                        new
+                        {
+                            SubCategoryId = 140,
+                            CategoryId = 12,
+                            Name = "Отдам даром"
+                        },
+                        new
+                        {
+                            SubCategoryId = 141,
+                            CategoryId = 13,
+                            Name = "Обмен"
                         });
                 });
 

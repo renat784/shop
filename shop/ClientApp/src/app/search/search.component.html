@@ -4,16 +4,15 @@
             <div class="col-4 pl-0">
                 <div class="input_with_Icon">
                     <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="search" class="form-control" placeholder="Поиск..." name="search" id="search" ngModel>
+                    <input type="search"  class="form-control" placeholder="Поиск..." name="search" id="search" ngModel>
                 </div>
             </div>
             <div class="col-4 pl-0">
                 <div class="input_with_Icon">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <!-- <input type="text" class="form-control"  placeholder="Вся Украина" name="city" id="city" ngModel> -->
 
                     <select id="city" (change)="filterCity($event.target.value)" > 
-                        <option value="0">All cities</option>
+                        <option value="0">Вся Украина</option>
                         <option *ngFor="let city of cities" value={{city.cityId}}> 
                           {{city.name}}
                         </option>
@@ -23,6 +22,7 @@
             </div>
             <div class="col-4 pl-0">
                 <select id="category" (change)="filterCategories($event.target.value)" >
+                    <option value="0">Все категории</option>
                     <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
                         {{cat.name}}
                     </option>

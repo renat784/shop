@@ -14,12 +14,13 @@ export class PostNewAdComponent implements OnInit {
   client: HttpClient;
   baseUrl: string;
   cities: City[] = [];
-  cityId = 1;
+  cityId = 0;
   subCategories: SubCategory[] = [];
   _subCategories: SubCategory[] = [];
-  subCategoryId = 1;
+  subCategoryId = 0;
   Categories: Category[] = [];
-  categoryId = 1;
+  categoryId = 0;
+  categoryChanged: boolean;
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: Router) {
     this.client = http;
@@ -27,7 +28,10 @@ export class PostNewAdComponent implements OnInit {
 
     http.get<SubCategory[]>(baseUrl + 'Categories/GetSubCategories').subscribe(result => {
       this.subCategories = result;
-      this._subCategories = result.filter(i => i.categoryId == this.categoryId);
+      if(this.categoryId != 0){
+        this._subCategories = result.filter(i => i.categoryId == this.categoryId);
+      }else this._subCategories = [];
+      
     }, error => console.error(error));
 
     http.get<Category[]>(baseUrl + 'Categories/GetCategories').subscribe(result => {
@@ -77,12 +81,15 @@ export class PostNewAdComponent implements OnInit {
   }
 
   filterCategories(val){
+    this.categoryChanged = true;
     this.categoryId = val;
+    this.subCategoryId = 0;
     console.log("CategoryId=" + this.categoryId + "  subcategoryid=" + this.subCategoryId);
     this._subCategories = this.subCategories.filter(i => i.categoryId == val);
   }
 
   filterSubCategories(val){
+    this.categoryChanged = false;
     this.subCategoryId = val;
     console.log("CategoryId=" + this.categoryId + "  subcategoryid=" + this.subCategoryId);
   }

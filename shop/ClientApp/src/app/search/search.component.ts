@@ -1,6 +1,9 @@
+import { SearchService } from './../search.service';
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit, Inject } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { stringify } from 'querystring';
+import { InstantSearchService } from '../instant-search.service';
 
 @Component({
   selector: 'app-search',
@@ -21,15 +24,25 @@ export class SearchComponent {
   _subCategories: SubCategory[] = [];
   subCategoryId = 0;
   Categories: Category[] = [];
-  categoryId = 1;
+  categoryId = 0;
+
   orderAsc = 1;
   priceMin = -1;
   priceMax = -1;
   filterUrl: string;
+  search: string = 'all';
 
 
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, activatedRouter: ActivatedRoute, router: Router) {
+  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, activatedRouter: ActivatedRoute, router: Router,
+    public searchService: SearchService) {
+
+    searchService.result_Observer.subscribe(i => {
+      if(i.length > 0){
+        this.ads = i;
+      }
+    })
+
     this.router = router;
     this.baseUrl = baseUrl;
     this.http = http;
@@ -37,7 +50,10 @@ export class SearchComponent {
 
     http.get<SubCategory[]>(baseUrl + 'Categories/GetSubCategories').subscribe(result => {
       this.subCategories = result;
-      this._subCategories = result.filter(i => i.categoryId == this.categoryId);
+      if (this.categoryId != 0) {
+        this._subCategories = result.filter(i => i.categoryId == this.categoryId);
+      } else this._subCategories = [];
+
     }, error => console.error(error));
 
     http.get<Category[]>(baseUrl + 'Categories/GetCategories').subscribe(result => {
@@ -71,55 +87,53 @@ export class SearchComponent {
   }
 
   SearchByAscOrder() {
-    this.http.get<Ad[]>(this.filterUrl + '1').subscribe(result => {
-      this.ads = result;
-     
-    }), error => console.error(error);
+    this.ads = this.ads.sort((i,j) => i.price - j.price);
+    
   }
 
   SearchByDescOrder() {
-    this.http.get<Ad[]>(this.filterUrl + '0').subscribe(result => {
-      this.ads = result;
-   
-    }), error => console.error(error);
+    this.ads = this.ads.sort((i,j) => j.price - i.price);
   }
 
   onClickSubmit(formData) {
-
-    if(formData.priceMin == null || formData.priceMin == undefined || formData.priceMin == '') this.priceMin = -1;
+    if (formData.priceMin == null || formData.priceMin == undefined || formData.priceMin == '') this.priceMin = -1;
     else this.priceMin = formData.priceMin;
 
-    if(formData.priceMax == null || formData.priceMax == undefined || formData.priceMax == '') this.priceMax = -1;
+    if (formData.priceMax == null || formData.priceMax == undefined || formData.priceMax == '') this.priceMax = -1;
     else this.priceMax = formData.priceMax;
 
-   
+    if (formData.search != "") {
+      this.search = formData.search.trim();
+    }
+    else this.search = "all";
 
     this.filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
-      this.categoryId + '/' +
-      this.subCategoryId + '/' +
-      this.cityId + '/' +
-      this.priceMin + '/' +
-      this.priceMax + '/';
+    this.search + '/' +
+    this.categoryId + '/' +
+    this.subCategoryId + '/' +
+    this.cityId + '/' +
+    this.priceMin + '/' +
+    this.priceMax + '/';
 
-      console.log("min price=" + this.priceMin + "  \n" + "max price=" + this.priceMax );
-    this.SearchByAscOrder();
+    this.searchService.findAds(this.filterUrl);
+    this.searchService.result_Observer.subscribe(i => this.ads = i);
+    
   }
 
   filterCity(val) {
     this.cityId = val;
   }
 
-
-
   filterCategories(val) {
     this.categoryId = val;
-
+    this.subCategoryId = 0;
     this._subCategories = this.subCategories.filter(i => i.categoryId == val);
   }
 
   filterSubCategories(val) {
     this.subCategoryId = val;
   }
+
 }
 
 

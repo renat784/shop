@@ -198,7 +198,10 @@ namespace shop.Models
                 new SubCategory() { SubCategoryId = 136, CategoryId = 11, Name = "Билеты" },
                 new SubCategory() { SubCategoryId = 137, CategoryId = 11, Name = "Поиск попутчиков" },
                 new SubCategory() { SubCategoryId = 138, CategoryId = 11, Name = "Поиск групп / музыкантов" },
-                new SubCategory() { SubCategoryId = 139, CategoryId = 11, Name = "Другое" }
+                new SubCategory() { SubCategoryId = 139, CategoryId = 11, Name = "Другое" },
+                new SubCategory() { SubCategoryId = 140, CategoryId = 12, Name = "Отдам даром" },
+                new SubCategory() { SubCategoryId = 141, CategoryId = 13, Name = "Обмен" }
+
 
             );
 
@@ -252,11 +255,17 @@ namespace shop.Models
                     case 131:
                         cat = 11;
                         break;
-                    
+                    case 140:
+                        cat = 12;
+                        break;
+                    case 141:
+                        cat = 13;
+                        break;
+
                 }
 
-                if (cat == 12) cat = 1;
-                if (subcat == 140) subcat = 1;
+                if (cat == 14) cat = 1;
+                if (subcat == 142) subcat = 1;
 
                 if (i >= 1 &&  i < 100)
                 {

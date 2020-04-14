@@ -7,38 +7,46 @@
 <div class="mt-4">
   <div class="main_content">
     <!-- search form: -->
-    <div class="row p-3 search-form">
-      <div class="col-5 pl-0">
-        <div class="input_with_Icon">
-          <i class="fa fa-search" aria-hidden="true"></i>
-          <input type="search" autofocus class="form-control" placeholder="13 350 115 объявлений рядом">
+    <form #searchForm="ngForm" (ngSubmit)="onClickSubmit(searchForm.value)">
+      <div class="row p-3 search-form">
+        <div class="col-5 pl-0">
+          <div class="input_with_Icon">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="search" autofocus name="search" id="search" ngModel class="form-control" placeholder="13 350 115 объявлений рядом">
+          </div>
+        </div>
+        <div class="col-5 px-0 input_with_Icon">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          
+          <select name="city" id="city" #city="ngModel" ngModel> 
+            <option value="0">Вся Украина</option>
+            <option *ngFor="let city of cities" value={{city.cityId}}> 
+              {{city.name}}
+            </option>
+          </select> 
+
+        </div>
+        <div class="col-2 pr-0 input_with_Icon">
+          
+            <input type="submit" value="Send" class="btn btn-primary">
+          
         </div>
       </div>
-      <div class="col-5 px-0 input_with_Icon">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <input type="text" class="form-control" placeholder="Вся Украина">
-      </div>
-      <div class="col-2 pr-0 input_with_Icon">
-        <a class="btn search_button" href="#">
-          <i class="fa fa-search" aria-hidden="true"></i>
-          <span class="pl-5">Поиск</span>
-        </a>
-      </div>
-    </div>
+    </form>
     <!-- categories: -->
     <div class="py-4">
       <!-- 1 categories row: -->
-      <div class="row">
-        <div class="col-3 category_item">
+      
+        <div *ngFor="let category of categories" class="col-3 category_item">
           <a>
             <i class="fa fa-child p-2" aria-hidden="true" style="color: salmon;"></i> 
-            <span class="pl-2">Детский мир</span>
+            <span class="pl-2" (click)="ItemClicked(category.categoryId, 0)" >{{category.name}}</span>
           </a>
         </div>
-        <div class="col-3 category_item">
-          <a [routerLink]="['/search', {categoryId: 5}]">
+        <!-- <div class="col-3 category_item">
+          <a>
             <i class="fa fa-home p-2" aria-hidden="true" style="color: royalblue;"></i>
-            <span class="pl-2">Недвижимость</span>
+            <span class="pl-2" (click)="ItemClicked()">Недвижимость</span>
           </a>
         </div>
         <div class="col-3 category_item">
@@ -52,24 +60,24 @@
             <i class="fa fa-cog p-2" aria-hidden="true" style="color: green;"></i>
             <span class="pl-2">Запчасти для транспорта</span>
           </a>
-        </div>
-      </div>
+        </div> -->
+      
 
       <!-- lists for 1 row category 1: -->
-      <div id="category_1" class="p-4 my-3 list_of_Items">
+      <div  class="p-4 my-3 list_of_Items">
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Детский мир</span>
         <hr>
         <ul class="row">
-          <li *ngFor="let item of subCategories | category: '1'">
+          <li *ngFor="let subcat of subCategories">
               <i class="fa fa-chevron-right"  aria-hidden="true"></i>
-              <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
+              <a (click)="ItemClicked(categoryId, subcat.subCategoryId)" >{{subcat.name}}</a>
           </li>
         </ul>
       </div>
 
-       <!-- lists for 1 row category 2: -->
+       <!-- lists for 1 row category 2:
        <div id="category_2" class="p-4 my-3 list_of_Items" style="display: block;">
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
@@ -81,9 +89,9 @@
             <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
-      </div>
+      </div> -->
 
-       <!-- lists for 1 row category 3: -->
+       <!-- lists for 1 row category 3:
        <div id="category_3" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
@@ -95,10 +103,10 @@
             <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
-      </div>
+      </div> -->
 
        <!-- lists for 1 row category 4: -->
-       <div id="category_4" class="p-4 my-3 list_of_Items" >
+       <!-- <div id="category_4" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Запчасти для транспорта</span>
@@ -109,10 +117,10 @@
             <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- 2-nd categories row: -->
-      <div class="row my-4">
+      <!-- <div class="row my-4">
         <div class="col-3 category_item">
           <a href="#category_5">
             <i class="fa fa-briefcase p-2" aria-hidden="true" style="color: greenyellow;"></i>
@@ -140,7 +148,7 @@
       </div>
 
      <!-- lists for 2 row category 1: -->
-     <div id="category_5" class="p-4 my-3 list_of_Items" >
+     <!-- <div id="category_5" class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Работа</span>
@@ -151,10 +159,10 @@
           <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
       </li>
       </ul>
-    </div>
+    </div> --> -->
 
     <!-- lists for 2 row category 2: -->
-    <div id="category_6" class="p-4 my-3 list_of_Items" >
+    <!-- <div id="category_6" class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Животные</span>
@@ -165,10 +173,10 @@
           <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
       </li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- lists for 2 row category 3: -->
-    <div id="category_7" class="p-4 my-3 list_of_Items" >
+    <!-- <div id="category_7" class="p-4 my-3 list_of_Items" >
       <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <a href="#">Смотреть все объявления</a>
       <span class="ml-2">в Дом и сад</span>
@@ -179,10 +187,10 @@
           <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
       </li>
       </ul>
-    </div>
+    </div> -->
 
 <!-- lists for 2 row category 4: -->
-<div id="category_8" class="p-4 my-3 list_of_Items" >
+<!-- <div id="category_8" class="p-4 my-3 list_of_Items" >
   <i class="fa fa-chevron-right" aria-hidden="true"></i>
   <a href="#">Смотреть все объявления</a>
   <span class="ml-2">в Электроника</span>
@@ -193,11 +201,11 @@
       <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
   </li>
   </ul>
-</div>
+</div> -->
 
 
       <!-- 3-nd categories row: -->
-      <div class="row my-4">
+      <!-- <div class="row my-4">
         <div class="col-3 category_item">
           <a href="#category_9">
             <i class="fa fa-wrench p-2" aria-hidden="true" style="color: #1865b2;"></i>
@@ -222,10 +230,10 @@
             <span class="pl-2">Отдам даром</span>
           </a>
         </div>
-      </div>
+      </div> -->
 
       <!-- lists for 3 row category 1: -->
-      <div id="category_9" class="p-4 my-3 list_of_Items" >
+      <!-- <div id="category_9" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Бизнес и услуги</span>
@@ -236,10 +244,10 @@
             <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- lists for 3 row category 2: -->
-      <div id="category_10" class="p-4 my-3 list_of_Items" >
+      <!-- <div id="category_10" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Мода и стиль</span>
@@ -250,10 +258,10 @@
             <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
-      </div>
+      </div> -->
 
       <!-- lists for 3 row category 3: -->
-      <div id="category_11" class="p-4 my-3 list_of_Items" >
+      <!-- <div id="category_11" class="p-4 my-3 list_of_Items" >
         <i class="fa fa-chevron-right" aria-hidden="true"></i>
         <a href="#">Смотреть все объявления</a>
         <span class="ml-2">в Хобби, отдых и спорт</span>
@@ -264,20 +272,20 @@
             <a href="/search?subCategoryId={{item.subCategoryId}}">{{item.name}}</a>
         </li>
         </ul>
-      </div>
+      </div> -->
 
       
 
 
       <!-- 4-th categories row: -->
-      <div class="row my-4">
+      <!-- <div class="row my-4">
         <div class="col-3 category_item">
           <a href="#">
             <i class="fa fa-handshake-o p-2" aria-hidden="true" style="color: #c9d72a;"></i>
             <span class="pl-2">Обмен</span>
           </a>
         </div>
-      </div>
+      </div> -->
 
     
     </div>
