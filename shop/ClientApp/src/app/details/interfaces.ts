@@ -25,6 +25,12 @@ interface Ad {
     name: string;
   }
 
+  interface StyleCategory{
+    categoryId:number;
+    color: string;
+    iconClass:string;
+  }
+
   interface City{
     cityId: number;
     name : string;

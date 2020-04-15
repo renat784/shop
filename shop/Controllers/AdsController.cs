@@ -126,10 +126,19 @@ namespace shop.Controllers
         }
 
         [HttpGet]
-        [Route("[action]")]
-        public IEnumerable<Ad> GetTop25 ()
+        [Route("[action]/{count}")]
+        public IEnumerable<Ad> GetTop(int count = 10)
         {
-            return context.Ads.Take(25).ToArray();
+            return context.Ads.OrderByDescending(i => i.AdId).Take(count).ToArray();
         }
+
+        [HttpGet]
+        [Route("[action]")]
+        public int AdsTotalCount()
+        {
+            return context.Ads.Count();
+        }
+
+        
     }
 }
