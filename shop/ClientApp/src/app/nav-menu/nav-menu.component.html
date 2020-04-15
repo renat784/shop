@@ -1,34 +1,19 @@
 <header>
   <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-    <div class="container ">
-      <a class="navbar-brand" [routerLink]="['/']">
-      <img class="mainLogo" src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2f4f22766be42e5eac379976b5237b92ca.svg">
-    </a>
-      <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse"
-           [ngClass]="{ show: isExpanded }">
-        <!--<app-login-menu></app-login-menu>-->
-        <ul class="navbar-nav flex-grow">
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link" [routerLink]="['/profile']">
-              <i class="fa fa-user" aria-hidden="true"></i>
-              <span class="ml-2">Мой профиль</span></a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light btn btn-dark" [routerLink]="['/post-new-ad']">+ Подать объявление</a>
-          </li>
-          
-
-          <!--<li class="nav-item" [routerLinkActive]="['link-active']"
-                  [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/counter']">Counter</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/fetch-data']">Fetch data</a>
-          </li>-->
-        </ul>
+    <div class="main_content" style="position: relative;">
+      <div class="headerContainer">
+        <div>
+          <a [routerLink]="['/']">
+            <img class="mainLogo" src="{{mainLogoSvg}}"> 
+          </a>
+        </div>
+        <div>
+          <ul class="navbar-nav py-2">
+            <li class="nav-item">
+              <a class="btn_Add_Ad btn bold" [routerLink]="['/post-new-ad']">+ Подать объявление</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>

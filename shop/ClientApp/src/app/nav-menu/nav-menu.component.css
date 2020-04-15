@@ -1,24 +1,27 @@
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
+
 
 .mainLogo{
   width: 70px;
   position: absolute;
-  left: 10%;
+  left: 0%;
   top:0%;
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_Add_Ad{
+  text-transform: uppercase;
+  background-color: #ff8300;
+  color: white;
 }
 
 html {
   font-size: 14px;
 }
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
+
 
 .box-shadow {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);

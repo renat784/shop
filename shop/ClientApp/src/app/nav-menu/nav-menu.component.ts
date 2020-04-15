@@ -6,13 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-menu.component.css']
 })
 export class NavMenuComponent {
-  isExpanded = false;
+  mainLogoSvg = "https://static-olxeu.akamaized.net/static/olxua/packed/font/2f4f22766be42e5eac379976b5237b92ca.svg";
 
-  collapse() {
-    this.isExpanded = false;
-  }
 
-  toggle() {
-    this.isExpanded = !this.isExpanded;
-  }
+
+
 }

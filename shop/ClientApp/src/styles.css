@@ -1,7 +1,6 @@
 .main_content{
   width: 70%;
   margin: auto;
-  
 }
 
 body{
@@ -46,13 +45,13 @@ a:hover{
 .input_with_Icon i{
   padding-left: 10px;
   position: absolute;
+  font-size: 20px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.input_with_Icon input, .input_with_Icon a{
-  
-  padding: 10px 5px 10px 40px;
+.input_with_Icon input, .input_with_Icon select{
+  padding: 10px 5px 10px 35px;
   width: 100%;
   border-radius: 5px;
 }
@@ -60,8 +59,10 @@ a:hover{
 .search_button{
   color: white;
   background-color: #49aeef;
+  text-transform: uppercase;
 }
 
 .search_button:hover{
   background-color: #7cc8f8;
+  color: white;
 }

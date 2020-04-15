@@ -7,7 +7,7 @@
                 <label for="title">Заголовок</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required minlength="10" maxlength="50" #title="ngModel" type="text"
+                <input  class="form-control" required minlength="10" maxlength="50" #title="ngModel" type="text"
                     name="title" id="title" ngModel>
 
                 <div *ngIf="title.invalid && (title.dirty || title.touched)" class="alert alert-danger">

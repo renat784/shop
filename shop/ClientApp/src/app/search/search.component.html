@@ -1,17 +1,19 @@
 <div class="main_content">
     <form #searchForm="ngForm" (ngSubmit)="onClickSubmit(searchForm.value)">
-        <div class="row">
-            <div class="col-4 pl-0">
+        <div class="row py-1">
+
+            <div class="col-4">
                 <div class="input_with_Icon">
                     <i class="fa fa-search" aria-hidden="true"></i>
-                    <input type="search"  class="form-control" placeholder="Поиск..." name="search" id="search" ngModel>
+                    <input type="search" style="height: auto;" class="form-control" placeholder="Новый поиск..." name="search" id="search" ngModel>
                 </div>
             </div>
-            <div class="col-4 pl-0">
+
+            <div class="col-4 px-0">
                 <div class="input_with_Icon">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
 
-                    <select id="city" (change)="filterCity($event.target.value)" > 
+                    <select style="height: auto;"  class="form-control" id="city" (change)="filterCity($event.target.value)"> 
                         <option value="0">Вся Украина</option>
                         <option *ngFor="let city of cities" value={{city.cityId}}> 
                           {{city.name}}
@@ -20,22 +22,30 @@
 
                 </div>
             </div>
-            <div class="col-4 pl-0">
-                <select id="category" (change)="filterCategories($event.target.value)" >
+
+            <div class="col-4">
+                <select id="category" style="height: 100%;" class="form-control" (change)="filterCategories($event.target.value)">
                     <option value="0">Все категории</option>
                     <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
                         {{cat.name}}
                     </option>
                 </select>
-                <select id="subCategory" (change)="filterSubCategories($event.target.value)" >
+            </div>
+        </div>
+        <div class="row" style="justify-content: flex-end;height: 100%;">
+            <div class="col-4">
+                <select id="subCategory"  class="form-control" (change)="filterSubCategories($event.target.value)" >
                     <option value="0">Все подкатегории</option>
                     <option *ngFor="let sub of _subCategories"  value={{sub.subCategoryId}}>
                         {{sub.name}}
                     </option>
                 </select>
             </div>
-            </div>
-        <div class="row mt-3">
+        </div>
+            
+
+           
+        <div class="row mt-3 mx-0">
             <div class="custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input"  name="searchTitleDesc" id="searchTitleDesc" ngModel>
                 <label class="custom-control-label" for="searchTitleDesc">Искать в заголовке и описании</label>
@@ -87,7 +97,7 @@
         <div *ngFor="let item of ads" class="card my-3">
             <div class="row no-gutters">
                 <div class="col-2">
-                    <a href="details?id={{item.adId}}">
+                    <a (click)="Details(item.adId)">
                         <img style="width: 100%;"
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-eXU7nuTNc2WpFt58LTyr7Cjx5hX_TfR09KFMDZu3dDbknnF6&usqp=CAU"
                             class="card-img">
@@ -97,7 +107,7 @@
                     <div class="p-2">
                         <div class="row">
                             <div class="col-6">
-                                <a href="details?id={{item.adId}}" class="card-title">{{item.title}}</a>
+                                <a  class="card-title">{{item.title}}</a>
                             </div>
                             <div class="col-6 text-right">
                                 <strong>{{item.price}} uah</strong>

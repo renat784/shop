@@ -1,28 +1,32 @@
-<div class="mt-4">
+<div>
   <div class="main_content">
     <!-- search form: -->
     <form #searchForm="ngForm" (ngSubmit)="onClickSubmit(searchForm.value)">
-      <div class="row p-3 search-form">
-        <div class="col-5 pl-0">
+      <div class="row  py-3 m-0" style="background-color: #0098d0;">
+
+        <div class="col-6">
           <div class="input_with_Icon">
             <i class="fa fa-search" aria-hidden="true"></i>
-            <input type="search" autofocus name="search" id="search" ngModel class="form-control"
+            <input type="search"  name="search" id="search" style="height: auto;"  ngModel class="form-control"
               placeholder="{{adsTotalCount}} объявлений рядом">
           </div>
         </div>
-        <div class="col-5 px-0 input_with_Icon">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
 
-          <select name="city" id="city" #city="ngModel" ngModel>
-            <option [ngValue]="0">Вся Украина</option>
-            <option *ngFor="let city of cities" [ngValue]="city.cityId">
+        <div class="col-4 input_with_Icon px-0">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <select name="city" id="city" style="height: 100%;" class="form-control"  (change)="filterCity($event.target.value)">
+            <option value="0">Вся Украина</option>
+            <option *ngFor="let city of cities" value="{{city.cityId}}">
               {{city.name}}
             </option>
           </select>
         </div>
-        <div class="col-2 pr-0 input_with_Icon">
-          <input type="submit" value="Send" class="btn btn-primary">
+
+        <div class="col-2 input_with_Icon " >
+          <i class="fa fa-search" style="color: white;" aria-hidden="true"></i>
+          <input type="submit" value="Поиск" class="btn search_button">
         </div>
+        
       </div>
     </form>
 
@@ -67,19 +71,21 @@
 
 
 <!-- vip ads: -->
-<div style="background-color: white;padding-top: 20px;">
+<div style="background-color: white;padding: 30px 0;">
   <div class="main_content">
     <h5>VIP-ОБЪЯВЛЕНИЯ</h5>
     <div class="row">
       <div *ngFor="let item of ads" class="ads card">
-        <a href="/details?id={{item.adId}}">
+        <a (click)="Details(item.adId)">
           <img
             src="https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr"
             class="card-img-top">
         </a>
         <div class="card-body py-1 px-2">
           <div>
-            <a href="/details?id={{item.adId}}">{{item.title}}</a>
+            <a>
+              <div class="crop">{{item.title}}</div>
+            </a>
           </div>
           <div class="card-text" style="display: flex;justify-content: space-between;align-items: center;">
             <span>{{item.price}} uah</span>
@@ -89,12 +95,7 @@
       </div>
     </div>
 
-    <div class="text-right py-5">
-      <a href="#">
-        <span>Посмотреть все</span>
-        <i class="fa fa-chevron-right ml-2" aria-hidden="true"></i>
-      </a>
-    </div>
+    
 
 
   </div>
