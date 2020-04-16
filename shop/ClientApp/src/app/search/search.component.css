@@ -42,3 +42,25 @@
     font-weight: 600;
     font-size: 24px;
 }
+
+.ad_city{
+    font-size: 14px;
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+}
+.ad_city i{
+    color: orangered;
+    margin-right: 5px;
+    
+}
+
+.ad_city span{
+    margin-right: 20px;
+}
+
+.ad_cat_subcat span{
+    font-size: 14px;
+    color: #b4b4b4;
+}
+

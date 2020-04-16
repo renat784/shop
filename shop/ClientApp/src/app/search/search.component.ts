@@ -11,6 +11,7 @@ import { DetailsService } from '../details.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
+  imageExample = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-eXU7nuTNc2WpFt58LTyr7Cjx5hX_TfR09KFMDZu3dDbknnF6&usqp=CAU";
   // ads = { city: {} as City, category: {} as Category, subCategory: {} as SubCategory } as Ad;
   ads: Ad[] = [];
   router: Router;
@@ -104,4 +105,6 @@ export class SearchComponent {
   filterSubCategories(val) {
     this.subCategoryId = val;
   }
+
+ 
 }

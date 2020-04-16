@@ -1,0 +1,57 @@
+.details_price{
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+}
+
+.blueBox{
+    background-color: #0098d0;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+.blueBox span{
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.blueBox:hover{
+    background-color: #00a3df;
+}
+
+.sellerName{
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sellerName img{
+    width: 50%;
+}
+
+.sellerName span{
+    display: block;
+    margin: 20px 0 5px 0;
+    color: #0098d0;
+}
+
+.sellerName small{
+    color: gray;
+}
+
+.cat_subcat{
+    color: gray;
+    margin: 20px 0;
+}
+
+.details_title{
+    font-size: 22px;
+    font-weight: 600;
+}

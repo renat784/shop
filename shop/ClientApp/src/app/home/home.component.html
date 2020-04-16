@@ -46,14 +46,14 @@
       <div *ngFor="let category of categoryArray" [hidden] = "ShowOrHide(category.categoryId)">
         <div class="p-4 my-3 list_of_Items">
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
-          <a href="javascript:void" (click)="ItemClicked(category.categoryId, 0)">Смотреть все объявления</a>
+          <a href="javascript:void(0)" (click)="ItemClicked(category.categoryId, 0)">Смотреть все объявления</a>
           <span class="ml-2">в {{category.name}}</span>
           <hr>
           <ul class="row">
             <!-- filtering by category -->
             <li *ngFor="let subcat of subCategories | category: category.categoryId">
               <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <a href="javascript:void"
+              <a href="javascript:void(0)"
                 (click)="ItemClicked(category.categoryId, subcat.subCategoryId)">{{subcat.name}}</a>
             </li>
           </ul>

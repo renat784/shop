@@ -1,33 +1,59 @@
 <div>
     <div class="main_content">
-        <div class="row">
-            <div class="col-9" style="background-color: white;">
-                <div>
-                    <span>{{ad.category.name}}</span>
-                    <span class="px-2">-</span>
-                    <span>{{ad.subCategory.name}}</span>
-                </div>
+        <div class="cat_subcat">
+            <span>{{ad.category.name}}</span>
+           
+            <span class="mx-2">-</span>
+            <span>{{ad.subCategory.name}}</span>
+            
+
+        </div>
+        <div class="row mx-0">
+            <div class="col-8 mb-3" style="background-color: white;">
+
                 <div class="text-center">
-                    <img  src="https://apollo-ireland.akamaized.net/v1/files/p6kjfl9l3ooz1-UA/image;s=644x461">
+                    <img src="{{exampleImage}}">
                 </div>
-                
-                <p>{{ad.title}}</p>
-                <p>Номер объявления: {{ad.adId}}, city: {{ad.city.name}}</p>
-                <p>{{ad.desc}}</p>
+
+                <div class="my-4">
+                    
+                    <p class="details_title">{{ad.title}}</p>
+                    
+                    <p class="bold">город: {{ad.city.name}}</p>
+                    <p>Номер объявления: {{ad.adId}}</p>
+                    
+                    <p>{{ad.desc}}</p>
+                </div>
             </div>
-            <div class="col-3">
-                <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{ad.price}} uah
+            <div class="col-4 pl-4 mb-3">
+                <div class="details_price">
+                    {{ad.price}} грн.
+                   
                 </div>
-                <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{ad.contactPerson}}
+
+                <a href="mailto:{{ad.email}}">
+                    <div class="blueBox">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span>Написать автору</span>
+                    </div>
+                </a>
+
+
+                <a href="tel:{{ad.phone}}">
+                    <div class="blueBox">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <span>{{ad.phone}}</span>
+                    </div>
+                </a>
+                <div class="sellerName">
+                    
+                    <div>
+                        <img src="{{exampleImage}}">
+                    </div>
+                    <span>{{ad.contactPerson}}</span>
+                    <small>на OLX с нояб. 2015</small>
                 </div>
-                <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{ad.email}}
-                </div>
-                <div style="background-color: white;text-align: center;padding: 25px 20px;">
-                    {{ad.phone}}
-                </div>
+
             </div>
         </div>
 

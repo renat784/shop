@@ -35,7 +35,7 @@
                 <strong>Разделы на сервисе OLX:</strong>
                 <ul style="margin: 0;padding: 0;list-style-type: none;">
                     <li style="display: inline;" *ngFor="let category of categories">
-                        <a href="javascript:void" class="mr-2"
+                        <a href="javascript:void(0)" class="mr-2"
                          (click)="ItemClicked(category.categoryId)">{{category.name}},</a>
                     </li>
                 </ul>
