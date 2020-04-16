@@ -11,6 +11,7 @@ import { DetailsService } from '../details.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent {
+  // ads = { city: {} as City, category: {} as Category, subCategory: {} as SubCategory } as Ad;
   ads: Ad[] = [];
   router: Router;
   activatedRouter: ActivatedRoute;

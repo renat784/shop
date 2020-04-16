@@ -1,0 +1,44 @@
+.search_button_outline{
+    position: relative;
+    width: 15%;
+}
+
+.search_button_outline i{
+    position: absolute;
+    color: #0098d0;
+    padding-left: 10px;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search_button_outline input{
+    width: 100%;
+    padding-left: 20px; 
+    color:  #0098d0;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-color: #0098d0;
+}
+
+.search_button_outline:hover input{
+    background-color: #0098d0;
+    color: white;
+}
+.search_button_outline:hover i{
+    color: white;
+}
+
+.btn_sort{
+    color: #0098d0 !important;
+}
+
+.btn_sort:hover {
+    color: white !important;
+}
+
+
+.ad_price{
+    font-weight: 600;
+    font-size: 24px;
+}

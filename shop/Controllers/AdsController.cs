@@ -36,7 +36,11 @@ namespace shop.Controllers
         public IEnumerable<Ad> SearchByFilter(string search,int categoryId, int subcategoryId, int cityId, int min_price,
             int max_price, int asc)
         {
-            var query = from ad in context.Ads select ad;
+            //var query = from ad in context.Ads select ad;
+
+            var query = context.Ads.Include("City")
+                .Include("Category")
+                .Include("SubCategory");
 
             if (search != "all")
             {
