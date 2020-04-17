@@ -7,49 +7,34 @@
                 <p>Сообщества OLX.ua в социальных сетях</p>
                 <p class="mb-0">Сервис объявлений № 1 в Украине</p>
                 <p class="mb-0">Все онлайн-объявления Украины на OLX - здесь вы найдете то, что искали! Нажав на кнопку
-                    <a routerLink="/post-new-ad">"Подать объявление"</a>, вы сможете разместить объявление на любую тематику легко и
+                    <a [routerLink]="['/post-new-ad']" >"Подать объявление"</a>, вы сможете разместить объявление на любую тематику легко и
                     быстро.</p>
                 <p>С помощью сервиса OLX вы сможете купить или продать из рук в руки практически все, что угодно.</p>
             </div>
             <div class="col-5">
-                <div class="row" style="justify-content: space-between;">
+                <div class="row mx-0" style="justify-content: space-between;">
                     <img width="75"
-                        src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2f8beb30d7b5a18302412e315921d6ce6d.svg"
+                        src="{{facebookLogo}}"
                         alt="facebook">
                     <img width="75"
-                        src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2f50fd81b399890d1544c4fad903220963.svg"
+                        src="{{youtubeLogo}}"
                         alt="youtube">
                     <img width="75"
-                        src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2f5539ffc137444af4f407f5f6f7e43e9b.svg"
+                        src="{{twitterLogo}}"
                         alt="twitter">
                 </div>
-                <div class="row" style="justify-content: flex-end;margin-top: 25px;">
+                <div class="row mx-0" style="justify-content: flex-end;margin-top: 25px;">
                     <img width="100"
-                        src="https://lh5.googleusercontent.com/proxy/dTlbDY8ljv21aw0fesL7PG-ydqm5hS3nvaLDZqAhFOVcFaNcWverzz0aKtV6HOAoLcxxwzfDA1ki6klkjZfxzAl3XBjyoFGNtQ">
+                        src="{{weOnFacebook}}">
                 </div>
             </div>
         </div>
-        <hr>
-        <div>
-            <div>
-                <strong>Разделы на сервисе OLX:</strong>
-                <ul style="margin: 0;padding: 0;list-style-type: none;">
-                    <li style="display: inline;" *ngFor="let category of categories">
-                        <a href="javascript:void(0)" class="mr-2"
-                         (click)="ItemClicked(category.categoryId)">{{category.name}},</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <div>
-            <strong>Популярные запросы:</strong> Из б, Новые до, Уся киевская область, Новся, На нови, С б, И район,
-            Велосипед, И б, Б+б, Буьен, Уов, Кроссовки, Квартира, Бу на в, Уей, Для уо, В донецка, Ново а, Б у
-        </div>
+        
+        
         <hr>
         <div class="row">
             <div class="col-2">
-                <img width="100px" src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2ff1f8736a27eb257f9688cf3b21332f49.svg">
+                <img width="100px" src="{{logoFooter}}">
             </div>
             <div class="col-3">
                 <ul style="list-style: none;margin: 0;padding: 0;">

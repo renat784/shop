@@ -42,14 +42,17 @@ import { SuccessComponent } from './success/success.component';
     ApiAuthorizationModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'details', component: DetailsComponent },
+      { path: 'details/:id', component: DetailsComponent },
+      { path: 'search/:word/:catid/:subcatid/:city', component: SearchComponent },
+      { path: 'search/:catid/:subcatid', component: SearchComponent },
+      { path: 'search/:catid', component: SearchComponent },
       { path: 'search', component: SearchComponent },
-      { path: 'success', component: SuccessComponent },
+      { path: 'success/:id', component: SuccessComponent },
       { path: 'post-new-ad', component: PostNewAdComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },
       { path: '**', component: ErrorComponent }
-    ])
+    ], {scrollPositionRestoration: 'enabled'})
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthorizeInterceptor, multi: true }

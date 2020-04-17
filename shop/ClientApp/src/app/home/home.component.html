@@ -14,7 +14,7 @@
 
         <div class="col-4 input_with_Icon px-0">
           <i class="fa fa-map-marker" aria-hidden="true"></i>
-          <select name="city" id="city" style="height: 100%;" class="form-control"  (change)="filterCity($event.target.value)">
+          <select name="city" id="city" style="height: 100%;" class="form-control" ngModel [(ngModel)]="cityId">
             <option value="0">Вся Украина</option>
             <option *ngFor="let city of cities" value="{{city.cityId}}">
               {{city.name}}
@@ -46,15 +46,14 @@
       <div *ngFor="let category of categoryArray" [hidden] = "ShowOrHide(category.categoryId)">
         <div class="p-4 my-3 list_of_Items">
           <i class="fa fa-chevron-right" aria-hidden="true"></i>
-          <a href="javascript:void(0)" (click)="ItemClicked(category.categoryId, 0)">Смотреть все объявления</a>
+          <a [routerLink]="['/search', category.categoryId]">Смотреть все объявления</a>
           <span class="ml-2">в {{category.name}}</span>
           <hr>
           <ul class="row">
             <!-- filtering by category -->
             <li *ngFor="let subcat of subCategories | category: category.categoryId">
               <i class="fa fa-chevron-right" aria-hidden="true"></i>
-              <a href="javascript:void(0)"
-                (click)="ItemClicked(category.categoryId, subcat.subCategoryId)">{{subcat.name}}</a>
+              <a [routerLink]="['/search', category.categoryId, subcat.subCategoryId]">{{subcat.name}}</a>
             </li>
           </ul>
         </div>
@@ -74,21 +73,20 @@
 <div style="background-color: white;padding: 30px 0;">
   <div class="main_content">
     <h5>VIP-ОБЪЯВЛЕНИЯ</h5>
-    <div class="row">
+
+    <div class="row mx-0" style="justify-content: space-between;">
       <div *ngFor="let item of ads" class="ads card">
-        <a (click)="Details(item.adId)">
+        <a [routerLink]="['/details', item.adId]">
           <img
-            src="https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr"
+            src="{{exampleImage}}"
             class="card-img-top">
         </a>
         <div class="card-body py-1 px-2">
           <div>
-            <a>
-              <div class="crop">{{item.title}}</div>
-            </a>
+            <a class="crop" title="{{item.title}}" [routerLink]="['/details', item.adId]">{{item.title}}</a>
           </div>
-          <div class="card-text" style="display: flex;justify-content: space-between;align-items: center;">
-            <span>{{item.price}} uah</span>
+          <div class="card_text">
+            <span>{{item.price |  number: '2.' }} грн.</span>
             <i class="fa fa-star-o star" aria-hidden="true"></i>
           </div>
         </div>

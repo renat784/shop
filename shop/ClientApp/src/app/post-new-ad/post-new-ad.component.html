@@ -7,7 +7,7 @@
                 <label for="title">Заголовок</label>
             </div>
             <div class="col-6">
-                <input  class="form-control" required minlength="10" maxlength="50" #title="ngModel" type="text"
+                <input class="form-control" required minlength="10" maxlength="50" #title="ngModel" type="text"
                     name="title" id="title" ngModel>
 
                 <div *ngIf="title.invalid && (title.dirty || title.touched)" class="alert alert-danger">
@@ -28,44 +28,47 @@
             <div class="col-4 text-right">
                 <label for="categoty">Категория</label>
             </div>
-            <select name="category" id="category" required #category="ngModel" ngModel (change)="filterCategories($event.target.value)">
-                <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
-                    {{cat.name}}
-                </option>
-            </select>
+            <div class="col-6">
+                <select class="form-control" name="category" id="category" required #category="ngModel" ngModel
+                    (change)="filterCategories($event.target.value)">
+                    <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
+                        {{cat.name}}
+                    </option>
+                </select>
 
-            <div *ngIf="category.invalid && (category.dirty || category.touched)" class="alert alert-danger">
-                <div *ngIf="category.errors.required">
-                    Выберите категорию
+                <div *ngIf="category.invalid && (category.dirty || category.touched)" class="alert alert-danger">
+                    <div *ngIf="category.errors.required">
+                        Выберите категорию
+                    </div>
                 </div>
             </div>
-            
         </div>
         <div *ngIf="_subCategories.length > 0" class="row form-group">
             <div class="col-4 text-right">
                 <label for="subCategory">Под категория</label>
             </div>
-            <select id="subCategory" name="subCategory" required #subCategory="ngModel" ngModel
-                (change)="filterSubCategories($event.target.value)">
-                <option *ngFor="let sub of _subCategories" value={{sub.subCategoryId}}>
-                    {{sub.name}}
-                </option>
-            </select>
-        
-            <div *ngIf="categoryChanged" class="alert alert-danger">
-                Выберите подкатегорию
+            <div class="col-6">
+                <select id="subCategory" class="form-control" name="subCategory" required #subCategory="ngModel" ngModel
+                    (change)="filterSubCategories($event.target.value)">
+                    <option *ngFor="let sub of _subCategories" value={{sub.subCategoryId}}>
+                        {{sub.name}}
+                    </option>
+                </select>
+
+                <div *ngIf="categoryChanged" class="alert alert-danger">
+                    Выберите подкатегорию
+                </div>
             </div>
-        
         </div>
         <div class="row form-group">
             <div class="col-4 text-right">
-                    <label for="desc">Описание</label>
-                </div>
-                <div class="col-6">
-                    <textarea required minlength="50" maxlength="1000" #desc="ngModel" class="form-control" required id="desc"
-                        name="desc" ngModel></textarea>
-            
-                    <div *ngIf="desc.invalid && (desc.dirty || desc.touched)" class="alert alert-danger">
+                <label for="desc">Описание</label>
+            </div>
+            <div class="col-6">
+                <textarea required minlength="50" maxlength="1000" #desc="ngModel" class="form-control" required
+                    id="desc" name="desc" ngModel></textarea>
+
+                <div *ngIf="desc.invalid && (desc.dirty || desc.touched)" class="alert alert-danger">
                     <div *ngIf="desc.errors.required">
                         Добавте описание
                     </div>
@@ -101,18 +104,19 @@
                 <label for="city">Местоположение</label>
             </div>
             <div class="col-6">
-                <select id="city" name="city" required #city="ngModel" ngModel (change)="filterCity($event.target.value)">
+                <select id="city" name="city"  class="form-control" required #city="ngModel" ngModel
+                    (change)="filterCity($event.target.value)">
                     <option *ngFor="let city of cities" value={{city.cityId}}>
-                      {{city.name}}
+                        {{city.name}}
                     </option>
-                  </select>
+                </select>
 
-                  <div *ngIf="city.invalid && (city.dirty || city.touched)" class="alert alert-danger">
+                <div *ngIf="city.invalid && (city.dirty || city.touched)" class="alert alert-danger">
                     <div *ngIf="city.errors.required">
                         Выберите город
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <div class="row form-group">
@@ -120,7 +124,8 @@
                 <label for="phone">Номер телефона</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required #phone="ngModel" pattern="^\d{3}[-]\d{3}[-]\d{2}[-]\d{2}$" type="text" id="phone" name="phone" ngModel>
+                <input class="form-control" required #phone="ngModel" pattern="^\d{3}[-]\d{3}[-]\d{2}[-]\d{2}$"
+                    type="text" id="phone" name="phone" ngModel>
 
                 <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="alert alert-danger">
                     <div *ngIf="phone.errors.required">
@@ -138,7 +143,8 @@
                 <label for="email">Email-адрес</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required #email="ngModel" pattern="^\w+[@]\w+[.]\w{2,3}$" type="text" id="email" name="email" ngModel>
+                <input class="form-control" required #email="ngModel" pattern="^\w+[@]\w+[.]\w{2,3}$" type="text"
+                    id="email" name="email" ngModel>
 
                 <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
                     <div *ngIf="email.errors.required">
@@ -156,13 +162,13 @@
                 <label for="name">Контактное лицо</label>
             </div>
             <div class="col-6">
-                <input class="form-control" required #contactPerson="ngModel" pattern="[^0-9]+" type="text" id="contactPerson"
-                    name="contactPerson" ngModel>
+                <input class="form-control" required #contactPerson="ngModel" pattern="[^0-9]+" type="text"
+                    id="contactPerson" name="contactPerson" ngModel>
 
                 <div *ngIf="contactPerson.invalid && (contactPerson.dirty || contactPerson.touched)"
                     class="alert alert-danger">
                     <div *ngIf="contactPerson.errors.required">
-                        Ваше Имя Фамилия 
+                        Ваше Имя Фамилия
                     </div>
                     <div *ngIf="contactPerson.errors?.pattern">
                         Например, Иван Иваныч
@@ -172,9 +178,16 @@
             </div>
         </div>
         <hr>
-        <div class="text-right my-3">
-            <span *ngIf="!form.valid || subCategoryId == 0" class="mx-2" style="color:red;">Заполните все поля</span>
-            <input type="submit" class="btn btn-primary"  [disabled]="!form.valid || subCategoryId == 0" value="Send">
+
+        <div class="row">
+            <div class="col-6 text-right my-3 offset-4">
+                <span *ngIf="!form.valid || subCategoryId == 0" class="mr-3" style="color:red;">Заполните все поля</span>
+            <input type="submit" class="btn postButton" [disabled]="!form.valid || subCategoryId == 0" value="Отправить">
+            </div>
         </div>
+
+        
+            
+        
     </div>
 </form>

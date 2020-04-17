@@ -1,3 +1,4 @@
+<div  class="toTop" (click)="toTop()"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
 <div class="main_content">
     <form #searchForm="ngForm" (ngSubmit)="onClickSubmit(searchForm.value)">
         <div class="row py-1">
@@ -13,7 +14,7 @@
                 <div class="input_with_Icon">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
 
-                    <select style="height: auto;"  class="form-control" id="city" (change)="filterCity($event.target.value)"> 
+                    <select style="height: auto;"  class="form-control" id="city" name="city" ngModel [(ngModel)]="cityId"> 
                         <option value="0">Вся Украина</option>
                         <option *ngFor="let city of cities" value={{city.cityId}}> 
                           {{city.name}}
@@ -24,7 +25,7 @@
             </div>
 
             <div class="col-4">
-                <select id="category" style="height: 100%;" class="form-control" (change)="filterCategories($event.target.value)">
+                <select id="category" name="category" (change)="filterCategories()" ngModel style="height: 100%;" class="form-control" [(ngModel)]="categoryId">
                     <option value="0">Все категории</option>
                     <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
                         {{cat.name}}
@@ -34,7 +35,7 @@
         </div>
         <div class="row" style="justify-content: flex-end;height: 100%;">
             <div class="col-4">
-                <select id="subCategory"  class="form-control" (change)="filterSubCategories($event.target.value)" >
+                <select id="subCategory" name="subCategory" ngModel class="form-control" [(ngModel)]="subCategoryId" >
                     <option value="0">Все подкатегории</option>
                     <option *ngFor="let sub of _subCategories"  value={{sub.subCategoryId}}>
                         {{sub.name}}
@@ -47,15 +48,15 @@
            
         <div class="row mt-3 mx-0">
             <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input"  name="searchTitleDesc" id="searchTitleDesc" ngModel>
+                <input type="checkbox" class="custom-control-input"  >
                 <label class="custom-control-label" for="searchTitleDesc">Искать в заголовке и описании</label>
             </div>
             <div class="custom-control custom-checkbox mx-5">
-                <input type="checkbox" class="custom-control-input" id="searchWithPhoto" name="searchWithPhoto" ngModel>
+                <input type="checkbox" class="custom-control-input" >
                 <label class="custom-control-label" for="searchWithPhoto">Только с фото</label>
             </div>
             <div class="custom-control custom-checkbox">
-                <input type="checkbox" class="custom-control-input" id="SearchWithDelivery" name="SearchWithDelivery" ngModel>
+                <input type="checkbox" class="custom-control-input" >
                 <label class="custom-control-label" for="SearchWithDelivery">Товары с доставкой</label>
             </div>
         </div>
@@ -98,7 +99,7 @@
         <div *ngFor="let item of ads" class="card my-3">
             <div class="row no-gutters">
                 <div class="col-2">
-                    <a href="javascript:void(0)" (click)="Details(item.adId)">
+                    <a [routerLink]="['/details', item.adId]">
                         <img style="width: 100%;" src="{{imageExample}}" class="card-img">
                     </a>
                 </div>
@@ -106,7 +107,7 @@
                     <div class="p-2" >
                         <div class="row">
                             <div class="col-6">
-                                <a href="javascript:void(0)" (click)="Details(item.adId)" style="font-size: 18px;" 
+                                <a [routerLink]="['/details', item.adId]" style="font-size: 18px;" 
                                 class="card-title">{{item.title}}</a>
                             </div>
                             <div class="col-6 text-right">

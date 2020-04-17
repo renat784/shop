@@ -27,7 +27,7 @@
             </div>
             <div class="col-4 pl-4 mb-3">
                 <div class="details_price">
-                    {{ad.price}} грн.
+                    {{ad.price |  number: '2.' }} грн.
                    
                 </div>
 
@@ -48,7 +48,7 @@
                 <div class="sellerName">
                     
                     <div>
-                        <img src="{{exampleImage}}">
+                        <img src="{{exampleProfileImage}}">
                     </div>
                     <span>{{ad.contactPerson}}</span>
                     <small>на OLX с нояб. 2015</small>

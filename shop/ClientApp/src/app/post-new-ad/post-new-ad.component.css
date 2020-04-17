@@ -1,0 +1,10 @@
+.postButton{
+    border: 1px solid #ff8300;
+    color: #ff8300;
+    font-weight: 600;
+}
+
+.postButton:hover{
+    background-color: #ff8300;
+    color: white;
+}

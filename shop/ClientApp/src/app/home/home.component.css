@@ -5,13 +5,24 @@
 }
 
 .crop{
+
+    display: block;
+    font-weight: 600;
     overflow:hidden; 
   white-space:nowrap; 
   text-overflow:ellipsis; 
   width:125px; 
 }
 
-
+.card_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card_text span{
+    font-size: 18px;
+}
 
    
 

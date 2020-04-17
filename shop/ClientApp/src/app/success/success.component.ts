@@ -9,9 +9,8 @@ import { ActivatedRoute } from '@angular/router';
 export class SuccessComponent implements OnInit {
   public Adid;
 
-  constructor(private router: ActivatedRoute) {
-     this.Adid = this.router.snapshot.queryParamMap.get('AdId');
-     console.log(this.Adid);
+  constructor(private route: ActivatedRoute) {
+    this.Adid = this.route.snapshot.params.id;
    }
 
   ngOnInit() {

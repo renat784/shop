@@ -59,7 +59,7 @@ export class PostNewAdComponent implements OnInit {
       (response) => {
         let added_Id = response;
         this.detailsService.getDetails(added_Id);
-        this.router.navigate(['/details']);
+        this.router.navigate(['/success', added_Id]);
       });
   }
 

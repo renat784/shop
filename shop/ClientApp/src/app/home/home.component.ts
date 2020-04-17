@@ -10,6 +10,7 @@ import { SearchService } from '../search.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  exampleImage = "https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr";
   categories: Category[];
   subCategories: SubCategory[] = [];
   ads: Ad[] = [];
@@ -100,36 +101,47 @@ export class HomeComponent {
   }
 
   // category or subcategory that was clicked
-  ItemClicked(cat, subcat) {
-    this.categoryId = cat;
-    this.subCategoryId = subcat;
+  // ItemClicked(cat, subcat) {
+  //   this.categoryId = cat;
+  //   this.subCategoryId = subcat;
 
-    let filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
-      this.search + '/' +
-      this.categoryId + '/' +
-      this.subCategoryId + '/' +
-      this.cityId + '/' + '-1/-1/'; // no min price '-1' - no max price '-1'  
+  //   let filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
+  //     this.search + '/' +
+  //     this.categoryId + '/' +
+  //     this.subCategoryId + '/' +
+  //     this.cityId + '/' + '-1/-1/'; // no min price '-1' - no max price '-1'  
 
-    this.searchService.findAds(filterUrl);
-    this.router.navigate(['/search']);
-  }
+  //   this.searchService.findAds(filterUrl);
+  //   this.router.navigate(['/search']);
+  // }
 
   onClickSubmit(form) {
     if (form.search.length > 0 && form.search != " ") this.search = form.search;
     else this.search = "all";
     
-    this.ItemClicked(this.categoryId, this.subCategoryId);
+    // this.categoryId = cat;
+    // this.subCategoryId = subcat;
+
+    // let filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
+    //   this.search + '/' +
+    //   this.categoryId + '/' +
+    //   this.subCategoryId + '/' +
+    //   this.cityId + '/' + '-1/-1/'; // no min price '-1' - no max price '-1'  
+
+    // this.searchService.findAds(filterUrl);
+
+    this.router.navigate(['/search', this.search, 0, 0, this.cityId]);
   }
 
   // runs service to get data on Ad that was clicked
   // redirects to details page to see data
-  Details(id){
-    this.detailsService.getDetails(id);
-    this.router.navigate(['/details']);
-  }
+  // Details(id){
+  //   this.detailsService.getDetails(id);
+  //   this.router.navigate(['/details']);
+  // }
 
-  filterCity(val) {
-    this.cityId = val;
-  }
+  // filterCity(val) {
+  //   this.cityId = val;
+  // }
 
 }

@@ -1,3 +1,17 @@
+.toTop{
+    position: fixed;
+    right: 5%;
+    bottom: 0%;
+    cursor: pointer;
+    padding: 5px 20px;
+    background-color: white;
+    
+    color: gray;
+    border: 1px solid gray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 .search_button_outline{
     position: relative;
     width: 15%;
