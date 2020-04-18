@@ -7,8 +7,6 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { CounterComponent } from './counter/counter.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { ApiAuthorizationModule } from 'src/api-authorization/api-authorization.module';
 import { AuthorizeGuard } from 'src/api-authorization/authorize.guard';
 import { AuthorizeInterceptor } from 'src/api-authorization/authorize.interceptor';
@@ -25,8 +23,6 @@ import { SuccessComponent } from './success/success.component';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    CounterComponent,
-    FetchDataComponent,
     FooterComponent,
     DetailsComponent,
     SearchComponent,
@@ -49,8 +45,6 @@ import { SuccessComponent } from './success/success.component';
       { path: 'search', component: SearchComponent },
       { path: 'success/:id', component: SuccessComponent },
       { path: 'post-new-ad', component: PostNewAdComponent },
-      { path: 'counter', component: CounterComponent },
-      { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },
       { path: '**', component: ErrorComponent }
     ], {scrollPositionRestoration: 'enabled'})
   ],
