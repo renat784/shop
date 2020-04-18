@@ -11,6 +11,5 @@ export class DetailsService {
 
   getDetails(id){
     return this.http.get<Ad>(this.baseUrl + 'ads/SearchByAdId/' + id);
-      
   }
 }

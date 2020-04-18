@@ -15,9 +15,7 @@
                     <select style="height: auto;" class="form-control" id="city" name="city" ngModel
                         [(ngModel)]="cityId">
                         <option value="0">Вся Украина</option>
-                        <option *ngFor="let city of cities" value={{city.cityId}}>
-                            {{city.name}}
-                        </option>
+                        <option *ngFor="let city of cities" value={{city.cityId}}>{{city.name}}</option>
                     </select>
                 </div>
             </div>
@@ -25,9 +23,7 @@
                 <select id="category" name="category" (change)="filterCategories()" ngModel style="height: 100%;"
                     class="form-control" [(ngModel)]="categoryId">
                     <option value="0">Все категории</option>
-                    <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
-                        {{cat.name}}
-                    </option>
+                    <option *ngFor="let cat of Categories" value={{cat.categoryId}}>{{cat.name}}</option>
                 </select>
             </div>
         </div>
@@ -35,9 +31,7 @@
             <div class="col-4">
                 <select id="subCategory" name="subCategory" ngModel class="form-control" [(ngModel)]="subCategoryId">
                     <option value="0">Все подкатегории</option>
-                    <option *ngFor="let sub of _subCategories" value={{sub.subCategoryId}}>
-                        {{sub.name}}
-                    </option>
+                    <option *ngFor="let sub of _subCategories" value={{sub.subCategoryId}}>{{sub.name}}</option>
                 </select>
             </div>
         </div>

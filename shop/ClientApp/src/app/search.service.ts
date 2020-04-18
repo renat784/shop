@@ -14,25 +14,19 @@ export class SearchService {
     this.http = http;
   }
 
-   findAds(filterUrl: string, asc = true) {
-    if(asc){
+  findAds(filterUrl: string, asc = true) {
+    if (asc) {
       filterUrl += 1;
     }
-    else{
+    else {
       filterUrl += 0;
     }
 
-    console.log("service get=" + filterUrl);
-
-    
+    console.log("service search: get=" + filterUrl);
     this.result_Observer = this.http.get<Ad[]>(filterUrl);
-     
-    
-
-    
   }
 }
 
 
- 
+
 

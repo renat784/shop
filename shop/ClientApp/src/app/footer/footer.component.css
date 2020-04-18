@@ -2,3 +2,17 @@ footer{
     color:#737373;
     font-size: small;
 }
+
+.grayscale{
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+
+.grayscale:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+a.simpleLink:hover{
+    background-color: transparent;
+}

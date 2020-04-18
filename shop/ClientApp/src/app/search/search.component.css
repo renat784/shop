@@ -5,7 +5,6 @@
     cursor: pointer;
     padding: 5px 20px;
     background-color: white;
-    
     color: gray;
     border: 1px solid gray;
     border-top-left-radius: 5px;
@@ -51,7 +50,6 @@
     color: white !important;
 }
 
-
 .ad_price{
     font-weight: 600;
     font-size: 24px;
@@ -63,6 +61,7 @@
     bottom: 2%;
     left: 1%;
 }
+
 .ad_city i{
     color: orangered;
     margin-right: 5px;
@@ -77,4 +76,3 @@
     font-size: 14px;
     color: #b4b4b4;
 }
-

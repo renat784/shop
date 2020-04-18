@@ -12,7 +12,6 @@ a {
   font-size: 14px;
 }
 
-
 a:hover{
   color: white;
   text-decoration: none;
@@ -27,6 +26,7 @@ a:hover{
   color: #c4c4c4;
   font-size: 15px;
 }
+
 .star:hover{
   color: #0098d0;
   cursor: pointer;
@@ -35,7 +35,6 @@ a:hover{
 .bold{
   font-weight: 600;
 }
-
 
 .input_with_Icon{
   display: relative;
@@ -50,7 +49,8 @@ a:hover{
   transform: translateY(-50%);
 }
 
-.input_with_Icon input, .input_with_Icon select{
+.input_with_Icon input, 
+.input_with_Icon select{
   padding: 10px 5px 10px 35px;
   width: 100%;
   border-radius: 5px;

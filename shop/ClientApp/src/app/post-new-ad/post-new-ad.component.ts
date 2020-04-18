@@ -2,8 +2,7 @@ import { DetailsService } from './../details.service';
 import { DataService } from './../data.service';
 import { Component, OnInit, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { ActivatedRoute, Router } from '@angular/router';
-import { Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -25,7 +24,6 @@ export class PostNewAdComponent implements OnInit {
   categoryChanged: boolean;
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: Router, public dataService: DataService, public detailsService: DetailsService) {
-    
     this.client = http;
     this.baseUrl = baseUrl;
     dataService.findSubCategories().subscribe(i => this.subCategories = i);
@@ -52,14 +50,14 @@ export class PostNewAdComponent implements OnInit {
       ContactPerson: formData.contactPerson
     };
 
-    console.log(this.data);
+    console.log("post data: data=" + this.data);
 
     this.client.post(this.baseUrl + 'ads', this.data).subscribe(
       (response) => {
         let added_Id = response;
         this.detailsService.getDetails(added_Id);
         this.router.navigate(['/success', added_Id]);
-      });
+      }, error => console.log("can't post data to server"));
   }
 
   ngOnInit() { }
@@ -77,13 +75,11 @@ export class PostNewAdComponent implements OnInit {
     this.categoryChanged = true;
     this.categoryId = val;
     this.subCategoryId = 0;
-    console.log("CategoryId=" + this.categoryId + "  subcategoryid=" + this.subCategoryId);
     this._subCategories = this.subCategories.filter(i => i.categoryId == val);
   }
 
   filterSubCategories(val) {
     this.categoryChanged = false;
     this.subCategoryId = val;
-    console.log("CategoryId=" + this.categoryId + "  subcategoryid=" + this.subCategoryId);
   }
 }

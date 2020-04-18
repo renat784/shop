@@ -1,40 +1,40 @@
 <footer style="background-color: white;">
-    <div class="main_content" style="border-top: 1px solid #c4c4c4;padding-top: 20px ;">
-       
+    <div class="main_content" style="border-top: 1px solid #c4c4c4;padding-top: 20px">
         <div class="row">
-           
             <div class="col-7">
                 <p>Сообщества OLX.ua в социальных сетях</p>
                 <p class="mb-0">Сервис объявлений № 1 в Украине</p>
-                <p class="mb-0">Все онлайн-объявления Украины на OLX - здесь вы найдете то, что искали! Нажав на кнопку
-                    <a [routerLink]="['/post-new-ad']" >"Подать объявление"</a>, вы сможете разместить объявление на любую тематику легко и
-                    быстро.</p>
+                <p class="mb-0">
+                    Все онлайн-объявления Украины на OLX - здесь вы найдете то, что искали! Нажав на кнопку
+                    <a [routerLink]="['/post-new-ad']">"Подать объявление"</a>, вы сможете разместить объявление на
+                    любую тематику легко и быстро.
+                </p>
                 <p>С помощью сервиса OLX вы сможете купить или продать из рук в руки практически все, что угодно.</p>
             </div>
             <div class="col-5">
                 <div class="row mx-0" style="justify-content: space-between;">
-                    <img width="75"
-                        src="{{facebookLogo}}"
-                        alt="facebook">
-                    <img width="75"
-                        src="{{youtubeLogo}}"
-                        alt="youtube">
-                    <img width="75"
-                        src="{{twitterLogo}}"
-                        alt="twitter">
+                    <a class="simpleLink" href="http://facebook.com" target="_blank">
+                        <img width="75" class="grayscale" src="assets/images/facebook.svg" alt="facebook">
+                    </a>
+                    <a class="simpleLink" href="http://youtube.com" target="_blank">
+                        <img width="75" class="grayscale" src="assets/images/youtube.svg" alt="youtube">
+                    </a>
+                    <a class="simpleLink" href="http://twitter.com" target="_blank">
+                        <img width="75" class="grayscale" src="assets/images/twitter.svg" alt="twitter">
+                    </a>
                 </div>
                 <div class="row mx-0" style="justify-content: flex-end;margin-top: 25px;">
-                    <img width="100"
-                        src="{{weOnFacebook}}">
+                    <a class="simpleLink" href="http://facebook.com" target="_blank">
+                        <img width="100" class="grayscale" src="assets/images/weOnFacebook.jpg">
+                    </a>
                 </div>
             </div>
         </div>
-        
-        
+
         <hr>
         <div class="row">
             <div class="col-2">
-                <img width="100px" src="{{logoFooter}}">
+                <img width="100px" src="assets/images/logoFooter.svg">
             </div>
             <div class="col-3">
                 <ul style="list-style: none;margin: 0;padding: 0;">
@@ -87,16 +87,29 @@
                     <li>
                         <a href="#">Рекламные предпочтения</a>
                     </li>
-                    
                 </ul>
             </div>
             <div class="col-4">
-                <div class="row" style="justify-content:space-evenly;">
-                    <img width="125" src="https://static-olxeu.akamaized.net/static/olxua/packed/img/2f58cc756fc653a43e864b2ff0ec361f53.png">
-                    <img width="125" src="https://static-olxeu.akamaized.net/static/olxua/packed/font/2f2928664fe1fc6aca88583a6f606d60ba.svg">
+                <div class="row" style="justify-content:space-evenly;align-items: center;">
+                    <a class="simpleLink" (mouseenter)="ShowOne('google')" (mouseleave)="ShowGetApp()"
+                        href="http://play.google.com" target="_blank">
+                        <img width="120px" class="grayscale" src="assets/images/Gplay.png">
+                    </a>
+                    <a class="simpleLink" (mouseenter)="ShowOne('apple')" (mouseleave)="ShowGetApp()"
+                        href="http://itunes.apple.com" target="_blank">
+                        <img width="120px" class="grayscale" src="assets/images/Astore.svg">
+                    </a>
                 </div>
-                <div class="row text-center my-2">
+                <div *ngIf="showGetApp" class="row text-center my-2">
                     <span>Бесплатное приложение для твоего телефона</span>
+                </div>
+                <div *ngIf="showGetGoogleApp" class="row text-center my-2" style="flex-direction: column;">
+                    <div>Скачайте в</div>
+                    <div style="color: #0098d0;font-weight: 600;">Google Play</div>
+                </div>
+                <div *ngIf="showGetAppleApp" class="row text-center my-2" style="flex-direction: column;">
+                    <div>Скачайте в</div>
+                    <div style="color: #0098d0;font-weight: 600;">AppStore</div>
                 </div>
             </div>
         </div>
