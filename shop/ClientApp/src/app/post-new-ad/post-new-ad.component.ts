@@ -24,8 +24,7 @@ export class PostNewAdComponent implements OnInit {
   categoryId = 0;
   categoryChanged: boolean;
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: Router,
-    public dataService: DataService, public detailsService: DetailsService) {
+  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string, private router: Router, public dataService: DataService, public detailsService: DetailsService) {
     
     this.client = http;
     this.baseUrl = baseUrl;

@@ -18,9 +18,9 @@ export class HomeComponent {
   categoryId = 0;
   subCategoryId = 0;
   cityId = 0;
+  // 'all' is keyword for searching with no filter in 'Title'
   search = "all";
   adsTotalCount = 0;
-  innerHtml: string;
   categories_1: Category[] = [];
   categories_2: Category[] = [];
   categories_4: Category[] = [];
@@ -29,10 +29,7 @@ export class HomeComponent {
   categoryArray_all: Category[][];
   shown_categoryId: number = 0;
 
-  constructor(@Inject('BASE_URL') public baseUrl: string,
-    public searchService: SearchService, public dataService: DataService, public router: Router,
-     public detailsService:DetailsService) {
-
+  constructor(@Inject('BASE_URL') public baseUrl: string, public searchService: SearchService, public dataService: DataService, public router: Router, public detailsService:DetailsService) {
     dataService.findSubCategories().subscribe(i => this.subCategories = i);
     dataService.findCategories().subscribe(i => { this.categories = i; this.initCategoryArrays(); });
     dataService.findTopAds(25).subscribe(i => this.ads = i);
@@ -89,59 +86,21 @@ export class HomeComponent {
     }
   }
 
-  // shows or hides items in category that was clicked
+  // sets shown_categoryId from clicked item id
   ShowList(id){
     if(this.shown_categoryId == id) this.shown_categoryId = 0;
     else this.shown_categoryId = id;
   }
 
+  // shows or hides subcategories in category that was clicked
   ShowOrHide(id){
     if(id == this.shown_categoryId) return false;
     else return true;
   }
 
-  // category or subcategory that was clicked
-  // ItemClicked(cat, subcat) {
-  //   this.categoryId = cat;
-  //   this.subCategoryId = subcat;
-
-  //   let filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
-  //     this.search + '/' +
-  //     this.categoryId + '/' +
-  //     this.subCategoryId + '/' +
-  //     this.cityId + '/' + '-1/-1/'; // no min price '-1' - no max price '-1'  
-
-  //   this.searchService.findAds(filterUrl);
-  //   this.router.navigate(['/search']);
-  // }
-
   onClickSubmit(form) {
     if (form.search.length > 0 && form.search != " ") this.search = form.search;
     else this.search = "all";
-    
-    // this.categoryId = cat;
-    // this.subCategoryId = subcat;
-
-    // let filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
-    //   this.search + '/' +
-    //   this.categoryId + '/' +
-    //   this.subCategoryId + '/' +
-    //   this.cityId + '/' + '-1/-1/'; // no min price '-1' - no max price '-1'  
-
-    // this.searchService.findAds(filterUrl);
-
     this.router.navigate(['/search', this.search, 0, 0, this.cityId]);
   }
-
-  // runs service to get data on Ad that was clicked
-  // redirects to details page to see data
-  // Details(id){
-  //   this.detailsService.getDetails(id);
-  //   this.router.navigate(['/details']);
-  // }
-
-  // filterCity(val) {
-  //   this.cityId = val;
-  // }
-
 }

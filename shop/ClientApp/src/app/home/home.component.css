@@ -1,33 +1,26 @@
 .search_form{
     background-color: #0098d0;
     border-radius: 5px;
-    
 }
 
 .crop{
-
     display: block;
     font-weight: 600;
     overflow:hidden; 
-  white-space:nowrap; 
-  text-overflow:ellipsis; 
-  width:125px; 
+    white-space:nowrap; 
+    text-overflow:ellipsis; 
+    width:125px; 
 }
 
 .card_text{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
+
 .card_text span{
     font-size: 18px;
 }
-
-   
-
-
-
 
 .category_item{
     display: inline-flex;
@@ -35,7 +28,7 @@
     margin: 20px 0;
 }
 
-.category_item i{
+.category_item i {
     font-size: 30px;
     background-color: white;
     border-radius:50%;
@@ -43,17 +36,15 @@
     padding: 5px;
 }
 
-.category_item div{
+.category_item div {
     cursor: pointer;
 }
-.category_item span{
+.category_item span {
     font-size: 14px;
     vertical-align: super;
     font-weight: 600;
     padding-left: 5px;
 }
-
-
 
 .ads{
     max-width: 18%;
@@ -72,14 +63,12 @@
     margin:0;
     padding: 0;
     list-style: none;
-    
 }
 
 .list_of_Items ul li{
     margin-top: 30px;
     padding-right: 5px;
     width: 33%;
-    
 }
 
 .list_of_Items ul li i, .list_of_Items i{

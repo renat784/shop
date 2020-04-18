@@ -1,11 +1,8 @@
-import { concat } from 'rxjs';
 import { DataService } from './../data.service';
 import { SearchService } from './../search.service';
-import { HttpClient } from '@angular/common/http';
-import { Component, Inject, HostListener, OnInit, ViewChild } from '@angular/core';
+import { Component, Inject, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { DetailsService } from '../details.service';
-import {Location} from '@angular/common';
+import { Location } from '@angular/common';
 import { NgForm } from '@angular/forms';
 
 @Component({
@@ -13,59 +10,54 @@ import { NgForm } from '@angular/forms';
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.css']
 })
-export class SearchComponent  implements OnInit{
+export class SearchComponent implements OnInit {
   imageExample = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-eXU7nuTNc2WpFt58LTyr7Cjx5hX_TfR09KFMDZu3dDbknnF6&usqp=CAU";
-  // ads = { city: {} as City, category: {} as Category, subCategory: {} as SubCategory } as Ad;
   ads: Ad[] = [];
-
-
   cities: City[] = [];
   cityId = 0;
   subCategories: SubCategory[] = [];
+  // array that shows subcategory in select filtered by categoryId
   _subCategories: SubCategory[] = [];
   subCategoryId = 0;
   Categories: Category[] = [];
   categoryId = 0;
-  orderAsc = 1;
+  // '-1' keyword for searching without limit in 'Price' min
   priceMin = -1;
+  // '-1' keyword for searching without limit in 'Price' max
   priceMax = -1;
   filterUrl: string;
+  // 'all' - keyword for searching without limit in 'Title'
   search: string = 'all';
+  // helps to set values into form from search request
   @ViewChild('searchForm', null) public searchForm: NgForm;
-  
 
-  constructor(@Inject('BASE_URL') public baseUrl: string, public router: Router, 
-  public searchService: SearchService, public location: Location,
-  public dataService: DataService, public route: ActivatedRoute) {
-
-    
+  constructor(@Inject('BASE_URL') public baseUrl: string, public router: Router, public searchService: SearchService, public location: Location, public dataService: DataService, public route: ActivatedRoute) {
     this.dataService.findCategories().subscribe(i => this.Categories = i);
     this.dataService.findCities().subscribe(i => this.cities = i);
   }
 
-
   ngOnInit() {
+    // gets subcategories when we loading this component
     this.dataService.findSubCategories().subscribe(i => {
       this.subCategories = i;
       this.instant_search();
-    }
-      );
-   
-
-   
-
-
+    });
   }
+
   instant_search() {
-    // instant search
+    // instant search after switching to this component
     let catid = this.route.snapshot.params.catid;
     let subcatid = this.route.snapshot.params.subcatid;
     let word = this.route.snapshot.params.word;
     let city = this.route.snapshot.params.city;
 
+    // empty request: localhost/search
+    if (catid == undefined && subcatid == undefined && word == undefined && city == undefined) return;
+
+    // non emty request
     if (catid != undefined) this.categoryId = catid;
     if (subcatid != undefined) this.subCategoryId = subcatid;
-    if ( word != undefined) this.search = word;
+    if (word != undefined) this.search = word;
     if (city != undefined) this.cityId = city;
 
     let filterUrl = this.baseUrl + 'ads/SearchByFilter/' +
@@ -73,46 +65,33 @@ export class SearchComponent  implements OnInit{
       this.categoryId + '/' +
       this.subCategoryId + '/' +
       this.cityId + '/' +
-      this.priceMin + '/' + 
+      this.priceMin + '/' +
       this.priceMax + '/';
 
+    // finds all ads and adds them to 'ads' array
     this.searchService.findAds(filterUrl);
     this.searchService.result_Observer.subscribe(i => this.ads = i);
 
-   
+    // sets values into form from request
+    if (this.search != 'all') {
+      this.searchForm.controls["search"].setValue(this.search);
+    }
 
-    
-    setTimeout(() => { 
-      if(this.search != 'all'){
-        this.searchForm.controls["search"].setValue(this.search);
-      }
-      
-      this.searchForm.controls["city"].setValue(this.cityId);
-
-      this.searchForm.controls["category"].setValue(this.categoryId);
-
-      this._subCategories = this.subCategories.filter(i => i.categoryId == this.categoryId);
-
-     this.searchForm.controls["subCategory"].setValue(this.subCategoryId); 
-    });
-
-    console.log("subcat=" + this._subCategories.length + "\n"+ "cat=" + this.categoryId + "\n" + "subcat=" + this.subCategoryId);
+    this.searchForm.controls["city"].setValue(this.cityId);
+    this.searchForm.controls["category"].setValue(this.categoryId);
+    this._subCategories = this.subCategories.filter(i => i.categoryId == this.categoryId);
+    this.searchForm.controls["subCategory"].setValue(this.subCategoryId);
   }
 
- 
-
-
-
-
+  // sort 'ads' array by Asc order
   SearchByAscOrder() {
     this.ads = this.ads.sort((i, j) => i.price - j.price);
   }
 
+  // sort 'ads' array by Desc order
   SearchByDescOrder() {
     this.ads = this.ads.sort((i, j) => j.price - i.price);
   }
-
- 
 
   onClickSubmit(formData) {
     if (formData.priceMin == null || formData.priceMin == undefined || formData.priceMin == '') this.priceMin = -1;
@@ -134,29 +113,22 @@ export class SearchComponent  implements OnInit{
       this.priceMin + '/' +
       this.priceMax + '/';
 
-      this.searchService.findAds(this.filterUrl);
+    this.searchService.findAds(this.filterUrl);
     this.searchService.result_Observer.subscribe(i => this.ads = i);
-      // this.router.navigate(['/search', this.search, this.categoryId, this.subCategoryId, this.cityId]);
-      this.location.replaceState('/search/' + this.search + '/' + this.categoryId + '/' + 
-       this.subCategoryId + '/' + this.cityId);
-    
+    // replaces url for the case when we return to it again from another component
+    this.location.replaceState('/search/' + this.search + '/' + this.categoryId + '/' +
+    this.subCategoryId + '/' + this.cityId);
   }
 
-  // filterCity(val) {
-  //   this.cityId = val;
-  // }
-
   filterCategories() {
-    // this.categoryId = val;
+    // subcategoryId must be set to '0' when we change category in case we want the search from whole category
     this.subCategoryId = 0;
+    // changes array for subcategory select
     this._subCategories = this.subCategories.filter(i => i.categoryId == this.categoryId);
   }
 
-  // filterSubCategories(val) {
-  //   this.subCategoryId = val;
-  // }
-
-  toTop(){
+  // navigation to top when ads to many
+  toTop() {
     window.scrollTo(0, 0);
- }
+  }
 }

@@ -1,0 +1,19 @@
+.toMain{
+    text-align: center;
+    position: absolute;
+    right: 30%;
+    top: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.toMain span{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.toMain a{
+    width: 70%;
+    margin: auto;
+}

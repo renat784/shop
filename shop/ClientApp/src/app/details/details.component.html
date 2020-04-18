@@ -2,43 +2,31 @@
     <div class="main_content">
         <div class="cat_subcat">
             <span>{{ad.category.name}}</span>
-           
             <span class="mx-2">-</span>
             <span>{{ad.subCategory.name}}</span>
-            
-
         </div>
         <div class="row mx-0">
             <div class="col-8 mb-3" style="background-color: white;">
-
                 <div class="text-center">
                     <img src="{{exampleImage}}">
                 </div>
-
                 <div class="my-4">
-                    
                     <p class="details_title">{{ad.title}}</p>
-                    
                     <p class="bold">город: {{ad.city.name}}</p>
                     <p>Номер объявления: {{ad.adId}}</p>
-                    
                     <p>{{ad.desc}}</p>
                 </div>
             </div>
             <div class="col-4 pl-4 mb-3">
                 <div class="details_price">
                     {{ad.price |  number: '2.' }} грн.
-                   
                 </div>
-
                 <a href="mailto:{{ad.email}}">
                     <div class="blueBox">
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <span>Написать автору</span>
                     </div>
                 </a>
-
-
                 <a href="tel:{{ad.phone}}">
                     <div class="blueBox">
                         <i class="fa fa-phone" aria-hidden="true"></i>
@@ -46,16 +34,13 @@
                     </div>
                 </a>
                 <div class="sellerName">
-                    
                     <div>
                         <img src="{{exampleProfileImage}}">
                     </div>
                     <span>{{ad.contactPerson}}</span>
                     <small>на OLX с нояб. 2015</small>
                 </div>
-
             </div>
         </div>
-
     </div>
 </div>

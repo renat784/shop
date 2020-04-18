@@ -9,19 +9,11 @@
             <div class="col-6">
                 <input class="form-control" required minlength="10" maxlength="50" #title="ngModel" type="text"
                     name="title" id="title" ngModel>
-
                 <div *ngIf="title.invalid && (title.dirty || title.touched)" class="alert alert-danger">
-                    <div *ngIf="title.errors.required">
-                        Добавте заголовок
-                    </div>
-                    <div *ngIf="title.errors.maxlength">
-                        Длина заголовка не больше 50 символов
-                    </div>
-                    <div *ngIf="title.errors.minlength">
-                        Длина заголовка минимум 10 символов
-                    </div>
+                    <div *ngIf="title.errors.required">Добавте заголовок</div>
+                    <div *ngIf="title.errors.maxlength">Длина заголовка не больше 50 символов</div>
+                    <div *ngIf="title.errors.minlength">Длина заголовка минимум 10 символов</div>
                 </div>
-
             </div>
         </div>
         <div class="row form-group">
@@ -31,15 +23,10 @@
             <div class="col-6">
                 <select class="form-control" name="category" id="category" required #category="ngModel" ngModel
                     (change)="filterCategories($event.target.value)">
-                    <option *ngFor="let cat of Categories" value={{cat.categoryId}}>
-                        {{cat.name}}
-                    </option>
+                    <option *ngFor="let cat of Categories" value={{cat.categoryId}}>{{cat.name}}</option>
                 </select>
-
                 <div *ngIf="category.invalid && (category.dirty || category.touched)" class="alert alert-danger">
-                    <div *ngIf="category.errors.required">
-                        Выберите категорию
-                    </div>
+                    <div *ngIf="category.errors.required">Выберите категорию</div>
                 </div>
             </div>
         </div>
@@ -50,14 +37,9 @@
             <div class="col-6">
                 <select id="subCategory" class="form-control" name="subCategory" required #subCategory="ngModel" ngModel
                     (change)="filterSubCategories($event.target.value)">
-                    <option *ngFor="let sub of _subCategories" value={{sub.subCategoryId}}>
-                        {{sub.name}}
-                    </option>
+                    <option *ngFor="let sub of _subCategories" value={{sub.subCategoryId}}>{{sub.name}}</option>
                 </select>
-
-                <div *ngIf="categoryChanged" class="alert alert-danger">
-                    Выберите подкатегорию
-                </div>
+                <div *ngIf="categoryChanged" class="alert alert-danger">Выберите подкатегорию</div>
             </div>
         </div>
         <div class="row form-group">
@@ -67,19 +49,11 @@
             <div class="col-6">
                 <textarea required minlength="50" maxlength="1000" #desc="ngModel" class="form-control" required
                     id="desc" name="desc" ngModel></textarea>
-
                 <div *ngIf="desc.invalid && (desc.dirty || desc.touched)" class="alert alert-danger">
-                    <div *ngIf="desc.errors.required">
-                        Добавте описание
-                    </div>
-                    <div *ngIf="desc.errors.maxlength">
-                        Длина описания максимум 1000 символов
-                    </div>
-                    <div *ngIf="desc.errors.minlength">
-                        Длина описания минимум 50 символов
-                    </div>
+                    <div *ngIf="desc.errors.required">Добавте описание</div>
+                    <div *ngIf="desc.errors.maxlength">Длина описания максимум 1000 символов</div>
+                    <div *ngIf="desc.errors.minlength">Длина описания минимум 50 символов</div>
                 </div>
-
             </div>
         </div>
         <div class="row form-group">
@@ -88,13 +62,9 @@
             </div>
             <div class="col-6">
                 <input class="form-control" required #price="ngModel" type="number" id="price" name="price" ngModel>
-
                 <div *ngIf="price.invalid && (price.dirty || price.touched)" class="alert alert-danger">
-                    <div *ngIf="price.errors.required">
-                        Добавте цену
-                    </div>
+                    <div *ngIf="price.errors.required">Добавте цену</div>
                 </div>
-
             </div>
         </div>
         <h5>Ваши контактные данные</h5>
@@ -104,19 +74,13 @@
                 <label for="city">Местоположение</label>
             </div>
             <div class="col-6">
-                <select id="city" name="city"  class="form-control" required #city="ngModel" ngModel
+                <select id="city" name="city" class="form-control" required #city="ngModel" ngModel
                     (change)="filterCity($event.target.value)">
-                    <option *ngFor="let city of cities" value={{city.cityId}}>
-                        {{city.name}}
-                    </option>
+                    <option *ngFor="let city of cities" value={{city.cityId}}>{{city.name}}</option>
                 </select>
-
                 <div *ngIf="city.invalid && (city.dirty || city.touched)" class="alert alert-danger">
-                    <div *ngIf="city.errors.required">
-                        Выберите город
-                    </div>
+                    <div *ngIf="city.errors.required">Выберите город</div>
                 </div>
-
             </div>
         </div>
         <div class="row form-group">
@@ -126,16 +90,10 @@
             <div class="col-6">
                 <input class="form-control" required #phone="ngModel" pattern="^\d{3}[-]\d{3}[-]\d{2}[-]\d{2}$"
                     type="text" id="phone" name="phone" ngModel>
-
                 <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="alert alert-danger">
-                    <div *ngIf="phone.errors.required">
-                        Добавте телефон, например 096-123-45-67
-                    </div>
-                    <div *ngIf="phone.errors?.pattern">
-                        Формат: 096-123-45-67
-                    </div>
+                    <div *ngIf="phone.errors.required">Добавте телефон, например 096-123-45-67</div>
+                    <div *ngIf="phone.errors?.pattern">Формат: 096-123-45-67</div>
                 </div>
-
             </div>
         </div>
         <div class="row form-group">
@@ -145,16 +103,10 @@
             <div class="col-6">
                 <input class="form-control" required #email="ngModel" pattern="^\w+[@]\w+[.]\w{2,3}$" type="text"
                     id="email" name="email" ngModel>
-
                 <div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
-                    <div *ngIf="email.errors.required">
-                        Добавте почту
-                    </div>
-                    <div *ngIf="email.errors?.pattern">
-                        Формат: frodo@gmail.com
-                    </div>
+                    <div *ngIf="email.errors.required">Добавте почту</div>
+                    <div *ngIf="email.errors?.pattern">Формат: frodo@gmail.com</div>
                 </div>
-
             </div>
         </div>
         <div class="row form-group">
@@ -164,30 +116,21 @@
             <div class="col-6">
                 <input class="form-control" required #contactPerson="ngModel" pattern="[^0-9]+" type="text"
                     id="contactPerson" name="contactPerson" ngModel>
-
                 <div *ngIf="contactPerson.invalid && (contactPerson.dirty || contactPerson.touched)"
                     class="alert alert-danger">
-                    <div *ngIf="contactPerson.errors.required">
-                        Ваше Имя Фамилия
-                    </div>
-                    <div *ngIf="contactPerson.errors?.pattern">
-                        Например, Иван Иваныч
-                    </div>
+                    <div *ngIf="contactPerson.errors.required">Ваше Имя Фамилия</div>
+                    <div *ngIf="contactPerson.errors?.pattern">Например, Иван Иваныч</div>
                 </div>
-
             </div>
         </div>
         <hr>
-
         <div class="row">
             <div class="col-6 text-right my-3 offset-4">
-                <span *ngIf="!form.valid || subCategoryId == 0" class="mr-3" style="color:red;">Заполните все поля</span>
-            <input type="submit" class="btn postButton" [disabled]="!form.valid || subCategoryId == 0" value="Отправить">
+                <span *ngIf="!form.valid || subCategoryId == 0" class="mr-3" style="color:red;">Заполните все
+                    поля</span>
+                <input type="submit" class="btn postButton" [disabled]="!form.valid || subCategoryId == 0"
+                    value="Отправить">
             </div>
         </div>
-
-        
-            
-        
     </div>
 </form>
