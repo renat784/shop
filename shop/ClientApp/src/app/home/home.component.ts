@@ -10,7 +10,6 @@ import { SearchService } from '../search.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  exampleImage = "https://cache.pressmailing.net/thumbnail/story_big/717fc4de-eb28-4066-8019-b65a007b230c/prominenter-preis-f-r-das-pony-car-ford-mustang-edition-bullitt-ist-das-auto-bild-sportscar-des-jahr";
   categories: Category[];
   subCategories: SubCategory[] = [];
   ads: Ad[] = [];

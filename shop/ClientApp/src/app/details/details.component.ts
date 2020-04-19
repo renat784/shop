@@ -8,8 +8,6 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
-  exampleImage = "https://apollo-ireland.akamaized.net/v1/files/p6kjfl9l3ooz1-UA/image;s=644x461";
-  exampleProfileImage = "https://img01-olxua.akamaized.net/img-olxua/530374236_1_261x203_rev001.jpg";
   ad = { city: {} as City, category: {} as Category, subCategory: {} as SubCategory } as Ad;
 
   constructor(public detailsService: DetailsService, public route: ActivatedRoute) {
