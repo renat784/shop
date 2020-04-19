@@ -76,3 +76,21 @@
     font-size: 14px;
     color: #b4b4b4;
 }
+
+.showMore{
+    cursor: pointer;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    color: gray;
+}
+
+.showMore span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.showMore div i{
+    margin-top: 15px;
+    font-size: 55px;
+}

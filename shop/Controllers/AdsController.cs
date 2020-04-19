@@ -80,6 +80,7 @@ namespace shop.Controllers
                 query = query.OrderBy(i => i.Price);
             }
 
+          
 
             if (query.Count() == 0)
             {
