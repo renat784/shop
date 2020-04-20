@@ -21,26 +21,21 @@ namespace shop.Controllers
             this.context = context;
         }
 
+
         [HttpPost]
         public int Post(Ad advert)
         {
-            
-
             context.Ads.Add(advert);
             context.SaveChanges();
             return advert.AdId;
         }
 
+
         [HttpGet]
         [Route("[action]/{search}/{categoryId}/{subcategoryId}/{cityId}/{min_price}/{max_price}/{asc}")]
-        public IEnumerable<Ad> SearchByFilter(string search,int categoryId, int subcategoryId, int cityId, int min_price,
-            int max_price, int asc)
+        public IEnumerable<Ad> SearchByFilter(string search,int categoryId, int subcategoryId, int cityId, int min_price, int max_price, int asc)
         {
-            //var query = from ad in context.Ads select ad;
-
-            var query = context.Ads.Include("City")
-                .Include("Category")
-                .Include("SubCategory");
+            var query = context.Ads.Include("City").Include("Category").Include("SubCategory");
 
             if (search != "all")
             {
@@ -79,46 +74,16 @@ namespace shop.Controllers
             {
                 query = query.OrderBy(i => i.Price);
             }
-
           
-
+            //  no ads found
             if (query.Count() == 0)
             {
                 return new List<Ad>(); 
             }
 
             return query;
-
-            //context.Ads.Where(
-            //    i => i.CategoryId == categoryId &&
-            //    i.SubCategoryId == subcategoryId &&
-            //    i.CityId == cityId &&
-            //    i.Price >= min_price &&
-            //    i.Price <= max_price)
-            //    .OrderBy(i => i.Price); 
         }
 
-        [HttpGet]
-        [Route("[action]/{id}")]
-        public IEnumerable<Ad> SearchByCategoryId(int id)
-        {
-            return context.Ads.Where(i => i.CategoryId == id);
-        }
-
-        [HttpGet]
-        [Route("[action]")]
-        public IEnumerable<Ad> SearchAll()
-        {
-            return context.Ads;
-        }
-
-        [HttpGet]
-        [Route("[action]/{id}")]
-        public IEnumerable<Ad> SearchBySubCategoryId(int id)
-        {
-            return context.Ads.Where(i => i.SubCategoryId == id).ToArray();
-
-        }
 
         [HttpGet]
         [Route("[action]/{id}")]
@@ -130,6 +95,7 @@ namespace shop.Controllers
                 .Include("SubCategory").ToList().First();
         }
 
+
         [HttpGet]
         [Route("[action]/{count}")]
         public IEnumerable<Ad> GetTop(int count = 10)
@@ -137,13 +103,12 @@ namespace shop.Controllers
             return context.Ads.OrderByDescending(i => i.AdId).Take(count).ToArray();
         }
 
+
         [HttpGet]
         [Route("[action]")]
         public int AdsTotalCount()
         {
             return context.Ads.Count();
         }
-
-        
     }
 }

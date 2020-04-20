@@ -9,8 +9,8 @@ using shop.Models;
 namespace shop.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200418065309_seed")]
-    partial class seed
+    [Migration("20200420085855_seed_database")]
+    partial class seed_database
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

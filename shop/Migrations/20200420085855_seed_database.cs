@@ -2,7 +2,7 @@
 
 namespace shop.Migrations
 {
-    public partial class seed : Migration
+    public partial class seed_database : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
